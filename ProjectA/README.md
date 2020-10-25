@@ -1,7 +1,9 @@
 # AI_Blockchain Project A
 
+###### tags: `blockchain`
+
 ## Code
-[Git](https://github.com/RandyLiu6410/AI_Blockchain_Course/blob/main/ProjectA/ERC20.sol)
+[Git](https://github.com/RandyLiu6410/AI_Blockchain_Course/tree/main/ProjectA)
 
 ``` solidity
 pragma solidity >=0.4.22 <0.7.0;
