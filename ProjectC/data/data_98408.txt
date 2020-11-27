@@ -1,0 +1,1870 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=98408&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="古早味紅燒蹄膀" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=98408',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																古早味紅燒蹄膀							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：435501農糧品								<br>
+								產出日期：2020-07-06 12:21:10																<br>
+								有效日期：2020-07-06																																									<br>
+								產出數量：1400公克									 (1人份)																	<br>
+								剩餘數量：0公克																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D98408" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D98408"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#98408" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														古早味紅燒蹄膀<BR>[包裝作業]							
+							
+							
+							</a>
+													<a href="#98405" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														料包<BR>[組裝作業]							
+							
+							
+							</a>
+													<a href="#98365" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷蹄膀<BR>[烹調01]							
+							
+							
+							</a>
+													<a href="#98369" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷蹄膀<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#98370" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷蹄膀<BR>[烹調]							
+							
+							
+							</a>
+													<a href="#98371" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷蹄膀<BR>[關火氣燜]							
+							
+							
+							</a>
+													<a href="#98373" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷蹄膀<BR>[泡置]							
+							
+							
+							</a>
+													<a href="#98374" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷蹄膀<BR>[撈起放涼]							
+							
+							
+							</a>
+													<a href="#98376" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷蹄膀<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#98327" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														醬油<BR>[進貨作業01]							
+							
+							
+							</a>
+													<a href="#98326" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白胡椒粉<BR>[進貨作業01]							
+							
+							
+							</a>
+													<a href="#98325" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														五香粉<BR>[進貨作業01]							
+							
+							
+							</a>
+													<a href="#98356" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蹄膀<BR>[烹調01]							
+							
+							
+							</a>
+													<a href="#98288" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														香油<BR>[進貨作業01]							
+							
+							
+							</a>
+													<a href="#98294" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														冰糖<BR>[進貨作業01]							
+							
+							
+							</a>
+													<a href="#98278" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蔥<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#98282" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蔥<BR>[大火過油]							
+							
+							
+							</a>
+													<a href="#98284" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蔥<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#98406" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷汁包<BR>[組裝作業]							
+							
+							
+							</a>
+													<a href="#98404" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														滷汁<BR>[盛裝作業]							
+							
+							
+							</a>
+													<a href="#98407" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														筍乾包<BR>[組裝作業]							
+							
+							
+							</a>
+													<a href="#98389" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白滷筍絲<BR>[烹調01]							
+							
+							
+							</a>
+													<a href="#98392" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白滷筍絲<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#98393" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白滷筍絲<BR>[調味料攪拌]							
+							
+							
+							</a>
+													<a href="#98397" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白滷筍絲<BR>[瀝乾撈出]							
+							
+							
+							</a>
+													<a href="#98403" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白滷筍絲<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#98380" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														筍絲<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#98381" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														筍絲<BR>[前一天清洗]							
+							
+							
+							</a>
+													<a href="#98382" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														筍絲<BR>[裁切]							
+							
+							
+							</a>
+													<a href="#98383" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														筍絲<BR>[流水浸泡]							
+							
+							
+							</a>
+													<a href="#98384" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														筍絲<BR>[川燙瀝水]							
+							
+							
+							</a>
+													<a href="#98385" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														筍絲<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#98386" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														高湯01<BR>[進貨作業01]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="98408" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>古早味紅燒蹄膀 [包裝作業]</h2>
+					<div class="history_time">2020-07-06 12:21:02 - 2020-07-06 12:21:10</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:21:02					<br><br>
+					結束作業時間：2020-07-06 12:21:10					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98405&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								料包								
+																(700公克)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98406&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								滷汁包								
+																(300毫升)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98407&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								筍乾包								
+																(400公克)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98408" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#98405" class="btn btn-dark btn-lg">
+							料包 <br>[組裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98405" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>料包 [組裝作業]</h2>
+					<div class="history_time">2020-07-06 12:19:33 - 2020-07-06 12:19:45</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:19:33					<br><br>
+					結束作業時間：2020-07-06 12:19:45					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98376&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								滷蹄膀								
+																(700公克)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98405" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98408" class="btn btn-dark btn-lg">
+							古早味紅燒蹄膀 <br>[包裝作業]						</a>
+						
+												<a href="#98365" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[烹調01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98365" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷蹄膀 [烹調01]</h2>
+					<div class="history_time">2020-07-06 11:43:41 - 2020-07-06 11:43:57</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:43:41					<br><br>
+					結束作業時間：2020-07-06 11:43:57					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98327&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								醬油								
+																(50毫升)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98326&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白胡椒粉								
+																(50公克)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98325&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								五香粉								
+																(50公克)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98356&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								蹄膀								
+																(700公克)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98365" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98405" class="btn btn-dark btn-lg">
+							料包 <br>[組裝作業]						</a>
+						
+												<a href="#98369" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98369" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷蹄膀 [自拍保證來源]</h2>
+					<div class="history_time">2020-07-06 11:44:41 - 2020-07-06 11:44:41</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1469/2020/98369.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1469/2020/98369.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98365&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								滷蹄膀								
+																(700公克)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98369" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98365" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[烹調01]						</a>
+						
+												<a href="#98370" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[烹調]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98370" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷蹄膀 [烹調]</h2>
+					<div class="history_time">2020-07-06 11:44:52 - 2020-07-06 11:44:58</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:44:52					<br><br>
+					結束作業時間：2020-07-06 11:44:58					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98370" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98369" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[自拍保證來源]						</a>
+						
+												<a href="#98371" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[關火氣燜]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98371" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷蹄膀 [關火氣燜]</h2>
+					<div class="history_time">2020-07-06 11:45:03 - 2020-07-06 11:45:09</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:45:03					<br><br>
+					結束作業時間：2020-07-06 11:45:09					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98371" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98370" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[烹調]						</a>
+						
+												<a href="#98373" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[泡置]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98373" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷蹄膀 [泡置]</h2>
+					<div class="history_time">2020-07-06 11:45:13 - 2020-07-06 11:45:19</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:45:13					<br><br>
+					結束作業時間：2020-07-06 11:45:19					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98373" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98371" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[關火氣燜]						</a>
+						
+												<a href="#98374" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[撈起放涼]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98374" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷蹄膀 [撈起放涼]</h2>
+					<div class="history_time">2020-07-06 11:45:24 - 2020-07-06 11:45:32</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:45:24					<br><br>
+					結束作業時間：2020-07-06 11:45:32					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98374" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98373" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[泡置]						</a>
+						
+												<a href="#98376" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98376" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷蹄膀 [自拍保證輸出]</h2>
+					<div class="history_time">2020-07-06 11:46:36 - 2020-07-06 11:46:36</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1469/2020/98376.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1469/2020/98376.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98376" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98374" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[撈起放涼]						</a>
+						
+												<a href="#98327" class="btn btn-dark btn-lg">
+							醬油 <br>[進貨作業01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98327" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>醬油 [進貨作業01]</h2>
+					<div class="history_time">2020-07-06 11:39:09 - 2020-07-06 11:39:37</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:39:09					<br><br>
+					結束作業時間：2020-07-06 11:39:37					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98327" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98376" class="btn btn-dark btn-lg">
+							滷蹄膀 <br>[自拍保證輸出]						</a>
+						
+												<a href="#98326" class="btn btn-dark btn-lg">
+							白胡椒粉 <br>[進貨作業01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98326" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白胡椒粉 [進貨作業01]</h2>
+					<div class="history_time">2020-07-06 11:39:08 - 2020-07-06 11:39:31</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:39:08					<br><br>
+					結束作業時間：2020-07-06 11:39:31					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98326" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98327" class="btn btn-dark btn-lg">
+							醬油 <br>[進貨作業01]						</a>
+						
+												<a href="#98325" class="btn btn-dark btn-lg">
+							五香粉 <br>[進貨作業01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98325" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>五香粉 [進貨作業01]</h2>
+					<div class="history_time">2020-07-06 11:39:06 - 2020-07-06 11:39:26</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:39:06					<br><br>
+					結束作業時間：2020-07-06 11:39:26					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98325" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98326" class="btn btn-dark btn-lg">
+							白胡椒粉 <br>[進貨作業01]						</a>
+						
+												<a href="#98356" class="btn btn-dark btn-lg">
+							蹄膀 <br>[烹調01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98356" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蹄膀 [烹調01]</h2>
+					<div class="history_time">2020-07-06 11:42:38 - 2020-07-06 11:42:49</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:42:38					<br><br>
+					結束作業時間：2020-07-06 11:42:49					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98288&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								香油								
+																(10毫升)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98294&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								冰糖								
+																(10公克)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98284&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								蔥								
+																(100公克)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98327&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								醬油								
+																(50毫升)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98356" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98325" class="btn btn-dark btn-lg">
+							五香粉 <br>[進貨作業01]						</a>
+						
+												<a href="#98288" class="btn btn-dark btn-lg">
+							香油 <br>[進貨作業01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98288" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>香油 [進貨作業01]</h2>
+					<div class="history_time">2020-07-06 11:30:52 - 2020-07-06 11:31:38</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:30:52					<br><br>
+					結束作業時間：2020-07-06 11:31:38					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98288" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98356" class="btn btn-dark btn-lg">
+							蹄膀 <br>[烹調01]						</a>
+						
+												<a href="#98294" class="btn btn-dark btn-lg">
+							冰糖 <br>[進貨作業01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98294" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>冰糖 [進貨作業01]</h2>
+					<div class="history_time">2020-07-06 11:32:17 - 2020-07-06 11:32:23</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:32:17					<br><br>
+					結束作業時間：2020-07-06 11:32:23					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98294" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98288" class="btn btn-dark btn-lg">
+							香油 <br>[進貨作業01]						</a>
+						
+												<a href="#98278" class="btn btn-dark btn-lg">
+							蔥 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98278" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蔥 [自拍保證來源]</h2>
+					<div class="history_time">2020-07-06 11:29:19 - 2020-07-06 11:29:19</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1469/2020/98278.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1469/2020/98278.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98278" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98294" class="btn btn-dark btn-lg">
+							冰糖 <br>[進貨作業01]						</a>
+						
+												<a href="#98282" class="btn btn-dark btn-lg">
+							蔥 <br>[大火過油]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98282" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蔥 [大火過油]</h2>
+					<div class="history_time">2020-07-06 11:29:31 - 2020-07-06 11:29:37</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:29:31					<br><br>
+					結束作業時間：2020-07-06 11:29:37					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98282" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98278" class="btn btn-dark btn-lg">
+							蔥 <br>[自拍保證來源]						</a>
+						
+												<a href="#98284" class="btn btn-dark btn-lg">
+							蔥 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98284" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蔥 [自拍保證輸出]</h2>
+					<div class="history_time">2020-07-06 11:29:55 - 2020-07-06 11:29:55</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1469/2020/98284.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1469/2020/98284.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98284" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98282" class="btn btn-dark btn-lg">
+							蔥 <br>[大火過油]						</a>
+						
+												<a href="#98406" class="btn btn-dark btn-lg">
+							滷汁包 <br>[組裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98406" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷汁包 [組裝作業]</h2>
+					<div class="history_time">2020-07-06 12:19:34 - 2020-07-06 12:19:54</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:19:34					<br><br>
+					結束作業時間：2020-07-06 12:19:54					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98404&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								滷汁								
+																(300毫升)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98406" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98284" class="btn btn-dark btn-lg">
+							蔥 <br>[自拍保證輸出]						</a>
+						
+												<a href="#98404" class="btn btn-dark btn-lg">
+							滷汁 <br>[盛裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98404" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>滷汁 [盛裝作業]</h2>
+					<div class="history_time">2020-07-06 12:06:44 - 2020-07-06 12:06:47</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:06:44					<br><br>
+					結束作業時間：2020-07-06 12:06:47					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98404" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98406" class="btn btn-dark btn-lg">
+							滷汁包 <br>[組裝作業]						</a>
+						
+												<a href="#98407" class="btn btn-dark btn-lg">
+							筍乾包 <br>[組裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98407" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>筍乾包 [組裝作業]</h2>
+					<div class="history_time">2020-07-06 12:19:35 - 2020-07-06 12:20:02</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:19:35					<br><br>
+					結束作業時間：2020-07-06 12:20:02					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98403&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白滷筍絲								
+																(400公克)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98407" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98404" class="btn btn-dark btn-lg">
+							滷汁 <br>[盛裝作業]						</a>
+						
+												<a href="#98389" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[烹調01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98389" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白滷筍絲 [烹調01]</h2>
+					<div class="history_time">2020-07-06 12:00:27 - 2020-07-06 12:00:41</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:00:27					<br><br>
+					結束作業時間：2020-07-06 12:00:41					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98385&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								筍絲								
+																(100公克)
+															<br>
+								[435501農糧品]
+						</a>
+													<a href="portal.php?oid=98386&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								高湯01								
+																(1公升)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98389" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98407" class="btn btn-dark btn-lg">
+							筍乾包 <br>[組裝作業]						</a>
+						
+												<a href="#98392" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98392" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白滷筍絲 [自拍保證來源]</h2>
+					<div class="history_time">2020-07-06 12:02:17 - 2020-07-06 12:02:17</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1469/2020/98392.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1469/2020/98392.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=98389&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白滷筍絲								
+																(400公克)
+															<br>
+								[435501農糧品]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98392" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98389" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[烹調01]						</a>
+						
+												<a href="#98393" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[調味料攪拌]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98393" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白滷筍絲 [調味料攪拌]</h2>
+					<div class="history_time">2020-07-06 12:02:24 - 2020-07-06 12:02:30</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:02:24					<br><br>
+					結束作業時間：2020-07-06 12:02:30					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98393" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98392" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[自拍保證來源]						</a>
+						
+												<a href="#98397" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[瀝乾撈出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98397" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白滷筍絲 [瀝乾撈出]</h2>
+					<div class="history_time">2020-07-06 12:02:33 - 2020-07-06 12:03:18</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 12:02:33					<br><br>
+					結束作業時間：2020-07-06 12:03:18					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98397" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98393" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[調味料攪拌]						</a>
+						
+												<a href="#98403" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98403" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白滷筍絲 [自拍保證輸出]</h2>
+					<div class="history_time">2020-07-06 12:05:41 - 2020-07-06 12:05:41</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1469/2020/98403.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1469/2020/98403.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98403" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98397" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[瀝乾撈出]						</a>
+						
+												<a href="#98380" class="btn btn-dark btn-lg">
+							筍絲 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98380" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>筍絲 [自拍保證來源]</h2>
+					<div class="history_time">2020-07-06 11:56:18 - 2020-07-06 11:56:18</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1469/2020/98380.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1469/2020/98380.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98380" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98403" class="btn btn-dark btn-lg">
+							白滷筍絲 <br>[自拍保證輸出]						</a>
+						
+												<a href="#98381" class="btn btn-dark btn-lg">
+							筍絲 <br>[前一天清洗]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98381" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>筍絲 [前一天清洗]</h2>
+					<div class="history_time">2020-07-06 11:56:24 - 2020-07-06 11:56:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:56:24					<br><br>
+					結束作業時間：2020-07-06 11:56:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98381" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98380" class="btn btn-dark btn-lg">
+							筍絲 <br>[自拍保證來源]						</a>
+						
+												<a href="#98382" class="btn btn-dark btn-lg">
+							筍絲 <br>[裁切]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98382" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>筍絲 [裁切]</h2>
+					<div class="history_time">2020-07-06 11:56:34 - 2020-07-06 11:56:38</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:56:34					<br><br>
+					結束作業時間：2020-07-06 11:56:38					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98382" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98381" class="btn btn-dark btn-lg">
+							筍絲 <br>[前一天清洗]						</a>
+						
+												<a href="#98383" class="btn btn-dark btn-lg">
+							筍絲 <br>[流水浸泡]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98383" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>筍絲 [流水浸泡]</h2>
+					<div class="history_time">2020-07-06 11:56:42 - 2020-07-06 11:56:48</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:56:42					<br><br>
+					結束作業時間：2020-07-06 11:56:48					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98383" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98382" class="btn btn-dark btn-lg">
+							筍絲 <br>[裁切]						</a>
+						
+												<a href="#98384" class="btn btn-dark btn-lg">
+							筍絲 <br>[川燙瀝水]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98384" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>筍絲 [川燙瀝水]</h2>
+					<div class="history_time">2020-07-06 11:56:51 - 2020-07-06 11:57:01</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:56:51					<br><br>
+					結束作業時間：2020-07-06 11:57:01					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98384" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98383" class="btn btn-dark btn-lg">
+							筍絲 <br>[流水浸泡]						</a>
+						
+												<a href="#98385" class="btn btn-dark btn-lg">
+							筍絲 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98385" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>筍絲 [自拍保證輸出]</h2>
+					<div class="history_time">2020-07-06 11:57:20 - 2020-07-06 11:57:20</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1469/2020/98385.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1469/2020/98385.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98385" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98384" class="btn btn-dark btn-lg">
+							筍絲 <br>[川燙瀝水]						</a>
+						
+												<a href="#98386" class="btn btn-dark btn-lg">
+							高湯01 <br>[進貨作業01]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="98386" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>高湯01 [進貨作業01]</h2>
+					<div class="history_time">2020-07-06 11:59:37 - 2020-07-06 11:59:39</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-06 11:59:37					<br><br>
+					結束作業時間：2020-07-06 11:59:39					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_98386" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#98385" class="btn btn-dark btn-lg">
+							筍絲 <br>[自拍保證輸出]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+</script>

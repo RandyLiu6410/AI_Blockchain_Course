@@ -1,0 +1,2350 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=24572&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="蜜糖珍珠" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=24572',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="https://s3.hicloud.net.tw/foodcloud/photo/product/1675.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																蜜糖珍珠							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：8DTea								<br>
+								產出日期：2018-10-08 13:26:17																<br>
+								有效日期：2018-10-08																																									<br>
+								產出數量：600公克									 (1桶)																	<br>
+								剩餘數量：600公克									 (1桶)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D24572" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D24572"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/8dtea/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#24572" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜜糖珍珠<BR>[烹煮作業(多品項)]							
+							
+							
+							</a>
+													<a href="#24573" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜜糖珍珠<BR>[調理室入庫]							
+							
+							
+							</a>
+													<a href="#24277" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白玉珍珠<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#24279" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白玉珍珠<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#24284" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白玉珍珠<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#24302" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白玉珍珠<BR>[烹煮室入庫]							
+							
+							
+							</a>
+													<a href="#24303" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白玉珍珠<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#26429" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白玉珍珠<BR>[烹煮室領貨作業]							
+							
+							
+							</a>
+													<a href="#24291" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶(茶湯)<BR>[烹煮作業(多品項)]							
+							
+							
+							</a>
+													<a href="#24292" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶(茶湯)<BR>[冷卻作業(單品項)]							
+							
+							
+							</a>
+													<a href="#24304" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶(茶湯)<BR>[調理室入庫]							
+							
+							
+							</a>
+													<a href="#16139" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#16141" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#16142" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶<BR>[原物料入庫]							
+							
+							
+							</a>
+													<a href="#16146" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#24010" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅茶<BR>[原料倉領貨作業]							
+							
+							
+							</a>
+													<a href="#20221" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														炒醣<BR>[烹煮作業(多品項)]							
+							
+							
+							</a>
+													<a href="#20222" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														炒醣<BR>[冷卻作業(單品項)]							
+							
+							
+							</a>
+													<a href="#20228" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														炒醣<BR>[包裝室包裝作業]							
+							
+							
+							</a>
+													<a href="#20229" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														炒醣<BR>[調理室入庫]							
+							
+							
+							</a>
+													<a href="#20194" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														二砂<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#20195" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														二砂<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#20196" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														二砂<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#20201" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														二砂<BR>[原料倉領貨作業]							
+							
+							
+							</a>
+													<a href="#20018" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														冰糖<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#20019" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														冰糖<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#20020" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														冰糖<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#20187" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														冰糖<BR>[原料倉領貨作業]							
+							
+							
+							</a>
+													<a href="#20450" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														冰糖<BR>[原料倉領貨作業]							
+							
+							
+							</a>
+													<a href="#16940" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅糖<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#16941" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅糖<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#16942" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅糖<BR>[原物料入庫]							
+							
+							
+							</a>
+													<a href="#16943" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅糖<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#18667" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅糖<BR>[原料倉領貨作業]							
+							
+							
+							</a>
+													<a href="#20452" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糖<BR>[烹煮作業(多品項)]							
+							
+							
+							</a>
+													<a href="#20453" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糖<BR>[冷卻作業(單品項)]							
+							
+							
+							</a>
+													<a href="#20461" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糖<BR>[包裝室包裝作業]							
+							
+							
+							</a>
+													<a href="#20464" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糖<BR>[調理室入庫]							
+							
+							
+							</a>
+													<a href="#24506" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜水<BR>[調理作業]							
+							
+							
+							</a>
+													<a href="#24507" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜水<BR>[調理室入庫]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="24572" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜜糖珍珠 [烹煮作業(多品項)]</h2>
+					<div class="history_time">2018-10-08 13:08:52 - 2018-10-08 13:26:17</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-08 13:08:52					<br><br>
+					結束作業時間：2018-10-08 13:26:17					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=24303&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白玉珍珠								
+																(0.6公斤)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=24291&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅茶(茶湯)								
+																(0.4公升)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=20228&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								炒醣								
+																(0.1公升)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=20461&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白糖								
+																(50毫升)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=24506&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								蜂蜜水								
+																(50毫升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_24572" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#24573" class="btn btn-dark btn-lg">
+							蜜糖珍珠 <br>[調理室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24573" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜜糖珍珠 [調理室入庫]</h2>
+					<div class="history_time">2018-10-08 13:27:28 - 2018-10-08 13:32:09</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-08 13:27:28					<br><br>
+					結束作業時間：2018-10-08 13:32:09					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24573" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24572" class="btn btn-dark btn-lg">
+							蜜糖珍珠 <br>[烹煮作業(多品項)]						</a>
+						
+												<a href="#24277" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24277" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白玉珍珠 [自拍保證來源]</h2>
+					<div class="history_time">2018-10-05 10:18:44 - 2018-10-05 10:18:44</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2018/24277.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2018/24277.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24277" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24573" class="btn btn-dark btn-lg">
+							蜜糖珍珠 <br>[調理室入庫]						</a>
+						
+												<a href="#24279" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24279" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白玉珍珠 [進貨作業]</h2>
+					<div class="history_time">2018-10-05 10:18:57 - 2018-10-05 10:23:23</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-05 10:18:57					<br><br>
+					結束作業時間：2018-10-05 10:23:23					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24279" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24277" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[自拍保證來源]						</a>
+						
+												<a href="#24284" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24284" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白玉珍珠 [進貨作業]</h2>
+					<div class="history_time">2018-10-05 10:29:35 - 2018-10-05 10:30:20</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_24284" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20181005102935/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20181005102935/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20181005102935/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20181005102935/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20181005102935/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20181005102935/3.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_24284" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_24284"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24284" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24279" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[進貨作業]						</a>
+						
+												<a href="#24302" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[烹煮室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24302" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白玉珍珠 [烹煮室入庫]</h2>
+					<div class="history_time">2018-10-05 11:17:02 - 2018-10-05 12:04:20</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-05 11:17:02					<br><br>
+					結束作業時間：2018-10-05 12:04:20					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24302" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24284" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[進貨作業]						</a>
+						
+												<a href="#24303" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24303" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白玉珍珠 [自拍保證輸出]</h2>
+					<div class="history_time">2018-10-05 12:12:22 - 2018-10-05 12:12:22</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1095/2018/24303.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1095/2018/24303.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24303" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24302" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[烹煮室入庫]						</a>
+						
+												<a href="#26429" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[烹煮室領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="26429" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白玉珍珠 [烹煮室領貨作業]</h2>
+					<div class="history_time">2018-10-27 11:09:53 - 2018-10-27 11:09:53</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-27 11:09:53					<br><br>
+					結束作業時間：2018-10-27 11:09:53					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_26429" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24303" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[自拍保證輸出]						</a>
+						
+												<a href="#24291" class="btn btn-dark btn-lg">
+							紅茶(茶湯) <br>[烹煮作業(多品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24291" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶(茶湯) [烹煮作業(多品項)]</h2>
+					<div class="history_time">2018-10-05 10:55:27 - 2018-10-05 11:25:44</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-05 10:55:27					<br><br>
+					結束作業時間：2018-10-05 11:25:44					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=24010&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅茶								
+																(0.25公斤)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_24291" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#26429" class="btn btn-dark btn-lg">
+							白玉珍珠 <br>[烹煮室領貨作業]						</a>
+						
+												<a href="#24292" class="btn btn-dark btn-lg">
+							紅茶(茶湯) <br>[冷卻作業(單品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24292" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶(茶湯) [冷卻作業(單品項)]</h2>
+					<div class="history_time">2018-10-05 11:26:47 - 2018-10-05 11:50:20</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-05 11:26:47					<br><br>
+					結束作業時間：2018-10-05 11:50:20					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24292" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24291" class="btn btn-dark btn-lg">
+							紅茶(茶湯) <br>[烹煮作業(多品項)]						</a>
+						
+												<a href="#24304" class="btn btn-dark btn-lg">
+							紅茶(茶湯) <br>[調理室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24304" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶(茶湯) [調理室入庫]</h2>
+					<div class="history_time">2018-10-05 12:14:25 - 2018-10-05 12:16:21</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-05 12:14:25					<br><br>
+					結束作業時間：2018-10-05 12:16:21					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24304" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24292" class="btn btn-dark btn-lg">
+							紅茶(茶湯) <br>[冷卻作業(單品項)]						</a>
+						
+												<a href="#16139" class="btn btn-dark btn-lg">
+							紅茶 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16139" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶 [自拍保證來源]</h2>
+					<div class="history_time">2018-07-05 09:51:05 - 2018-07-05 09:51:05</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2018/16139.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2018/16139.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16139" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24304" class="btn btn-dark btn-lg">
+							紅茶(茶湯) <br>[調理室入庫]						</a>
+						
+												<a href="#16141" class="btn btn-dark btn-lg">
+							紅茶 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16141" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶 [進貨作業]</h2>
+					<div class="history_time">2018-07-05 09:51:47 - 2018-07-05 09:53:59</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_16141" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823e09d/vod.m3u8?b=1530755507&e=1530755639" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16141" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16139" class="btn btn-dark btn-lg">
+							紅茶 <br>[自拍保證來源]						</a>
+						
+												<a href="#16142" class="btn btn-dark btn-lg">
+							紅茶 <br>[原物料入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16142" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶 [原物料入庫]</h2>
+					<div class="history_time">2018-07-05 09:55:27 - 2018-07-05 09:55:50</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_16142" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823bee0/vod.m3u8?b=1530755727&e=1530755750" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16142" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16141" class="btn btn-dark btn-lg">
+							紅茶 <br>[進貨作業]						</a>
+						
+												<a href="#16146" class="btn btn-dark btn-lg">
+							紅茶 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16146" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶 [自拍保證輸出]</h2>
+					<div class="history_time">2018-07-05 10:04:09 - 2018-07-05 10:04:09</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1095/2018/16146.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1095/2018/16146.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16146" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16142" class="btn btn-dark btn-lg">
+							紅茶 <br>[原物料入庫]						</a>
+						
+												<a href="#24010" class="btn btn-dark btn-lg">
+							紅茶 <br>[原料倉領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24010" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅茶 [原料倉領貨作業]</h2>
+					<div class="history_time">2018-10-02 14:01:37 - 2018-10-02 14:02:07</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-02 14:01:37					<br><br>
+					結束作業時間：2018-10-02 14:02:07					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=16146&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅茶								
+																(0.25公斤)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_24010" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16146" class="btn btn-dark btn-lg">
+							紅茶 <br>[自拍保證輸出]						</a>
+						
+												<a href="#20221" class="btn btn-dark btn-lg">
+							炒醣 <br>[烹煮作業(多品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20221" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>炒醣 [烹煮作業(多品項)]</h2>
+					<div class="history_time">2018-08-20 14:08:54 - 2018-08-20 15:11:13</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20221" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824079c/vod.m3u8?b=1534745334&e=1534749073" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=20201&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								二砂								
+																(13公斤)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=20187&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								冰糖								
+																(3000公克)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=18667&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅糖								
+																(200公克)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_20221" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24010" class="btn btn-dark btn-lg">
+							紅茶 <br>[原料倉領貨作業]						</a>
+						
+												<a href="#20222" class="btn btn-dark btn-lg">
+							炒醣 <br>[冷卻作業(單品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20222" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>炒醣 [冷卻作業(單品項)]</h2>
+					<div class="history_time">2018-08-20 15:12:50 - 2018-08-20 16:04:57</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20222" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8095336/vod.m3u8?b=1534749170&e=1534752297" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20222" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20221" class="btn btn-dark btn-lg">
+							炒醣 <br>[烹煮作業(多品項)]						</a>
+						
+												<a href="#20228" class="btn btn-dark btn-lg">
+							炒醣 <br>[包裝室包裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20228" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>炒醣 [包裝室包裝作業]</h2>
+					<div class="history_time">2018-08-20 16:15:50 - 2018-08-20 16:34:53</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20228" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8095d67/vod.m3u8?b=1534752950&e=1534754093" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=20221&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								炒醣								
+																(19.8公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_20228" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20222" class="btn btn-dark btn-lg">
+							炒醣 <br>[冷卻作業(單品項)]						</a>
+						
+												<a href="#20229" class="btn btn-dark btn-lg">
+							炒醣 <br>[調理室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20229" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>炒醣 [調理室入庫]</h2>
+					<div class="history_time">2018-08-20 16:39:48 - 2018-08-20 16:42:00</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20229" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f8093a0d/vod.m3u8?b=1534754388&e=1534754520" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20229" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20228" class="btn btn-dark btn-lg">
+							炒醣 <br>[包裝室包裝作業]						</a>
+						
+												<a href="#20194" class="btn btn-dark btn-lg">
+							二砂 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20194" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>二砂 [自拍保證來源]</h2>
+					<div class="history_time">2018-08-20 13:17:46 - 2018-08-20 13:17:46</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2018/20194.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2018/20194.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20194" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20229" class="btn btn-dark btn-lg">
+							炒醣 <br>[調理室入庫]						</a>
+						
+												<a href="#20195" class="btn btn-dark btn-lg">
+							二砂 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20195" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>二砂 [進貨作業]</h2>
+					<div class="history_time">2018-08-20 13:18:04 - 2018-08-20 13:18:13</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_20195" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20180820131804/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20180820131804/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20180820131804/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20180820131804/2.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_20195" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_20195"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20195" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20194" class="btn btn-dark btn-lg">
+							二砂 <br>[自拍保證來源]						</a>
+						
+												<a href="#20196" class="btn btn-dark btn-lg">
+							二砂 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20196" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>二砂 [自拍保證輸出]</h2>
+					<div class="history_time">2018-08-20 13:19:00 - 2018-08-20 13:19:00</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1095/2018/20196.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1095/2018/20196.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20196" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20195" class="btn btn-dark btn-lg">
+							二砂 <br>[進貨作業]						</a>
+						
+												<a href="#20201" class="btn btn-dark btn-lg">
+							二砂 <br>[原料倉領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20201" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>二砂 [原料倉領貨作業]</h2>
+					<div class="history_time">2018-08-20 13:20:07 - 2018-08-20 13:23:14</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20201" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823bee0/vod.m3u8?b=1534742407&e=1534742594" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=20196&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								二砂								
+																(13公斤)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_20201" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20196" class="btn btn-dark btn-lg">
+							二砂 <br>[自拍保證輸出]						</a>
+						
+												<a href="#20018" class="btn btn-dark btn-lg">
+							冰糖 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20018" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>冰糖 [自拍保證來源]</h2>
+					<div class="history_time">2018-08-17 15:26:24 - 2018-08-17 15:26:24</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2018/20018.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2018/20018.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20018" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20201" class="btn btn-dark btn-lg">
+							二砂 <br>[原料倉領貨作業]						</a>
+						
+												<a href="#20019" class="btn btn-dark btn-lg">
+							冰糖 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20019" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>冰糖 [進貨作業]</h2>
+					<div class="history_time">2018-08-17 15:26:37 - 2018-08-17 15:26:44</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_20019" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20180817152637/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2018/20180817152637/1.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_20019" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_20019"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20019" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20018" class="btn btn-dark btn-lg">
+							冰糖 <br>[自拍保證來源]						</a>
+						
+												<a href="#20020" class="btn btn-dark btn-lg">
+							冰糖 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20020" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>冰糖 [自拍保證輸出]</h2>
+					<div class="history_time">2018-08-17 15:27:53 - 2018-08-17 15:27:53</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1095/2018/20020.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1095/2018/20020.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20020" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20019" class="btn btn-dark btn-lg">
+							冰糖 <br>[進貨作業]						</a>
+						
+												<a href="#20187" class="btn btn-dark btn-lg">
+							冰糖 <br>[原料倉領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20187" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>冰糖 [原料倉領貨作業]</h2>
+					<div class="history_time">2018-08-20 13:10:44 - 2018-08-20 13:12:55</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20187" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823bee0/vod.m3u8?b=1534741844&e=1534741975" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=20020&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								冰糖								
+																(3000公克)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_20187" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20020" class="btn btn-dark btn-lg">
+							冰糖 <br>[自拍保證輸出]						</a>
+						
+												<a href="#20450" class="btn btn-dark btn-lg">
+							冰糖 <br>[原料倉領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20450" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>冰糖 [原料倉領貨作業]</h2>
+					<div class="history_time">2018-08-23 13:38:48 - 2018-08-23 13:43:37</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20450" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823bee0/vod.m3u8?b=1535002728&e=1535003017" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=20020&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								冰糖								
+																(8000公克)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_20450" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20187" class="btn btn-dark btn-lg">
+							冰糖 <br>[原料倉領貨作業]						</a>
+						
+												<a href="#16940" class="btn btn-dark btn-lg">
+							紅糖 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16940" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅糖 [自拍保證來源]</h2>
+					<div class="history_time">2018-07-12 16:08:41 - 2018-07-12 16:08:41</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2018/16940.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2018/16940.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16940" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20450" class="btn btn-dark btn-lg">
+							冰糖 <br>[原料倉領貨作業]						</a>
+						
+												<a href="#16941" class="btn btn-dark btn-lg">
+							紅糖 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16941" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅糖 [進貨作業]</h2>
+					<div class="history_time">2018-07-12 16:08:54 - 2018-07-12 16:09:05</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_16941" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823e09d/vod.m3u8?b=1531382934&e=1531382945" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16941" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16940" class="btn btn-dark btn-lg">
+							紅糖 <br>[自拍保證來源]						</a>
+						
+												<a href="#16942" class="btn btn-dark btn-lg">
+							紅糖 <br>[原物料入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16942" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅糖 [原物料入庫]</h2>
+					<div class="history_time">2018-07-12 16:09:09 - 2018-07-12 16:09:17</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_16942" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823bee0/vod.m3u8?b=1531382949&e=1531382957" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16942" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16941" class="btn btn-dark btn-lg">
+							紅糖 <br>[進貨作業]						</a>
+						
+												<a href="#16943" class="btn btn-dark btn-lg">
+							紅糖 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="16943" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅糖 [自拍保證輸出]</h2>
+					<div class="history_time">2018-07-12 16:10:28 - 2018-07-12 16:10:28</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1095/2018/16943.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1095/2018/16943.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_16943" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16942" class="btn btn-dark btn-lg">
+							紅糖 <br>[原物料入庫]						</a>
+						
+												<a href="#18667" class="btn btn-dark btn-lg">
+							紅糖 <br>[原料倉領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="18667" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅糖 [原料倉領貨作業]</h2>
+					<div class="history_time">2018-08-01 12:56:29 - 2018-08-01 12:58:03</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_18667" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr4.8dfoods.com/cam00e0f823bee0/vod.m3u8?b=1533099389&e=1533099483" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=16943&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅糖								
+																(200公克)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_18667" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#16943" class="btn btn-dark btn-lg">
+							紅糖 <br>[自拍保證輸出]						</a>
+						
+												<a href="#20452" class="btn btn-dark btn-lg">
+							白糖 <br>[烹煮作業(多品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20452" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糖 [烹煮作業(多品項)]</h2>
+					<div class="history_time">2018-08-23 14:05:39 - 2018-08-23 14:50:47</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20452" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824079c/vod.m3u8?b=1535004339&e=1535007047" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=20450&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								冰糖								
+																(8000公克)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_20452" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#18667" class="btn btn-dark btn-lg">
+							紅糖 <br>[原料倉領貨作業]						</a>
+						
+												<a href="#20453" class="btn btn-dark btn-lg">
+							白糖 <br>[冷卻作業(單品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20453" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糖 [冷卻作業(單品項)]</h2>
+					<div class="history_time">2018-08-23 14:51:09 - 2018-08-23 15:36:55</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20453" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8095336/vod.m3u8?b=1535007069&e=1535009815" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20453" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20452" class="btn btn-dark btn-lg">
+							白糖 <br>[烹煮作業(多品項)]						</a>
+						
+												<a href="#20461" class="btn btn-dark btn-lg">
+							白糖 <br>[包裝室包裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20461" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糖 [包裝室包裝作業]</h2>
+					<div class="history_time">2018-08-23 15:38:11 - 2018-08-23 15:47:32</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20461" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8095d67/vod.m3u8?b=1535009891&e=1535010452" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=20452&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白糖								
+																(10800毫升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_20461" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20453" class="btn btn-dark btn-lg">
+							白糖 <br>[冷卻作業(單品項)]						</a>
+						
+												<a href="#20464" class="btn btn-dark btn-lg">
+							白糖 <br>[調理室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="20464" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糖 [調理室入庫]</h2>
+					<div class="history_time">2018-08-23 15:51:21 - 2018-08-23 15:52:42</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_20464" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f8093a0d/vod.m3u8?b=1535010681&e=1535010762" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_20464" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20461" class="btn btn-dark btn-lg">
+							白糖 <br>[包裝室包裝作業]						</a>
+						
+												<a href="#24506" class="btn btn-dark btn-lg">
+							蜂蜜水 <br>[調理作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24506" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜水 [調理作業]</h2>
+					<div class="history_time">2018-10-08 09:49:56 - 2018-10-08 09:53:39</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-08 09:49:56					<br><br>
+					結束作業時間：2018-10-08 09:53:39					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24506" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#20464" class="btn btn-dark btn-lg">
+							白糖 <br>[調理室入庫]						</a>
+						
+												<a href="#24507" class="btn btn-dark btn-lg">
+							蜂蜜水 <br>[調理室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="24507" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜水 [調理室入庫]</h2>
+					<div class="history_time">2018-10-08 09:54:18 - 2018-10-08 09:55:09</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-10-08 09:54:18					<br><br>
+					結束作業時間：2018-10-08 09:55:09					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_24507" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#24506" class="btn btn-dark btn-lg">
+							蜂蜜水 <br>[調理作業]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_16141').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_16142').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20221').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20222').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20228').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20229').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20201').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20187').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20450').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_16941').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_16942').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_18667').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20452').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20453').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20461').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_20464').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+	
+		jQuery(document).ready(function(){
+				var api_24284 = jQuery("#gallery_24284").unitegallery();
+		var first_item = api_24284.getItem(0);
+
+		load_gps_data('24284', '1095', first_item.urlImage, true);
+		api_24284.on("item_change", function(num, img_data){
+			load_gps_data('24284', '1095', img_data.urlImage, false);
+		});
+				var api_20195 = jQuery("#gallery_20195").unitegallery();
+		var first_item = api_20195.getItem(0);
+
+		load_gps_data('20195', '1095', first_item.urlImage, true);
+		api_20195.on("item_change", function(num, img_data){
+			load_gps_data('20195', '1095', img_data.urlImage, false);
+		});
+				var api_20019 = jQuery("#gallery_20019").unitegallery();
+		var first_item = api_20019.getItem(0);
+
+		load_gps_data('20019', '1095', first_item.urlImage, true);
+		api_20019.on("item_change", function(num, img_data){
+			load_gps_data('20019', '1095', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+</script>

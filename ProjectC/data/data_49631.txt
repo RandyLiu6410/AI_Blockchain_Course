@@ -1,0 +1,2338 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=49631&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="蜂蜜甘蔗汁" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=49631',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="https://s3.hicloud.net.tw/foodcloud/photo/product/1311.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																蜂蜜甘蔗汁							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：8DTea								<br>
+								產出日期：2019-07-15 18:57:19																<br>
+								有效日期：2019-07-21																																									<br>
+								產出數量：700毫升									 (1杯)																	<br>
+								剩餘數量：0毫升																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D49631" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D49631"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/8dtea/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#49631" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜甘蔗汁<BR>[調理作業]							
+							
+							
+							</a>
+													<a href="#49446" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜水<BR>[調理作業]							
+							
+							
+							</a>
+													<a href="#49447" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜水<BR>[調理室入庫]							
+							
+							
+							</a>
+													<a href="#49434" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#49435" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#49436" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#49437" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜<BR>[原物料入庫]							
+							
+							
+							</a>
+													<a href="#49438" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#49440" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蜂蜜<BR>[原料倉領貨作業]							
+							
+							
+							</a>
+													<a href="#48060" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[烹煮作業(多品項)]							
+							
+							
+							</a>
+													<a href="#48061" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[冷卻作業左(單品項)]							
+							
+							
+							</a>
+													<a href="#48076" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[包裝室包裝作業]							
+							
+							
+							</a>
+													<a href="#48077" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[烹煮室入庫]							
+							
+							
+							</a>
+													<a href="#48046" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#48047" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48051" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48052" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48055" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48056" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48057" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48049" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48050" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[前處理作業]							
+							
+							
+							</a>
+													<a href="#48053" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#48058" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="49631" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜甘蔗汁 [調理作業]</h2>
+					<div class="history_time">2019-07-15 18:52:53 - 2019-07-15 18:57:19</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-07-15 18:52:53					<br><br>
+					結束作業時間：2019-07-15 18:57:19					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=49446&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								蜂蜜水								
+																(20毫升)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=48076&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗汁								
+																(0.3公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530C10o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F15+18%3A52%3A53', '2019%2F07%2F15+18%3A57%3A19')">
+							T (溫度感測器)<br>
+							2019-07-15 18:52:53						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530C10o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F15+18%3A52%3A53', '2019%2F07%2F15+18%3A57%3A19')">
+							H (濕度感測器)<br>
+							2019-07-15 18:52:53						</label>
+					
+										</div>
+										<div id="button_49631" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#49446" class="btn btn-dark btn-lg">
+							蜂蜜水 <br>[調理作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49446" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜水 [調理作業]</h2>
+					<div class="history_time">2019-07-13 12:30:33 - 2019-07-13 12:37:19</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-07-13 12:30:33					<br><br>
+					結束作業時間：2019-07-13 12:37:19					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=49440&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								蜂蜜								
+																(1000毫升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530C10o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A30%3A33', '2019%2F07%2F13+12%3A37%3A19')">
+							T (溫度感測器)<br>
+							2019-07-13 12:30:33						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530C10o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A30%3A33', '2019%2F07%2F13+12%3A37%3A19')">
+							H (濕度感測器)<br>
+							2019-07-13 12:30:33						</label>
+					
+										</div>
+										<div id="button_49446" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49631" class="btn btn-dark btn-lg">
+							蜂蜜甘蔗汁 <br>[調理作業]						</a>
+						
+												<a href="#49447" class="btn btn-dark btn-lg">
+							蜂蜜水 <br>[調理室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49447" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜水 [調理室入庫]</h2>
+					<div class="history_time">2019-07-13 12:39:45 - 2019-07-13 12:41:16</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-07-13 12:39:45					<br><br>
+					結束作業時間：2019-07-13 12:41:16					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A39%3A45', '2019%2F07%2F13+12%3A41%3A16')">
+							T (溫度感測器)<br>
+							2019-07-13 12:39:45						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A39%3A45', '2019%2F07%2F13+12%3A41%3A16')">
+							VDC (電壓感測器)<br>
+							2019-07-13 12:39:45						</label>
+					
+										</div>
+										<div id="button_49447" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49446" class="btn btn-dark btn-lg">
+							蜂蜜水 <br>[調理作業]						</a>
+						
+												<a href="#49434" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49434" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜 [自拍保證來源]</h2>
+					<div class="history_time">2019-07-13 12:16:45 - 2019-07-13 12:16:45</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2019/49434.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2019/49434.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_49434" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49447" class="btn btn-dark btn-lg">
+							蜂蜜水 <br>[調理室入庫]						</a>
+						
+												<a href="#49435" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49435" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜 [進貨作業]</h2>
+					<div class="history_time">2019-07-13 12:17:07 - 2019-07-13 12:17:24</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_49435" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190713121707/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190713121707/1.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_49435" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_49435"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A17%3A07', '2019%2F07%2F13+12%3A17%3A24')">
+							T (溫度感測器)<br>
+							2019-07-13 12:17:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A17%3A07', '2019%2F07%2F13+12%3A17%3A24')">
+							H (濕度感測器)<br>
+							2019-07-13 12:17:07						</label>
+					
+										</div>
+										<div id="button_49435" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49434" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[自拍保證來源]						</a>
+						
+												<a href="#49436" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[進貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49436" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜 [進貨作業]</h2>
+					<div class="history_time">2019-07-13 12:18:10 - 2019-07-13 12:18:37</div>
+					<br>
+
+										
+										<video id="player_49436" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1095/1095_20190713121750570.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A18%3A10', '2019%2F07%2F13+12%3A18%3A37')">
+							T (溫度感測器)<br>
+							2019-07-13 12:18:10						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2019%2F07%2F13+12%3A18%3A10', '2019%2F07%2F13+12%3A18%3A37')">
+							H (濕度感測器)<br>
+							2019-07-13 12:18:10						</label>
+					
+										</div>
+										<div id="button_49436" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49435" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[進貨作業]						</a>
+						
+												<a href="#49437" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[原物料入庫]						</a>
+						
+					</div>
+
+										<div id="map_49436" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_49436"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49437" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜 [原物料入庫]</h2>
+					<div class="history_time">2019-07-13 12:20:13 - 2019-07-13 12:20:50</div>
+					<br>
+
+										
+															<video id="player_49437" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/908/49437.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F07%2F13+12%3A20%3A13', '2019%2F07%2F13+12%3A20%3A50')">
+							 ()<br>
+							2019-07-13 12:20:13						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F07%2F13+12%3A20%3A13', '2019%2F07%2F13+12%3A20%3A50')">
+							 ()<br>
+							2019-07-13 12:20:13						</label>
+					
+										</div>
+										<div id="button_49437" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49436" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[進貨作業]						</a>
+						
+												<a href="#49438" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49438" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜 [自拍保證輸出]</h2>
+					<div class="history_time">2019-07-13 12:22:36 - 2019-07-13 12:22:36</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1095/2019/49438.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1095/2019/49438.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_49438" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49437" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[原物料入庫]						</a>
+						
+												<a href="#49440" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[原料倉領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="49440" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蜂蜜 [原料倉領貨作業]</h2>
+					<div class="history_time">2019-07-13 12:23:29 - 2019-07-13 12:25:27</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-07-13 12:23:29					<br><br>
+					結束作業時間：2019-07-13 12:25:27					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=49438&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								蜂蜜								
+																(1000毫升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F07%2F13+12%3A23%3A29', '2019%2F07%2F13+12%3A25%3A27')">
+							 ()<br>
+							2019-07-13 12:23:29						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F07%2F13+12%3A23%3A29', '2019%2F07%2F13+12%3A25%3A27')">
+							 ()<br>
+							2019-07-13 12:23:29						</label>
+					
+										</div>
+										<div id="button_49440" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49438" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[自拍保證輸出]						</a>
+						
+												<a href="#48060" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[烹煮作業(多品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48060" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [烹煮作業(多品項)]</h2>
+					<div class="history_time">2019-06-27 12:10:22 - 2019-06-27 12:37:04</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-06-27 12:10:22					<br><br>
+					結束作業時間：2019-06-27 12:37:04					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=48058&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗原汁								
+																(30公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94B93Ao_o1', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+12%3A10%3A22', '2019%2F06%2F27+12%3A37%3A04')">
+							T (溫度感測器)<br>
+							2019-06-27 12:10:22						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94B93Ao_o2', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+12%3A10%3A22', '2019%2F06%2F27+12%3A37%3A04')">
+							H (濕度感測器)<br>
+							2019-06-27 12:10:22						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94B93Ao_o3', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+12%3A10%3A22', '2019%2F06%2F27+12%3A37%3A04')">
+							CO (一氧化碳感測器)<br>
+							2019-06-27 12:10:22						</label>
+					
+										</div>
+										<div id="button_48060" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#49440" class="btn btn-dark btn-lg">
+							蜂蜜 <br>[原料倉領貨作業]						</a>
+						
+												<a href="#48061" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48061" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [冷卻作業左(單品項)]</h2>
+					<div class="history_time">2019-06-27 12:37:29 - 2019-06-27 12:58:14</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-06-27 12:37:29					<br><br>
+					結束作業時間：2019-06-27 12:58:14					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+12%3A37%3A29', '2019%2F06%2F27+12%3A58%3A14')">
+							T (溫度感測器)<br>
+							2019-06-27 12:37:29						</label>
+					
+										</div>
+										<div id="button_48061" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48060" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[烹煮作業(多品項)]						</a>
+						
+												<a href="#48076" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48076" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [包裝室包裝作業]</h2>
+					<div class="history_time">2019-06-27 13:20:12 - 2019-06-27 13:41:15</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-06-27 13:20:12					<br><br>
+					結束作業時間：2019-06-27 13:41:15					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=48060&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗汁								
+																(25公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94B006o_o1', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+13%3A20%3A12', '2019%2F06%2F27+13%3A41%3A15')">
+							T (溫度感測器)<br>
+							2019-06-27 13:20:12						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94B006o_o2', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+13%3A20%3A12', '2019%2F06%2F27+13%3A41%3A15')">
+							H (濕度感測器)<br>
+							2019-06-27 13:20:12						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94B006o_o3', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+13%3A20%3A12', '2019%2F06%2F27+13%3A41%3A15')">
+							CO (一氧化碳感測器)<br>
+							2019-06-27 13:20:12						</label>
+					
+										</div>
+										<div id="button_48076" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48061" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項)]						</a>
+						
+												<a href="#48077" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[烹煮室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48077" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [烹煮室入庫]</h2>
+					<div class="history_time">2019-06-27 13:43:48 - 2019-06-27 13:45:04</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-06-27 13:43:48					<br><br>
+					結束作業時間：2019-06-27 13:45:04					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+13%3A43%3A48', '2019%2F06%2F27+13%3A45%3A04')">
+							 ()<br>
+							2019-06-27 13:43:48						</label>
+					
+										</div>
+										<div id="button_48077" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48076" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業]						</a>
+						
+												<a href="#48046" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48046" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [自拍保證來源]</h2>
+					<div class="history_time">2019-06-27 11:12:28 - 2019-06-27 11:12:28</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2019/48046.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2019/48046.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_48046" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48077" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[烹煮室入庫]						</a>
+						
+												<a href="#48047" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48047" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:13:07 - 2019-06-27 11:16:59</div>
+					<br>
+
+										
+										<video id="player_48047" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1095/1095_20190627111256131.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										</div>
+										<div id="button_48047" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48046" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[自拍保證來源]						</a>
+						
+												<a href="#48051" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+										<div id="map_48047" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48047"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48051" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:13:07 - 2019-06-27 11:16:59</div>
+					<br>
+
+										
+										<video id="player_48051" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1095/1095_20190627111256131.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										</div>
+										<div id="button_48051" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48047" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48052" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+										<div id="map_48051" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48051"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48052" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:13:07 - 2019-06-27 11:16:59</div>
+					<br>
+
+										
+										<video id="player_48052" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1095/1095_20190627111256131.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										</div>
+										<div id="button_48052" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48051" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48055" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+										<div id="map_48052" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48052"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48055" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:13:07 - 2019-06-27 11:16:59</div>
+					<br>
+
+										
+										<video id="player_48055" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1095/1095_20190627111256131.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										</div>
+										<div id="button_48055" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48052" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48056" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+										<div id="map_48055" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48055"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48056" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:13:07 - 2019-06-27 11:16:59</div>
+					<br>
+
+										
+										<video id="player_48056" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1095/1095_20190627111256131.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										</div>
+										<div id="button_48056" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48055" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48057" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+										<div id="map_48056" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48056"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48057" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:13:07 - 2019-06-27 11:16:59</div>
+					<br>
+
+										
+										<video id="player_48057" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1095/1095_20190627111256131.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A13%3A07', '2019%2F06%2F27+11%3A16%3A59')">
+							 ()<br>
+							2019-06-27 11:13:07						</label>
+					
+										</div>
+										<div id="button_48057" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48056" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48049" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+										<div id="map_48057" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48057"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48049" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:18:25 - 2019-06-27 11:22:17</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_48049" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/3.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/4.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1095/2019/20190627111825/4.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_48049" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_48049"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A18%3A25', '2019%2F06%2F27+11%3A22%3A17')">
+							 ()<br>
+							2019-06-27 11:18:25						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A18%3A25', '2019%2F06%2F27+11%3A22%3A17')">
+							 ()<br>
+							2019-06-27 11:18:25						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A18%3A25', '2019%2F06%2F27+11%3A22%3A17')">
+							 ()<br>
+							2019-06-27 11:18:25						</label>
+					
+										</div>
+										<div id="button_48049" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48057" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48050" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48050" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [前處理作業]</h2>
+					<div class="history_time">2019-06-27 11:22:31 - 2019-06-27 11:23:54</div>
+					<br>
+
+										<video id="player_48050" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1095_20190627112231.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A22%3A31', '2019%2F06%2F27+11%3A23%3A54')">
+							 ()<br>
+							2019-06-27 11:22:31						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A22%3A31', '2019%2F06%2F27+11%3A23%3A54')">
+							 ()<br>
+							2019-06-27 11:22:31						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('', '', '', '2019%2F06%2F27+11%3A22%3A31', '2019%2F06%2F27+11%3A23%3A54')">
+							 ()<br>
+							2019-06-27 11:22:31						</label>
+					
+										</div>
+										<div id="button_48050" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48049" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48053" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[進貨作業]						</a>
+						
+					</div>
+
+										<div id="map_48050" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48050"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48053" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [進貨作業]</h2>
+					<div class="history_time">2019-06-27 11:42:24 - 2019-06-27 11:42:56</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-06-27 11:42:24					<br><br>
+					結束作業時間：2019-06-27 11:42:56					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o1', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+11%3A42%3A24', '2019%2F06%2F27+11%3A42%3A56')">
+							T (溫度感測器)<br>
+							2019-06-27 11:42:24						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o2', 'WlrckRBQBHah78ZTxeyYbNgrAVnzxksPqc8n2S2G8RKJmZWMcxJEHJJGoJU3iUnv', '1557417600', '2019%2F06%2F27+11%3A42%3A24', '2019%2F06%2F27+11%3A42%3A56')">
+							H (濕度感測器)<br>
+							2019-06-27 11:42:24						</label>
+					
+										</div>
+										<div id="button_48053" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48050" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[前處理作業]						</a>
+						
+												<a href="#48058" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48058" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [自拍保證輸出]</h2>
+					<div class="history_time">2019-06-27 11:48:28 - 2019-06-27 11:48:28</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1095/2019/48058.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1095/2019/48058.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_48058" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#48053" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[進貨作業]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_49436', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_49437', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48047', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48051', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48052', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48055', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48056', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48057', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48050', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_49435 = jQuery("#gallery_49435").unitegallery();
+		var first_item = api_49435.getItem(0);
+
+		load_gps_data('49435', '1095', first_item.urlImage, true);
+		api_49435.on("item_change", function(num, img_data){
+			load_gps_data('49435', '1095', img_data.urlImage, false);
+		});
+				var api_48049 = jQuery("#gallery_48049").unitegallery();
+		var first_item = api_48049.getItem(0);
+
+		load_gps_data('48049', '1095', first_item.urlImage, true);
+		api_48049.on("item_change", function(num, img_data){
+			load_gps_data('48049', '1095', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [49436,48047,48051,48052,48055,48056,48057,48050];
+	var loc_map = new Array(8);
+	var loc_arr = new Array(8);
+	var map_arr = new Array(8);
+	var marker_arr = new Array(8);
+
+		loc_arr[0] = [
+						{lat: 23.904790878296, lng: 120.68434143066}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.889013290405, lng: 120.70922088623},
+						{lat: 23.888984680176, lng: 120.7092590332},
+						{lat: 23.888940811157, lng: 120.70924377441},
+						{lat: 23.888963699341, lng: 120.70928955078},
+						{lat: 23.889074325562, lng: 120.70927429199},
+						{lat: 23.889028549194, lng: 120.70928955078},
+						{lat: 23.889148712158, lng: 120.70928955078},
+						{lat: 23.889089584351, lng: 120.70928192139},
+						{lat: 23.889026641846, lng: 120.70927429199},
+						{lat: 23.889081954956, lng: 120.70927429199},
+						{lat: 23.88903427124, lng: 120.70927429199},
+						{lat: 23.889154434204, lng: 120.70928192139},
+						{lat: 23.889106750488, lng: 120.70927429199},
+						{lat: 23.889060974121, lng: 120.70927429199},
+						{lat: 23.889009475708, lng: 120.7092666626}
+				];
+
+	loc_map[1] = [
+	{sec: 40, index: 1},
+{sec: 50, index: 2},
+{sec: 75, index: 3},
+{sec: 112, index: 4},
+{sec: 121, index: 5},
+{sec: 132, index: 6},
+{sec: 146, index: 7},
+{sec: 155, index: 8},
+{sec: 178, index: 9},
+{sec: 196, index: 10},
+{sec: 210, index: 11},
+{sec: 212, index: 12},
+{sec: 220, index: 13},
+{sec: 226, index: 14}	];
+
+		loc_arr[2] = [
+						{lat: 23.889013290405, lng: 120.70922088623},
+						{lat: 23.888984680176, lng: 120.7092590332},
+						{lat: 23.888940811157, lng: 120.70924377441},
+						{lat: 23.888963699341, lng: 120.70928955078},
+						{lat: 23.889074325562, lng: 120.70927429199},
+						{lat: 23.889028549194, lng: 120.70928955078},
+						{lat: 23.889148712158, lng: 120.70928955078},
+						{lat: 23.889089584351, lng: 120.70928192139},
+						{lat: 23.889026641846, lng: 120.70927429199},
+						{lat: 23.889081954956, lng: 120.70927429199},
+						{lat: 23.88903427124, lng: 120.70927429199},
+						{lat: 23.889154434204, lng: 120.70928192139},
+						{lat: 23.889106750488, lng: 120.70927429199},
+						{lat: 23.889060974121, lng: 120.70927429199},
+						{lat: 23.889009475708, lng: 120.7092666626}
+				];
+
+	loc_map[2] = [
+	{sec: 40, index: 1},
+{sec: 50, index: 2},
+{sec: 75, index: 3},
+{sec: 112, index: 4},
+{sec: 121, index: 5},
+{sec: 132, index: 6},
+{sec: 146, index: 7},
+{sec: 155, index: 8},
+{sec: 178, index: 9},
+{sec: 196, index: 10},
+{sec: 210, index: 11},
+{sec: 212, index: 12},
+{sec: 220, index: 13},
+{sec: 226, index: 14}	];
+
+		loc_arr[3] = [
+						{lat: 23.889013290405, lng: 120.70922088623},
+						{lat: 23.888984680176, lng: 120.7092590332},
+						{lat: 23.888940811157, lng: 120.70924377441},
+						{lat: 23.888963699341, lng: 120.70928955078},
+						{lat: 23.889074325562, lng: 120.70927429199},
+						{lat: 23.889028549194, lng: 120.70928955078},
+						{lat: 23.889148712158, lng: 120.70928955078},
+						{lat: 23.889089584351, lng: 120.70928192139},
+						{lat: 23.889026641846, lng: 120.70927429199},
+						{lat: 23.889081954956, lng: 120.70927429199},
+						{lat: 23.88903427124, lng: 120.70927429199},
+						{lat: 23.889154434204, lng: 120.70928192139},
+						{lat: 23.889106750488, lng: 120.70927429199},
+						{lat: 23.889060974121, lng: 120.70927429199},
+						{lat: 23.889009475708, lng: 120.7092666626}
+				];
+
+	loc_map[3] = [
+	{sec: 40, index: 1},
+{sec: 50, index: 2},
+{sec: 75, index: 3},
+{sec: 112, index: 4},
+{sec: 121, index: 5},
+{sec: 132, index: 6},
+{sec: 146, index: 7},
+{sec: 155, index: 8},
+{sec: 178, index: 9},
+{sec: 196, index: 10},
+{sec: 210, index: 11},
+{sec: 212, index: 12},
+{sec: 220, index: 13},
+{sec: 226, index: 14}	];
+
+		loc_arr[4] = [
+						{lat: 23.889013290405, lng: 120.70922088623},
+						{lat: 23.888984680176, lng: 120.7092590332},
+						{lat: 23.888940811157, lng: 120.70924377441},
+						{lat: 23.888963699341, lng: 120.70928955078},
+						{lat: 23.889074325562, lng: 120.70927429199},
+						{lat: 23.889028549194, lng: 120.70928955078},
+						{lat: 23.889148712158, lng: 120.70928955078},
+						{lat: 23.889089584351, lng: 120.70928192139},
+						{lat: 23.889026641846, lng: 120.70927429199},
+						{lat: 23.889081954956, lng: 120.70927429199},
+						{lat: 23.88903427124, lng: 120.70927429199},
+						{lat: 23.889154434204, lng: 120.70928192139},
+						{lat: 23.889106750488, lng: 120.70927429199},
+						{lat: 23.889060974121, lng: 120.70927429199},
+						{lat: 23.889009475708, lng: 120.7092666626}
+				];
+
+	loc_map[4] = [
+	{sec: 40, index: 1},
+{sec: 50, index: 2},
+{sec: 75, index: 3},
+{sec: 112, index: 4},
+{sec: 121, index: 5},
+{sec: 132, index: 6},
+{sec: 146, index: 7},
+{sec: 155, index: 8},
+{sec: 178, index: 9},
+{sec: 196, index: 10},
+{sec: 210, index: 11},
+{sec: 212, index: 12},
+{sec: 220, index: 13},
+{sec: 226, index: 14}	];
+
+		loc_arr[5] = [
+						{lat: 23.889013290405, lng: 120.70922088623},
+						{lat: 23.888984680176, lng: 120.7092590332},
+						{lat: 23.888940811157, lng: 120.70924377441},
+						{lat: 23.888963699341, lng: 120.70928955078},
+						{lat: 23.889074325562, lng: 120.70927429199},
+						{lat: 23.889028549194, lng: 120.70928955078},
+						{lat: 23.889148712158, lng: 120.70928955078},
+						{lat: 23.889089584351, lng: 120.70928192139},
+						{lat: 23.889026641846, lng: 120.70927429199},
+						{lat: 23.889081954956, lng: 120.70927429199},
+						{lat: 23.88903427124, lng: 120.70927429199},
+						{lat: 23.889154434204, lng: 120.70928192139},
+						{lat: 23.889106750488, lng: 120.70927429199},
+						{lat: 23.889060974121, lng: 120.70927429199},
+						{lat: 23.889009475708, lng: 120.7092666626}
+				];
+
+	loc_map[5] = [
+	{sec: 40, index: 1},
+{sec: 50, index: 2},
+{sec: 75, index: 3},
+{sec: 112, index: 4},
+{sec: 121, index: 5},
+{sec: 132, index: 6},
+{sec: 146, index: 7},
+{sec: 155, index: 8},
+{sec: 178, index: 9},
+{sec: 196, index: 10},
+{sec: 210, index: 11},
+{sec: 212, index: 12},
+{sec: 220, index: 13},
+{sec: 226, index: 14}	];
+
+		loc_arr[6] = [
+						{lat: 23.889013290405, lng: 120.70922088623},
+						{lat: 23.888984680176, lng: 120.7092590332},
+						{lat: 23.888940811157, lng: 120.70924377441},
+						{lat: 23.888963699341, lng: 120.70928955078},
+						{lat: 23.889074325562, lng: 120.70927429199},
+						{lat: 23.889028549194, lng: 120.70928955078},
+						{lat: 23.889148712158, lng: 120.70928955078},
+						{lat: 23.889089584351, lng: 120.70928192139},
+						{lat: 23.889026641846, lng: 120.70927429199},
+						{lat: 23.889081954956, lng: 120.70927429199},
+						{lat: 23.88903427124, lng: 120.70927429199},
+						{lat: 23.889154434204, lng: 120.70928192139},
+						{lat: 23.889106750488, lng: 120.70927429199},
+						{lat: 23.889060974121, lng: 120.70927429199},
+						{lat: 23.889009475708, lng: 120.7092666626}
+				];
+
+	loc_map[6] = [
+	{sec: 40, index: 1},
+{sec: 50, index: 2},
+{sec: 75, index: 3},
+{sec: 112, index: 4},
+{sec: 121, index: 5},
+{sec: 132, index: 6},
+{sec: 146, index: 7},
+{sec: 155, index: 8},
+{sec: 178, index: 9},
+{sec: 196, index: 10},
+{sec: 210, index: 11},
+{sec: 212, index: 12},
+{sec: 220, index: 13},
+{sec: 226, index: 14}	];
+
+		loc_arr[7] = [
+						{lat: 23.888888888889, lng: 120.70916666667}
+				];
+
+	loc_map[7] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_49436'), {
+			zoom: 17,
+			center: {lat: 23.904790878296, lng: 120.68434143066},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 23.889013290405, lng: 120.70922088623},				
+								{lat: 23.888984680176, lng: 120.7092590332},				
+								{lat: 23.888940811157, lng: 120.70924377441},				
+								{lat: 23.888963699341, lng: 120.70928955078},				
+								{lat: 23.889074325562, lng: 120.70927429199},				
+								{lat: 23.889028549194, lng: 120.70928955078},				
+								{lat: 23.889148712158, lng: 120.70928955078},				
+								{lat: 23.889089584351, lng: 120.70928192139},				
+								{lat: 23.889026641846, lng: 120.70927429199},				
+								{lat: 23.889081954956, lng: 120.70927429199},				
+								{lat: 23.88903427124, lng: 120.70927429199},				
+								{lat: 23.889154434204, lng: 120.70928192139},				
+								{lat: 23.889106750488, lng: 120.70927429199},				
+								{lat: 23.889060974121, lng: 120.70927429199},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_48047'), {
+			zoom: 17,
+			center: {lat: 23.889013290405, lng: 120.70922088623},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+								{lat: 23.889013290405, lng: 120.70922088623},				
+								{lat: 23.888984680176, lng: 120.7092590332},				
+								{lat: 23.888940811157, lng: 120.70924377441},				
+								{lat: 23.888963699341, lng: 120.70928955078},				
+								{lat: 23.889074325562, lng: 120.70927429199},				
+								{lat: 23.889028549194, lng: 120.70928955078},				
+								{lat: 23.889148712158, lng: 120.70928955078},				
+								{lat: 23.889089584351, lng: 120.70928192139},				
+								{lat: 23.889026641846, lng: 120.70927429199},				
+								{lat: 23.889081954956, lng: 120.70927429199},				
+								{lat: 23.88903427124, lng: 120.70927429199},				
+								{lat: 23.889154434204, lng: 120.70928192139},				
+								{lat: 23.889106750488, lng: 120.70927429199},				
+								{lat: 23.889060974121, lng: 120.70927429199},				
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_48051'), {
+			zoom: 17,
+			center: {lat: 23.889013290405, lng: 120.70922088623},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+								{lat: 23.889013290405, lng: 120.70922088623},				
+								{lat: 23.888984680176, lng: 120.7092590332},				
+								{lat: 23.888940811157, lng: 120.70924377441},				
+								{lat: 23.888963699341, lng: 120.70928955078},				
+								{lat: 23.889074325562, lng: 120.70927429199},				
+								{lat: 23.889028549194, lng: 120.70928955078},				
+								{lat: 23.889148712158, lng: 120.70928955078},				
+								{lat: 23.889089584351, lng: 120.70928192139},				
+								{lat: 23.889026641846, lng: 120.70927429199},				
+								{lat: 23.889081954956, lng: 120.70927429199},				
+								{lat: 23.88903427124, lng: 120.70927429199},				
+								{lat: 23.889154434204, lng: 120.70928192139},				
+								{lat: 23.889106750488, lng: 120.70927429199},				
+								{lat: 23.889060974121, lng: 120.70927429199},				
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_48052'), {
+			zoom: 17,
+			center: {lat: 23.889013290405, lng: 120.70922088623},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+								{lat: 23.889013290405, lng: 120.70922088623},				
+								{lat: 23.888984680176, lng: 120.7092590332},				
+								{lat: 23.888940811157, lng: 120.70924377441},				
+								{lat: 23.888963699341, lng: 120.70928955078},				
+								{lat: 23.889074325562, lng: 120.70927429199},				
+								{lat: 23.889028549194, lng: 120.70928955078},				
+								{lat: 23.889148712158, lng: 120.70928955078},				
+								{lat: 23.889089584351, lng: 120.70928192139},				
+								{lat: 23.889026641846, lng: 120.70927429199},				
+								{lat: 23.889081954956, lng: 120.70927429199},				
+								{lat: 23.88903427124, lng: 120.70927429199},				
+								{lat: 23.889154434204, lng: 120.70928192139},				
+								{lat: 23.889106750488, lng: 120.70927429199},				
+								{lat: 23.889060974121, lng: 120.70927429199},				
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_48055'), {
+			zoom: 17,
+			center: {lat: 23.889013290405, lng: 120.70922088623},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+								{lat: 23.889013290405, lng: 120.70922088623},				
+								{lat: 23.888984680176, lng: 120.7092590332},				
+								{lat: 23.888940811157, lng: 120.70924377441},				
+								{lat: 23.888963699341, lng: 120.70928955078},				
+								{lat: 23.889074325562, lng: 120.70927429199},				
+								{lat: 23.889028549194, lng: 120.70928955078},				
+								{lat: 23.889148712158, lng: 120.70928955078},				
+								{lat: 23.889089584351, lng: 120.70928192139},				
+								{lat: 23.889026641846, lng: 120.70927429199},				
+								{lat: 23.889081954956, lng: 120.70927429199},				
+								{lat: 23.88903427124, lng: 120.70927429199},				
+								{lat: 23.889154434204, lng: 120.70928192139},				
+								{lat: 23.889106750488, lng: 120.70927429199},				
+								{lat: 23.889060974121, lng: 120.70927429199},				
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_48056'), {
+			zoom: 17,
+			center: {lat: 23.889013290405, lng: 120.70922088623},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+								{lat: 23.889013290405, lng: 120.70922088623},				
+								{lat: 23.888984680176, lng: 120.7092590332},				
+								{lat: 23.888940811157, lng: 120.70924377441},				
+								{lat: 23.888963699341, lng: 120.70928955078},				
+								{lat: 23.889074325562, lng: 120.70927429199},				
+								{lat: 23.889028549194, lng: 120.70928955078},				
+								{lat: 23.889148712158, lng: 120.70928955078},				
+								{lat: 23.889089584351, lng: 120.70928192139},				
+								{lat: 23.889026641846, lng: 120.70927429199},				
+								{lat: 23.889081954956, lng: 120.70927429199},				
+								{lat: 23.88903427124, lng: 120.70927429199},				
+								{lat: 23.889154434204, lng: 120.70928192139},				
+								{lat: 23.889106750488, lng: 120.70927429199},				
+								{lat: 23.889060974121, lng: 120.70927429199},				
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_48057'), {
+			zoom: 17,
+			center: {lat: 23.889013290405, lng: 120.70922088623},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+				var linePlanCoordinates8 = [
+						];
+
+		map_arr[7] = new google.maps.Map(document.getElementById('portal_map_48050'), {
+			zoom: 17,
+			center: {lat: 23.888888888889, lng: 120.70916666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker8 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[7][0].lat, loc_arr[7][0].lng),
+			map: map_arr[7]
+		});
+		marker_arr[7] = [{"marker": marker8}];
+
+		var linePath8 = new google.maps.Polyline({
+			path: linePlanCoordinates8,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath8.setMap(map_arr[7]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

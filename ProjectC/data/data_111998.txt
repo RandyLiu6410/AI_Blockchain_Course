@@ -1,0 +1,3141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=111998&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="蔗覓耘" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=111998',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="https://s3.hicloud.net.tw/foodcloud/photo/product/1299.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																蔗覓耘							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：8DTea								<br>
+								產出日期：2020-08-07 20:38:43																<br>
+								有效日期：2020-08-07																																									<br>
+								產出數量：700毫升									 (1杯)																	<br>
+								剩餘數量：0毫升																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D111998" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D111998"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/8dtea/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#111999" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蔗覓耘<BR>[調理作業 (調理台)]							
+							
+							
+							</a>
+													<a href="#111998" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蔗覓耘<BR>[調理作業(調理作業)]							
+							
+							
+							</a>
+													<a href="#111098" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫耘茶(茶湯)<BR>[左-烹煮作業(多品項)(烹煮室)]							
+							
+							
+							</a>
+													<a href="#111099" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫耘茶(茶湯)<BR>[左-烹煮作業(多品項) (烹煮台表演秀)]							
+							
+							
+							</a>
+													<a href="#111118" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫耘茶(茶湯)<BR>[冷卻作業左(單品項) (冷卻表演秀)]							
+							
+							
+							</a>
+													<a href="#111119" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫耘茶(茶湯)<BR>[冷卻作業左(單品項) (冷卻過濾)]							
+							
+							
+							</a>
+													<a href="#111100" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫耘茶(茶湯)<BR>[冷卻作業左(單品項) (冷卻室)]							
+							
+							
+							</a>
+													<a href="#111125" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫耘茶(茶湯)<BR>[調理室入庫 (調理室（入庫）)]							
+							
+							
+							</a>
+													<a href="#111140" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫耘茶(茶湯)<BR>[調理室入庫 (走廊)]							
+							
+							
+							</a>
+													<a href="#81707" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#101298" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[篩選]							
+							
+							
+							</a>
+													<a href="#105673" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[熱機]							
+							
+							
+							</a>
+													<a href="#105735" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[焙炒]							
+							
+							
+							</a>
+													<a href="#106134" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[放涼]							
+							
+							
+							</a>
+													<a href="#106137" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#107872" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[調理室入庫(調理室（入庫）)]							
+							
+							
+							</a>
+													<a href="#107873" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[調理室入庫 (走廊)]							
+							
+							
+							</a>
+													<a href="#107874" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#111068" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[調理室領貨作業]							
+							
+							
+							</a>
+													<a href="#115178" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[冷卻作業左(單品項) (冷卻室)]							
+							
+							
+							</a>
+													<a href="#115181" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[冷卻作業左(單品項) (冷卻表演秀)]							
+							
+							
+							</a>
+													<a href="#115182" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[冷卻作業左(單品項) (冷卻過濾)]							
+							
+							
+							</a>
+													<a href="#119553" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[調理室入庫 (調理室（入庫）)]							
+							
+							
+							</a>
+													<a href="#119554" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紫米<BR>[調理室入庫 (走廊)]							
+							
+							
+							</a>
+													<a href="#104982" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[右-烹煮作業(多品項)(烹煮室)]							
+							
+							
+							</a>
+													<a href="#104983" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[右-烹煮作業(多品項) (烹煮台表演秀)]							
+							
+							
+							</a>
+													<a href="#105010" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[冷卻作業右(單品項) (冷卻室)]							
+							
+							
+							</a>
+													<a href="#105056" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[冷卻作業右(單品項) (冷卻表演秀)]							
+							
+							
+							</a>
+													<a href="#105057" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[冷卻作業右(單品項) (冷卻過濾)]							
+							
+							
+							</a>
+													<a href="#105030" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[左-烹煮作業(多品項)(烹煮室)]							
+							
+							
+							</a>
+													<a href="#105031" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[左-烹煮作業(多品項) (烹煮台表演秀)]							
+							
+							
+							</a>
+													<a href="#105039" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[冷卻作業左(單品項) (冷卻室)]							
+							
+							
+							</a>
+													<a href="#105054" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[冷卻作業左(單品項) (冷卻表演秀)]							
+							
+							
+							</a>
+													<a href="#105055" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[冷卻作業左(單品項) (冷卻過濾)]							
+							
+							
+							</a>
+													<a href="#105109" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[包裝室包裝作業(包裝室)]							
+							
+							
+							</a>
+													<a href="#105110" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[包裝室包裝作業 (包裝室客戶參觀)]							
+							
+							
+							</a>
+													<a href="#105111" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[包裝室包裝作業 (包裝工作桌)]							
+							
+							
+							</a>
+													<a href="#105113" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗汁<BR>[烹煮室入庫]							
+							
+							
+							</a>
+													<a href="#104915" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#104916" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[甘蔗前處理現場拍攝]							
+							
+							
+							</a>
+													<a href="#104917" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[甘蔗前處理現場拍攝]							
+							
+							
+							</a>
+													<a href="#104918" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[甘蔗前處理現場拍攝]							
+							
+							
+							</a>
+													<a href="#104919" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#104924" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[甘蔗運送]							
+							
+							
+							</a>
+													<a href="#104941" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[進貨作業]							
+							
+							
+							</a>
+													<a href="#104943" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														甘蔗原汁<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="111999" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蔗覓耘 [調理作業 (調理台)]</h2>
+					<div class="history_time">2020-08-07 20:38:34 - 2020-08-07 20:38:43</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-07 20:38:34					<br><br>
+					結束作業時間：2020-08-07 20:38:43					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A95553Eo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							T (溫度感測器)<br>
+							2020-08-07 20:38:34						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A95553Eo_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							H (濕度感測器)<br>
+							2020-08-07 20:38:34						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A95553Eo_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							CO2 (二氧化碳感測器)<br>
+							2020-08-07 20:38:34						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94F056o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							ES (電子秤)<br>
+							2020-08-07 20:38:34						</label>
+					
+										</div>
+										<div id="button_111999" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#111998" class="btn btn-dark btn-lg">
+							蔗覓耘 <br>[調理作業(調理作業)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111998" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蔗覓耘 [調理作業(調理作業)]</h2>
+					<div class="history_time">2020-08-07 20:38:34 - 2020-08-07 20:38:43</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-07 20:38:34					<br><br>
+					結束作業時間：2020-08-07 20:38:43					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=111098&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紫耘茶(茶湯)								
+																(0.45公升)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=105109&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗汁								
+																(0.25公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A95553Eo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							T (溫度感測器)<br>
+							2020-08-07 20:38:34						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A95553Eo_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							H (濕度感測器)<br>
+							2020-08-07 20:38:34						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A95553Eo_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							CO2 (二氧化碳感測器)<br>
+							2020-08-07 20:38:34						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94F056o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F07+20%3A38%3A34', '2020%2F08%2F07+20%3A38%3A43')">
+							ES (電子秤)<br>
+							2020-08-07 20:38:34						</label>
+					
+										</div>
+										<div id="button_111998" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111999" class="btn btn-dark btn-lg">
+							蔗覓耘 <br>[調理作業 (調理台)]						</a>
+						
+												<a href="#111098" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[左-烹煮作業(多品項)(烹煮室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111098" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫耘茶(茶湯) [左-烹煮作業(多品項)(烹煮室)]</h2>
+					<div class="history_time">2020-08-05 11:39:09 - 2020-08-05 12:33:00</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 11:39:09					<br><br>
+					結束作業時間：2020-08-05 12:33:00					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=111068&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紫米								
+																(0.75公斤)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+11%3A39%3A09', '2020%2F08%2F05+12%3A33%3A00')">
+							T (溫度感測器)<br>
+							2020-08-05 11:39:09						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+11%3A39%3A09', '2020%2F08%2F05+12%3A33%3A00')">
+							H (濕度感測器)<br>
+							2020-08-05 11:39:09						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+11%3A39%3A09', '2020%2F08%2F05+12%3A33%3A00')">
+							CO2 (二氧化碳感測器)<br>
+							2020-08-05 11:39:09						</label>
+					
+										</div>
+										<div id="button_111098" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111998" class="btn btn-dark btn-lg">
+							蔗覓耘 <br>[調理作業(調理作業)]						</a>
+						
+												<a href="#111099" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[左-烹煮作業(多品項) (烹煮台表演秀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111099" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫耘茶(茶湯) [左-烹煮作業(多品項) (烹煮台表演秀)]</h2>
+					<div class="history_time">2020-08-05 11:39:09 - 2020-08-05 12:33:00</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 11:39:09					<br><br>
+					結束作業時間：2020-08-05 12:33:00					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+11%3A39%3A09', '2020%2F08%2F05+12%3A33%3A00')">
+							T (溫度感測器)<br>
+							2020-08-05 11:39:09						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+11%3A39%3A09', '2020%2F08%2F05+12%3A33%3A00')">
+							H (濕度感測器)<br>
+							2020-08-05 11:39:09						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+11%3A39%3A09', '2020%2F08%2F05+12%3A33%3A00')">
+							CO2 (二氧化碳感測器)<br>
+							2020-08-05 11:39:09						</label>
+					
+										</div>
+										<div id="button_111099" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111098" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[左-烹煮作業(多品項)(烹煮室)]						</a>
+						
+												<a href="#111118" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[冷卻作業左(單品項) (冷卻表演秀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111118" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫耘茶(茶湯) [冷卻作業左(單品項) (冷卻表演秀)]</h2>
+					<div class="history_time">2020-08-05 12:33:09 - 2020-08-05 12:56:42</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 12:33:09					<br><br>
+					結束作業時間：2020-08-05 12:56:42					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+12%3A33%3A09', '2020%2F08%2F05+12%3A56%3A42')">
+							T (溫度感測器)<br>
+							2020-08-05 12:33:09						</label>
+					
+										</div>
+										<div id="button_111118" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111099" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[左-烹煮作業(多品項) (烹煮台表演秀)]						</a>
+						
+												<a href="#111119" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[冷卻作業左(單品項) (冷卻過濾)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111119" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫耘茶(茶湯) [冷卻作業左(單品項) (冷卻過濾)]</h2>
+					<div class="history_time">2020-08-05 12:33:09 - 2020-08-05 12:56:42</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 12:33:09					<br><br>
+					結束作業時間：2020-08-05 12:56:42					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+12%3A33%3A09', '2020%2F08%2F05+12%3A56%3A42')">
+							T (溫度感測器)<br>
+							2020-08-05 12:33:09						</label>
+					
+										</div>
+										<div id="button_111119" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111118" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[冷卻作業左(單品項) (冷卻表演秀)]						</a>
+						
+												<a href="#111100" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[冷卻作業左(單品項) (冷卻室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111100" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫耘茶(茶湯) [冷卻作業左(單品項) (冷卻室)]</h2>
+					<div class="history_time">2020-08-05 12:33:09 - 2020-08-05 12:56:42</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 12:33:09					<br><br>
+					結束作業時間：2020-08-05 12:56:42					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+12%3A33%3A09', '2020%2F08%2F05+12%3A56%3A42')">
+							T (溫度感測器)<br>
+							2020-08-05 12:33:09						</label>
+					
+										</div>
+										<div id="button_111100" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111119" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[冷卻作業左(單品項) (冷卻過濾)]						</a>
+						
+												<a href="#111125" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[調理室入庫 (調理室（入庫）)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111125" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫耘茶(茶湯) [調理室入庫 (調理室（入庫）)]</h2>
+					<div class="history_time">2020-08-05 13:05:53 - 2020-08-05 13:18:08</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 13:05:53					<br><br>
+					結束作業時間：2020-08-05 13:18:08					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+13%3A05%3A53', '2020%2F08%2F05+13%3A18%3A08')">
+							T (溫度感測器)<br>
+							2020-08-05 13:05:53						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+13%3A05%3A53', '2020%2F08%2F05+13%3A18%3A08')">
+							VDC (電壓感測器)<br>
+							2020-08-05 13:05:53						</label>
+					
+										</div>
+										<div id="button_111125" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111100" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[冷卻作業左(單品項) (冷卻室)]						</a>
+						
+												<a href="#111140" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[調理室入庫 (走廊)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111140" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫耘茶(茶湯) [調理室入庫 (走廊)]</h2>
+					<div class="history_time">2020-08-05 13:05:53 - 2020-08-05 13:18:08</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 13:05:53					<br><br>
+					結束作業時間：2020-08-05 13:18:08					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+13%3A05%3A53', '2020%2F08%2F05+13%3A18%3A08')">
+							T (溫度感測器)<br>
+							2020-08-05 13:05:53						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+13%3A05%3A53', '2020%2F08%2F05+13%3A18%3A08')">
+							VDC (電壓感測器)<br>
+							2020-08-05 13:05:53						</label>
+					
+										</div>
+										<div id="button_111140" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111125" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[調理室入庫 (調理室（入庫）)]						</a>
+						
+												<a href="#81707" class="btn btn-dark btn-lg">
+							紫米 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="81707" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [自拍保證來源]</h2>
+					<div class="history_time">2020-04-29 12:10:30 - 2020-04-29 12:10:30</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1095/2020/81707.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1095/2020/81707.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_81707" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111140" class="btn btn-dark btn-lg">
+							紫耘茶(茶湯) <br>[調理室入庫 (走廊)]						</a>
+						
+												<a href="#101298" class="btn btn-dark btn-lg">
+							紫米 <br>[篩選]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="101298" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [篩選]</h2>
+					<div class="history_time">2020-07-09 15:23:16 - 2020-07-09 16:22:43</div>
+					<br>
+
+										<video id="player_101298" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200709152316.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_101298" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#81707" class="btn btn-dark btn-lg">
+							紫米 <br>[自拍保證來源]						</a>
+						
+												<a href="#105673" class="btn btn-dark btn-lg">
+							紫米 <br>[熱機]						</a>
+						
+					</div>
+
+										<div id="map_101298" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_101298"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105673" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [熱機]</h2>
+					<div class="history_time">2020-07-17 14:49:34 - 2020-07-17 14:54:50</div>
+					<br>
+
+										<video id="player_105673" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200717144934.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_105673" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#101298" class="btn btn-dark btn-lg">
+							紫米 <br>[篩選]						</a>
+						
+												<a href="#105735" class="btn btn-dark btn-lg">
+							紫米 <br>[焙炒]						</a>
+						
+					</div>
+
+										<div id="map_105673" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_105673"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105735" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [焙炒]</h2>
+					<div class="history_time">2020-07-17 14:56:04 - 2020-07-17 15:32:05</div>
+					<br>
+
+										<video id="player_105735" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200717145604.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_105735" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105673" class="btn btn-dark btn-lg">
+							紫米 <br>[熱機]						</a>
+						
+												<a href="#106134" class="btn btn-dark btn-lg">
+							紫米 <br>[放涼]						</a>
+						
+					</div>
+
+										<div id="map_105735" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_105735"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="106134" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [放涼]</h2>
+					<div class="history_time">2020-07-18 18:37:20 - 2020-07-18 18:41:02</div>
+					<br>
+
+										<video id="player_106134" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200718183720.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_106134" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105735" class="btn btn-dark btn-lg">
+							紫米 <br>[焙炒]						</a>
+						
+												<a href="#106137" class="btn btn-dark btn-lg">
+							紫米 <br>[進貨作業]						</a>
+						
+					</div>
+
+										<div id="map_106134" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_106134"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="106137" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [進貨作業]</h2>
+					<div class="history_time">2020-07-18 19:02:52 - 2020-07-18 19:11:21</div>
+					<br>
+
+										
+										<video id="player_106137" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/908/1390/1390_20200718190244498.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F18+19%3A02%3A52', '2020%2F07%2F18+19%3A11%3A21')">
+							T (溫度感測器)<br>
+							2020-07-18 19:02:52						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F18+19%3A02%3A52', '2020%2F07%2F18+19%3A11%3A21')">
+							H (濕度感測器)<br>
+							2020-07-18 19:02:52						</label>
+					
+										</div>
+										<div id="button_106137" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#106134" class="btn btn-dark btn-lg">
+							紫米 <br>[放涼]						</a>
+						
+												<a href="#107872" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫(調理室（入庫）)]						</a>
+						
+					</div>
+
+										<div id="map_106137" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_106137"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="107872" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [調理室入庫(調理室（入庫）)]</h2>
+					<div class="history_time">2020-07-23 19:11:25 - 2020-07-23 19:12:18</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-23 19:11:25					<br><br>
+					結束作業時間：2020-07-23 19:12:18					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F23+19%3A11%3A25', '2020%2F07%2F23+19%3A12%3A18')">
+							T (溫度感測器)<br>
+							2020-07-23 19:11:25						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F23+19%3A11%3A25', '2020%2F07%2F23+19%3A12%3A18')">
+							VDC (電壓感測器)<br>
+							2020-07-23 19:11:25						</label>
+					
+										</div>
+										<div id="button_107872" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#106137" class="btn btn-dark btn-lg">
+							紫米 <br>[進貨作業]						</a>
+						
+												<a href="#107873" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫 (走廊)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="107873" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [調理室入庫 (走廊)]</h2>
+					<div class="history_time">2020-07-23 19:11:25 - 2020-07-23 19:12:18</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-23 19:11:25					<br><br>
+					結束作業時間：2020-07-23 19:12:18					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F23+19%3A11%3A25', '2020%2F07%2F23+19%3A12%3A18')">
+							T (溫度感測器)<br>
+							2020-07-23 19:11:25						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F23+19%3A11%3A25', '2020%2F07%2F23+19%3A12%3A18')">
+							VDC (電壓感測器)<br>
+							2020-07-23 19:11:25						</label>
+					
+										</div>
+										<div id="button_107873" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#107872" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫(調理室（入庫）)]						</a>
+						
+												<a href="#107874" class="btn btn-dark btn-lg">
+							紫米 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="107874" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [自拍保證輸出]</h2>
+					<div class="history_time">2020-07-23 19:15:51 - 2020-07-23 19:15:51</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1390/2020/107874.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1390/2020/107874.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_107874" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#107873" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫 (走廊)]						</a>
+						
+												<a href="#111068" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室領貨作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111068" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [調理室領貨作業]</h2>
+					<div class="history_time">2020-08-05 11:38:08 - 2020-08-05 11:38:24</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-05 11:38:08					<br><br>
+					結束作業時間：2020-08-05 11:38:24					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=107874&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紫米								
+																(0.75公斤)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F05+11%3A38%3A08', '2020%2F08%2F05+11%3A38%3A24')">
+							T (溫度感測器)<br>
+							2020-08-05 11:38:08						</label>
+					
+										</div>
+										<div id="button_111068" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#107874" class="btn btn-dark btn-lg">
+							紫米 <br>[自拍保證輸出]						</a>
+						
+												<a href="#115178" class="btn btn-dark btn-lg">
+							紫米 <br>[冷卻作業左(單品項) (冷卻室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="115178" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [冷卻作業左(單品項) (冷卻室)]</h2>
+					<div class="history_time">2020-08-20 22:01:29 - 2020-08-20 23:01:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-20 22:01:29					<br><br>
+					結束作業時間：2020-08-20 23:01:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F20+22%3A01%3A29', '2020%2F08%2F20+23%3A01%3A29')">
+							T (溫度感測器)<br>
+							2020-08-20 22:01:29						</label>
+					
+										</div>
+										<div id="button_115178" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111068" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室領貨作業]						</a>
+						
+												<a href="#115181" class="btn btn-dark btn-lg">
+							紫米 <br>[冷卻作業左(單品項) (冷卻表演秀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="115181" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [冷卻作業左(單品項) (冷卻表演秀)]</h2>
+					<div class="history_time">2020-08-20 22:01:29 - 2020-08-20 23:01:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-20 22:01:29					<br><br>
+					結束作業時間：2020-08-20 23:01:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F20+22%3A01%3A29', '2020%2F08%2F20+23%3A01%3A29')">
+							T (溫度感測器)<br>
+							2020-08-20 22:01:29						</label>
+					
+										</div>
+										<div id="button_115181" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#115178" class="btn btn-dark btn-lg">
+							紫米 <br>[冷卻作業左(單品項) (冷卻室)]						</a>
+						
+												<a href="#115182" class="btn btn-dark btn-lg">
+							紫米 <br>[冷卻作業左(單品項) (冷卻過濾)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="115182" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [冷卻作業左(單品項) (冷卻過濾)]</h2>
+					<div class="history_time">2020-08-20 22:01:29 - 2020-08-20 23:01:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-08-20 22:01:29					<br><br>
+					結束作業時間：2020-08-20 23:01:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F08%2F20+22%3A01%3A29', '2020%2F08%2F20+23%3A01%3A29')">
+							T (溫度感測器)<br>
+							2020-08-20 22:01:29						</label>
+					
+										</div>
+										<div id="button_115182" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#115181" class="btn btn-dark btn-lg">
+							紫米 <br>[冷卻作業左(單品項) (冷卻表演秀)]						</a>
+						
+												<a href="#119553" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫 (調理室（入庫）)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="119553" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [調理室入庫 (調理室（入庫）)]</h2>
+					<div class="history_time">2020-09-05 16:38:49 - 2020-09-05 16:38:55</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-09-05 16:38:49					<br><br>
+					結束作業時間：2020-09-05 16:38:55					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F09%2F05+16%3A38%3A49', '2020%2F09%2F05+16%3A38%3A55')">
+							T (溫度感測器)<br>
+							2020-09-05 16:38:49						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F09%2F05+16%3A38%3A49', '2020%2F09%2F05+16%3A38%3A55')">
+							VDC (電壓感測器)<br>
+							2020-09-05 16:38:49						</label>
+					
+										</div>
+										<div id="button_119553" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#115182" class="btn btn-dark btn-lg">
+							紫米 <br>[冷卻作業左(單品項) (冷卻過濾)]						</a>
+						
+												<a href="#119554" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫 (走廊)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="119554" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紫米 [調理室入庫 (走廊)]</h2>
+					<div class="history_time">2020-09-05 16:38:49 - 2020-09-05 16:38:55</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-09-05 16:38:49					<br><br>
+					結束作業時間：2020-09-05 16:38:55					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F09%2F05+16%3A38%3A49', '2020%2F09%2F05+16%3A38%3A55')">
+							T (溫度感測器)<br>
+							2020-09-05 16:38:49						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3EF03o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F09%2F05+16%3A38%3A49', '2020%2F09%2F05+16%3A38%3A55')">
+							VDC (電壓感測器)<br>
+							2020-09-05 16:38:49						</label>
+					
+										</div>
+										<div id="button_119554" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#119553" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫 (調理室（入庫）)]						</a>
+						
+												<a href="#104982" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[右-烹煮作業(多品項)(烹煮室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104982" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [右-烹煮作業(多品項)(烹煮室)]</h2>
+					<div class="history_time">2020-07-16 15:13:32 - 2020-07-16 15:30:34</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:13:32					<br><br>
+					結束作業時間：2020-07-16 15:30:34					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=104943&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗原汁								
+																(15公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A13%3A32', '2020%2F07%2F16+15%3A30%3A34')">
+							T (溫度感測器)<br>
+							2020-07-16 15:13:32						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A13%3A32', '2020%2F07%2F16+15%3A30%3A34')">
+							H (濕度感測器)<br>
+							2020-07-16 15:13:32						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A13%3A32', '2020%2F07%2F16+15%3A30%3A34')">
+							CO2 (二氧化碳感測器)<br>
+							2020-07-16 15:13:32						</label>
+					
+										</div>
+										<div id="button_104982" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#119554" class="btn btn-dark btn-lg">
+							紫米 <br>[調理室入庫 (走廊)]						</a>
+						
+												<a href="#104983" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[右-烹煮作業(多品項) (烹煮台表演秀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104983" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [右-烹煮作業(多品項) (烹煮台表演秀)]</h2>
+					<div class="history_time">2020-07-16 15:13:32 - 2020-07-16 15:30:34</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:13:32					<br><br>
+					結束作業時間：2020-07-16 15:30:34					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A13%3A32', '2020%2F07%2F16+15%3A30%3A34')">
+							T (溫度感測器)<br>
+							2020-07-16 15:13:32						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A13%3A32', '2020%2F07%2F16+15%3A30%3A34')">
+							H (濕度感測器)<br>
+							2020-07-16 15:13:32						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A13%3A32', '2020%2F07%2F16+15%3A30%3A34')">
+							CO2 (二氧化碳感測器)<br>
+							2020-07-16 15:13:32						</label>
+					
+										</div>
+										<div id="button_104983" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104982" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[右-烹煮作業(多品項)(烹煮室)]						</a>
+						
+												<a href="#105010" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業右(單品項) (冷卻室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105010" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [冷卻作業右(單品項) (冷卻室)]</h2>
+					<div class="history_time">2020-07-16 15:45:10 - 2020-07-16 16:05:02</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:45:10					<br><br>
+					結束作業時間：2020-07-16 16:05:02					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9501FEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A45%3A10', '2020%2F07%2F16+16%3A05%3A02')">
+							T (溫度感測器)<br>
+							2020-07-16 15:45:10						</label>
+					
+										</div>
+										<div id="button_105010" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104983" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[右-烹煮作業(多品項) (烹煮台表演秀)]						</a>
+						
+												<a href="#105056" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業右(單品項) (冷卻表演秀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105056" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [冷卻作業右(單品項) (冷卻表演秀)]</h2>
+					<div class="history_time">2020-07-16 15:45:10 - 2020-07-16 16:05:02</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:45:10					<br><br>
+					結束作業時間：2020-07-16 16:05:02					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9501FEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A45%3A10', '2020%2F07%2F16+16%3A05%3A02')">
+							T (溫度感測器)<br>
+							2020-07-16 15:45:10						</label>
+					
+										</div>
+										<div id="button_105056" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105010" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業右(單品項) (冷卻室)]						</a>
+						
+												<a href="#105057" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業右(單品項) (冷卻過濾)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105057" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [冷卻作業右(單品項) (冷卻過濾)]</h2>
+					<div class="history_time">2020-07-16 15:45:10 - 2020-07-16 16:05:02</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:45:10					<br><br>
+					結束作業時間：2020-07-16 16:05:02					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9501FEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A45%3A10', '2020%2F07%2F16+16%3A05%3A02')">
+							T (溫度感測器)<br>
+							2020-07-16 15:45:10						</label>
+					
+										</div>
+										<div id="button_105057" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105056" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業右(單品項) (冷卻表演秀)]						</a>
+						
+												<a href="#105030" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[左-烹煮作業(多品項)(烹煮室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105030" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [左-烹煮作業(多品項)(烹煮室)]</h2>
+					<div class="history_time">2020-07-16 15:53:40 - 2020-07-16 15:53:54</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:53:40					<br><br>
+					結束作業時間：2020-07-16 15:53:54					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=104943&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗原汁								
+																(15公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A53%3A40', '2020%2F07%2F16+15%3A53%3A54')">
+							T (溫度感測器)<br>
+							2020-07-16 15:53:40						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A53%3A40', '2020%2F07%2F16+15%3A53%3A54')">
+							H (濕度感測器)<br>
+							2020-07-16 15:53:40						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A53%3A40', '2020%2F07%2F16+15%3A53%3A54')">
+							CO2 (二氧化碳感測器)<br>
+							2020-07-16 15:53:40						</label>
+					
+										</div>
+										<div id="button_105030" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105057" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業右(單品項) (冷卻過濾)]						</a>
+						
+												<a href="#105031" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[左-烹煮作業(多品項) (烹煮台表演秀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105031" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [左-烹煮作業(多品項) (烹煮台表演秀)]</h2>
+					<div class="history_time">2020-07-16 15:53:40 - 2020-07-16 15:53:54</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:53:40					<br><br>
+					結束作業時間：2020-07-16 15:53:54					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A53%3A40', '2020%2F07%2F16+15%3A53%3A54')">
+							T (溫度感測器)<br>
+							2020-07-16 15:53:40						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A53%3A40', '2020%2F07%2F16+15%3A53%3A54')">
+							H (濕度感測器)<br>
+							2020-07-16 15:53:40						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BD1o_o3', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A53%3A40', '2020%2F07%2F16+15%3A53%3A54')">
+							CO2 (二氧化碳感測器)<br>
+							2020-07-16 15:53:40						</label>
+					
+										</div>
+										<div id="button_105031" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105030" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[左-烹煮作業(多品項)(烹煮室)]						</a>
+						
+												<a href="#105039" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項) (冷卻室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105039" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [冷卻作業左(單品項) (冷卻室)]</h2>
+					<div class="history_time">2020-07-16 15:55:46 - 2020-07-16 16:04:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:55:46					<br><br>
+					結束作業時間：2020-07-16 16:04:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A55%3A46', '2020%2F07%2F16+16%3A04%3A29')">
+							T (溫度感測器)<br>
+							2020-07-16 15:55:46						</label>
+					
+										</div>
+										<div id="button_105039" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105031" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[左-烹煮作業(多品項) (烹煮台表演秀)]						</a>
+						
+												<a href="#105054" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項) (冷卻表演秀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105054" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [冷卻作業左(單品項) (冷卻表演秀)]</h2>
+					<div class="history_time">2020-07-16 15:55:46 - 2020-07-16 16:04:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:55:46					<br><br>
+					結束作業時間：2020-07-16 16:04:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A55%3A46', '2020%2F07%2F16+16%3A04%3A29')">
+							T (溫度感測器)<br>
+							2020-07-16 15:55:46						</label>
+					
+										</div>
+										<div id="button_105054" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105039" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項) (冷卻室)]						</a>
+						
+												<a href="#105055" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項) (冷卻過濾)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105055" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [冷卻作業左(單品項) (冷卻過濾)]</h2>
+					<div class="history_time">2020-07-16 15:55:46 - 2020-07-16 16:04:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:55:46					<br><br>
+					結束作業時間：2020-07-16 16:04:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A950AAEo_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A55%3A46', '2020%2F07%2F16+16%3A04%3A29')">
+							T (溫度感測器)<br>
+							2020-07-16 15:55:46						</label>
+					
+										</div>
+										<div id="button_105055" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105054" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項) (冷卻表演秀)]						</a>
+						
+												<a href="#105109" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業(包裝室)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105109" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [包裝室包裝作業(包裝室)]</h2>
+					<div class="history_time">2020-07-16 16:16:56 - 2020-07-16 17:02:25</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 16:16:56					<br><br>
+					結束作業時間：2020-07-16 17:02:25					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=105030&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗汁								
+																(15公升)
+															<br>
+								[8DTea]
+						</a>
+													<a href="portal.php?oid=104982&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								甘蔗汁								
+																(15公升)
+															<br>
+								[8DTea]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_105109" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105055" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[冷卻作業左(單品項) (冷卻過濾)]						</a>
+						
+												<a href="#105110" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業 (包裝室客戶參觀)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105110" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [包裝室包裝作業 (包裝室客戶參觀)]</h2>
+					<div class="history_time">2020-07-16 16:16:56 - 2020-07-16 17:02:25</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 16:16:56					<br><br>
+					結束作業時間：2020-07-16 17:02:25					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_105110" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105109" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業(包裝室)]						</a>
+						
+												<a href="#105111" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業 (包裝工作桌)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105111" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [包裝室包裝作業 (包裝工作桌)]</h2>
+					<div class="history_time">2020-07-16 16:16:56 - 2020-07-16 17:02:25</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 16:16:56					<br><br>
+					結束作業時間：2020-07-16 17:02:25					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_105111" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105110" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業 (包裝室客戶參觀)]						</a>
+						
+												<a href="#105113" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[烹煮室入庫]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="105113" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗汁 [烹煮室入庫]</h2>
+					<div class="history_time">2020-07-16 17:04:59 - 2020-07-16 17:09:35</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 17:04:59					<br><br>
+					結束作業時間：2020-07-16 17:09:35					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B00170AF7F5o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+17%3A04%3A59', '2020%2F07%2F16+17%3A09%3A35')">
+							T (溫度感測器)<br>
+							2020-07-16 17:04:59						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B00170AF7F5o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+17%3A04%3A59', '2020%2F07%2F16+17%3A09%3A35')">
+							VDC (電壓感測器)<br>
+							2020-07-16 17:04:59						</label>
+					
+										</div>
+										<div id="button_105113" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105111" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[包裝室包裝作業 (包裝工作桌)]						</a>
+						
+												<a href="#104915" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104915" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [自拍保證來源]</h2>
+					<div class="history_time">2020-07-16 14:38:16 - 2020-07-16 14:38:16</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1390/2020/104915.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1390/2020/104915.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_104915" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#105113" class="btn btn-dark btn-lg">
+							甘蔗汁 <br>[烹煮室入庫]						</a>
+						
+												<a href="#104916" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗前處理現場拍攝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104916" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [甘蔗前處理現場拍攝]</h2>
+					<div class="history_time">2020-07-16 14:40:11 - 2020-07-16 14:40:49</div>
+					<br>
+
+										<video id="player_104916" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200716144011.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_104916" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104915" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[自拍保證來源]						</a>
+						
+												<a href="#104917" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗前處理現場拍攝]						</a>
+						
+					</div>
+
+										<div id="map_104916" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_104916"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104917" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [甘蔗前處理現場拍攝]</h2>
+					<div class="history_time">2020-07-16 14:40:58 - 2020-07-16 14:41:37</div>
+					<br>
+
+										<video id="player_104917" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200716144058.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_104917" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104916" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗前處理現場拍攝]						</a>
+						
+												<a href="#104918" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗前處理現場拍攝]						</a>
+						
+					</div>
+
+										<div id="map_104917" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_104917"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104918" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [甘蔗前處理現場拍攝]</h2>
+					<div class="history_time">2020-07-16 14:42:05 - 2020-07-16 14:42:54</div>
+					<br>
+
+										<video id="player_104918" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200716144205.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_104918" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104917" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗前處理現場拍攝]						</a>
+						
+												<a href="#104919" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[進貨作業]						</a>
+						
+					</div>
+
+										<div id="map_104918" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_104918"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104919" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [進貨作業]</h2>
+					<div class="history_time">2020-07-16 14:44:08 - 2020-07-16 14:46:02</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_104919" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1390/2020/20200716144408/IMG_1594881953935.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1390/2020/20200716144408/IMG_1594881953935.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_104919" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_104919"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+14%3A44%3A08', '2020%2F07%2F16+14%3A46%3A02')">
+							T (溫度感測器)<br>
+							2020-07-16 14:44:08						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+14%3A44%3A08', '2020%2F07%2F16+14%3A46%3A02')">
+							H (濕度感測器)<br>
+							2020-07-16 14:44:08						</label>
+					
+										</div>
+										<div id="button_104919" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104918" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗前處理現場拍攝]						</a>
+						
+												<a href="#104924" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗運送]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104924" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [甘蔗運送]</h2>
+					<div class="history_time">2020-07-16 14:51:26 - 2020-07-16 14:52:20</div>
+					<br>
+
+										<video id="player_104924" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1390_20200716145126.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_104924" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104919" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[進貨作業]						</a>
+						
+												<a href="#104941" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[進貨作業]						</a>
+						
+					</div>
+
+										<div id="map_104924" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_104924"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104941" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [進貨作業]</h2>
+					<div class="history_time">2020-07-16 15:04:09 - 2020-07-16 15:04:58</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-16 15:04:09					<br><br>
+					結束作業時間：2020-07-16 15:04:58					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o1', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A04%3A09', '2020%2F07%2F16+15%3A04%3A58')">
+							T (溫度感測器)<br>
+							2020-07-16 15:04:09						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954BA2o_o2', '%2FrwiD0GQyQuM1ubX7zDhO0L8HRxm9bpxHBXMO%2FnM69Xey2Xpy3Xp7C0QGNN%2FCQui', '1562515200', '2020%2F07%2F16+15%3A04%3A09', '2020%2F07%2F16+15%3A04%3A58')">
+							H (濕度感測器)<br>
+							2020-07-16 15:04:09						</label>
+					
+										</div>
+										<div id="button_104941" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104924" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[甘蔗運送]						</a>
+						
+												<a href="#104943" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="104943" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>甘蔗原汁 [自拍保證輸出]</h2>
+					<div class="history_time">2020-07-16 15:05:40 - 2020-07-16 15:05:40</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1390/2020/104943.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1390/2020/104943.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_104943" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#104941" class="btn btn-dark btn-lg">
+							甘蔗原汁 <br>[進貨作業]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_101298', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_105673', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_105735', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_106134', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_106137', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_104916', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_104917', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_104918', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_104924', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_104919 = jQuery("#gallery_104919").unitegallery();
+		var first_item = api_104919.getItem(0);
+
+		load_gps_data('104919', '1390', first_item.urlImage, true);
+		api_104919.on("item_change", function(num, img_data){
+			load_gps_data('104919', '1390', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [101298,105673,105735,106134,104916,104917,104918,104924];
+	var loc_map = new Array(8);
+	var loc_arr = new Array(8);
+	var map_arr = new Array(8);
+	var marker_arr = new Array(8);
+
+		loc_arr[0] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.8925, lng: 120.68166666667}
+				];
+
+	loc_map[1] = [
+	{sec: 1, index: 1}	];
+
+		loc_arr[2] = [
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.8925, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[2] = [
+	{sec: 127, index: 1}	];
+
+		loc_arr[3] = [
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[3] = [
+	{sec: 6, index: 1}	];
+
+		loc_arr[4] = [
+						{lat: 23.888611111111, lng: 120.70944444444},
+						{lat: 23.888611111111, lng: 120.70916666667}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 23.888611111111, lng: 120.70916666667}
+				];
+
+	loc_map[5] = [
+		];
+
+		loc_arr[6] = [
+						{lat: 23.888611111111, lng: 120.70916666667},
+						{lat: 23.888611111111, lng: 120.70944444444},
+						{lat: 23.888611111111, lng: 120.70916666667},
+						{lat: 23.888333333333, lng: 120.70944444444},
+						{lat: 23.888611111111, lng: 120.70944444444},
+						{lat: 23.888611111111, lng: 120.70916666667}
+				];
+
+	loc_map[6] = [
+	{sec: 1, index: 2},
+{sec: 2, index: 3},
+{sec: 3, index: 5}	];
+
+		loc_arr[7] = [
+						{lat: 23.888611111111, lng: 120.70916666667}
+				];
+
+	loc_map[7] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_101298'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_105673'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68194444444},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.8925, lng: 120.68166666667},				
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_105735'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_106134'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+								{lat: 23.888611111111, lng: 120.70944444444},				
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_104916'), {
+			zoom: 17,
+			center: {lat: 23.888611111111, lng: 120.70944444444},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_104917'), {
+			zoom: 17,
+			center: {lat: 23.888611111111, lng: 120.70916666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+								{lat: 23.888611111111, lng: 120.70916666667},				
+								{lat: 23.888611111111, lng: 120.70944444444},				
+								{lat: 23.888611111111, lng: 120.70916666667},				
+								{lat: 23.888333333333, lng: 120.70944444444},				
+								{lat: 23.888611111111, lng: 120.70944444444},				
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_104918'), {
+			zoom: 17,
+			center: {lat: 23.888611111111, lng: 120.70916666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+				var linePlanCoordinates8 = [
+						];
+
+		map_arr[7] = new google.maps.Map(document.getElementById('portal_map_104924'), {
+			zoom: 17,
+			center: {lat: 23.888611111111, lng: 120.70916666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker8 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[7][0].lat, loc_arr[7][0].lng),
+			map: map_arr[7]
+		});
+		marker_arr[7] = [{"marker": marker8}];
+
+		var linePath8 = new google.maps.Polyline({
+			path: linePlanCoordinates8,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath8.setMap(map_arr[7]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

@@ -1,0 +1,1784 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=61880&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="田好豬肉南瓜寶寶粥" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=61880',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																田好豬肉南瓜寶寶粥							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：晨光食品機械								<br>
+								產出日期：2019-11-06 10:33:36																<br>
+								有效日期：2019-12-06																																									<br>
+								產出數量：24000公克									 (300人份)																	<br>
+								剩餘數量：0公克																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D61880" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D61880"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/machine/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#61880" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														田好豬肉南瓜寶寶粥<BR>[田好 出貨]							
+							
+							
+							</a>
+													<a href="#61877" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														成品-豬肉南瓜寶寶粥<BR>[田好 包裝]							
+							
+							
+							</a>
+													<a href="#61878" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														成品-豬肉南瓜寶寶粥<BR>[田好 低溫冷凍保存]							
+							
+							
+							</a>
+													<a href="#61873" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														豬肉南瓜寶寶粥<BR>[田好熬煮]							
+							
+							
+							</a>
+													<a href="#61874" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														豬肉南瓜寶寶粥<BR>[田好 急速冷卻]							
+							
+							
+							</a>
+													<a href="#61848" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														粥<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#61849" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														粥<BR>[田好進貨]							
+							
+							
+							</a>
+													<a href="#61850" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														粥<BR>[田好秤重]							
+							
+							
+							</a>
+													<a href="#61851" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														粥<BR>[田好洗米]							
+							
+							
+							</a>
+													<a href="#61865" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														粥<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#61859" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														豬絞肉<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#61860" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														豬絞肉<BR>[田好進貨]							
+							
+							
+							</a>
+													<a href="#61861" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														豬絞肉<BR>[田好秤重]							
+							
+							
+							</a>
+													<a href="#61862" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														豬絞肉<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#61872" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜泥<BR>[田好 打泥]							
+							
+							
+							</a>
+													<a href="#61866" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#61867" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜<BR>[田好進貨]							
+							
+							
+							</a>
+													<a href="#61868" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜<BR>[田好秤重]							
+							
+							
+							</a>
+													<a href="#61869" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜<BR>[田好削皮切塊]							
+							
+							
+							</a>
+													<a href="#61870" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜<BR>[田好 蒸]							
+							
+							
+							</a>
+													<a href="#61871" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="61880" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>田好豬肉南瓜寶寶粥 [田好 出貨]</h2>
+					<div class="history_time">2019-11-06 10:31:49 - 2019-11-06 10:33:36</div>
+					<br>
+
+										
+															<video id="player_61880" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/61880.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=61877&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								成品-豬肉南瓜寶寶粥								
+																(24000公克)
+															<br>
+								[晨光食品機械]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61880" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#61877" class="btn btn-dark btn-lg">
+							成品-豬肉南瓜寶寶粥 <br>[田好 包裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61877" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>成品-豬肉南瓜寶寶粥 [田好 包裝]</h2>
+					<div class="history_time">2019-11-06 10:25:31 - 2019-11-06 10:26:17</div>
+					<br>
+
+										
+															<video id="player_61877" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/61877.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=61873&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								豬肉南瓜寶寶粥								
+																(24000公克)
+															<br>
+								[晨光食品機械]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61877" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61880" class="btn btn-dark btn-lg">
+							田好豬肉南瓜寶寶粥 <br>[田好 出貨]						</a>
+						
+												<a href="#61878" class="btn btn-dark btn-lg">
+							成品-豬肉南瓜寶寶粥 <br>[田好 低溫冷凍保存]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61878" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>成品-豬肉南瓜寶寶粥 [田好 低溫冷凍保存]</h2>
+					<div class="history_time">2019-11-06 10:25:59 - 2019-11-06 10:26:49</div>
+					<br>
+
+										
+															<video id="player_61878" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/61878.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0010D3ED28o_o1', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2019%2F11%2F06+10%3A25%3A59', '2019%2F11%2F06+10%3A26%3A49')">
+							T (溫度感測器)<br>
+							2019-11-06 10:25:59						</label>
+					
+										</div>
+										<div id="button_61878" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61877" class="btn btn-dark btn-lg">
+							成品-豬肉南瓜寶寶粥 <br>[田好 包裝]						</a>
+						
+												<a href="#61873" class="btn btn-dark btn-lg">
+							豬肉南瓜寶寶粥 <br>[田好熬煮]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61873" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>豬肉南瓜寶寶粥 [田好熬煮]</h2>
+					<div class="history_time">2019-11-06 10:21:01 - 2019-11-06 10:21:53</div>
+					<br>
+
+										
+															<video id="player_61873" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/61873.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=61865&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								粥								
+																(15000公克)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=61862&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								豬絞肉								
+																(3000公克)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=61872&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								南瓜泥								
+																(6000公克)
+															<br>
+								[晨光食品機械]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61873" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61878" class="btn btn-dark btn-lg">
+							成品-豬肉南瓜寶寶粥 <br>[田好 低溫冷凍保存]						</a>
+						
+												<a href="#61874" class="btn btn-dark btn-lg">
+							豬肉南瓜寶寶粥 <br>[田好 急速冷卻]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61874" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>豬肉南瓜寶寶粥 [田好 急速冷卻]</h2>
+					<div class="history_time">2019-11-06 10:22:18 - 2019-11-06 10:22:41</div>
+					<br>
+
+										
+															<video id="player_61874" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/61874.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94DEC6o_o1', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2019%2F11%2F06+10%3A22%3A18', '2019%2F11%2F06+10%3A22%3A41')">
+							T (溫度感測器)<br>
+							2019-11-06 10:22:18						</label>
+					
+										</div>
+										<div id="button_61874" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61873" class="btn btn-dark btn-lg">
+							豬肉南瓜寶寶粥 <br>[田好熬煮]						</a>
+						
+												<a href="#61848" class="btn btn-dark btn-lg">
+							粥 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61848" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>粥 [自拍保證來源]</h2>
+					<div class="history_time">2019-11-06 08:03:50 - 2019-11-06 08:03:50</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/474/2019/61848.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/474/2019/61848.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61848" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61874" class="btn btn-dark btn-lg">
+							豬肉南瓜寶寶粥 <br>[田好 急速冷卻]						</a>
+						
+												<a href="#61849" class="btn btn-dark btn-lg">
+							粥 <br>[田好進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61849" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>粥 [田好進貨]</h2>
+					<div class="history_time">2019-11-06 08:05:03 - 2019-11-06 08:05:27</div>
+					<br>
+
+										
+										<video id="player_61849" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1028/474/474_20191106080436230.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61849" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61848" class="btn btn-dark btn-lg">
+							粥 <br>[自拍保證來源]						</a>
+						
+												<a href="#61850" class="btn btn-dark btn-lg">
+							粥 <br>[田好秤重]						</a>
+						
+					</div>
+
+										<div id="map_61849" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61849"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61850" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>粥 [田好秤重]</h2>
+					<div class="history_time">2019-11-06 08:11:36 - 2019-11-06 08:13:45</div>
+					<br>
+
+										<video id="player_61850" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/474_20191106081136.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61850" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61849" class="btn btn-dark btn-lg">
+							粥 <br>[田好進貨]						</a>
+						
+												<a href="#61851" class="btn btn-dark btn-lg">
+							粥 <br>[田好洗米]						</a>
+						
+					</div>
+
+										<div id="map_61850" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61850"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61851" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>粥 [田好洗米]</h2>
+					<div class="history_time">2019-11-06 08:13:58 - 2019-11-06 08:15:02</div>
+					<br>
+
+										
+										<video id="player_61851" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1028/474/474_20191106081352464.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61851" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61850" class="btn btn-dark btn-lg">
+							粥 <br>[田好秤重]						</a>
+						
+												<a href="#61865" class="btn btn-dark btn-lg">
+							粥 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_61851" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61851"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61865" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>粥 [自拍保證輸出]</h2>
+					<div class="history_time">2019-11-06 10:09:24 - 2019-11-06 10:09:24</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/474/2019/61865.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/474/2019/61865.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61865" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61851" class="btn btn-dark btn-lg">
+							粥 <br>[田好洗米]						</a>
+						
+												<a href="#61859" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61859" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>豬絞肉 [自拍保證來源]</h2>
+					<div class="history_time">2019-11-06 10:04:48 - 2019-11-06 10:04:48</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/474/2019/61859.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/474/2019/61859.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61859" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61865" class="btn btn-dark btn-lg">
+							粥 <br>[自拍保證輸出]						</a>
+						
+												<a href="#61860" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[田好進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61860" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>豬絞肉 [田好進貨]</h2>
+					<div class="history_time">2019-11-06 10:05:13 - 2019-11-06 10:05:55</div>
+					<br>
+
+										<video id="player_61860" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/474_20191106100513.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61860" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61859" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[自拍保證來源]						</a>
+						
+												<a href="#61861" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[田好秤重]						</a>
+						
+					</div>
+
+										<div id="map_61860" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61860"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61861" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>豬絞肉 [田好秤重]</h2>
+					<div class="history_time">2019-11-06 10:06:02 - 2019-11-06 10:06:48</div>
+					<br>
+
+										<video id="player_61861" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/474_20191106100602.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61861" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61860" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[田好進貨]						</a>
+						
+												<a href="#61862" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_61861" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61861"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61862" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>豬絞肉 [自拍保證輸出]</h2>
+					<div class="history_time">2019-11-06 10:08:07 - 2019-11-06 10:08:07</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/474/2019/61862.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/474/2019/61862.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61862" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61861" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[田好秤重]						</a>
+						
+												<a href="#61872" class="btn btn-dark btn-lg">
+							南瓜泥 <br>[田好 打泥]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61872" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜泥 [田好 打泥]</h2>
+					<div class="history_time">2019-11-06 10:20:01 - 2019-11-06 10:20:36</div>
+					<br>
+
+										
+															<video id="player_61872" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/61872.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=61871&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								南瓜								
+																(6000公克)
+															<br>
+								[晨光食品機械]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61872" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61862" class="btn btn-dark btn-lg">
+							豬絞肉 <br>[自拍保證輸出]						</a>
+						
+												<a href="#61866" class="btn btn-dark btn-lg">
+							南瓜 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61866" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜 [自拍保證來源]</h2>
+					<div class="history_time">2019-11-06 10:10:22 - 2019-11-06 10:10:22</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/474/2019/61866.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/474/2019/61866.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61866" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61872" class="btn btn-dark btn-lg">
+							南瓜泥 <br>[田好 打泥]						</a>
+						
+												<a href="#61867" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61867" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜 [田好進貨]</h2>
+					<div class="history_time">2019-11-06 10:10:39 - 2019-11-06 10:11:13</div>
+					<br>
+
+										<video id="player_61867" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/474_20191106101039.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61867" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61866" class="btn btn-dark btn-lg">
+							南瓜 <br>[自拍保證來源]						</a>
+						
+												<a href="#61868" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好秤重]						</a>
+						
+					</div>
+
+										<div id="map_61867" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61867"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61868" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜 [田好秤重]</h2>
+					<div class="history_time">2019-11-06 10:11:21 - 2019-11-06 10:12:21</div>
+					<br>
+
+										<video id="player_61868" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/474_20191106101121.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61868" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61867" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好進貨]						</a>
+						
+												<a href="#61869" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好削皮切塊]						</a>
+						
+					</div>
+
+										<div id="map_61868" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61868"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61869" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜 [田好削皮切塊]</h2>
+					<div class="history_time">2019-11-06 10:12:29 - 2019-11-06 10:13:33</div>
+					<br>
+
+										<video id="player_61869" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/474_20191106101229.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61869" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61868" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好秤重]						</a>
+						
+												<a href="#61870" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好 蒸]						</a>
+						
+					</div>
+
+										<div id="map_61869" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61869"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61870" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜 [田好 蒸]</h2>
+					<div class="history_time">2019-11-06 10:13:36 - 2019-11-06 10:14:26</div>
+					<br>
+
+										<video id="player_61870" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/474_20191106101336.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61870" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61869" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好削皮切塊]						</a>
+						
+												<a href="#61871" class="btn btn-dark btn-lg">
+							南瓜 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_61870" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_61870"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="61871" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜 [自拍保證輸出]</h2>
+					<div class="history_time">2019-11-06 10:14:57 - 2019-11-06 10:14:57</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/474/2019/61871.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/474/2019/61871.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_61871" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#61870" class="btn btn-dark btn-lg">
+							南瓜 <br>[田好 蒸]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_61880', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61877', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61878', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61873', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61874', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61849', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61850', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61851', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61860', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61861', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61872', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61867', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61868', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61869', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_61870', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [61849,61850,61851,61860,61861,61867,61868,61869,61870];
+	var loc_map = new Array(9);
+	var loc_arr = new Array(9);
+	var map_arr = new Array(9);
+	var marker_arr = new Array(9);
+
+		loc_arr[0] = [
+						{lat: 23.893133163452, lng: 120.6819229126}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.893055555556, lng: 120.68166666667}
+				];
+
+	loc_map[1] = [
+		];
+
+		loc_arr[2] = [
+						{lat: 23.893133163452, lng: 120.6819229126}
+				];
+
+	loc_map[2] = [
+		];
+
+		loc_arr[3] = [
+						{lat: 23.037222222222, lng: 120.24555555556}
+				];
+
+	loc_map[3] = [
+		];
+
+		loc_arr[4] = [
+						{lat: 23.037222222222, lng: 120.24555555556}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 23.037222222222, lng: 120.24555555556}
+				];
+
+	loc_map[5] = [
+		];
+
+		loc_arr[6] = [
+						{lat: 23.037222222222, lng: 120.24555555556}
+				];
+
+	loc_map[6] = [
+		];
+
+		loc_arr[7] = [
+						{lat: 23.037222222222, lng: 120.24555555556}
+				];
+
+	loc_map[7] = [
+		];
+
+		loc_arr[8] = [
+						{lat: 23.037222222222, lng: 120.24555555556}
+				];
+
+	loc_map[8] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_61849'), {
+			zoom: 17,
+			center: {lat: 23.893133163452, lng: 120.6819229126},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_61850'), {
+			zoom: 17,
+			center: {lat: 23.893055555556, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_61851'), {
+			zoom: 17,
+			center: {lat: 23.893133163452, lng: 120.6819229126},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_61860'), {
+			zoom: 17,
+			center: {lat: 23.037222222222, lng: 120.24555555556},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_61861'), {
+			zoom: 17,
+			center: {lat: 23.037222222222, lng: 120.24555555556},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_61867'), {
+			zoom: 17,
+			center: {lat: 23.037222222222, lng: 120.24555555556},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_61868'), {
+			zoom: 17,
+			center: {lat: 23.037222222222, lng: 120.24555555556},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+				var linePlanCoordinates8 = [
+						];
+
+		map_arr[7] = new google.maps.Map(document.getElementById('portal_map_61869'), {
+			zoom: 17,
+			center: {lat: 23.037222222222, lng: 120.24555555556},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker8 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[7][0].lat, loc_arr[7][0].lng),
+			map: map_arr[7]
+		});
+		marker_arr[7] = [{"marker": marker8}];
+
+		var linePath8 = new google.maps.Polyline({
+			path: linePlanCoordinates8,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath8.setMap(map_arr[7]);
+
+				var linePlanCoordinates9 = [
+						];
+
+		map_arr[8] = new google.maps.Map(document.getElementById('portal_map_61870'), {
+			zoom: 17,
+			center: {lat: 23.037222222222, lng: 120.24555555556},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker9 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[8][0].lat, loc_arr[8][0].lng),
+			map: map_arr[8]
+		});
+		marker_arr[8] = [{"marker": marker9}];
+
+		var linePath9 = new google.maps.Polyline({
+			path: linePlanCoordinates9,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath9.setMap(map_arr[8]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

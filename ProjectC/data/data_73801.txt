@@ -1,0 +1,2844 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=73801&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="NE15高溫急速冷卻機" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=73801',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																							</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																NE15高溫急速冷卻機							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：晨光食品機械								<br>
+								產出日期：2020-02-20 15:19:16																<br>
+								有效日期：2021-02-20																																									<br>
+								產出數量：3顆									 (3車)																	<br>
+								剩餘數量：0顆																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D73801" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D73801"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/machine/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#73525" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15高溫急速冷卻機<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#73531" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15高溫急速冷卻機<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#73590" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15高溫急速冷卻機<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#73801" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15高溫急速冷卻機<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#52243" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30溫控攪拌器<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#52251" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30溫控攪拌器<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#52259" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30溫控攪拌器<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#52261" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30溫控攪拌器<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#52263" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30溫控攪拌器<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#55504" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30溫控攪拌器<BR>[前置作業]							
+							
+							
+							</a>
+													<a href="#71777" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15半自動升降控制器<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#71778" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15半自動升降控制器<BR>[前置作業]							
+							
+							
+							</a>
+													<a href="#71844" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15半自動升降控制器<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#71845" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15半自動升降控制器<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#71848" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15半自動升降控制器<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#71850" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15半自動升降控制器<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#71857" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15半自動升降控制器<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#73219" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														中型儲水槽<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#73232" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														中型儲水槽<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#73521" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														中型儲水槽<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#71549" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														進水三通閥<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#71554" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														進水三通閥<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#71561" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														進水三通閥<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#71562" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														進水三通閥<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#71555" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														排水二通閥<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#71556" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														排水二通閥<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#71560" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														排水二通閥<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#71563" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														排水二通閥<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#66800" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														自動進出水控制器<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#66802" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														自動進出水控制器<BR>[前置作業]							
+							
+							
+							</a>
+													<a href="#71475" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														自動進出水控制器<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#71480" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														自動進出水控制器<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#71482" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														自動進出水控制器<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#71484" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														自動進出水控制器<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#71488" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														自動進出水控制器<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#72423" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15冷卻水套<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#72470" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15冷卻水套<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#72547" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15冷卻水套<BR>[前置作業]							
+							
+							
+							</a>
+													<a href="#72651" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15冷卻水套<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#72795" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15冷卻水套<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#72848" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15冷卻水套<BR>[前置作業]							
+							
+							
+							</a>
+													<a href="#72857" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15冷卻水套<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#67716" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30紫外線殺菌燈<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#67728" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30紫外線殺菌燈<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#67729" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30紫外線殺菌燈<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#67730" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15.16.30紫外線殺菌燈<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#71536" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15升降滑軌組<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#71540" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15升降滑軌組<BR>[產品組裝]							
+							
+							
+							</a>
+													<a href="#71542" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15升降滑軌組<BR>[產品測試]							
+							
+							
+							</a>
+													<a href="#71543" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														NE15升降滑軌組<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="73525" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15高溫急速冷卻機 [自拍保證來源]</h2>
+					<div class="history_time">2020-02-18 10:48:22 - 2020-02-18 10:48:22</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1365/2020/73525.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1365/2020/73525.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=52263&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								NE15.16.30溫控攪拌器								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=71857&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								NE15半自動升降控制器								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=73521&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								中型儲水槽								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=72857&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								NE15冷卻水套								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=67730&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								NE15.16.30紫外線殺菌燈								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=71543&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								NE15升降滑軌組								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_73525" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#73531" class="btn btn-dark btn-lg">
+							NE15高溫急速冷卻機 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="73531" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15高溫急速冷卻機 [產品組裝]</h2>
+					<div class="history_time">2020-02-18 10:48:58 - 2020-02-18 11:21:42</div>
+					<br>
+
+										
+															<video id="player_73531" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/73531.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F18+10%3A48%3A58', '2020%2F02%2F18+11%3A21%3A42')">
+							Serial ()<br>
+							2020-02-18 10:48:58						</label>
+					
+										</div>
+										<div id="button_73531" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#73525" class="btn btn-dark btn-lg">
+							NE15高溫急速冷卻機 <br>[自拍保證來源]						</a>
+						
+												<a href="#73590" class="btn btn-dark btn-lg">
+							NE15高溫急速冷卻機 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="73590" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15高溫急速冷卻機 [產品測試]</h2>
+					<div class="history_time">2020-02-18 14:15:39 - 2020-02-18 14:26:06</div>
+					<br>
+
+										
+															<video id="player_73590" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/73590.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_73590" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#73531" class="btn btn-dark btn-lg">
+							NE15高溫急速冷卻機 <br>[產品組裝]						</a>
+						
+												<a href="#73801" class="btn btn-dark btn-lg">
+							NE15高溫急速冷卻機 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="73801" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15高溫急速冷卻機 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-20 15:19:16 - 2020-02-20 15:19:16</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1365/2020/73801.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1365/2020/73801.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_73801" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#73590" class="btn btn-dark btn-lg">
+							NE15高溫急速冷卻機 <br>[產品測試]						</a>
+						
+												<a href="#52243" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="52243" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30溫控攪拌器 [自拍保證來源]</h2>
+					<div class="history_time">2019-08-07 16:22:46 - 2019-08-07 16:22:46</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/687/2019/52243.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/687/2019/52243.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_52243" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#73801" class="btn btn-dark btn-lg">
+							NE15高溫急速冷卻機 <br>[自拍保證輸出]						</a>
+						
+												<a href="#52251" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="52251" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30溫控攪拌器 [產品組裝]</h2>
+					<div class="history_time">2019-08-07 16:25:41 - 2019-08-07 16:59:20</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-08-07 16:25:41					<br><br>
+					結束作業時間：2019-08-07 16:59:20					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_52251" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#52243" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[自拍保證來源]						</a>
+						
+												<a href="#52259" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="52259" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30溫控攪拌器 [產品組裝]</h2>
+					<div class="history_time">2019-08-07 17:01:02 - 2019-08-07 17:15:33</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-08-07 17:01:02					<br><br>
+					結束作業時間：2019-08-07 17:15:33					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_52259" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#52251" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[產品組裝]						</a>
+						
+												<a href="#52261" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="52261" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30溫控攪拌器 [產品測試]</h2>
+					<div class="history_time">2019-08-07 17:16:49 - 2019-08-07 17:23:18</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-08-07 17:16:49					<br><br>
+					結束作業時間：2019-08-07 17:23:18					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_52261" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#52259" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[產品組裝]						</a>
+						
+												<a href="#52263" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="52263" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30溫控攪拌器 [自拍保證輸出]</h2>
+					<div class="history_time">2019-08-07 17:24:40 - 2019-08-07 17:24:40</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/687/2019/52263.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/687/2019/52263.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_52263" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#52261" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[產品測試]						</a>
+						
+												<a href="#55504" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[前置作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="55504" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30溫控攪拌器 [前置作業]</h2>
+					<div class="history_time">2019-09-06 11:49:08 - 2019-09-09 11:49:08</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-09-06 11:49:08					<br><br>
+					結束作業時間：2019-09-09 11:49:08					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_55504" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#52263" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[自拍保證輸出]						</a>
+						
+												<a href="#71777" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71777" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15半自動升降控制器 [自拍保證來源]</h2>
+					<div class="history_time">2020-02-05 10:38:10 - 2020-02-05 10:38:10</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/687/2020/71777.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/687/2020/71777.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71777" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#55504" class="btn btn-dark btn-lg">
+							NE15.16.30溫控攪拌器 <br>[前置作業]						</a>
+						
+												<a href="#71778" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[前置作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71778" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15半自動升降控制器 [前置作業]</h2>
+					<div class="history_time">2020-02-05 10:38:56 - 2020-02-05 10:46:08</div>
+					<br>
+
+										
+															<video id="player_71778" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71778.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71778" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71777" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[自拍保證來源]						</a>
+						
+												<a href="#71844" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71844" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15半自動升降控制器 [產品組裝]</h2>
+					<div class="history_time">2020-02-05 13:09:51 - 2020-02-05 13:37:23</div>
+					<br>
+
+										
+															<video id="player_71844" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71844.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F05+13%3A09%3A51', '2020%2F02%2F05+13%3A37%3A23')">
+							Serial ()<br>
+							2020-02-05 13:09:51						</label>
+					
+										</div>
+										<div id="button_71844" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71778" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[前置作業]						</a>
+						
+												<a href="#71845" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71845" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15半自動升降控制器 [產品測試]</h2>
+					<div class="history_time">2020-02-05 13:38:29 - 2020-02-05 13:39:25</div>
+					<br>
+
+										
+															<video id="player_71845" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71845.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71845" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71844" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品組裝]						</a>
+						
+												<a href="#71848" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71848" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15半自動升降控制器 [產品組裝]</h2>
+					<div class="history_time">2020-02-05 13:40:04 - 2020-02-05 13:45:30</div>
+					<br>
+
+										
+															<video id="player_71848" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71848.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F05+13%3A40%3A04', '2020%2F02%2F05+13%3A45%3A30')">
+							Serial ()<br>
+							2020-02-05 13:40:04						</label>
+					
+										</div>
+										<div id="button_71848" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71845" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品測試]						</a>
+						
+												<a href="#71850" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71850" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15半自動升降控制器 [產品測試]</h2>
+					<div class="history_time">2020-02-05 13:45:36 - 2020-02-05 13:46:19</div>
+					<br>
+
+										
+															<video id="player_71850" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71850.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71850" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71848" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品組裝]						</a>
+						
+												<a href="#71857" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71857" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15半自動升降控制器 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-05 13:52:09 - 2020-02-05 13:52:09</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/687/2020/71857.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/687/2020/71857.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71857" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71850" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[產品測試]						</a>
+						
+												<a href="#73219" class="btn btn-dark btn-lg">
+							中型儲水槽 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="73219" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>中型儲水槽 [自拍保證來源]</h2>
+					<div class="history_time">2020-02-15 10:23:46 - 2020-02-15 10:23:46</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1365/2020/73219.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1365/2020/73219.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=71562&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								進水三通閥								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=71563&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								排水二通閥								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+													<a href="portal.php?oid=71488&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								自動進出水控制器								
+																(1顆)
+															<br>
+								[晨光食品機械]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_73219" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71857" class="btn btn-dark btn-lg">
+							NE15半自動升降控制器 <br>[自拍保證輸出]						</a>
+						
+												<a href="#73232" class="btn btn-dark btn-lg">
+							中型儲水槽 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="73232" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>中型儲水槽 [產品組裝]</h2>
+					<div class="history_time">2020-02-15 10:24:22 - 2020-02-15 10:40:41</div>
+					<br>
+
+										
+															<video id="player_73232" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/73232.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F15+10%3A24%3A22', '2020%2F02%2F15+10%3A40%3A41')">
+							Serial ()<br>
+							2020-02-15 10:24:22						</label>
+					
+										</div>
+										<div id="button_73232" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#73219" class="btn btn-dark btn-lg">
+							中型儲水槽 <br>[自拍保證來源]						</a>
+						
+												<a href="#73521" class="btn btn-dark btn-lg">
+							中型儲水槽 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="73521" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>中型儲水槽 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-18 10:27:20 - 2020-02-18 10:27:20</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1365/2020/73521.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1365/2020/73521.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_73521" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#73232" class="btn btn-dark btn-lg">
+							中型儲水槽 <br>[產品組裝]						</a>
+						
+												<a href="#71549" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71549" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>進水三通閥 [自拍保證來源]</h2>
+					<div class="history_time">2020-02-04 15:08:54 - 2020-02-04 15:08:54</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1365/2020/71549.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1365/2020/71549.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71549" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#73521" class="btn btn-dark btn-lg">
+							中型儲水槽 <br>[自拍保證輸出]						</a>
+						
+												<a href="#71554" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71554" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>進水三通閥 [產品組裝]</h2>
+					<div class="history_time">2020-02-04 15:09:31 - 2020-02-04 15:20:36</div>
+					<br>
+
+										
+															<video id="player_71554" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71554.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F04+15%3A09%3A31', '2020%2F02%2F04+15%3A20%3A36')">
+							Serial ()<br>
+							2020-02-04 15:09:31						</label>
+					
+										</div>
+										<div id="button_71554" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71549" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[自拍保證來源]						</a>
+						
+												<a href="#71561" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71561" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>進水三通閥 [產品測試]</h2>
+					<div class="history_time">2020-02-04 15:46:08 - 2020-02-04 15:50:05</div>
+					<br>
+
+										
+															<video id="player_71561" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71561.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71561" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71554" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[產品組裝]						</a>
+						
+												<a href="#71562" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71562" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>進水三通閥 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-04 16:02:08 - 2020-02-04 16:02:08</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1365/2020/71562.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1365/2020/71562.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71562" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71561" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[產品測試]						</a>
+						
+												<a href="#71555" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71555" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>排水二通閥 [自拍保證來源]</h2>
+					<div class="history_time">2020-02-04 15:25:53 - 2020-02-04 15:25:53</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1365/2020/71555.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1365/2020/71555.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71555" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71562" class="btn btn-dark btn-lg">
+							進水三通閥 <br>[自拍保證輸出]						</a>
+						
+												<a href="#71556" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71556" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>排水二通閥 [產品組裝]</h2>
+					<div class="history_time">2020-02-04 15:26:03 - 2020-02-04 15:33:30</div>
+					<br>
+
+										
+															<video id="player_71556" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71556.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F04+15%3A26%3A03', '2020%2F02%2F04+15%3A33%3A30')">
+							Serial ()<br>
+							2020-02-04 15:26:03						</label>
+					
+										</div>
+										<div id="button_71556" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71555" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[自拍保證來源]						</a>
+						
+												<a href="#71560" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71560" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>排水二通閥 [產品測試]</h2>
+					<div class="history_time">2020-02-04 15:35:39 - 2020-02-04 15:45:07</div>
+					<br>
+
+										
+															<video id="player_71560" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71560.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71560" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71556" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[產品組裝]						</a>
+						
+												<a href="#71563" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71563" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>排水二通閥 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-04 16:03:01 - 2020-02-04 16:03:01</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1365/2020/71563.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1365/2020/71563.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71563" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71560" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[產品測試]						</a>
+						
+												<a href="#66800" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="66800" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>自動進出水控制器 [自拍保證來源]</h2>
+					<div class="history_time">2019-12-18 09:29:07 - 2019-12-18 09:29:07</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/687/2019/66800.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/687/2019/66800.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_66800" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71563" class="btn btn-dark btn-lg">
+							排水二通閥 <br>[自拍保證輸出]						</a>
+						
+												<a href="#66802" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[前置作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="66802" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>自動進出水控制器 [前置作業]</h2>
+					<div class="history_time">2019-12-18 09:31:07 - 2019-12-18 09:39:37</div>
+					<br>
+
+										
+															<video id="player_66802" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/66802.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_66802" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#66800" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[自拍保證來源]						</a>
+						
+												<a href="#71475" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71475" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>自動進出水控制器 [產品組裝]</h2>
+					<div class="history_time">2020-02-04 09:54:01 - 2020-02-04 10:09:35</div>
+					<br>
+
+										
+															<video id="player_71475" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71475.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F04+09%3A54%3A01', '2020%2F02%2F04+10%3A09%3A35')">
+							Serial ()<br>
+							2020-02-04 09:54:01						</label>
+					
+										</div>
+										<div id="button_71475" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#66802" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[前置作業]						</a>
+						
+												<a href="#71480" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71480" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>自動進出水控制器 [產品測試]</h2>
+					<div class="history_time">2020-02-04 10:14:55 - 2020-02-04 10:18:26</div>
+					<br>
+
+										
+															<video id="player_71480" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71480.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71480" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71475" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品組裝]						</a>
+						
+												<a href="#71482" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71482" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>自動進出水控制器 [產品組裝]</h2>
+					<div class="history_time">2020-02-04 10:19:04 - 2020-02-04 10:25:17</div>
+					<br>
+
+										
+															<video id="player_71482" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71482.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F04+10%3A19%3A04', '2020%2F02%2F04+10%3A25%3A17')">
+							Serial ()<br>
+							2020-02-04 10:19:04						</label>
+					
+										</div>
+										<div id="button_71482" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71480" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品測試]						</a>
+						
+												<a href="#71484" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71484" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>自動進出水控制器 [產品測試]</h2>
+					<div class="history_time">2020-02-04 10:25:29 - 2020-02-04 10:29:16</div>
+					<br>
+
+										
+															<video id="player_71484" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/71484.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71484" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71482" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品組裝]						</a>
+						
+												<a href="#71488" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71488" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>自動進出水控制器 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-04 10:35:25 - 2020-02-04 10:35:25</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1365/2020/71488.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1365/2020/71488.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71488" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71484" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[產品測試]						</a>
+						
+												<a href="#72423" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="72423" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15冷卻水套 [自拍保證來源]</h2>
+					<div class="history_time">2020-02-11 09:06:34 - 2020-02-11 09:06:34</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/687/2020/72423.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/687/2020/72423.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_72423" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71488" class="btn btn-dark btn-lg">
+							自動進出水控制器 <br>[自拍保證輸出]						</a>
+						
+												<a href="#72470" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="72470" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15冷卻水套 [產品組裝]</h2>
+					<div class="history_time">2020-02-11 09:13:52 - 2020-02-11 10:30:56</div>
+					<br>
+
+										
+															<video id="player_72470" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/72470.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F11+09%3A13%3A52', '2020%2F02%2F11+10%3A30%3A56')">
+							Serial ()<br>
+							2020-02-11 09:13:52						</label>
+					
+										</div>
+										<div id="button_72470" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#72423" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[自拍保證來源]						</a>
+						
+												<a href="#72547" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[前置作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="72547" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15冷卻水套 [前置作業]</h2>
+					<div class="history_time">2020-02-11 13:38:25 - 2020-02-11 14:21:13</div>
+					<br>
+
+										
+															<video id="player_72547" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/72547.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_72547" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#72470" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[產品組裝]						</a>
+						
+												<a href="#72651" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="72651" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15冷卻水套 [產品組裝]</h2>
+					<div class="history_time">2020-02-11 14:58:06 - 2020-02-11 15:33:13</div>
+					<br>
+
+										
+															<video id="player_72651" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/72651.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F11+14%3A58%3A06', '2020%2F02%2F11+15%3A33%3A13')">
+							Serial ()<br>
+							2020-02-11 14:58:06						</label>
+					
+										</div>
+										<div id="button_72651" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#72547" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[前置作業]						</a>
+						
+												<a href="#72795" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="72795" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15冷卻水套 [產品測試]</h2>
+					<div class="history_time">2020-02-12 10:55:58 - 2020-02-12 11:06:57</div>
+					<br>
+
+										
+															<video id="player_72795" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/72795.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_72795" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#72651" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[產品組裝]						</a>
+						
+												<a href="#72848" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[前置作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="72848" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15冷卻水套 [前置作業]</h2>
+					<div class="history_time">2020-02-12 13:53:22 - 2020-02-12 14:43:32</div>
+					<br>
+
+										
+															<video id="player_72848" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/72848.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_72848" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#72795" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[產品測試]						</a>
+						
+												<a href="#72857" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="72857" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15冷卻水套 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-12 15:27:10 - 2020-02-12 15:27:10</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1365/2020/72857.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1365/2020/72857.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_72857" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#72848" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[前置作業]						</a>
+						
+												<a href="#67716" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="67716" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30紫外線殺菌燈 [自拍保證來源]</h2>
+					<div class="history_time">2019-12-25 16:05:30 - 2019-12-25 16:05:30</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/687/2019/67716.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/687/2019/67716.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_67716" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#72857" class="btn btn-dark btn-lg">
+							NE15冷卻水套 <br>[自拍保證輸出]						</a>
+						
+												<a href="#67728" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="67728" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30紫外線殺菌燈 [產品組裝]</h2>
+					<div class="history_time">2019-12-25 16:06:16 - 2019-12-25 16:19:46</div>
+					<br>
+
+										
+															<video id="player_67728" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/67728.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2019%2F12%2F25+16%3A06%3A16', '2019%2F12%2F25+16%3A19%3A46')">
+							Serial ()<br>
+							2019-12-25 16:06:16						</label>
+					
+										</div>
+										<div id="button_67728" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#67716" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[自拍保證來源]						</a>
+						
+												<a href="#67729" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="67729" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30紫外線殺菌燈 [產品測試]</h2>
+					<div class="history_time">2019-12-25 16:20:10 - 2019-12-25 16:20:27</div>
+					<br>
+
+										
+															<video id="player_67729" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/nvr/1028/67729.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_67729" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#67728" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[產品組裝]						</a>
+						
+												<a href="#67730" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="67730" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15.16.30紫外線殺菌燈 [自拍保證輸出]</h2>
+					<div class="history_time">2019-12-25 16:22:31 - 2019-12-25 16:22:31</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/687/2019/67730.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/687/2019/67730.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_67730" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#67729" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[產品測試]						</a>
+						
+												<a href="#71536" class="btn btn-dark btn-lg">
+							NE15升降滑軌組 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71536" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15升降滑軌組 [自拍保證來源]</h2>
+					<div class="history_time">2020-02-04 14:00:15 - 2020-02-04 14:00:15</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1365/2020/71536.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1365/2020/71536.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71536" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#67730" class="btn btn-dark btn-lg">
+							NE15.16.30紫外線殺菌燈 <br>[自拍保證輸出]						</a>
+						
+												<a href="#71540" class="btn btn-dark btn-lg">
+							NE15升降滑軌組 <br>[產品組裝]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71540" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15升降滑軌組 [產品組裝]</h2>
+					<div class="history_time">2020-02-04 14:00:35 - 2020-02-04 14:13:04</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-02-04 14:00:35					<br><br>
+					結束作業時間：2020-02-04 14:13:04					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E770o_o2', 'U9e%2Ft5bTi5doU%2FuLP6Plmxhm%2B8QpHCPBqf3irzGDJT7PzzEFhIrmr41yCS0nSUfr', '1567872000', '2020%2F02%2F04+14%3A00%3A35', '2020%2F02%2F04+14%3A13%3A04')">
+							Serial ()<br>
+							2020-02-04 14:00:35						</label>
+					
+										</div>
+										<div id="button_71540" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71536" class="btn btn-dark btn-lg">
+							NE15升降滑軌組 <br>[自拍保證來源]						</a>
+						
+												<a href="#71542" class="btn btn-dark btn-lg">
+							NE15升降滑軌組 <br>[產品測試]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71542" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15升降滑軌組 [產品測試]</h2>
+					<div class="history_time">2020-02-04 14:17:50 - 2020-02-04 14:21:02</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-02-04 14:17:50					<br><br>
+					結束作業時間：2020-02-04 14:21:02					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71542" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71540" class="btn btn-dark btn-lg">
+							NE15升降滑軌組 <br>[產品組裝]						</a>
+						
+												<a href="#71543" class="btn btn-dark btn-lg">
+							NE15升降滑軌組 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="71543" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>NE15升降滑軌組 [自拍保證輸出]</h2>
+					<div class="history_time">2020-02-04 14:24:07 - 2020-02-04 14:24:07</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1365/2020/71543.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1365/2020/71543.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_71543" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#71542" class="btn btn-dark btn-lg">
+							NE15升降滑軌組 <br>[產品測試]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_73531', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_73590', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71778', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71844', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71845', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71848', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71850', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_73232', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71554', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71561', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71556', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71560', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_66802', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71475', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71480', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71482', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_71484', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_72470', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_72547', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_72651', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_72795', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_72848', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_67728', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_67729', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+</script>

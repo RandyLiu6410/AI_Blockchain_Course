@@ -1,0 +1,3115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=64756&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="永平中物流到校" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=64756',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/64756.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																永平中物流到校							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：統鮮美食								<br>
+								產出日期：2019-11-26 11:32:56																<br>
+								有效日期：2019-11-26																																									<br>
+								產出數量：846人份									 (1車)																	<br>
+								剩餘數量：846人份									 (1車)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D64756" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D64756"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/tongshian/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#64719" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														永平中物流到校<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#64741" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														永平中物流到校<BR>[物流到校-永平高(掃自用)]							
+							
+							
+							</a>
+													<a href="#64744" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														永平中物流到校<BR>[物流到校-永平高(掃自用)]							
+							
+							
+							</a>
+													<a href="#64754" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														永平中物流到校<BR>[溫度測量]							
+							
+							
+							</a>
+													<a href="#64756" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														永平中物流到校<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#64704" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白飯(永平高)<BR>[1樓出車疊餐(印自用)]							
+							
+							
+							</a>
+													<a href="#64566" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白飯<BR>[2樓蒸飯]							
+							
+							
+							</a>
+													<a href="#64571" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白飯<BR>[配膳2F]							
+							
+							
+							</a>
+													<a href="#64713" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														產銷履歷蔬菜(永平高)<BR>[1樓出車疊餐(印自用)]							
+							
+							
+							</a>
+													<a href="#64706" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														(副)炸柳葉魚X2(永平高)<BR>[1樓出車疊餐(印自用)]							
+							
+							
+							</a>
+													<a href="#64599" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														(副)炸柳葉魚X2<BR>[1樓炸1]							
+							
+							
+							</a>
+													<a href="#64603" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														(副)炸柳葉魚X2<BR>[配膳1F-1&2]							
+							
+							
+							</a>
+													<a href="#64711" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														香草蕃茄燉雞(永平高)<BR>[1樓出車疊餐(印自用)]							
+							
+							
+							</a>
+													<a href="#64564" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														香草蕃茄燉雞<BR>[1樓滷燉1]							
+							
+							
+							</a>
+													<a href="#64588" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														香草蕃茄燉雞<BR>[配膳1F-3&4]							
+							
+							
+							</a>
+													<a href="#64702" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														昆布黃芽排骨湯(永平高)<BR>[1樓出車疊餐(印自用)]							
+							
+							
+							</a>
+													<a href="#64579" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														昆布黃芽排骨湯<BR>[2樓湯1]							
+							
+							
+							</a>
+													<a href="#64580" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														昆布黃芽排骨湯<BR>[配湯2F]							
+							
+							
+							</a>
+													<a href="#64708" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														杏鮑菇黃瓜(永平高)<BR>[1樓出車疊餐(印自用)]							
+							
+							
+							</a>
+													<a href="#64581" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														杏鮑菇黃瓜<BR>[1樓炒1]							
+							
+							
+							</a>
+													<a href="#64620" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														杏鮑菇黃瓜<BR>[配膳1F-1&2]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="64719" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>永平中物流到校 [自拍保證來源]</h2>
+					<div class="history_time">2019-11-26 10:49:45 - 2019-11-26 10:49:45</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1379/2019/64719.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1379/2019/64719.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=64704&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白飯(永平高)								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+													<a href="portal.php?oid=64713&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								產銷履歷蔬菜(永平高)								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+													<a href="portal.php?oid=64706&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								(副)炸柳葉魚X2(永平高)								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+													<a href="portal.php?oid=64711&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								香草蕃茄燉雞(永平高)								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+													<a href="portal.php?oid=64702&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								昆布黃芽排骨湯(永平高)								
+																(38人份)
+															<br>
+								[統鮮美食]
+						</a>
+													<a href="portal.php?oid=64708&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								杏鮑菇黃瓜(永平高)								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_64719" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#64741" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[物流到校-永平高(掃自用)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64741" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>永平中物流到校 [物流到校-永平高(掃自用)]</h2>
+					<div class="history_time">2019-11-26 10:57:02 - 2019-11-26 10:57:25</div>
+					<br>
+
+										
+										<video id="player_64741" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1177/1379/1379_20191126105649176.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9501A2o_o1', 'T7LBZ%2F%2FYvuGUC5Or9M1Uw%2BPzEGinz3TrHhvqNQxRaY0OjBFYXKcVX4dT1GOiKtkN', '1574006400', '2019%2F11%2F26+10%3A57%3A02', '2019%2F11%2F26+10%3A57%3A25')">
+							T (溫度感測器)<br>
+							2019-11-26 10:57:02						</label>
+					
+										</div>
+										<div id="button_64741" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64719" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[自拍保證來源]						</a>
+						
+												<a href="#64744" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[物流到校-永平高(掃自用)]						</a>
+						
+					</div>
+
+										<div id="map_64741" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_64741"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64744" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>永平中物流到校 [物流到校-永平高(掃自用)]</h2>
+					<div class="history_time">2019-11-26 10:57:41 - 2019-11-26 11:15:05</div>
+					<br>
+
+										
+										<video id="player_64744" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1177/1379/1379_20191126105730157.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9501A2o_o1', 'T7LBZ%2F%2FYvuGUC5Or9M1Uw%2BPzEGinz3TrHhvqNQxRaY0OjBFYXKcVX4dT1GOiKtkN', '1574006400', '2019%2F11%2F26+10%3A57%3A41', '2019%2F11%2F26+11%3A15%3A05')">
+							T (溫度感測器)<br>
+							2019-11-26 10:57:41						</label>
+					
+										</div>
+										<div id="button_64744" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64741" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[物流到校-永平高(掃自用)]						</a>
+						
+												<a href="#64754" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[溫度測量]						</a>
+						
+					</div>
+
+										<div id="map_64744" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_64744"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64754" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>永平中物流到校 [溫度測量]</h2>
+					<div class="history_time">2019-11-26 11:26:16 - 2019-11-26 11:28:53</div>
+					<br>
+
+										<video id="player_64754" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1379_20191126112616.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9501A2o_o1', 'T7LBZ%2F%2FYvuGUC5Or9M1Uw%2BPzEGinz3TrHhvqNQxRaY0OjBFYXKcVX4dT1GOiKtkN', '1574006400', '2019%2F11%2F26+11%3A26%3A16', '2019%2F11%2F26+11%3A28%3A53')">
+							T (溫度感測器)<br>
+							2019-11-26 11:26:16						</label>
+					
+										</div>
+										<div id="button_64754" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64744" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[物流到校-永平高(掃自用)]						</a>
+						
+												<a href="#64756" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_64754" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_64754"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64756" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>永平中物流到校 [自拍保證輸出]</h2>
+					<div class="history_time">2019-11-26 11:32:56 - 2019-11-26 11:32:56</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1379/2019/64756.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1379/2019/64756.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_64756" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64754" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[溫度測量]						</a>
+						
+												<a href="#64704" class="btn btn-dark btn-lg">
+							白飯(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64704" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白飯(永平高) [1樓出車疊餐(印自用)]</h2>
+					<div class="history_time">2019-11-26 10:41:58 - 2019-11-26 10:42:06</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 10:41:58					<br><br>
+					結束作業時間：2019-11-26 10:42:06					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=64566&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白飯								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+10%3A41%3A58', '2019%2F11%2F26+10%3A42%3A06')">
+							T (溫度感測器)<br>
+							2019-11-26 10:41:58						</label>
+					
+										</div>
+										<div id="button_64704" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64756" class="btn btn-dark btn-lg">
+							永平中物流到校 <br>[自拍保證輸出]						</a>
+						
+												<a href="#64566" class="btn btn-dark btn-lg">
+							白飯 <br>[2樓蒸飯]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64566" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白飯 [2樓蒸飯]</h2>
+					<div class="history_time">2019-11-26 07:54:21 - 2019-11-26 07:55:26</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 07:54:21					<br><br>
+					結束作業時間：2019-11-26 07:55:26					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A952FF1o_o2', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+07%3A54%3A21', '2019%2F11%2F26+07%3A55%3A26')">
+							H (濕度感測器)<br>
+							2019-11-26 07:54:21						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94CC44o_o1', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+07%3A54%3A21', '2019%2F11%2F26+07%3A55%3A26')">
+							T (溫度感測器)<br>
+							2019-11-26 07:54:21						</label>
+					
+										</div>
+										<div id="button_64566" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64704" class="btn btn-dark btn-lg">
+							白飯(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+												<a href="#64571" class="btn btn-dark btn-lg">
+							白飯 <br>[配膳2F]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64571" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白飯 [配膳2F]</h2>
+					<div class="history_time">2019-11-26 07:58:51 - 2019-11-26 07:59:09</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 07:58:51					<br><br>
+					結束作業時間：2019-11-26 07:59:09					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D08o_o1', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+07%3A58%3A51', '2019%2F11%2F26+07%3A59%3A09')">
+							T (溫度感測器)<br>
+							2019-11-26 07:58:51						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A952FFEo_o2', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+07%3A58%3A51', '2019%2F11%2F26+07%3A59%3A09')">
+							H (濕度感測器)<br>
+							2019-11-26 07:58:51						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A952FFEo_o3', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+07%3A58%3A51', '2019%2F11%2F26+07%3A59%3A09')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 07:58:51						</label>
+					
+										</div>
+										<div id="button_64571" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64566" class="btn btn-dark btn-lg">
+							白飯 <br>[2樓蒸飯]						</a>
+						
+												<a href="#64713" class="btn btn-dark btn-lg">
+							產銷履歷蔬菜(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64713" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>產銷履歷蔬菜(永平高) [1樓出車疊餐(印自用)]</h2>
+					<div class="history_time">2019-11-26 10:43:31 - 2019-11-26 10:43:38</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 10:43:31					<br><br>
+					結束作業時間：2019-11-26 10:43:38					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+10%3A43%3A31', '2019%2F11%2F26+10%3A43%3A38')">
+							T (溫度感測器)<br>
+							2019-11-26 10:43:31						</label>
+					
+										</div>
+										<div id="button_64713" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64571" class="btn btn-dark btn-lg">
+							白飯 <br>[配膳2F]						</a>
+						
+												<a href="#64706" class="btn btn-dark btn-lg">
+							(副)炸柳葉魚X2(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64706" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>(副)炸柳葉魚X2(永平高) [1樓出車疊餐(印自用)]</h2>
+					<div class="history_time">2019-11-26 10:42:31 - 2019-11-26 10:42:35</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 10:42:31					<br><br>
+					結束作業時間：2019-11-26 10:42:35					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=64599&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								(副)炸柳葉魚X2								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+10%3A42%3A31', '2019%2F11%2F26+10%3A42%3A35')">
+							T (溫度感測器)<br>
+							2019-11-26 10:42:31						</label>
+					
+										</div>
+										<div id="button_64706" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64713" class="btn btn-dark btn-lg">
+							產銷履歷蔬菜(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+												<a href="#64599" class="btn btn-dark btn-lg">
+							(副)炸柳葉魚X2 <br>[1樓炸1]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64599" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>(副)炸柳葉魚X2 [1樓炸1]</h2>
+					<div class="history_time">2019-11-26 08:24:01 - 2019-11-26 08:24:30</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 08:24:01					<br><br>
+					結束作業時間：2019-11-26 08:24:30					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954B8Bo_o2', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A24%3A01', '2019%2F11%2F26+08%3A24%3A30')">
+							H (濕度感測器)<br>
+							2019-11-26 08:24:01						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954B8Bo_o3', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A24%3A01', '2019%2F11%2F26+08%3A24%3A30')">
+							CO (一氧化碳感測器)<br>
+							2019-11-26 08:24:01						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94DEB5o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A24%3A01', '2019%2F11%2F26+08%3A24%3A30')">
+							T (溫度感測器)<br>
+							2019-11-26 08:24:01						</label>
+					
+										</div>
+										<div id="button_64599" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64706" class="btn btn-dark btn-lg">
+							(副)炸柳葉魚X2(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+												<a href="#64603" class="btn btn-dark btn-lg">
+							(副)炸柳葉魚X2 <br>[配膳1F-1&2]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64603" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>(副)炸柳葉魚X2 [配膳1F-1&2]</h2>
+					<div class="history_time">2019-11-26 08:26:18 - 2019-11-26 08:27:24</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 08:26:18					<br><br>
+					結束作業時間：2019-11-26 08:27:24					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953811o_o2', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A26%3A18', '2019%2F11%2F26+08%3A27%3A24')">
+							H (濕度感測器)<br>
+							2019-11-26 08:26:18						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953811o_o3', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A26%3A18', '2019%2F11%2F26+08%3A27%3A24')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 08:26:18						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A26%3A18', '2019%2F11%2F26+08%3A27%3A24')">
+							T (溫度感測器)<br>
+							2019-11-26 08:26:18						</label>
+					
+										</div>
+										<div id="button_64603" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64599" class="btn btn-dark btn-lg">
+							(副)炸柳葉魚X2 <br>[1樓炸1]						</a>
+						
+												<a href="#64711" class="btn btn-dark btn-lg">
+							香草蕃茄燉雞(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64711" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>香草蕃茄燉雞(永平高) [1樓出車疊餐(印自用)]</h2>
+					<div class="history_time">2019-11-26 10:43:06 - 2019-11-26 10:43:25</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 10:43:06					<br><br>
+					結束作業時間：2019-11-26 10:43:25					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=64564&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								香草蕃茄燉雞								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+10%3A43%3A06', '2019%2F11%2F26+10%3A43%3A25')">
+							T (溫度感測器)<br>
+							2019-11-26 10:43:06						</label>
+					
+										</div>
+										<div id="button_64711" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64603" class="btn btn-dark btn-lg">
+							(副)炸柳葉魚X2 <br>[配膳1F-1&2]						</a>
+						
+												<a href="#64564" class="btn btn-dark btn-lg">
+							香草蕃茄燉雞 <br>[1樓滷燉1]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64564" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>香草蕃茄燉雞 [1樓滷燉1]</h2>
+					<div class="history_time">2019-11-26 07:50:16 - 2019-11-26 07:50:31</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 07:50:16					<br><br>
+					結束作業時間：2019-11-26 07:50:31					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954283o_o2', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+07%3A50%3A16', '2019%2F11%2F26+07%3A50%3A31')">
+							H (濕度感測器)<br>
+							2019-11-26 07:50:16						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954283o_o3', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+07%3A50%3A16', '2019%2F11%2F26+07%3A50%3A31')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 07:50:16						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94DEB5o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+07%3A50%3A16', '2019%2F11%2F26+07%3A50%3A31')">
+							T (溫度感測器)<br>
+							2019-11-26 07:50:16						</label>
+					
+										</div>
+										<div id="button_64564" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64711" class="btn btn-dark btn-lg">
+							香草蕃茄燉雞(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+												<a href="#64588" class="btn btn-dark btn-lg">
+							香草蕃茄燉雞 <br>[配膳1F-3&4]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64588" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>香草蕃茄燉雞 [配膳1F-3&4]</h2>
+					<div class="history_time">2019-11-26 08:12:39 - 2019-11-26 08:15:21</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 08:12:39					<br><br>
+					結束作業時間：2019-11-26 08:15:21					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94E72Co_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A12%3A39', '2019%2F11%2F26+08%3A15%3A21')">
+							T (溫度感測器)<br>
+							2019-11-26 08:12:39						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9542CFo_o2', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A12%3A39', '2019%2F11%2F26+08%3A15%3A21')">
+							H (濕度感測器)<br>
+							2019-11-26 08:12:39						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A9542CFo_o3', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A12%3A39', '2019%2F11%2F26+08%3A15%3A21')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 08:12:39						</label>
+					
+										</div>
+										<div id="button_64588" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64564" class="btn btn-dark btn-lg">
+							香草蕃茄燉雞 <br>[1樓滷燉1]						</a>
+						
+												<a href="#64702" class="btn btn-dark btn-lg">
+							昆布黃芽排骨湯(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64702" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>昆布黃芽排骨湯(永平高) [1樓出車疊餐(印自用)]</h2>
+					<div class="history_time">2019-11-26 10:41:38 - 2019-11-26 10:41:42</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 10:41:38					<br><br>
+					結束作業時間：2019-11-26 10:41:42					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=64579&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								昆布黃芽排骨湯								
+																(38人份)
+															<br>
+								[統鮮美食]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+10%3A41%3A38', '2019%2F11%2F26+10%3A41%3A42')">
+							T (溫度感測器)<br>
+							2019-11-26 10:41:38						</label>
+					
+										</div>
+										<div id="button_64702" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64588" class="btn btn-dark btn-lg">
+							香草蕃茄燉雞 <br>[配膳1F-3&4]						</a>
+						
+												<a href="#64579" class="btn btn-dark btn-lg">
+							昆布黃芽排骨湯 <br>[2樓湯1]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64579" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>昆布黃芽排骨湯 [2樓湯1]</h2>
+					<div class="history_time">2019-11-26 08:04:24 - 2019-11-26 08:05:05</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 08:04:24					<br><br>
+					結束作業時間：2019-11-26 08:05:05					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94CC37o_o1', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+08%3A04%3A24', '2019%2F11%2F26+08%3A05%3A05')">
+							T (溫度感測器)<br>
+							2019-11-26 08:04:24						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953816o_o2', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+08%3A04%3A24', '2019%2F11%2F26+08%3A05%3A05')">
+							H (濕度感測器)<br>
+							2019-11-26 08:04:24						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953816o_o3', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+08%3A04%3A24', '2019%2F11%2F26+08%3A05%3A05')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 08:04:24						</label>
+					
+										</div>
+										<div id="button_64579" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64702" class="btn btn-dark btn-lg">
+							昆布黃芽排骨湯(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+												<a href="#64580" class="btn btn-dark btn-lg">
+							昆布黃芽排骨湯 <br>[配湯2F]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64580" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>昆布黃芽排骨湯 [配湯2F]</h2>
+					<div class="history_time">2019-11-26 08:05:42 - 2019-11-26 08:06:14</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 08:05:42					<br><br>
+					結束作業時間：2019-11-26 08:06:14					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94CC37o_o1', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+08%3A05%3A42', '2019%2F11%2F26+08%3A06%3A14')">
+							T (溫度感測器)<br>
+							2019-11-26 08:05:42						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953816o_o2', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+08%3A05%3A42', '2019%2F11%2F26+08%3A06%3A14')">
+							H (濕度感測器)<br>
+							2019-11-26 08:05:42						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953816o_o3', '3%2BxxT5aOEkHwG6fAO8idsBLXNCDaWPy2Wyeo3JTAa8cJaZA4eqHGSS266k7lR9Pc', '1573920000', '2019%2F11%2F26+08%3A05%3A42', '2019%2F11%2F26+08%3A06%3A14')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 08:05:42						</label>
+					
+										</div>
+										<div id="button_64580" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64579" class="btn btn-dark btn-lg">
+							昆布黃芽排骨湯 <br>[2樓湯1]						</a>
+						
+												<a href="#64708" class="btn btn-dark btn-lg">
+							杏鮑菇黃瓜(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64708" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>杏鮑菇黃瓜(永平高) [1樓出車疊餐(印自用)]</h2>
+					<div class="history_time">2019-11-26 10:42:43 - 2019-11-26 10:42:48</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 10:42:43					<br><br>
+					結束作業時間：2019-11-26 10:42:48					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=64581&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								杏鮑菇黃瓜								
+																(846人份)
+															<br>
+								[統鮮美食]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+10%3A42%3A43', '2019%2F11%2F26+10%3A42%3A48')">
+							T (溫度感測器)<br>
+							2019-11-26 10:42:43						</label>
+					
+										</div>
+										<div id="button_64708" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64580" class="btn btn-dark btn-lg">
+							昆布黃芽排骨湯 <br>[配湯2F]						</a>
+						
+												<a href="#64581" class="btn btn-dark btn-lg">
+							杏鮑菇黃瓜 <br>[1樓炒1]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64581" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>杏鮑菇黃瓜 [1樓炒1]</h2>
+					<div class="history_time">2019-11-26 08:06:22 - 2019-11-26 08:06:50</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 08:06:22					<br><br>
+					結束作業時間：2019-11-26 08:06:50					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954283o_o2', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A06%3A22', '2019%2F11%2F26+08%3A06%3A50')">
+							H (濕度感測器)<br>
+							2019-11-26 08:06:22						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A954283o_o3', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A06%3A22', '2019%2F11%2F26+08%3A06%3A50')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 08:06:22						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94DEB5o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A06%3A22', '2019%2F11%2F26+08%3A06%3A50')">
+							T (溫度感測器)<br>
+							2019-11-26 08:06:22						</label>
+					
+										</div>
+										<div id="button_64581" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64708" class="btn btn-dark btn-lg">
+							杏鮑菇黃瓜(永平高) <br>[1樓出車疊餐(印自用)]						</a>
+						
+												<a href="#64620" class="btn btn-dark btn-lg">
+							杏鮑菇黃瓜 <br>[配膳1F-1&2]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="64620" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>杏鮑菇黃瓜 [配膳1F-1&2]</h2>
+					<div class="history_time">2019-11-26 08:41:37 - 2019-11-26 08:42:10</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-11-26 08:41:37					<br><br>
+					結束作業時間：2019-11-26 08:42:10					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953811o_o2', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A41%3A37', '2019%2F11%2F26+08%3A42%3A10')">
+							H (濕度感測器)<br>
+							2019-11-26 08:41:37						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A953811o_o3', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A41%3A37', '2019%2F11%2F26+08%3A42%3A10')">
+							CO2 (二氧化碳感測器)<br>
+							2019-11-26 08:41:37						</label>
+					
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B0002530D32o_o1', 'qXrkcL2eAcDxJAasF3Vqf%2Fq7cJoJMeZKgLb94VsymxqS31Z4qLY6kGeDuQE3sdld', '1573920000', '2019%2F11%2F26+08%3A41%3A37', '2019%2F11%2F26+08%3A42%3A10')">
+							T (溫度感測器)<br>
+							2019-11-26 08:41:37						</label>
+					
+										</div>
+										<div id="button_64620" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#64581" class="btn btn-dark btn-lg">
+							杏鮑菇黃瓜 <br>[1樓炒1]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_64741', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_64744', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_64754', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [64741,64744,64754];
+	var loc_map = new Array(3);
+	var loc_arr = new Array(3);
+	var map_arr = new Array(3);
+	var marker_arr = new Array(3);
+
+		loc_arr[0] = [
+						{lat: 25.0550365448, lng: 121.46788787842},
+						{lat: 25.055082321167, lng: 121.46790313721},
+						{lat: 25.055145263672, lng: 121.46792602539},
+						{lat: 25.055238723755, lng: 121.46794891357},
+						{lat: 25.055307388306, lng: 121.46795654297},
+						{lat: 25.055374145508, lng: 121.46796417236},
+						{lat: 25.055421829224, lng: 121.46794128418},
+						{lat: 25.055480957031, lng: 121.467918396}
+				];
+
+	loc_map[0] = [
+	{sec: 8, index: 1},
+{sec: 10, index: 2},
+{sec: 11, index: 3},
+{sec: 13, index: 4},
+{sec: 16, index: 5},
+{sec: 19, index: 6},
+{sec: 22, index: 7}	];
+
+		loc_arr[1] = [
+						{lat: 25.055797576904, lng: 121.46799468994},
+						{lat: 25.055805206299, lng: 121.4680480957},
+						{lat: 25.055791854858, lng: 121.46810913086},
+						{lat: 25.055738449097, lng: 121.46845245361},
+						{lat: 25.055730819702, lng: 121.46854400635},
+						{lat: 25.055753707886, lng: 121.4686126709},
+						{lat: 25.055772781372, lng: 121.46865844727},
+						{lat: 25.055826187134, lng: 121.46868896484},
+						{lat: 25.055866241455, lng: 121.46872711182},
+						{lat: 25.05588722229, lng: 121.46879577637},
+						{lat: 25.055912017822, lng: 121.46885681152},
+						{lat: 25.055912017822, lng: 121.46896362305},
+						{lat: 25.055938720703, lng: 121.46901702881},
+						{lat: 25.055955886841, lng: 121.46907806396},
+						{lat: 25.055976867676, lng: 121.46922302246},
+						{lat: 25.055988311768, lng: 121.4693069458},
+						{lat: 25.056003570557, lng: 121.46948242188},
+						{lat: 25.056005477905, lng: 121.46957397461},
+						{lat: 25.056005477905, lng: 121.46965789795},
+						{lat: 25.056007385254, lng: 121.46974945068},
+						{lat: 25.056022644043, lng: 121.46996307373},
+						{lat: 25.056022644043, lng: 121.47006988525},
+						{lat: 25.056005477905, lng: 121.4702911377},
+						{lat: 25.055997848511, lng: 121.47041320801},
+						{lat: 25.056005477905, lng: 121.47067260742},
+						{lat: 25.056011199951, lng: 121.47080230713},
+						{lat: 25.0560131073, lng: 121.47091674805},
+						{lat: 25.0560131073, lng: 121.47114562988},
+						{lat: 25.056018829346, lng: 121.47135925293},
+						{lat: 25.056020736694, lng: 121.47155761719},
+						{lat: 25.056020736694, lng: 121.47171783447},
+						{lat: 25.056016921997, lng: 121.47183227539},
+						{lat: 25.056001663208, lng: 121.47188568115},
+						{lat: 25.055980682373, lng: 121.47193145752},
+						{lat: 25.05597114563, lng: 121.47198486328},
+						{lat: 25.055995941162, lng: 121.47203826904},
+						{lat: 25.05602645874, lng: 121.47219848633},
+						{lat: 25.056030273438, lng: 121.47232818604},
+						{lat: 25.056032180786, lng: 121.47240447998},
+						{lat: 25.056039810181, lng: 121.47259521484},
+						{lat: 25.056060791016, lng: 121.47280883789},
+						{lat: 25.056072235107, lng: 121.47291564941},
+						{lat: 25.056076049805, lng: 121.47312927246},
+						{lat: 25.056077957153, lng: 121.47324371338},
+						{lat: 25.056087493896, lng: 121.47344207764},
+						{lat: 25.056089401245, lng: 121.47361755371},
+						{lat: 25.056081771851, lng: 121.47369384766},
+						{lat: 25.056066513062, lng: 121.47379302979},
+						{lat: 25.056058883667, lng: 121.47386932373},
+						{lat: 25.056056976318, lng: 121.47392272949},
+						{lat: 25.056060791016, lng: 121.47399902344},
+						{lat: 25.056060791016, lng: 121.47409820557},
+						{lat: 25.056104660034, lng: 121.47417449951},
+						{lat: 25.056205749512, lng: 121.4741897583},
+						{lat: 25.056251525879, lng: 121.4741897583},
+						{lat: 25.056367874146, lng: 121.4741897583},
+						{lat: 25.056436538696, lng: 121.4741897583},
+						{lat: 25.056594848633, lng: 121.47418212891},
+						{lat: 25.056690216064, lng: 121.47418212891},
+						{lat: 25.056793212891, lng: 121.47418212891},
+						{lat: 25.057016372681, lng: 121.47418212891},
+						{lat: 25.057132720947, lng: 121.47418212891},
+						{lat: 25.057241439819, lng: 121.47418212891},
+						{lat: 25.057443618774, lng: 121.47418212891},
+						{lat: 25.057619094849, lng: 121.47420501709},
+						{lat: 25.057708740234, lng: 121.47421264648},
+						{lat: 25.057800292969, lng: 121.47421264648},
+						{lat: 25.057876586914, lng: 121.47421264648},
+						{lat: 25.057989120483, lng: 121.47423553467},
+						{lat: 25.058052062988, lng: 121.47423553467},
+						{lat: 25.058126449585, lng: 121.47421264648},
+						{lat: 25.058219909668, lng: 121.47421264648},
+						{lat: 25.058267593384, lng: 121.47421264648},
+						{lat: 25.058324813843, lng: 121.47421264648},
+						{lat: 25.058460235596, lng: 121.4741973877},
+						{lat: 25.058605194092, lng: 121.4741897583},
+						{lat: 25.05876159668, lng: 121.4741897583},
+						{lat: 25.058938980103, lng: 121.4741897583},
+						{lat: 25.059112548828, lng: 121.47420501709},
+						{lat: 25.059194564819, lng: 121.47420501709},
+						{lat: 25.059358596802, lng: 121.47422027588},
+						{lat: 25.059438705444, lng: 121.47422790527},
+						{lat: 25.059516906738, lng: 121.47422790527},
+						{lat: 25.059671401978, lng: 121.47424316406},
+						{lat: 25.059778213501, lng: 121.47425079346},
+						{lat: 25.059844970703, lng: 121.47428894043},
+						{lat: 25.059841156006, lng: 121.47436523438},
+						{lat: 25.059778213501, lng: 121.47441101074},
+						{lat: 25.059638977051, lng: 121.47454833984},
+						{lat: 25.059501647949, lng: 121.47467803955},
+						{lat: 25.059438705444, lng: 121.47473144531},
+						{lat: 25.059356689453, lng: 121.47481536865},
+						{lat: 25.059303283691, lng: 121.47490692139},
+						{lat: 25.059345245361, lng: 121.47492980957},
+						{lat: 25.059581756592, lng: 121.47481536865},
+						{lat: 25.059652328491, lng: 121.47476196289},
+						{lat: 25.059801101685, lng: 121.47463989258},
+						{lat: 25.059972763062, lng: 121.47444152832},
+						{lat: 25.060165405273, lng: 121.47426605225},
+						{lat: 25.060344696045, lng: 121.47409057617},
+						{lat: 25.060527801514, lng: 121.47393035889},
+						{lat: 25.060619354248, lng: 121.47383117676},
+						{lat: 25.060718536377, lng: 121.47372436523},
+						{lat: 25.060907363892, lng: 121.47352600098},
+						{lat: 25.060998916626, lng: 121.47343444824},
+						{lat: 25.06109046936, lng: 121.47333526611},
+						{lat: 25.061269760132, lng: 121.47315979004},
+						{lat: 25.061353683472, lng: 121.4730682373},
+						{lat: 25.0615234375, lng: 121.47290039062},
+						{lat: 25.061676025391, lng: 121.47274017334},
+						{lat: 25.061725616455, lng: 121.47269439697},
+						{lat: 25.061725616455, lng: 121.47264099121},
+						{lat: 25.061672210693, lng: 121.47266387939},
+						{lat: 25.061635971069, lng: 121.47277832031},
+						{lat: 25.061618804932, lng: 121.47283172607},
+						{lat: 25.061712265015, lng: 121.47285461426},
+						{lat: 25.061767578125, lng: 121.47281646729},
+						{lat: 25.061773300171, lng: 121.47276306152},
+						{lat: 25.061767578125, lng: 121.47267913818},
+						{lat: 25.061725616455, lng: 121.47263336182},
+						{lat: 25.061679840088, lng: 121.47262573242},
+						{lat: 25.061630249023, lng: 121.47268676758},
+						{lat: 25.061567306519, lng: 121.47282409668},
+						{lat: 25.061487197876, lng: 121.47294616699},
+						{lat: 25.061447143555, lng: 121.47300720215},
+						{lat: 25.061412811279, lng: 121.47304534912},
+						{lat: 25.061149597168, lng: 121.47331237793},
+						{lat: 25.06102180481, lng: 121.47345733643},
+						{lat: 25.060928344727, lng: 121.47360229492},
+						{lat: 25.060752868652, lng: 121.47387695312},
+						{lat: 25.060659408569, lng: 121.47399139404},
+						{lat: 25.060495376587, lng: 121.4741897583},
+						{lat: 25.06040763855, lng: 121.47430419922},
+						{lat: 25.060316085815, lng: 121.47441101074},
+						{lat: 25.060207366943, lng: 121.47450256348},
+						{lat: 25.059965133667, lng: 121.47463989258},
+						{lat: 25.059730529785, lng: 121.47478485107},
+						{lat: 25.059616088867, lng: 121.47486114502},
+						{lat: 25.059391021729, lng: 121.47500610352},
+						{lat: 25.059158325195, lng: 121.47515106201},
+						{lat: 25.059043884277, lng: 121.47521972656},
+						{lat: 25.058813095093, lng: 121.47535705566},
+						{lat: 25.058588027954, lng: 121.47549438477},
+						{lat: 25.058475494385, lng: 121.47557067871},
+						{lat: 25.058248519897, lng: 121.4757232666},
+						{lat: 25.058015823364, lng: 121.4758605957},
+						{lat: 25.057783126831, lng: 121.4760055542},
+						{lat: 25.057661056519, lng: 121.47608184814},
+						{lat: 25.057411193848, lng: 121.47621917725},
+						{lat: 25.057281494141, lng: 121.4762802124},
+						{lat: 25.057025909424, lng: 121.47640991211},
+						{lat: 25.056751251221, lng: 121.47653961182},
+						{lat: 25.056608200073, lng: 121.47660827637},
+						{lat: 25.056465148926, lng: 121.47667694092},
+						{lat: 25.05632019043, lng: 121.47674560547},
+						{lat: 25.056022644043, lng: 121.47690582275},
+						{lat: 25.055868148804, lng: 121.47700500488},
+						{lat: 25.055557250977, lng: 121.47718048096},
+						{lat: 25.055229187012, lng: 121.47734832764},
+						{lat: 25.054895401001, lng: 121.47751617432},
+						{lat: 25.054563522339, lng: 121.477684021},
+						{lat: 25.054397583008, lng: 121.47776794434},
+						{lat: 25.054058074951, lng: 121.47792816162},
+						{lat: 25.053886413574, lng: 121.47801208496},
+						{lat: 25.053712844849, lng: 121.4780960083},
+						{lat: 25.053541183472, lng: 121.47817993164},
+						{lat: 25.0533618927, lng: 121.47825622559},
+						{lat: 25.052995681763, lng: 121.47840118408},
+						{lat: 25.05260848999, lng: 121.47853088379},
+						{lat: 25.052213668823, lng: 121.4786605835},
+						{lat: 25.052019119263, lng: 121.47872924805},
+						{lat: 25.051635742188, lng: 121.47885131836},
+						{lat: 25.051246643066, lng: 121.47896575928},
+						{lat: 25.050857543945, lng: 121.4790802002},
+						{lat: 25.05046081543, lng: 121.47918701172},
+						{lat: 25.050073623657, lng: 121.47927856445},
+						{lat: 25.049686431885, lng: 121.47937011719},
+						{lat: 25.049495697021, lng: 121.47941589355},
+						{lat: 25.049306869507, lng: 121.47946166992},
+						{lat: 25.048927307129, lng: 121.47953796387},
+						{lat: 25.048736572266, lng: 121.47956848145},
+						{lat: 25.0485496521, lng: 121.47958374023},
+						{lat: 25.048189163208, lng: 121.47959136963},
+						{lat: 25.048007965088, lng: 121.47957611084},
+						{lat: 25.047826766968, lng: 121.47953796387},
+						{lat: 25.047512054443, lng: 121.47940826416},
+						{lat: 25.04736328125, lng: 121.47930908203},
+						{lat: 25.047073364258, lng: 121.47904968262},
+						{lat: 25.046926498413, lng: 121.47891235352},
+						{lat: 25.046773910522, lng: 121.47876739502},
+						{lat: 25.046457290649, lng: 121.47850799561},
+						{lat: 25.046119689941, lng: 121.47829437256},
+						{lat: 25.045770645142, lng: 121.47814178467},
+						{lat: 25.045404434204, lng: 121.47806549072},
+						{lat: 25.045217514038, lng: 121.47805786133},
+						{lat: 25.044849395752, lng: 121.4780960083},
+						{lat: 25.044668197632, lng: 121.47813415527},
+						{lat: 25.044311523438, lng: 121.47825622559},
+						{lat: 25.043975830078, lng: 121.47843170166},
+						{lat: 25.043643951416, lng: 121.47862243652},
+						{lat: 25.043479919434, lng: 121.47872161865},
+						{lat: 25.043315887451, lng: 121.47881317139},
+						{lat: 25.043151855469, lng: 121.47890472412},
+						{lat: 25.042818069458, lng: 121.47908782959},
+						{lat: 25.04248046875, lng: 121.47927093506},
+						{lat: 25.042150497437, lng: 121.47945404053},
+						{lat: 25.041820526123, lng: 121.47964477539},
+						{lat: 25.041500091553, lng: 121.47982025146},
+						{lat: 25.041181564331, lng: 121.47999572754},
+						{lat: 25.041019439697, lng: 121.48007965088},
+						{lat: 25.040859222412, lng: 121.48017120361},
+						{lat: 25.04052734375, lng: 121.4803314209},
+						{lat: 25.040189743042, lng: 121.48046875},
+						{lat: 25.040019989014, lng: 121.48053741455},
+						{lat: 25.039667129517, lng: 121.48064422607},
+						{lat: 25.039306640625, lng: 121.48073577881},
+						{lat: 25.039127349854, lng: 121.48078918457},
+						{lat: 25.038776397705, lng: 121.4808883667},
+						{lat: 25.0384349823, lng: 121.48101043701},
+						{lat: 25.038265228271, lng: 121.48107147217},
+						{lat: 25.037937164307, lng: 121.4811630249},
+						{lat: 25.037771224976, lng: 121.48120117188},
+						{lat: 25.037439346313, lng: 121.48125457764},
+						{lat: 25.037105560303, lng: 121.48129272461},
+						{lat: 25.036766052246, lng: 121.48133087158},
+						{lat: 25.036592483521, lng: 121.48134613037},
+						{lat: 25.036233901978, lng: 121.48137664795},
+						{lat: 25.035869598389, lng: 121.48139190674},
+						{lat: 25.03568649292, lng: 121.48139190674},
+						{lat: 25.035318374634, lng: 121.48140716553},
+						{lat: 25.034934997559, lng: 121.48141479492},
+						{lat: 25.034744262695, lng: 121.48141479492},
+						{lat: 25.034358978271, lng: 121.48143005371},
+						{lat: 25.034164428711, lng: 121.48143768311},
+						{lat: 25.03377532959, lng: 121.48146820068},
+						{lat: 25.033578872681, lng: 121.48149108887},
+						{lat: 25.033187866211, lng: 121.48156738281},
+						{lat: 25.03279876709, lng: 121.48165130615},
+						{lat: 25.032409667969, lng: 121.48175811768},
+						{lat: 25.032030105591, lng: 121.4818649292},
+						{lat: 25.031843185425, lng: 121.48193359375},
+						{lat: 25.031469345093, lng: 121.48206329346},
+						{lat: 25.031284332275, lng: 121.48213195801},
+						{lat: 25.030920028687, lng: 121.48226928711},
+						{lat: 25.030735015869, lng: 121.48234558105},
+						{lat: 25.0305519104, lng: 121.482421875},
+						{lat: 25.030368804932, lng: 121.48249053955},
+						{lat: 25.030006408691, lng: 121.48262023926},
+						{lat: 25.029647827148, lng: 121.48276519775},
+						{lat: 25.029468536377, lng: 121.4828338623},
+						{lat: 25.029106140137, lng: 121.48296356201},
+						{lat: 25.028743743896, lng: 121.48310089111},
+						{lat: 25.028562545776, lng: 121.48316955566},
+						{lat: 25.028202056885, lng: 121.48330688477},
+						{lat: 25.027841567993, lng: 121.48344421387},
+						{lat: 25.027479171753, lng: 121.48356628418},
+						{lat: 25.027292251587, lng: 121.48363494873},
+						{lat: 25.027103424072, lng: 121.48370361328},
+						{lat: 25.026918411255, lng: 121.48377227783},
+						{lat: 25.026544570923, lng: 121.48390197754},
+						{lat: 25.026355743408, lng: 121.48397064209},
+						{lat: 25.025989532471, lng: 121.48410797119},
+						{lat: 25.025804519653, lng: 121.48417663574},
+						{lat: 25.025621414185, lng: 121.48425292969},
+						{lat: 25.025253295898, lng: 121.48439025879},
+						{lat: 25.025068283081, lng: 121.48447418213},
+						{lat: 25.024703979492, lng: 121.48464202881},
+						{lat: 25.024518966675, lng: 121.48471832275},
+						{lat: 25.024145126343, lng: 121.48486328125},
+						{lat: 25.023761749268, lng: 121.48500823975},
+						{lat: 25.023380279541, lng: 121.48514556885},
+						{lat: 25.023189544678, lng: 121.48522186279},
+						{lat: 25.023000717163, lng: 121.48529052734},
+						{lat: 25.022808074951, lng: 121.48535919189},
+						{lat: 25.022422790527, lng: 121.48550415039},
+						{lat: 25.022232055664, lng: 121.48558044434},
+						{lat: 25.022039413452, lng: 121.48564910889},
+						{lat: 25.021648406982, lng: 121.48578643799},
+						{lat: 25.021451950073, lng: 121.48584747314},
+						{lat: 25.021060943604, lng: 121.48596954346},
+						{lat: 25.020673751831, lng: 121.48606872559},
+						{lat: 25.020282745361, lng: 121.48616027832},
+						{lat: 25.019891738892, lng: 121.48624420166},
+						{lat: 25.019695281982, lng: 121.48628997803},
+						{lat: 25.019298553467, lng: 121.48636627197},
+						{lat: 25.019094467163, lng: 121.48640441895},
+						{lat: 25.018682479858, lng: 121.48648834229},
+						{lat: 25.018266677856, lng: 121.48656463623},
+						{lat: 25.017850875854, lng: 121.48663330078},
+						{lat: 25.017646789551, lng: 121.48666381836},
+						{lat: 25.017444610596, lng: 121.48670196533},
+						{lat: 25.017246246338, lng: 121.48673248291},
+						{lat: 25.016851425171, lng: 121.48678588867},
+						{lat: 25.016653060913, lng: 121.48681640625},
+						{lat: 25.016256332397, lng: 121.48687744141},
+						{lat: 25.015882492065, lng: 121.48693847656},
+						{lat: 25.015523910522, lng: 121.48699951172},
+						{lat: 25.015344619751, lng: 121.48703765869},
+						{lat: 25.015167236328, lng: 121.48707580566},
+						{lat: 25.014818191528, lng: 121.487159729},
+						{lat: 25.0146484375, lng: 121.48720550537},
+						{lat: 25.014303207397, lng: 121.48729705811},
+						{lat: 25.013971328735, lng: 121.48740386963},
+						{lat: 25.013814926147, lng: 121.48746490479},
+						{lat: 25.013507843018, lng: 121.4875869751},
+						{lat: 25.013355255127, lng: 121.48764801025},
+						{lat: 25.013210296631, lng: 121.48770904541},
+						{lat: 25.013071060181, lng: 121.48776245117},
+						{lat: 25.012807846069, lng: 121.4878692627},
+						{lat: 25.012559890747, lng: 121.48798370361},
+						{lat: 25.01230430603, lng: 121.48810577393},
+						{lat: 25.012182235718, lng: 121.48817443848},
+						{lat: 25.011943817139, lng: 121.48831176758},
+						{lat: 25.011829376221, lng: 121.48838806152},
+						{lat: 25.011600494385, lng: 121.48854064941},
+						{lat: 25.011486053467, lng: 121.48861694336},
+						{lat: 25.011367797852, lng: 121.4886932373},
+						{lat: 25.011251449585, lng: 121.48876190186},
+						{lat: 25.011030197144, lng: 121.48889923096},
+						{lat: 25.01092338562, lng: 121.4889755249},
+						{lat: 25.010713577271, lng: 121.48912811279},
+						{lat: 25.01049041748, lng: 121.48928833008},
+						{lat: 25.01025390625, lng: 121.48945617676},
+						{lat: 25.010133743286, lng: 121.4895401001},
+						{lat: 25.009914398193, lng: 121.48970031738},
+						{lat: 25.009805679321, lng: 121.48978424072},
+						{lat: 25.009590148926, lng: 121.4899597168},
+						{lat: 25.009405136108, lng: 121.49015808105},
+						{lat: 25.009321212769, lng: 121.49027252197},
+						{lat: 25.009147644043, lng: 121.49049377441},
+						{lat: 25.008975982666, lng: 121.49072265625},
+						{lat: 25.008893966675, lng: 121.49083709717},
+						{lat: 25.008741378784, lng: 121.491065979},
+						{lat: 25.008600234985, lng: 121.49128723145},
+						{lat: 25.008533477783, lng: 121.49140167236},
+						{lat: 25.008476257324, lng: 121.49151611328},
+						{lat: 25.00838470459, lng: 121.49169921875},
+						{lat: 25.008304595947, lng: 121.49184417725},
+						{lat: 25.008230209351, lng: 121.49197387695},
+						{lat: 25.008163452148, lng: 121.49213409424},
+						{lat: 25.008134841919, lng: 121.49223327637},
+						{lat: 25.008068084717, lng: 121.49244689941},
+						{lat: 25.008007049561, lng: 121.49269104004},
+						{lat: 25.007946014404, lng: 121.49293518066},
+						{lat: 25.007904052734, lng: 121.49318695068},
+						{lat: 25.007886886597, lng: 121.49332427979},
+						{lat: 25.007843017578, lng: 121.49359893799},
+						{lat: 25.007829666138, lng: 121.49375152588},
+						{lat: 25.0078125, lng: 121.49404907227},
+						{lat: 25.007802963257, lng: 121.49419403076},
+						{lat: 25.007783889771, lng: 121.49449920654},
+						{lat: 25.007764816284, lng: 121.49480438232},
+						{lat: 25.007751464844, lng: 121.49509429932},
+						{lat: 25.007747650146, lng: 121.49523925781},
+						{lat: 25.007749557495, lng: 121.49549865723},
+						{lat: 25.007755279541, lng: 121.49563598633},
+						{lat: 25.007743835449, lng: 121.49589538574},
+						{lat: 25.007774353027, lng: 121.49617004395},
+						{lat: 25.00779914856, lng: 121.49630737305},
+						{lat: 25.007871627808, lng: 121.49657440186},
+						{lat: 25.007905960083, lng: 121.49670410156},
+						{lat: 25.007974624634, lng: 121.49696350098},
+						{lat: 25.008010864258, lng: 121.49709320068},
+						{lat: 25.008045196533, lng: 121.49722290039},
+						{lat: 25.008083343506, lng: 121.4973526001},
+						{lat: 25.0081615448, lng: 121.49758911133},
+						{lat: 25.008237838745, lng: 121.49778747559},
+						{lat: 25.008295059204, lng: 121.49793243408},
+						{lat: 25.008340835571, lng: 121.49801635742},
+						{lat: 25.008375167847, lng: 121.49808502197},
+						{lat: 25.008396148682, lng: 121.49813079834},
+						{lat: 25.008419036865, lng: 121.4981842041},
+						{lat: 25.008466720581, lng: 121.49828338623},
+						{lat: 25.008497238159, lng: 121.49834442139},
+						{lat: 25.008531570435, lng: 121.49841308594},
+						{lat: 25.00856590271, lng: 121.49848175049},
+						{lat: 25.008604049683, lng: 121.49855804443},
+						{lat: 25.008684158325, lng: 121.49872589111},
+						{lat: 25.008729934692, lng: 121.49881744385},
+						{lat: 25.008777618408, lng: 121.49892425537},
+						{lat: 25.008892059326, lng: 121.49913024902},
+						{lat: 25.008955001831, lng: 121.49923706055},
+						{lat: 25.009086608887, lng: 121.49945831299},
+						{lat: 25.009155273438, lng: 121.49957275391},
+						{lat: 25.009304046631, lng: 121.49979400635},
+						{lat: 25.009454727173, lng: 121.5},
+						{lat: 25.009609222412, lng: 121.50022888184},
+						{lat: 25.009679794312, lng: 121.50033569336},
+						{lat: 25.009813308716, lng: 121.50057220459},
+						{lat: 25.00989151001, lng: 121.50068664551},
+						{lat: 25.010055541992, lng: 121.50091552734},
+						{lat: 25.010145187378, lng: 121.50102233887},
+						{lat: 25.010326385498, lng: 121.5012512207},
+						{lat: 25.010522842407, lng: 121.50148010254},
+						{lat: 25.010715484619, lng: 121.50171661377},
+						{lat: 25.010814666748, lng: 121.5018157959},
+						{lat: 25.011009216309, lng: 121.50202941895},
+						{lat: 25.011098861694, lng: 121.50214385986},
+						{lat: 25.011184692383, lng: 121.50225067139},
+						{lat: 25.011268615723, lng: 121.5023651123},
+						{lat: 25.011461257935, lng: 121.50257110596},
+						{lat: 25.011640548706, lng: 121.502784729},
+						{lat: 25.011728286743, lng: 121.50289154053},
+						{lat: 25.011804580688, lng: 121.50300598145},
+						{lat: 25.011882781982, lng: 121.50312042236},
+						{lat: 25.012012481689, lng: 121.50329589844},
+						{lat: 25.012086868286, lng: 121.50337982178},
+						{lat: 25.012231826782, lng: 121.50356292725},
+						{lat: 25.012338638306, lng: 121.50370788574},
+						{lat: 25.012390136719, lng: 121.50377655029},
+						{lat: 25.01248550415, lng: 121.50389099121},
+						{lat: 25.012550354004, lng: 121.50396728516},
+						{lat: 25.012594223022, lng: 121.50402832031},
+						{lat: 25.012649536133, lng: 121.50408935547},
+						{lat: 25.012706756592, lng: 121.50415802002},
+						{lat: 25.01277923584, lng: 121.50424194336},
+						{lat: 25.012817382812, lng: 121.50428771973},
+						{lat: 25.012901306152, lng: 121.50439453125},
+						{lat: 25.012945175171, lng: 121.50444793701},
+						{lat: 25.013038635254, lng: 121.50456237793},
+						{lat: 25.013137817383, lng: 121.50469207764},
+						{lat: 25.013242721558, lng: 121.50485229492},
+						{lat: 25.013339996338, lng: 121.50499725342},
+						{lat: 25.013395309448, lng: 121.50505065918},
+						{lat: 25.013511657715, lng: 121.50518798828},
+						{lat: 25.013563156128, lng: 121.50525665283},
+						{lat: 25.013673782349, lng: 121.50537872314},
+						{lat: 25.013729095459, lng: 121.50543212891},
+						{lat: 25.013780593872, lng: 121.50547790527},
+						{lat: 25.013820648193, lng: 121.50550842285},
+						{lat: 25.013868331909, lng: 121.5055847168},
+						{lat: 25.013786315918, lng: 121.50568389893},
+						{lat: 25.013704299927, lng: 121.50574493408},
+						{lat: 25.013624191284, lng: 121.50582885742},
+						{lat: 25.013530731201, lng: 121.50594329834},
+						{lat: 25.013414382935, lng: 121.50607299805},
+						{lat: 25.013357162476, lng: 121.5061416626},
+						{lat: 25.01323890686, lng: 121.5062789917},
+						{lat: 25.013185501099, lng: 121.50635528564},
+						{lat: 25.013092041016, lng: 121.50648498535},
+						{lat: 25.013038635254, lng: 121.50653839111},
+						{lat: 25.012975692749, lng: 121.50659942627},
+						{lat: 25.012847900391, lng: 121.50672912598},
+						{lat: 25.012783050537, lng: 121.50679016113},
+						{lat: 25.012647628784, lng: 121.50691986084},
+						{lat: 25.012506484985, lng: 121.50708007812},
+						{lat: 25.012353897095, lng: 121.50724029541},
+						{lat: 25.012269973755, lng: 121.50731658936},
+						{lat: 25.012104034424, lng: 121.50749969482},
+						{lat: 25.012014389038, lng: 121.50759124756},
+						{lat: 25.01184463501, lng: 121.50777435303},
+						{lat: 25.01176071167, lng: 121.50785827637},
+						{lat: 25.01167678833, lng: 121.50794219971},
+						{lat: 25.011518478394, lng: 121.5080871582},
+						{lat: 25.011363983154, lng: 121.5082321167},
+						{lat: 25.011220932007, lng: 121.5083770752},
+						{lat: 25.011148452759, lng: 121.50843811035},
+						{lat: 25.011081695557, lng: 121.50849914551},
+						{lat: 25.010976791382, lng: 121.50860595703},
+						{lat: 25.010904312134, lng: 121.50867462158},
+						{lat: 25.010829925537, lng: 121.50869750977},
+						{lat: 25.010814666748, lng: 121.508644104},
+						{lat: 25.010780334473, lng: 121.50860595703},
+						{lat: 25.010740280151, lng: 121.50863647461},
+						{lat: 25.010709762573, lng: 121.50867462158},
+						{lat: 25.010654449463, lng: 121.50870513916},
+						{lat: 25.010576248169, lng: 121.50875091553},
+						{lat: 25.010528564453, lng: 121.50878143311},
+						{lat: 25.010484695435, lng: 121.50881958008},
+						{lat: 25.010410308838, lng: 121.50888061523},
+						{lat: 25.010358810425, lng: 121.508934021},
+						{lat: 25.01030921936, lng: 121.50897216797},
+						{lat: 25.010238647461, lng: 121.50901031494},
+						{lat: 25.010179519653, lng: 121.50900268555},
+						{lat: 25.010143280029, lng: 121.50904083252},
+						{lat: 25.010112762451, lng: 121.50911712646}
+				];
+
+	loc_map[1] = [
+	{sec: 7, index: 1},
+{sec: 10, index: 2},
+{sec: 12, index: 3},
+{sec: 14, index: 4},
+{sec: 18, index: 5},
+{sec: 22, index: 6},
+{sec: 26, index: 7},
+{sec: 30, index: 8},
+{sec: 33, index: 9},
+{sec: 36, index: 10},
+{sec: 39, index: 11},
+{sec: 40, index: 12},
+{sec: 41, index: 13},
+{sec: 43, index: 14},
+{sec: 44, index: 15},
+{sec: 46, index: 16},
+{sec: 47, index: 17},
+{sec: 48, index: 18},
+{sec: 49, index: 19},
+{sec: 51, index: 20},
+{sec: 52, index: 21},
+{sec: 54, index: 22},
+{sec: 55, index: 23},
+{sec: 57, index: 24},
+{sec: 58, index: 25},
+{sec: 59, index: 26},
+{sec: 61, index: 27},
+{sec: 63, index: 28},
+{sec: 65, index: 29},
+{sec: 67, index: 30},
+{sec: 69, index: 31},
+{sec: 71, index: 32},
+{sec: 86, index: 33},
+{sec: 88, index: 34},
+{sec: 114, index: 35},
+{sec: 117, index: 36},
+{sec: 119, index: 37},
+{sec: 120, index: 38},
+{sec: 122, index: 39},
+{sec: 124, index: 40},
+{sec: 125, index: 41},
+{sec: 127, index: 42},
+{sec: 128, index: 43},
+{sec: 130, index: 44},
+{sec: 132, index: 45},
+{sec: 133, index: 46},
+{sec: 135, index: 47},
+{sec: 137, index: 48},
+{sec: 140, index: 49},
+{sec: 165, index: 50},
+{sec: 167, index: 51},
+{sec: 169, index: 52},
+{sec: 172, index: 53},
+{sec: 173, index: 54},
+{sec: 175, index: 55},
+{sec: 176, index: 56},
+{sec: 178, index: 57},
+{sec: 179, index: 58},
+{sec: 180, index: 59},
+{sec: 182, index: 60},
+{sec: 183, index: 61},
+{sec: 184, index: 62},
+{sec: 186, index: 63},
+{sec: 188, index: 64},
+{sec: 189, index: 65},
+{sec: 190, index: 66},
+{sec: 191, index: 67},
+{sec: 193, index: 68},
+{sec: 195, index: 69},
+{sec: 204, index: 70},
+{sec: 206, index: 71},
+{sec: 207, index: 72},
+{sec: 208, index: 73},
+{sec: 210, index: 74},
+{sec: 212, index: 75},
+{sec: 214, index: 76},
+{sec: 216, index: 77},
+{sec: 218, index: 78},
+{sec: 219, index: 79},
+{sec: 221, index: 80},
+{sec: 222, index: 81},
+{sec: 223, index: 82},
+{sec: 225, index: 83},
+{sec: 227, index: 84},
+{sec: 230, index: 85},
+{sec: 233, index: 86},
+{sec: 236, index: 87},
+{sec: 238, index: 88},
+{sec: 240, index: 89},
+{sec: 241, index: 90},
+{sec: 243, index: 91},
+{sec: 246, index: 92},
+{sec: 253, index: 93},
+{sec: 256, index: 94},
+{sec: 257, index: 95},
+{sec: 259, index: 96},
+{sec: 261, index: 97},
+{sec: 263, index: 98},
+{sec: 265, index: 99},
+{sec: 267, index: 100},
+{sec: 268, index: 101},
+{sec: 269, index: 102},
+{sec: 271, index: 103},
+{sec: 272, index: 104},
+{sec: 273, index: 105},
+{sec: 275, index: 106},
+{sec: 276, index: 107},
+{sec: 278, index: 108},
+{sec: 280, index: 109},
+{sec: 281, index: 110},
+{sec: 284, index: 111},
+{sec: 286, index: 112},
+{sec: 288, index: 113},
+{sec: 291, index: 114},
+{sec: 296, index: 115},
+{sec: 298, index: 116},
+{sec: 301, index: 117},
+{sec: 304, index: 118},
+{sec: 306, index: 119},
+{sec: 309, index: 120},
+{sec: 311, index: 121},
+{sec: 313, index: 122},
+{sec: 315, index: 123},
+{sec: 316, index: 124},
+{sec: 318, index: 125},
+{sec: 322, index: 126},
+{sec: 323, index: 127},
+{sec: 324, index: 128},
+{sec: 326, index: 129},
+{sec: 327, index: 130},
+{sec: 329, index: 131},
+{sec: 330, index: 132},
+{sec: 331, index: 133},
+{sec: 332, index: 134},
+{sec: 334, index: 135},
+{sec: 336, index: 136},
+{sec: 337, index: 137},
+{sec: 339, index: 138},
+{sec: 341, index: 139},
+{sec: 342, index: 140},
+{sec: 344, index: 141},
+{sec: 346, index: 142},
+{sec: 347, index: 143},
+{sec: 349, index: 144},
+{sec: 351, index: 145},
+{sec: 353, index: 146},
+{sec: 354, index: 147},
+{sec: 356, index: 148},
+{sec: 357, index: 149},
+{sec: 359, index: 150},
+{sec: 361, index: 151},
+{sec: 362, index: 152},
+{sec: 363, index: 153},
+{sec: 364, index: 154},
+{sec: 366, index: 155},
+{sec: 367, index: 156},
+{sec: 369, index: 157},
+{sec: 371, index: 158},
+{sec: 373, index: 159},
+{sec: 375, index: 160},
+{sec: 376, index: 161},
+{sec: 378, index: 162},
+{sec: 379, index: 163},
+{sec: 380, index: 164},
+{sec: 381, index: 165},
+{sec: 382, index: 166},
+{sec: 384, index: 167},
+{sec: 386, index: 168},
+{sec: 388, index: 169},
+{sec: 389, index: 170},
+{sec: 391, index: 171},
+{sec: 393, index: 172},
+{sec: 395, index: 173},
+{sec: 397, index: 174},
+{sec: 399, index: 175},
+{sec: 401, index: 176},
+{sec: 402, index: 177},
+{sec: 403, index: 178},
+{sec: 405, index: 179},
+{sec: 406, index: 180},
+{sec: 407, index: 181},
+{sec: 409, index: 182},
+{sec: 410, index: 183},
+{sec: 411, index: 184},
+{sec: 413, index: 185},
+{sec: 414, index: 186},
+{sec: 416, index: 187},
+{sec: 417, index: 188},
+{sec: 418, index: 189},
+{sec: 420, index: 190},
+{sec: 422, index: 191},
+{sec: 424, index: 192},
+{sec: 426, index: 193},
+{sec: 427, index: 194},
+{sec: 429, index: 195},
+{sec: 430, index: 196},
+{sec: 432, index: 197},
+{sec: 434, index: 198},
+{sec: 436, index: 199},
+{sec: 437, index: 200},
+{sec: 438, index: 201},
+{sec: 439, index: 202},
+{sec: 441, index: 203},
+{sec: 443, index: 204},
+{sec: 445, index: 205},
+{sec: 447, index: 206},
+{sec: 449, index: 207},
+{sec: 451, index: 208},
+{sec: 452, index: 209},
+{sec: 453, index: 210},
+{sec: 455, index: 211},
+{sec: 457, index: 212},
+{sec: 458, index: 213},
+{sec: 460, index: 214},
+{sec: 462, index: 215},
+{sec: 463, index: 216},
+{sec: 465, index: 217},
+{sec: 467, index: 218},
+{sec: 468, index: 219},
+{sec: 470, index: 220},
+{sec: 471, index: 221},
+{sec: 473, index: 222},
+{sec: 475, index: 223},
+{sec: 477, index: 224},
+{sec: 478, index: 225},
+{sec: 480, index: 226},
+{sec: 482, index: 227},
+{sec: 483, index: 228},
+{sec: 485, index: 229},
+{sec: 487, index: 230},
+{sec: 488, index: 231},
+{sec: 490, index: 232},
+{sec: 491, index: 233},
+{sec: 493, index: 234},
+{sec: 494, index: 235},
+{sec: 496, index: 236},
+{sec: 498, index: 237},
+{sec: 500, index: 238},
+{sec: 502, index: 239},
+{sec: 503, index: 240},
+{sec: 505, index: 241},
+{sec: 506, index: 242},
+{sec: 508, index: 243},
+{sec: 509, index: 244},
+{sec: 510, index: 245},
+{sec: 511, index: 246},
+{sec: 513, index: 247},
+{sec: 515, index: 248},
+{sec: 516, index: 249},
+{sec: 518, index: 250},
+{sec: 520, index: 251},
+{sec: 521, index: 252},
+{sec: 523, index: 253},
+{sec: 525, index: 254},
+{sec: 527, index: 255},
+{sec: 528, index: 256},
+{sec: 529, index: 257},
+{sec: 530, index: 258},
+{sec: 532, index: 259},
+{sec: 533, index: 260},
+{sec: 535, index: 261},
+{sec: 536, index: 262},
+{sec: 537, index: 263},
+{sec: 539, index: 264},
+{sec: 540, index: 265},
+{sec: 542, index: 266},
+{sec: 543, index: 267},
+{sec: 545, index: 268},
+{sec: 547, index: 269},
+{sec: 549, index: 270},
+{sec: 550, index: 271},
+{sec: 551, index: 272},
+{sec: 552, index: 273},
+{sec: 554, index: 274},
+{sec: 555, index: 275},
+{sec: 556, index: 276},
+{sec: 558, index: 277},
+{sec: 559, index: 278},
+{sec: 561, index: 279},
+{sec: 563, index: 280},
+{sec: 565, index: 281},
+{sec: 567, index: 282},
+{sec: 568, index: 283},
+{sec: 570, index: 284},
+{sec: 571, index: 285},
+{sec: 573, index: 286},
+{sec: 575, index: 287},
+{sec: 577, index: 288},
+{sec: 578, index: 289},
+{sec: 579, index: 290},
+{sec: 580, index: 291},
+{sec: 582, index: 292},
+{sec: 583, index: 293},
+{sec: 585, index: 294},
+{sec: 587, index: 295},
+{sec: 589, index: 296},
+{sec: 590, index: 297},
+{sec: 591, index: 298},
+{sec: 593, index: 299},
+{sec: 594, index: 300},
+{sec: 596, index: 301},
+{sec: 598, index: 302},
+{sec: 599, index: 303},
+{sec: 601, index: 304},
+{sec: 602, index: 305},
+{sec: 603, index: 306},
+{sec: 604, index: 307},
+{sec: 606, index: 308},
+{sec: 608, index: 309},
+{sec: 610, index: 310},
+{sec: 611, index: 311},
+{sec: 613, index: 312},
+{sec: 614, index: 313},
+{sec: 616, index: 314},
+{sec: 617, index: 315},
+{sec: 618, index: 316},
+{sec: 619, index: 317},
+{sec: 621, index: 318},
+{sec: 622, index: 319},
+{sec: 624, index: 320},
+{sec: 626, index: 321},
+{sec: 628, index: 322},
+{sec: 629, index: 323},
+{sec: 631, index: 324},
+{sec: 632, index: 325},
+{sec: 634, index: 326},
+{sec: 636, index: 327},
+{sec: 637, index: 328},
+{sec: 639, index: 329},
+{sec: 641, index: 330},
+{sec: 642, index: 331},
+{sec: 644, index: 332},
+{sec: 646, index: 333},
+{sec: 647, index: 334},
+{sec: 648, index: 335},
+{sec: 650, index: 336},
+{sec: 652, index: 337},
+{sec: 654, index: 338},
+{sec: 656, index: 339},
+{sec: 657, index: 340},
+{sec: 659, index: 341},
+{sec: 661, index: 342},
+{sec: 663, index: 343},
+{sec: 665, index: 344},
+{sec: 666, index: 345},
+{sec: 668, index: 346},
+{sec: 669, index: 347},
+{sec: 671, index: 348},
+{sec: 672, index: 349},
+{sec: 674, index: 350},
+{sec: 676, index: 351},
+{sec: 678, index: 352},
+{sec: 679, index: 353},
+{sec: 681, index: 354},
+{sec: 682, index: 355},
+{sec: 684, index: 356},
+{sec: 686, index: 357},
+{sec: 687, index: 358},
+{sec: 689, index: 359},
+{sec: 690, index: 360},
+{sec: 692, index: 361},
+{sec: 693, index: 362},
+{sec: 694, index: 363},
+{sec: 695, index: 364},
+{sec: 697, index: 365},
+{sec: 699, index: 366},
+{sec: 701, index: 367},
+{sec: 703, index: 368},
+{sec: 705, index: 369},
+{sec: 707, index: 370},
+{sec: 782, index: 371},
+{sec: 784, index: 372},
+{sec: 785, index: 373},
+{sec: 786, index: 374},
+{sec: 787, index: 375},
+{sec: 788, index: 376},
+{sec: 790, index: 377},
+{sec: 791, index: 378},
+{sec: 792, index: 379},
+{sec: 794, index: 380},
+{sec: 795, index: 381},
+{sec: 797, index: 382},
+{sec: 798, index: 383},
+{sec: 800, index: 384},
+{sec: 802, index: 385},
+{sec: 804, index: 386},
+{sec: 805, index: 387},
+{sec: 807, index: 388},
+{sec: 808, index: 389},
+{sec: 810, index: 390},
+{sec: 811, index: 391},
+{sec: 813, index: 392},
+{sec: 815, index: 393},
+{sec: 817, index: 394},
+{sec: 818, index: 395},
+{sec: 820, index: 396},
+{sec: 821, index: 397},
+{sec: 822, index: 398},
+{sec: 823, index: 399},
+{sec: 825, index: 400},
+{sec: 827, index: 401},
+{sec: 828, index: 402},
+{sec: 829, index: 403},
+{sec: 830, index: 404},
+{sec: 832, index: 405},
+{sec: 833, index: 406},
+{sec: 835, index: 407},
+{sec: 837, index: 408},
+{sec: 838, index: 409},
+{sec: 840, index: 410},
+{sec: 842, index: 411},
+{sec: 845, index: 412},
+{sec: 872, index: 413},
+{sec: 874, index: 414},
+{sec: 876, index: 415},
+{sec: 877, index: 416},
+{sec: 879, index: 417},
+{sec: 880, index: 418},
+{sec: 882, index: 419},
+{sec: 884, index: 420},
+{sec: 886, index: 421},
+{sec: 888, index: 422},
+{sec: 889, index: 423},
+{sec: 891, index: 424},
+{sec: 892, index: 425},
+{sec: 894, index: 426},
+{sec: 895, index: 427},
+{sec: 896, index: 428},
+{sec: 897, index: 429},
+{sec: 900, index: 430},
+{sec: 903, index: 431},
+{sec: 905, index: 432},
+{sec: 907, index: 433},
+{sec: 909, index: 434},
+{sec: 911, index: 435},
+{sec: 912, index: 436},
+{sec: 914, index: 437},
+{sec: 915, index: 438},
+{sec: 917, index: 439},
+{sec: 918, index: 440},
+{sec: 919, index: 441},
+{sec: 921, index: 442},
+{sec: 922, index: 443},
+{sec: 924, index: 444},
+{sec: 926, index: 445},
+{sec: 928, index: 446},
+{sec: 929, index: 447},
+{sec: 931, index: 448},
+{sec: 932, index: 449},
+{sec: 934, index: 450},
+{sec: 935, index: 451},
+{sec: 936, index: 452},
+{sec: 938, index: 453},
+{sec: 940, index: 454},
+{sec: 942, index: 455},
+{sec: 943, index: 456},
+{sec: 944, index: 457},
+{sec: 946, index: 458},
+{sec: 948, index: 459},
+{sec: 951, index: 460},
+{sec: 956, index: 461},
+{sec: 971, index: 462},
+{sec: 974, index: 463},
+{sec: 977, index: 464},
+{sec: 982, index: 465},
+{sec: 986, index: 466},
+{sec: 988, index: 467},
+{sec: 990, index: 468},
+{sec: 993, index: 469},
+{sec: 995, index: 470},
+{sec: 997, index: 471},
+{sec: 1002, index: 472},
+{sec: 1006, index: 473},
+{sec: 1014, index: 474},
+{sec: 1036, index: 475}	];
+
+		loc_arr[2] = [
+						{lat: 25.010555555556, lng: 121.50833333333}
+				];
+
+	loc_map[2] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+								{lat: 25.0550365448, lng: 121.46788787842},				
+								{lat: 25.055082321167, lng: 121.46790313721},				
+								{lat: 25.055145263672, lng: 121.46792602539},				
+								{lat: 25.055238723755, lng: 121.46794891357},				
+								{lat: 25.055307388306, lng: 121.46795654297},				
+								{lat: 25.055374145508, lng: 121.46796417236},				
+								{lat: 25.055421829224, lng: 121.46794128418},				
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_64741'), {
+			zoom: 17,
+			center: {lat: 25.0550365448, lng: 121.46788787842},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 25.055797576904, lng: 121.46799468994},				
+								{lat: 25.055805206299, lng: 121.4680480957},				
+								{lat: 25.055791854858, lng: 121.46810913086},				
+								{lat: 25.055738449097, lng: 121.46845245361},				
+								{lat: 25.055730819702, lng: 121.46854400635},				
+								{lat: 25.055753707886, lng: 121.4686126709},				
+								{lat: 25.055772781372, lng: 121.46865844727},				
+								{lat: 25.055826187134, lng: 121.46868896484},				
+								{lat: 25.055866241455, lng: 121.46872711182},				
+								{lat: 25.05588722229, lng: 121.46879577637},				
+								{lat: 25.055912017822, lng: 121.46885681152},				
+								{lat: 25.055912017822, lng: 121.46896362305},				
+								{lat: 25.055938720703, lng: 121.46901702881},				
+								{lat: 25.055955886841, lng: 121.46907806396},				
+								{lat: 25.055976867676, lng: 121.46922302246},				
+								{lat: 25.055988311768, lng: 121.4693069458},				
+								{lat: 25.056003570557, lng: 121.46948242188},				
+								{lat: 25.056005477905, lng: 121.46957397461},				
+								{lat: 25.056005477905, lng: 121.46965789795},				
+								{lat: 25.056007385254, lng: 121.46974945068},				
+								{lat: 25.056022644043, lng: 121.46996307373},				
+								{lat: 25.056022644043, lng: 121.47006988525},				
+								{lat: 25.056005477905, lng: 121.4702911377},				
+								{lat: 25.055997848511, lng: 121.47041320801},				
+								{lat: 25.056005477905, lng: 121.47067260742},				
+								{lat: 25.056011199951, lng: 121.47080230713},				
+								{lat: 25.0560131073, lng: 121.47091674805},				
+								{lat: 25.0560131073, lng: 121.47114562988},				
+								{lat: 25.056018829346, lng: 121.47135925293},				
+								{lat: 25.056020736694, lng: 121.47155761719},				
+								{lat: 25.056020736694, lng: 121.47171783447},				
+								{lat: 25.056016921997, lng: 121.47183227539},				
+								{lat: 25.056001663208, lng: 121.47188568115},				
+								{lat: 25.055980682373, lng: 121.47193145752},				
+								{lat: 25.05597114563, lng: 121.47198486328},				
+								{lat: 25.055995941162, lng: 121.47203826904},				
+								{lat: 25.05602645874, lng: 121.47219848633},				
+								{lat: 25.056030273438, lng: 121.47232818604},				
+								{lat: 25.056032180786, lng: 121.47240447998},				
+								{lat: 25.056039810181, lng: 121.47259521484},				
+								{lat: 25.056060791016, lng: 121.47280883789},				
+								{lat: 25.056072235107, lng: 121.47291564941},				
+								{lat: 25.056076049805, lng: 121.47312927246},				
+								{lat: 25.056077957153, lng: 121.47324371338},				
+								{lat: 25.056087493896, lng: 121.47344207764},				
+								{lat: 25.056089401245, lng: 121.47361755371},				
+								{lat: 25.056081771851, lng: 121.47369384766},				
+								{lat: 25.056066513062, lng: 121.47379302979},				
+								{lat: 25.056058883667, lng: 121.47386932373},				
+								{lat: 25.056056976318, lng: 121.47392272949},				
+								{lat: 25.056060791016, lng: 121.47399902344},				
+								{lat: 25.056060791016, lng: 121.47409820557},				
+								{lat: 25.056104660034, lng: 121.47417449951},				
+								{lat: 25.056205749512, lng: 121.4741897583},				
+								{lat: 25.056251525879, lng: 121.4741897583},				
+								{lat: 25.056367874146, lng: 121.4741897583},				
+								{lat: 25.056436538696, lng: 121.4741897583},				
+								{lat: 25.056594848633, lng: 121.47418212891},				
+								{lat: 25.056690216064, lng: 121.47418212891},				
+								{lat: 25.056793212891, lng: 121.47418212891},				
+								{lat: 25.057016372681, lng: 121.47418212891},				
+								{lat: 25.057132720947, lng: 121.47418212891},				
+								{lat: 25.057241439819, lng: 121.47418212891},				
+								{lat: 25.057443618774, lng: 121.47418212891},				
+								{lat: 25.057619094849, lng: 121.47420501709},				
+								{lat: 25.057708740234, lng: 121.47421264648},				
+								{lat: 25.057800292969, lng: 121.47421264648},				
+								{lat: 25.057876586914, lng: 121.47421264648},				
+								{lat: 25.057989120483, lng: 121.47423553467},				
+								{lat: 25.058052062988, lng: 121.47423553467},				
+								{lat: 25.058126449585, lng: 121.47421264648},				
+								{lat: 25.058219909668, lng: 121.47421264648},				
+								{lat: 25.058267593384, lng: 121.47421264648},				
+								{lat: 25.058324813843, lng: 121.47421264648},				
+								{lat: 25.058460235596, lng: 121.4741973877},				
+								{lat: 25.058605194092, lng: 121.4741897583},				
+								{lat: 25.05876159668, lng: 121.4741897583},				
+								{lat: 25.058938980103, lng: 121.4741897583},				
+								{lat: 25.059112548828, lng: 121.47420501709},				
+								{lat: 25.059194564819, lng: 121.47420501709},				
+								{lat: 25.059358596802, lng: 121.47422027588},				
+								{lat: 25.059438705444, lng: 121.47422790527},				
+								{lat: 25.059516906738, lng: 121.47422790527},				
+								{lat: 25.059671401978, lng: 121.47424316406},				
+								{lat: 25.059778213501, lng: 121.47425079346},				
+								{lat: 25.059844970703, lng: 121.47428894043},				
+								{lat: 25.059841156006, lng: 121.47436523438},				
+								{lat: 25.059778213501, lng: 121.47441101074},				
+								{lat: 25.059638977051, lng: 121.47454833984},				
+								{lat: 25.059501647949, lng: 121.47467803955},				
+								{lat: 25.059438705444, lng: 121.47473144531},				
+								{lat: 25.059356689453, lng: 121.47481536865},				
+								{lat: 25.059303283691, lng: 121.47490692139},				
+								{lat: 25.059345245361, lng: 121.47492980957},				
+								{lat: 25.059581756592, lng: 121.47481536865},				
+								{lat: 25.059652328491, lng: 121.47476196289},				
+								{lat: 25.059801101685, lng: 121.47463989258},				
+								{lat: 25.059972763062, lng: 121.47444152832},				
+								{lat: 25.060165405273, lng: 121.47426605225},				
+								{lat: 25.060344696045, lng: 121.47409057617},				
+								{lat: 25.060527801514, lng: 121.47393035889},				
+								{lat: 25.060619354248, lng: 121.47383117676},				
+								{lat: 25.060718536377, lng: 121.47372436523},				
+								{lat: 25.060907363892, lng: 121.47352600098},				
+								{lat: 25.060998916626, lng: 121.47343444824},				
+								{lat: 25.06109046936, lng: 121.47333526611},				
+								{lat: 25.061269760132, lng: 121.47315979004},				
+								{lat: 25.061353683472, lng: 121.4730682373},				
+								{lat: 25.0615234375, lng: 121.47290039062},				
+								{lat: 25.061676025391, lng: 121.47274017334},				
+								{lat: 25.061725616455, lng: 121.47269439697},				
+								{lat: 25.061725616455, lng: 121.47264099121},				
+								{lat: 25.061672210693, lng: 121.47266387939},				
+								{lat: 25.061635971069, lng: 121.47277832031},				
+								{lat: 25.061618804932, lng: 121.47283172607},				
+								{lat: 25.061712265015, lng: 121.47285461426},				
+								{lat: 25.061767578125, lng: 121.47281646729},				
+								{lat: 25.061773300171, lng: 121.47276306152},				
+								{lat: 25.061767578125, lng: 121.47267913818},				
+								{lat: 25.061725616455, lng: 121.47263336182},				
+								{lat: 25.061679840088, lng: 121.47262573242},				
+								{lat: 25.061630249023, lng: 121.47268676758},				
+								{lat: 25.061567306519, lng: 121.47282409668},				
+								{lat: 25.061487197876, lng: 121.47294616699},				
+								{lat: 25.061447143555, lng: 121.47300720215},				
+								{lat: 25.061412811279, lng: 121.47304534912},				
+								{lat: 25.061149597168, lng: 121.47331237793},				
+								{lat: 25.06102180481, lng: 121.47345733643},				
+								{lat: 25.060928344727, lng: 121.47360229492},				
+								{lat: 25.060752868652, lng: 121.47387695312},				
+								{lat: 25.060659408569, lng: 121.47399139404},				
+								{lat: 25.060495376587, lng: 121.4741897583},				
+								{lat: 25.06040763855, lng: 121.47430419922},				
+								{lat: 25.060316085815, lng: 121.47441101074},				
+								{lat: 25.060207366943, lng: 121.47450256348},				
+								{lat: 25.059965133667, lng: 121.47463989258},				
+								{lat: 25.059730529785, lng: 121.47478485107},				
+								{lat: 25.059616088867, lng: 121.47486114502},				
+								{lat: 25.059391021729, lng: 121.47500610352},				
+								{lat: 25.059158325195, lng: 121.47515106201},				
+								{lat: 25.059043884277, lng: 121.47521972656},				
+								{lat: 25.058813095093, lng: 121.47535705566},				
+								{lat: 25.058588027954, lng: 121.47549438477},				
+								{lat: 25.058475494385, lng: 121.47557067871},				
+								{lat: 25.058248519897, lng: 121.4757232666},				
+								{lat: 25.058015823364, lng: 121.4758605957},				
+								{lat: 25.057783126831, lng: 121.4760055542},				
+								{lat: 25.057661056519, lng: 121.47608184814},				
+								{lat: 25.057411193848, lng: 121.47621917725},				
+								{lat: 25.057281494141, lng: 121.4762802124},				
+								{lat: 25.057025909424, lng: 121.47640991211},				
+								{lat: 25.056751251221, lng: 121.47653961182},				
+								{lat: 25.056608200073, lng: 121.47660827637},				
+								{lat: 25.056465148926, lng: 121.47667694092},				
+								{lat: 25.05632019043, lng: 121.47674560547},				
+								{lat: 25.056022644043, lng: 121.47690582275},				
+								{lat: 25.055868148804, lng: 121.47700500488},				
+								{lat: 25.055557250977, lng: 121.47718048096},				
+								{lat: 25.055229187012, lng: 121.47734832764},				
+								{lat: 25.054895401001, lng: 121.47751617432},				
+								{lat: 25.054563522339, lng: 121.477684021},				
+								{lat: 25.054397583008, lng: 121.47776794434},				
+								{lat: 25.054058074951, lng: 121.47792816162},				
+								{lat: 25.053886413574, lng: 121.47801208496},				
+								{lat: 25.053712844849, lng: 121.4780960083},				
+								{lat: 25.053541183472, lng: 121.47817993164},				
+								{lat: 25.0533618927, lng: 121.47825622559},				
+								{lat: 25.052995681763, lng: 121.47840118408},				
+								{lat: 25.05260848999, lng: 121.47853088379},				
+								{lat: 25.052213668823, lng: 121.4786605835},				
+								{lat: 25.052019119263, lng: 121.47872924805},				
+								{lat: 25.051635742188, lng: 121.47885131836},				
+								{lat: 25.051246643066, lng: 121.47896575928},				
+								{lat: 25.050857543945, lng: 121.4790802002},				
+								{lat: 25.05046081543, lng: 121.47918701172},				
+								{lat: 25.050073623657, lng: 121.47927856445},				
+								{lat: 25.049686431885, lng: 121.47937011719},				
+								{lat: 25.049495697021, lng: 121.47941589355},				
+								{lat: 25.049306869507, lng: 121.47946166992},				
+								{lat: 25.048927307129, lng: 121.47953796387},				
+								{lat: 25.048736572266, lng: 121.47956848145},				
+								{lat: 25.0485496521, lng: 121.47958374023},				
+								{lat: 25.048189163208, lng: 121.47959136963},				
+								{lat: 25.048007965088, lng: 121.47957611084},				
+								{lat: 25.047826766968, lng: 121.47953796387},				
+								{lat: 25.047512054443, lng: 121.47940826416},				
+								{lat: 25.04736328125, lng: 121.47930908203},				
+								{lat: 25.047073364258, lng: 121.47904968262},				
+								{lat: 25.046926498413, lng: 121.47891235352},				
+								{lat: 25.046773910522, lng: 121.47876739502},				
+								{lat: 25.046457290649, lng: 121.47850799561},				
+								{lat: 25.046119689941, lng: 121.47829437256},				
+								{lat: 25.045770645142, lng: 121.47814178467},				
+								{lat: 25.045404434204, lng: 121.47806549072},				
+								{lat: 25.045217514038, lng: 121.47805786133},				
+								{lat: 25.044849395752, lng: 121.4780960083},				
+								{lat: 25.044668197632, lng: 121.47813415527},				
+								{lat: 25.044311523438, lng: 121.47825622559},				
+								{lat: 25.043975830078, lng: 121.47843170166},				
+								{lat: 25.043643951416, lng: 121.47862243652},				
+								{lat: 25.043479919434, lng: 121.47872161865},				
+								{lat: 25.043315887451, lng: 121.47881317139},				
+								{lat: 25.043151855469, lng: 121.47890472412},				
+								{lat: 25.042818069458, lng: 121.47908782959},				
+								{lat: 25.04248046875, lng: 121.47927093506},				
+								{lat: 25.042150497437, lng: 121.47945404053},				
+								{lat: 25.041820526123, lng: 121.47964477539},				
+								{lat: 25.041500091553, lng: 121.47982025146},				
+								{lat: 25.041181564331, lng: 121.47999572754},				
+								{lat: 25.041019439697, lng: 121.48007965088},				
+								{lat: 25.040859222412, lng: 121.48017120361},				
+								{lat: 25.04052734375, lng: 121.4803314209},				
+								{lat: 25.040189743042, lng: 121.48046875},				
+								{lat: 25.040019989014, lng: 121.48053741455},				
+								{lat: 25.039667129517, lng: 121.48064422607},				
+								{lat: 25.039306640625, lng: 121.48073577881},				
+								{lat: 25.039127349854, lng: 121.48078918457},				
+								{lat: 25.038776397705, lng: 121.4808883667},				
+								{lat: 25.0384349823, lng: 121.48101043701},				
+								{lat: 25.038265228271, lng: 121.48107147217},				
+								{lat: 25.037937164307, lng: 121.4811630249},				
+								{lat: 25.037771224976, lng: 121.48120117188},				
+								{lat: 25.037439346313, lng: 121.48125457764},				
+								{lat: 25.037105560303, lng: 121.48129272461},				
+								{lat: 25.036766052246, lng: 121.48133087158},				
+								{lat: 25.036592483521, lng: 121.48134613037},				
+								{lat: 25.036233901978, lng: 121.48137664795},				
+								{lat: 25.035869598389, lng: 121.48139190674},				
+								{lat: 25.03568649292, lng: 121.48139190674},				
+								{lat: 25.035318374634, lng: 121.48140716553},				
+								{lat: 25.034934997559, lng: 121.48141479492},				
+								{lat: 25.034744262695, lng: 121.48141479492},				
+								{lat: 25.034358978271, lng: 121.48143005371},				
+								{lat: 25.034164428711, lng: 121.48143768311},				
+								{lat: 25.03377532959, lng: 121.48146820068},				
+								{lat: 25.033578872681, lng: 121.48149108887},				
+								{lat: 25.033187866211, lng: 121.48156738281},				
+								{lat: 25.03279876709, lng: 121.48165130615},				
+								{lat: 25.032409667969, lng: 121.48175811768},				
+								{lat: 25.032030105591, lng: 121.4818649292},				
+								{lat: 25.031843185425, lng: 121.48193359375},				
+								{lat: 25.031469345093, lng: 121.48206329346},				
+								{lat: 25.031284332275, lng: 121.48213195801},				
+								{lat: 25.030920028687, lng: 121.48226928711},				
+								{lat: 25.030735015869, lng: 121.48234558105},				
+								{lat: 25.0305519104, lng: 121.482421875},				
+								{lat: 25.030368804932, lng: 121.48249053955},				
+								{lat: 25.030006408691, lng: 121.48262023926},				
+								{lat: 25.029647827148, lng: 121.48276519775},				
+								{lat: 25.029468536377, lng: 121.4828338623},				
+								{lat: 25.029106140137, lng: 121.48296356201},				
+								{lat: 25.028743743896, lng: 121.48310089111},				
+								{lat: 25.028562545776, lng: 121.48316955566},				
+								{lat: 25.028202056885, lng: 121.48330688477},				
+								{lat: 25.027841567993, lng: 121.48344421387},				
+								{lat: 25.027479171753, lng: 121.48356628418},				
+								{lat: 25.027292251587, lng: 121.48363494873},				
+								{lat: 25.027103424072, lng: 121.48370361328},				
+								{lat: 25.026918411255, lng: 121.48377227783},				
+								{lat: 25.026544570923, lng: 121.48390197754},				
+								{lat: 25.026355743408, lng: 121.48397064209},				
+								{lat: 25.025989532471, lng: 121.48410797119},				
+								{lat: 25.025804519653, lng: 121.48417663574},				
+								{lat: 25.025621414185, lng: 121.48425292969},				
+								{lat: 25.025253295898, lng: 121.48439025879},				
+								{lat: 25.025068283081, lng: 121.48447418213},				
+								{lat: 25.024703979492, lng: 121.48464202881},				
+								{lat: 25.024518966675, lng: 121.48471832275},				
+								{lat: 25.024145126343, lng: 121.48486328125},				
+								{lat: 25.023761749268, lng: 121.48500823975},				
+								{lat: 25.023380279541, lng: 121.48514556885},				
+								{lat: 25.023189544678, lng: 121.48522186279},				
+								{lat: 25.023000717163, lng: 121.48529052734},				
+								{lat: 25.022808074951, lng: 121.48535919189},				
+								{lat: 25.022422790527, lng: 121.48550415039},				
+								{lat: 25.022232055664, lng: 121.48558044434},				
+								{lat: 25.022039413452, lng: 121.48564910889},				
+								{lat: 25.021648406982, lng: 121.48578643799},				
+								{lat: 25.021451950073, lng: 121.48584747314},				
+								{lat: 25.021060943604, lng: 121.48596954346},				
+								{lat: 25.020673751831, lng: 121.48606872559},				
+								{lat: 25.020282745361, lng: 121.48616027832},				
+								{lat: 25.019891738892, lng: 121.48624420166},				
+								{lat: 25.019695281982, lng: 121.48628997803},				
+								{lat: 25.019298553467, lng: 121.48636627197},				
+								{lat: 25.019094467163, lng: 121.48640441895},				
+								{lat: 25.018682479858, lng: 121.48648834229},				
+								{lat: 25.018266677856, lng: 121.48656463623},				
+								{lat: 25.017850875854, lng: 121.48663330078},				
+								{lat: 25.017646789551, lng: 121.48666381836},				
+								{lat: 25.017444610596, lng: 121.48670196533},				
+								{lat: 25.017246246338, lng: 121.48673248291},				
+								{lat: 25.016851425171, lng: 121.48678588867},				
+								{lat: 25.016653060913, lng: 121.48681640625},				
+								{lat: 25.016256332397, lng: 121.48687744141},				
+								{lat: 25.015882492065, lng: 121.48693847656},				
+								{lat: 25.015523910522, lng: 121.48699951172},				
+								{lat: 25.015344619751, lng: 121.48703765869},				
+								{lat: 25.015167236328, lng: 121.48707580566},				
+								{lat: 25.014818191528, lng: 121.487159729},				
+								{lat: 25.0146484375, lng: 121.48720550537},				
+								{lat: 25.014303207397, lng: 121.48729705811},				
+								{lat: 25.013971328735, lng: 121.48740386963},				
+								{lat: 25.013814926147, lng: 121.48746490479},				
+								{lat: 25.013507843018, lng: 121.4875869751},				
+								{lat: 25.013355255127, lng: 121.48764801025},				
+								{lat: 25.013210296631, lng: 121.48770904541},				
+								{lat: 25.013071060181, lng: 121.48776245117},				
+								{lat: 25.012807846069, lng: 121.4878692627},				
+								{lat: 25.012559890747, lng: 121.48798370361},				
+								{lat: 25.01230430603, lng: 121.48810577393},				
+								{lat: 25.012182235718, lng: 121.48817443848},				
+								{lat: 25.011943817139, lng: 121.48831176758},				
+								{lat: 25.011829376221, lng: 121.48838806152},				
+								{lat: 25.011600494385, lng: 121.48854064941},				
+								{lat: 25.011486053467, lng: 121.48861694336},				
+								{lat: 25.011367797852, lng: 121.4886932373},				
+								{lat: 25.011251449585, lng: 121.48876190186},				
+								{lat: 25.011030197144, lng: 121.48889923096},				
+								{lat: 25.01092338562, lng: 121.4889755249},				
+								{lat: 25.010713577271, lng: 121.48912811279},				
+								{lat: 25.01049041748, lng: 121.48928833008},				
+								{lat: 25.01025390625, lng: 121.48945617676},				
+								{lat: 25.010133743286, lng: 121.4895401001},				
+								{lat: 25.009914398193, lng: 121.48970031738},				
+								{lat: 25.009805679321, lng: 121.48978424072},				
+								{lat: 25.009590148926, lng: 121.4899597168},				
+								{lat: 25.009405136108, lng: 121.49015808105},				
+								{lat: 25.009321212769, lng: 121.49027252197},				
+								{lat: 25.009147644043, lng: 121.49049377441},				
+								{lat: 25.008975982666, lng: 121.49072265625},				
+								{lat: 25.008893966675, lng: 121.49083709717},				
+								{lat: 25.008741378784, lng: 121.491065979},				
+								{lat: 25.008600234985, lng: 121.49128723145},				
+								{lat: 25.008533477783, lng: 121.49140167236},				
+								{lat: 25.008476257324, lng: 121.49151611328},				
+								{lat: 25.00838470459, lng: 121.49169921875},				
+								{lat: 25.008304595947, lng: 121.49184417725},				
+								{lat: 25.008230209351, lng: 121.49197387695},				
+								{lat: 25.008163452148, lng: 121.49213409424},				
+								{lat: 25.008134841919, lng: 121.49223327637},				
+								{lat: 25.008068084717, lng: 121.49244689941},				
+								{lat: 25.008007049561, lng: 121.49269104004},				
+								{lat: 25.007946014404, lng: 121.49293518066},				
+								{lat: 25.007904052734, lng: 121.49318695068},				
+								{lat: 25.007886886597, lng: 121.49332427979},				
+								{lat: 25.007843017578, lng: 121.49359893799},				
+								{lat: 25.007829666138, lng: 121.49375152588},				
+								{lat: 25.0078125, lng: 121.49404907227},				
+								{lat: 25.007802963257, lng: 121.49419403076},				
+								{lat: 25.007783889771, lng: 121.49449920654},				
+								{lat: 25.007764816284, lng: 121.49480438232},				
+								{lat: 25.007751464844, lng: 121.49509429932},				
+								{lat: 25.007747650146, lng: 121.49523925781},				
+								{lat: 25.007749557495, lng: 121.49549865723},				
+								{lat: 25.007755279541, lng: 121.49563598633},				
+								{lat: 25.007743835449, lng: 121.49589538574},				
+								{lat: 25.007774353027, lng: 121.49617004395},				
+								{lat: 25.00779914856, lng: 121.49630737305},				
+								{lat: 25.007871627808, lng: 121.49657440186},				
+								{lat: 25.007905960083, lng: 121.49670410156},				
+								{lat: 25.007974624634, lng: 121.49696350098},				
+								{lat: 25.008010864258, lng: 121.49709320068},				
+								{lat: 25.008045196533, lng: 121.49722290039},				
+								{lat: 25.008083343506, lng: 121.4973526001},				
+								{lat: 25.0081615448, lng: 121.49758911133},				
+								{lat: 25.008237838745, lng: 121.49778747559},				
+								{lat: 25.008295059204, lng: 121.49793243408},				
+								{lat: 25.008340835571, lng: 121.49801635742},				
+								{lat: 25.008375167847, lng: 121.49808502197},				
+								{lat: 25.008396148682, lng: 121.49813079834},				
+								{lat: 25.008419036865, lng: 121.4981842041},				
+								{lat: 25.008466720581, lng: 121.49828338623},				
+								{lat: 25.008497238159, lng: 121.49834442139},				
+								{lat: 25.008531570435, lng: 121.49841308594},				
+								{lat: 25.00856590271, lng: 121.49848175049},				
+								{lat: 25.008604049683, lng: 121.49855804443},				
+								{lat: 25.008684158325, lng: 121.49872589111},				
+								{lat: 25.008729934692, lng: 121.49881744385},				
+								{lat: 25.008777618408, lng: 121.49892425537},				
+								{lat: 25.008892059326, lng: 121.49913024902},				
+								{lat: 25.008955001831, lng: 121.49923706055},				
+								{lat: 25.009086608887, lng: 121.49945831299},				
+								{lat: 25.009155273438, lng: 121.49957275391},				
+								{lat: 25.009304046631, lng: 121.49979400635},				
+								{lat: 25.009454727173, lng: 121.5},				
+								{lat: 25.009609222412, lng: 121.50022888184},				
+								{lat: 25.009679794312, lng: 121.50033569336},				
+								{lat: 25.009813308716, lng: 121.50057220459},				
+								{lat: 25.00989151001, lng: 121.50068664551},				
+								{lat: 25.010055541992, lng: 121.50091552734},				
+								{lat: 25.010145187378, lng: 121.50102233887},				
+								{lat: 25.010326385498, lng: 121.5012512207},				
+								{lat: 25.010522842407, lng: 121.50148010254},				
+								{lat: 25.010715484619, lng: 121.50171661377},				
+								{lat: 25.010814666748, lng: 121.5018157959},				
+								{lat: 25.011009216309, lng: 121.50202941895},				
+								{lat: 25.011098861694, lng: 121.50214385986},				
+								{lat: 25.011184692383, lng: 121.50225067139},				
+								{lat: 25.011268615723, lng: 121.5023651123},				
+								{lat: 25.011461257935, lng: 121.50257110596},				
+								{lat: 25.011640548706, lng: 121.502784729},				
+								{lat: 25.011728286743, lng: 121.50289154053},				
+								{lat: 25.011804580688, lng: 121.50300598145},				
+								{lat: 25.011882781982, lng: 121.50312042236},				
+								{lat: 25.012012481689, lng: 121.50329589844},				
+								{lat: 25.012086868286, lng: 121.50337982178},				
+								{lat: 25.012231826782, lng: 121.50356292725},				
+								{lat: 25.012338638306, lng: 121.50370788574},				
+								{lat: 25.012390136719, lng: 121.50377655029},				
+								{lat: 25.01248550415, lng: 121.50389099121},				
+								{lat: 25.012550354004, lng: 121.50396728516},				
+								{lat: 25.012594223022, lng: 121.50402832031},				
+								{lat: 25.012649536133, lng: 121.50408935547},				
+								{lat: 25.012706756592, lng: 121.50415802002},				
+								{lat: 25.01277923584, lng: 121.50424194336},				
+								{lat: 25.012817382812, lng: 121.50428771973},				
+								{lat: 25.012901306152, lng: 121.50439453125},				
+								{lat: 25.012945175171, lng: 121.50444793701},				
+								{lat: 25.013038635254, lng: 121.50456237793},				
+								{lat: 25.013137817383, lng: 121.50469207764},				
+								{lat: 25.013242721558, lng: 121.50485229492},				
+								{lat: 25.013339996338, lng: 121.50499725342},				
+								{lat: 25.013395309448, lng: 121.50505065918},				
+								{lat: 25.013511657715, lng: 121.50518798828},				
+								{lat: 25.013563156128, lng: 121.50525665283},				
+								{lat: 25.013673782349, lng: 121.50537872314},				
+								{lat: 25.013729095459, lng: 121.50543212891},				
+								{lat: 25.013780593872, lng: 121.50547790527},				
+								{lat: 25.013820648193, lng: 121.50550842285},				
+								{lat: 25.013868331909, lng: 121.5055847168},				
+								{lat: 25.013786315918, lng: 121.50568389893},				
+								{lat: 25.013704299927, lng: 121.50574493408},				
+								{lat: 25.013624191284, lng: 121.50582885742},				
+								{lat: 25.013530731201, lng: 121.50594329834},				
+								{lat: 25.013414382935, lng: 121.50607299805},				
+								{lat: 25.013357162476, lng: 121.5061416626},				
+								{lat: 25.01323890686, lng: 121.5062789917},				
+								{lat: 25.013185501099, lng: 121.50635528564},				
+								{lat: 25.013092041016, lng: 121.50648498535},				
+								{lat: 25.013038635254, lng: 121.50653839111},				
+								{lat: 25.012975692749, lng: 121.50659942627},				
+								{lat: 25.012847900391, lng: 121.50672912598},				
+								{lat: 25.012783050537, lng: 121.50679016113},				
+								{lat: 25.012647628784, lng: 121.50691986084},				
+								{lat: 25.012506484985, lng: 121.50708007812},				
+								{lat: 25.012353897095, lng: 121.50724029541},				
+								{lat: 25.012269973755, lng: 121.50731658936},				
+								{lat: 25.012104034424, lng: 121.50749969482},				
+								{lat: 25.012014389038, lng: 121.50759124756},				
+								{lat: 25.01184463501, lng: 121.50777435303},				
+								{lat: 25.01176071167, lng: 121.50785827637},				
+								{lat: 25.01167678833, lng: 121.50794219971},				
+								{lat: 25.011518478394, lng: 121.5080871582},				
+								{lat: 25.011363983154, lng: 121.5082321167},				
+								{lat: 25.011220932007, lng: 121.5083770752},				
+								{lat: 25.011148452759, lng: 121.50843811035},				
+								{lat: 25.011081695557, lng: 121.50849914551},				
+								{lat: 25.010976791382, lng: 121.50860595703},				
+								{lat: 25.010904312134, lng: 121.50867462158},				
+								{lat: 25.010829925537, lng: 121.50869750977},				
+								{lat: 25.010814666748, lng: 121.508644104},				
+								{lat: 25.010780334473, lng: 121.50860595703},				
+								{lat: 25.010740280151, lng: 121.50863647461},				
+								{lat: 25.010709762573, lng: 121.50867462158},				
+								{lat: 25.010654449463, lng: 121.50870513916},				
+								{lat: 25.010576248169, lng: 121.50875091553},				
+								{lat: 25.010528564453, lng: 121.50878143311},				
+								{lat: 25.010484695435, lng: 121.50881958008},				
+								{lat: 25.010410308838, lng: 121.50888061523},				
+								{lat: 25.010358810425, lng: 121.508934021},				
+								{lat: 25.01030921936, lng: 121.50897216797},				
+								{lat: 25.010238647461, lng: 121.50901031494},				
+								{lat: 25.010179519653, lng: 121.50900268555},				
+								{lat: 25.010143280029, lng: 121.50904083252},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_64744'), {
+			zoom: 17,
+			center: {lat: 25.055797576904, lng: 121.46799468994},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_64754'), {
+			zoom: 17,
+			center: {lat: 25.010555555556, lng: 121.50833333333},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

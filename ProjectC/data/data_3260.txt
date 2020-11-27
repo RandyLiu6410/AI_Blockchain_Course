@@ -1,0 +1,3943 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=3260&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="决明子" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=3260',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/3260.jpg" width="100" class="img_output">
+																							</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																决明子							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：辰晨								<br>
+								產出日期：2017-10-20 12:03:06																<br>
+								有效日期：2100-12-31																																									<br>
+								產出數量：10000公噸																										<br>
+								剩餘數量：1810公噸																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D3260" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D3260"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/ting/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#2940" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#2941" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[草與土壤]							
+							
+							
+							</a>
+													<a href="#2942" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#2951" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[生態痕跡]							
+							
+							
+							</a>
+													<a href="#3019" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[清園]							
+							
+							
+							</a>
+													<a href="#2988" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[草生栽培]							
+							
+							
+							</a>
+													<a href="#3020" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[施肥]							
+							
+							
+							</a>
+													<a href="#3025" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[翻土日曬]							
+							
+							
+							</a>
+													<a href="#3064" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[育種]							
+							
+							
+							</a>
+													<a href="#3260" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														决明子<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="2940" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [自拍保證來源]</h2>
+					<div class="history_time">2017-10-08 10:13:34 - 2017-10-08 10:13:34</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/519/2017/2940.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/519/2017/2940.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2940" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#2941" class="btn btn-dark btn-lg">
+							决明子 <br>[草與土壤]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2941" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [草與土壤]</h2>
+					<div class="history_time">2017-10-08 10:13:45 - 2017-10-08 10:38:38</div>
+					<br>
+
+										<video id="player_2941" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/519_20171008101345.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2941" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2940" class="btn btn-dark btn-lg">
+							决明子 <br>[自拍保證來源]						</a>
+						
+												<a href="#2942" class="btn btn-dark btn-lg">
+							决明子 <br>[大自然環境]						</a>
+						
+					</div>
+
+										<div id="map_2941" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2941"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2942" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [大自然環境]</h2>
+					<div class="history_time">2017-10-08 10:52:02 - 2017-10-08 10:52:47</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_2942" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/10.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/10.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/3.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/4.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/4.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/5.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/5.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/6.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/6.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/7.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/7.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/8.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/8.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/9.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171008105202/9.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_2942" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_2942"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2942" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2941" class="btn btn-dark btn-lg">
+							决明子 <br>[草與土壤]						</a>
+						
+												<a href="#2951" class="btn btn-dark btn-lg">
+							决明子 <br>[生態痕跡]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2951" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [生態痕跡]</h2>
+					<div class="history_time">2017-10-08 11:40:42 - 2017-10-08 12:03:29</div>
+					<br>
+
+										<video id="player_2951" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/519_20171008114042.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2951" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2942" class="btn btn-dark btn-lg">
+							决明子 <br>[大自然環境]						</a>
+						
+												<a href="#3019" class="btn btn-dark btn-lg">
+							决明子 <br>[清園]						</a>
+						
+					</div>
+
+										<div id="map_2951" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2951"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="3019" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [清園]</h2>
+					<div class="history_time">2017-10-11 08:54:40 - 2017-10-11 11:35:05</div>
+					<br>
+
+										<video id="player_3019" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/519_20171011085440.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_3019" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2951" class="btn btn-dark btn-lg">
+							决明子 <br>[生態痕跡]						</a>
+						
+												<a href="#2988" class="btn btn-dark btn-lg">
+							决明子 <br>[草生栽培]						</a>
+						
+					</div>
+
+										<div id="map_3019" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_3019"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2988" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [草生栽培]</h2>
+					<div class="history_time">2017-10-11 08:56:10 - 2017-10-11 10:27:29</div>
+					<br>
+
+										<video id="player_2988" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/519_20171011085610.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2988" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#3019" class="btn btn-dark btn-lg">
+							决明子 <br>[清園]						</a>
+						
+												<a href="#3020" class="btn btn-dark btn-lg">
+							决明子 <br>[施肥]						</a>
+						
+					</div>
+
+										<div id="map_2988" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2988"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="3020" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [施肥]</h2>
+					<div class="history_time">2017-10-12 08:40:47 - 2017-10-12 08:41:18</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_3020" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/10.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/10.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/11.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/11.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/12.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/12.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/13.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/13.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/14.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/14.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/15.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/15.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/16.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/16.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/17.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/17.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/18.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/18.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/19.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/19.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/20.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/20.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/21.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/21.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/22.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/22.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/23.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/23.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/24.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/24.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/25.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/25.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/26.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/26.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/27.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/27.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/3.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/4.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/4.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/5.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/5.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/6.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/6.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/7.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/7.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/8.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/8.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/9.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/519/2017/20171012084047/9.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_3020" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_3020"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_3020" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2988" class="btn btn-dark btn-lg">
+							决明子 <br>[草生栽培]						</a>
+						
+												<a href="#3025" class="btn btn-dark btn-lg">
+							决明子 <br>[翻土日曬]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="3025" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [翻土日曬]</h2>
+					<div class="history_time">2017-10-12 08:41:43 - 2017-10-12 10:27:27</div>
+					<br>
+
+										<video id="player_3025" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/519_20171012084143.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_3025" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#3020" class="btn btn-dark btn-lg">
+							决明子 <br>[施肥]						</a>
+						
+												<a href="#3064" class="btn btn-dark btn-lg">
+							决明子 <br>[育種]						</a>
+						
+					</div>
+
+										<div id="map_3025" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_3025"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="3064" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [育種]</h2>
+					<div class="history_time">2017-10-13 08:24:20 - 2017-10-13 10:16:25</div>
+					<br>
+
+										<video id="player_3064" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/519_20171013082420.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_3064" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#3025" class="btn btn-dark btn-lg">
+							决明子 <br>[翻土日曬]						</a>
+						
+												<a href="#3260" class="btn btn-dark btn-lg">
+							决明子 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_3064" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_3064"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="3260" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>决明子 [自拍保證輸出]</h2>
+					<div class="history_time">2017-10-20 12:03:06 - 2017-10-20 12:03:06</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/519/2017/3260.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/519/2017/3260.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_3260" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#3064" class="btn btn-dark btn-lg">
+							决明子 <br>[育種]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_2941', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2951', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_3019', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2988', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_3025', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_3064', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_2942 = jQuery("#gallery_2942").unitegallery();
+		var first_item = api_2942.getItem(0);
+
+		load_gps_data('2942', '519', first_item.urlImage, true);
+		api_2942.on("item_change", function(num, img_data){
+			load_gps_data('2942', '519', img_data.urlImage, false);
+		});
+				var api_3020 = jQuery("#gallery_3020").unitegallery();
+		var first_item = api_3020.getItem(0);
+
+		load_gps_data('3020', '519', first_item.urlImage, true);
+		api_3020.on("item_change", function(num, img_data){
+			load_gps_data('3020', '519', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [2941,2951,3019,2988,3025,3064];
+	var loc_map = new Array(6);
+	var loc_arr = new Array(6);
+	var map_arr = new Array(6);
+	var marker_arr = new Array(6);
+
+		loc_arr[0] = [
+						{lat: 23.116944444444, lng: 121.20972222222},
+						{lat: 23.117222222222, lng: 121.21},
+						{lat: 23.117222222222, lng: 121.21027777778},
+						{lat: 23.1175, lng: 121.21027777778},
+						{lat: 23.117777777778, lng: 121.21027777778},
+						{lat: 23.117777777778, lng: 121.21055555556},
+						{lat: 23.118055555556, lng: 121.21055555556},
+						{lat: 23.118333333333, lng: 121.21083333333},
+						{lat: 23.118611111111, lng: 121.21111111111},
+						{lat: 23.118888888889, lng: 121.21111111111},
+						{lat: 23.118888888889, lng: 121.21138888889},
+						{lat: 23.119166666667, lng: 121.21166666667},
+						{lat: 23.119444444444, lng: 121.21166666667},
+						{lat: 23.119722222222, lng: 121.21194444444},
+						{lat: 23.12, lng: 121.21194444444},
+						{lat: 23.12, lng: 121.21222222222},
+						{lat: 23.120277777778, lng: 121.21222222222},
+						{lat: 23.120277777778, lng: 121.2125},
+						{lat: 23.120277777778, lng: 121.21277777778},
+						{lat: 23.120555555556, lng: 121.21277777778},
+						{lat: 23.120555555556, lng: 121.21305555556},
+						{lat: 23.120833333333, lng: 121.21333333333},
+						{lat: 23.120833333333, lng: 121.21361111111},
+						{lat: 23.121111111111, lng: 121.21361111111},
+						{lat: 23.121111111111, lng: 121.21388888889},
+						{lat: 23.121388888889, lng: 121.21416666667},
+						{lat: 23.121388888889, lng: 121.21444444444},
+						{lat: 23.121666666667, lng: 121.21444444444},
+						{lat: 23.121666666667, lng: 121.21472222222},
+						{lat: 23.121944444444, lng: 121.215},
+						{lat: 23.122222222222, lng: 121.21527777778},
+						{lat: 23.122222222222, lng: 121.21555555556},
+						{lat: 23.1225, lng: 121.21555555556},
+						{lat: 23.1225, lng: 121.21583333333},
+						{lat: 23.122777777778, lng: 121.21611111111},
+						{lat: 23.122777777778, lng: 121.21638888889},
+						{lat: 23.123055555556, lng: 121.21638888889},
+						{lat: 23.123055555556, lng: 121.21666666667},
+						{lat: 23.123333333333, lng: 121.21694444444},
+						{lat: 23.123333333333, lng: 121.21722222222},
+						{lat: 23.123611111111, lng: 121.21722222222},
+						{lat: 23.123611111111, lng: 121.2175},
+						{lat: 23.123888888889, lng: 121.2175},
+						{lat: 23.123888888889, lng: 121.21777777778},
+						{lat: 23.123888888889, lng: 121.21805555556},
+						{lat: 23.124166666667, lng: 121.21805555556},
+						{lat: 23.124166666667, lng: 121.21833333333},
+						{lat: 23.124444444444, lng: 121.21833333333},
+						{lat: 23.124444444444, lng: 121.21861111111},
+						{lat: 23.124722222222, lng: 121.21888888889},
+						{lat: 23.124722222222, lng: 121.21916666667},
+						{lat: 23.125, lng: 121.21944444444},
+						{lat: 23.125277777778, lng: 121.21972222222},
+						{lat: 23.125277777778, lng: 121.22},
+						{lat: 23.125555555556, lng: 121.22},
+						{lat: 23.125555555556, lng: 121.22027777778},
+						{lat: 23.125833333333, lng: 121.22055555556},
+						{lat: 23.125833333333, lng: 121.22083333333},
+						{lat: 23.125555555556, lng: 121.22111111111},
+						{lat: 23.125555555556, lng: 121.22138888889},
+						{lat: 23.125277777778, lng: 121.22166666667},
+						{lat: 23.125277777778, lng: 121.22194444444},
+						{lat: 23.125, lng: 121.22222222222},
+						{lat: 23.125, lng: 121.2225},
+						{lat: 23.125, lng: 121.22277777778},
+						{lat: 23.125, lng: 121.22305555556},
+						{lat: 23.124722222222, lng: 121.22305555556},
+						{lat: 23.124722222222, lng: 121.22333333333},
+						{lat: 23.124722222222, lng: 121.22361111111},
+						{lat: 23.124444444444, lng: 121.22388888889},
+						{lat: 23.124444444444, lng: 121.22416666667},
+						{lat: 23.124166666667, lng: 121.22444444444},
+						{lat: 23.124166666667, lng: 121.22472222222},
+						{lat: 23.124166666667, lng: 121.225},
+						{lat: 23.124166666667, lng: 121.22527777778},
+						{lat: 23.124166666667, lng: 121.22555555556},
+						{lat: 23.124444444444, lng: 121.22611111111},
+						{lat: 23.124444444444, lng: 121.22638888889},
+						{lat: 23.124444444444, lng: 121.22666666667},
+						{lat: 23.124444444444, lng: 121.22694444444},
+						{lat: 23.124444444444, lng: 121.22722222222},
+						{lat: 23.124722222222, lng: 121.2275},
+						{lat: 23.124722222222, lng: 121.22805555556},
+						{lat: 23.124722222222, lng: 121.22833333333},
+						{lat: 23.124722222222, lng: 121.22861111111},
+						{lat: 23.125, lng: 121.22888888889},
+						{lat: 23.125277777778, lng: 121.22888888889},
+						{lat: 23.125555555556, lng: 121.22916666667},
+						{lat: 23.125555555556, lng: 121.22944444444},
+						{lat: 23.125833333333, lng: 121.22944444444},
+						{lat: 23.126111111111, lng: 121.22972222222},
+						{lat: 23.126388888889, lng: 121.23},
+						{lat: 23.126666666667, lng: 121.23027777778},
+						{lat: 23.126944444444, lng: 121.23055555556},
+						{lat: 23.127222222222, lng: 121.23055555556},
+						{lat: 23.127222222222, lng: 121.23083333333},
+						{lat: 23.1275, lng: 121.23083333333},
+						{lat: 23.127777777778, lng: 121.23083333333},
+						{lat: 23.128333333333, lng: 121.23083333333},
+						{lat: 23.128611111111, lng: 121.23083333333},
+						{lat: 23.128611111111, lng: 121.23111111111},
+						{lat: 23.128888888889, lng: 121.23111111111},
+						{lat: 23.129166666667, lng: 121.23111111111},
+						{lat: 23.129444444444, lng: 121.23111111111},
+						{lat: 23.129722222222, lng: 121.23111111111},
+						{lat: 23.13, lng: 121.23138888889},
+						{lat: 23.130555555556, lng: 121.23166666667},
+						{lat: 23.130833333333, lng: 121.23166666667},
+						{lat: 23.131111111111, lng: 121.23166666667},
+						{lat: 23.131388888889, lng: 121.23194444444},
+						{lat: 23.131666666667, lng: 121.23222222222},
+						{lat: 23.131944444444, lng: 121.23222222222},
+						{lat: 23.132222222222, lng: 121.2325},
+						{lat: 23.1325, lng: 121.2325},
+						{lat: 23.132777777778, lng: 121.2325},
+						{lat: 23.133055555556, lng: 121.23277777778},
+						{lat: 23.133333333333, lng: 121.23277777778},
+						{lat: 23.133888888889, lng: 121.23305555556},
+						{lat: 23.134166666667, lng: 121.23305555556},
+						{lat: 23.134444444444, lng: 121.23305555556},
+						{lat: 23.134722222222, lng: 121.23305555556},
+						{lat: 23.135, lng: 121.23305555556},
+						{lat: 23.135277777778, lng: 121.23333333333},
+						{lat: 23.135555555556, lng: 121.23333333333},
+						{lat: 23.135833333333, lng: 121.23361111111},
+						{lat: 23.136111111111, lng: 121.23361111111},
+						{lat: 23.136388888889, lng: 121.23388888889},
+						{lat: 23.136944444444, lng: 121.23416666667},
+						{lat: 23.137222222222, lng: 121.23416666667},
+						{lat: 23.1375, lng: 121.23444444444},
+						{lat: 23.138055555556, lng: 121.23472222222},
+						{lat: 23.138333333333, lng: 121.23472222222},
+						{lat: 23.138611111111, lng: 121.235},
+						{lat: 23.139166666667, lng: 121.23527777778},
+						{lat: 23.139444444444, lng: 121.23555555556},
+						{lat: 23.139722222222, lng: 121.23555555556},
+						{lat: 23.14, lng: 121.23583333333},
+						{lat: 23.140277777778, lng: 121.23611111111},
+						{lat: 23.140833333333, lng: 121.23611111111},
+						{lat: 23.141388888889, lng: 121.23638888889},
+						{lat: 23.141666666667, lng: 121.23638888889},
+						{lat: 23.141944444444, lng: 121.23638888889},
+						{lat: 23.142222222222, lng: 121.23666666667},
+						{lat: 23.1425, lng: 121.23666666667},
+						{lat: 23.142777777778, lng: 121.23666666667},
+						{lat: 23.143333333333, lng: 121.23666666667},
+						{lat: 23.143611111111, lng: 121.23694444444},
+						{lat: 23.143888888889, lng: 121.23694444444},
+						{lat: 23.144444444444, lng: 121.23694444444},
+						{lat: 23.144722222222, lng: 121.23722222222},
+						{lat: 23.145, lng: 121.23722222222},
+						{lat: 23.145277777778, lng: 121.23722222222},
+						{lat: 23.145555555556, lng: 121.23722222222},
+						{lat: 23.146111111111, lng: 121.2375},
+						{lat: 23.146388888889, lng: 121.2375},
+						{lat: 23.146666666667, lng: 121.23777777778},
+						{lat: 23.146944444444, lng: 121.23777777778},
+						{lat: 23.147222222222, lng: 121.23805555556},
+						{lat: 23.147777777778, lng: 121.23805555556},
+						{lat: 23.148333333333, lng: 121.23833333333},
+						{lat: 23.148611111111, lng: 121.23833333333},
+						{lat: 23.148888888889, lng: 121.23861111111},
+						{lat: 23.149166666667, lng: 121.23861111111},
+						{lat: 23.149444444444, lng: 121.23861111111},
+						{lat: 23.149722222222, lng: 121.23888888889},
+						{lat: 23.15, lng: 121.23888888889},
+						{lat: 23.150555555556, lng: 121.23916666667},
+						{lat: 23.150833333333, lng: 121.23916666667},
+						{lat: 23.151111111111, lng: 121.23916666667},
+						{lat: 23.151666666667, lng: 121.23944444444},
+						{lat: 23.151944444444, lng: 121.23944444444},
+						{lat: 23.152222222222, lng: 121.23972222222},
+						{lat: 23.1525, lng: 121.23972222222},
+						{lat: 23.152777777778, lng: 121.23972222222},
+						{lat: 23.153055555556, lng: 121.23972222222},
+						{lat: 23.153333333333, lng: 121.23972222222},
+						{lat: 23.153611111111, lng: 121.23972222222},
+						{lat: 23.153888888889, lng: 121.23972222222},
+						{lat: 23.154444444444, lng: 121.23972222222},
+						{lat: 23.154722222222, lng: 121.23972222222},
+						{lat: 23.155, lng: 121.23972222222},
+						{lat: 23.155277777778, lng: 121.23972222222},
+						{lat: 23.155555555556, lng: 121.23972222222},
+						{lat: 23.155833333333, lng: 121.24},
+						{lat: 23.156111111111, lng: 121.24},
+						{lat: 23.156388888889, lng: 121.24},
+						{lat: 23.156666666667, lng: 121.24},
+						{lat: 23.156944444444, lng: 121.24027777778},
+						{lat: 23.1575, lng: 121.24055555556},
+						{lat: 23.157777777778, lng: 121.24083333333},
+						{lat: 23.158055555556, lng: 121.24111111111},
+						{lat: 23.158333333333, lng: 121.24138888889},
+						{lat: 23.158611111111, lng: 121.24138888889},
+						{lat: 23.158888888889, lng: 121.24166666667},
+						{lat: 23.159166666667, lng: 121.24166666667},
+						{lat: 23.159444444444, lng: 121.24166666667},
+						{lat: 23.159722222222, lng: 121.24166666667},
+						{lat: 23.16, lng: 121.24194444444},
+						{lat: 23.160277777778, lng: 121.24194444444},
+						{lat: 23.160555555556, lng: 121.24194444444},
+						{lat: 23.160833333333, lng: 121.24194444444},
+						{lat: 23.160833333333, lng: 121.24222222222},
+						{lat: 23.161111111111, lng: 121.24222222222},
+						{lat: 23.161388888889, lng: 121.24222222222},
+						{lat: 23.161666666667, lng: 121.24222222222},
+						{lat: 23.161944444444, lng: 121.24222222222},
+						{lat: 23.162222222222, lng: 121.24222222222},
+						{lat: 23.1625, lng: 121.24222222222},
+						{lat: 23.162777777778, lng: 121.24222222222},
+						{lat: 23.162777777778, lng: 121.24194444444},
+						{lat: 23.163055555556, lng: 121.24194444444},
+						{lat: 23.163333333333, lng: 121.24194444444},
+						{lat: 23.163611111111, lng: 121.24194444444},
+						{lat: 23.163888888889, lng: 121.24194444444},
+						{lat: 23.164444444444, lng: 121.24194444444},
+						{lat: 23.165, lng: 121.24222222222},
+						{lat: 23.165277777778, lng: 121.24222222222},
+						{lat: 23.165555555556, lng: 121.24222222222},
+						{lat: 23.165833333333, lng: 121.24222222222},
+						{lat: 23.166111111111, lng: 121.24222222222},
+						{lat: 23.166388888889, lng: 121.24222222222},
+						{lat: 23.166666666667, lng: 121.2425},
+						{lat: 23.166944444444, lng: 121.2425},
+						{lat: 23.167222222222, lng: 121.24277777778},
+						{lat: 23.1675, lng: 121.24305555556},
+						{lat: 23.167777777778, lng: 121.24305555556},
+						{lat: 23.168333333333, lng: 121.24333333333},
+						{lat: 23.168611111111, lng: 121.24361111111},
+						{lat: 23.168888888889, lng: 121.24361111111},
+						{lat: 23.169166666667, lng: 121.24388888889},
+						{lat: 23.169444444444, lng: 121.24416666667},
+						{lat: 23.169444444444, lng: 121.24444444444},
+						{lat: 23.169722222222, lng: 121.24472222222},
+						{lat: 23.17, lng: 121.24527777778},
+						{lat: 23.17, lng: 121.24555555556},
+						{lat: 23.170277777778, lng: 121.24583333333},
+						{lat: 23.170277777778, lng: 121.24611111111},
+						{lat: 23.170555555556, lng: 121.24638888889},
+						{lat: 23.170833333333, lng: 121.24666666667},
+						{lat: 23.171111111111, lng: 121.24694444444},
+						{lat: 23.171388888889, lng: 121.24694444444},
+						{lat: 23.171388888889, lng: 121.24722222222},
+						{lat: 23.171666666667, lng: 121.24722222222},
+						{lat: 23.171944444444, lng: 121.24722222222},
+						{lat: 23.172222222222, lng: 121.24722222222},
+						{lat: 23.1725, lng: 121.24722222222},
+						{lat: 23.172777777778, lng: 121.24722222222},
+						{lat: 23.173055555556, lng: 121.24722222222},
+						{lat: 23.173333333333, lng: 121.2475},
+						{lat: 23.173611111111, lng: 121.2475},
+						{lat: 23.173888888889, lng: 121.2475},
+						{lat: 23.174166666667, lng: 121.2475},
+						{lat: 23.174444444444, lng: 121.2475},
+						{lat: 23.174722222222, lng: 121.2475},
+						{lat: 23.175, lng: 121.24777777778},
+						{lat: 23.175277777778, lng: 121.24777777778},
+						{lat: 23.175833333333, lng: 121.24805555556},
+						{lat: 23.176111111111, lng: 121.24833333333},
+						{lat: 23.176388888889, lng: 121.24833333333},
+						{lat: 23.176666666667, lng: 121.24833333333},
+						{lat: 23.176944444444, lng: 121.24861111111},
+						{lat: 23.1775, lng: 121.24888888889},
+						{lat: 23.178055555556, lng: 121.24916666667},
+						{lat: 23.178333333333, lng: 121.24916666667},
+						{lat: 23.178611111111, lng: 121.24944444444},
+						{lat: 23.178888888889, lng: 121.24972222222},
+						{lat: 23.179166666667, lng: 121.24972222222},
+						{lat: 23.179444444444, lng: 121.25},
+						{lat: 23.179722222222, lng: 121.25},
+						{lat: 23.18, lng: 121.25027777778},
+						{lat: 23.180277777778, lng: 121.25055555556},
+						{lat: 23.180555555556, lng: 121.25055555556},
+						{lat: 23.180555555556, lng: 121.25083333333},
+						{lat: 23.180833333333, lng: 121.25083333333},
+						{lat: 23.181111111111, lng: 121.25111111111},
+						{lat: 23.181388888889, lng: 121.25138888889},
+						{lat: 23.181666666667, lng: 121.25138888889},
+						{lat: 23.181944444444, lng: 121.25166666667},
+						{lat: 23.181944444444, lng: 121.25194444444},
+						{lat: 23.182222222222, lng: 121.25194444444},
+						{lat: 23.182222222222, lng: 121.25222222222},
+						{lat: 23.182777777778, lng: 121.2525},
+						{lat: 23.183055555556, lng: 121.25277777778},
+						{lat: 23.183333333333, lng: 121.25305555556},
+						{lat: 23.183611111111, lng: 121.25305555556},
+						{lat: 23.183611111111, lng: 121.25333333333},
+						{lat: 23.183888888889, lng: 121.25333333333},
+						{lat: 23.183888888889, lng: 121.25361111111},
+						{lat: 23.184166666667, lng: 121.25361111111},
+						{lat: 23.184166666667, lng: 121.25388888889},
+						{lat: 23.184444444444, lng: 121.25388888889},
+						{lat: 23.184722222222, lng: 121.25416666667},
+						{lat: 23.184722222222, lng: 121.25444444444},
+						{lat: 23.184722222222, lng: 121.25472222222},
+						{lat: 23.185, lng: 121.255},
+						{lat: 23.185, lng: 121.25555555556},
+						{lat: 23.185, lng: 121.25583333333},
+						{lat: 23.185, lng: 121.25611111111},
+						{lat: 23.185277777778, lng: 121.25638888889},
+						{lat: 23.185277777778, lng: 121.25666666667},
+						{lat: 23.185277777778, lng: 121.25694444444},
+						{lat: 23.185555555556, lng: 121.2575},
+						{lat: 23.185833333333, lng: 121.25777777778},
+						{lat: 23.186111111111, lng: 121.25805555556},
+						{lat: 23.186388888889, lng: 121.25833333333},
+						{lat: 23.186666666667, lng: 121.25861111111},
+						{lat: 23.186944444444, lng: 121.25888888889},
+						{lat: 23.186944444444, lng: 121.25916666667},
+						{lat: 23.1875, lng: 121.25944444444},
+						{lat: 23.187777777778, lng: 121.25972222222},
+						{lat: 23.188055555556, lng: 121.26},
+						{lat: 23.188333333333, lng: 121.26},
+						{lat: 23.188611111111, lng: 121.26027777778},
+						{lat: 23.188611111111, lng: 121.26055555556},
+						{lat: 23.188888888889, lng: 121.26055555556},
+						{lat: 23.189166666667, lng: 121.26083333333},
+						{lat: 23.189444444444, lng: 121.26111111111},
+						{lat: 23.189722222222, lng: 121.26138888889},
+						{lat: 23.19, lng: 121.26166666667},
+						{lat: 23.190277777778, lng: 121.26166666667},
+						{lat: 23.190555555556, lng: 121.26222222222},
+						{lat: 23.190833333333, lng: 121.2625},
+						{lat: 23.191111111111, lng: 121.26277777778},
+						{lat: 23.191111111111, lng: 121.26305555556},
+						{lat: 23.191666666667, lng: 121.26305555556},
+						{lat: 23.191666666667, lng: 121.26333333333},
+						{lat: 23.192222222222, lng: 121.26333333333},
+						{lat: 23.192222222222, lng: 121.26361111111},
+						{lat: 23.192777777778, lng: 121.26388888889},
+						{lat: 23.193055555556, lng: 121.26388888889},
+						{lat: 23.193333333333, lng: 121.26388888889},
+						{lat: 23.193333333333, lng: 121.26416666667},
+						{lat: 23.193888888889, lng: 121.26416666667},
+						{lat: 23.194166666667, lng: 121.26444444444},
+						{lat: 23.194444444444, lng: 121.26472222222},
+						{lat: 23.194444444444, lng: 121.265},
+						{lat: 23.194722222222, lng: 121.26527777778},
+						{lat: 23.195, lng: 121.26555555556},
+						{lat: 23.195277777778, lng: 121.26583333333},
+						{lat: 23.195555555556, lng: 121.26638888889},
+						{lat: 23.195555555556, lng: 121.26666666667},
+						{lat: 23.195833333333, lng: 121.26694444444},
+						{lat: 23.196111111111, lng: 121.26722222222},
+						{lat: 23.196388888889, lng: 121.2675},
+						{lat: 23.196666666667, lng: 121.26777777778},
+						{lat: 23.196944444444, lng: 121.26805555556},
+						{lat: 23.1975, lng: 121.26833333333},
+						{lat: 23.197777777778, lng: 121.26861111111},
+						{lat: 23.198055555556, lng: 121.26861111111},
+						{lat: 23.198611111111, lng: 121.26888888889},
+						{lat: 23.198888888889, lng: 121.26916666667},
+						{lat: 23.199166666667, lng: 121.26916666667},
+						{lat: 23.199444444444, lng: 121.26916666667},
+						{lat: 23.199722222222, lng: 121.26944444444},
+						{lat: 23.2, lng: 121.26944444444},
+						{lat: 23.200277777778, lng: 121.26944444444},
+						{lat: 23.200555555556, lng: 121.26972222222},
+						{lat: 23.200833333333, lng: 121.26972222222},
+						{lat: 23.201111111111, lng: 121.27},
+						{lat: 23.201388888889, lng: 121.27},
+						{lat: 23.201666666667, lng: 121.27027777778},
+						{lat: 23.201944444444, lng: 121.27027777778},
+						{lat: 23.202222222222, lng: 121.27027777778},
+						{lat: 23.202222222222, lng: 121.27055555556},
+						{lat: 23.2025, lng: 121.27055555556},
+						{lat: 23.203055555556, lng: 121.27083333333},
+						{lat: 23.203333333333, lng: 121.27083333333},
+						{lat: 23.203611111111, lng: 121.27111111111},
+						{lat: 23.203888888889, lng: 121.27111111111},
+						{lat: 23.204166666667, lng: 121.27111111111},
+						{lat: 23.204444444444, lng: 121.27138888889},
+						{lat: 23.204722222222, lng: 121.27138888889},
+						{lat: 23.205, lng: 121.27166666667},
+						{lat: 23.205555555556, lng: 121.27166666667},
+						{lat: 23.205555555556, lng: 121.27194444444},
+						{lat: 23.205833333333, lng: 121.27194444444},
+						{lat: 23.206111111111, lng: 121.27222222222},
+						{lat: 23.206388888889, lng: 121.2725},
+						{lat: 23.206666666667, lng: 121.2725},
+						{lat: 23.206944444444, lng: 121.27277777778},
+						{lat: 23.206944444444, lng: 121.27305555556},
+						{lat: 23.207222222222, lng: 121.27305555556},
+						{lat: 23.2075, lng: 121.27333333333},
+						{lat: 23.207777777778, lng: 121.27361111111},
+						{lat: 23.208055555556, lng: 121.27388888889},
+						{lat: 23.208333333333, lng: 121.27388888889},
+						{lat: 23.208611111111, lng: 121.27416666667},
+						{lat: 23.208888888889, lng: 121.27444444444},
+						{lat: 23.209166666667, lng: 121.27472222222},
+						{lat: 23.209722222222, lng: 121.275},
+						{lat: 23.21, lng: 121.27527777778},
+						{lat: 23.210277777778, lng: 121.27527777778},
+						{lat: 23.210555555556, lng: 121.27555555556},
+						{lat: 23.210555555556, lng: 121.27583333333},
+						{lat: 23.210833333333, lng: 121.27611111111},
+						{lat: 23.211111111111, lng: 121.27611111111},
+						{lat: 23.211388888889, lng: 121.27638888889},
+						{lat: 23.211666666667, lng: 121.27666666667},
+						{lat: 23.211944444444, lng: 121.27666666667},
+						{lat: 23.212222222222, lng: 121.27722222222},
+						{lat: 23.2125, lng: 121.27722222222},
+						{lat: 23.212777777778, lng: 121.2775},
+						{lat: 23.213055555556, lng: 121.27777777778},
+						{lat: 23.213333333333, lng: 121.27805555556},
+						{lat: 23.213611111111, lng: 121.27833333333},
+						{lat: 23.213888888889, lng: 121.27861111111},
+						{lat: 23.214166666667, lng: 121.27861111111},
+						{lat: 23.214166666667, lng: 121.27888888889},
+						{lat: 23.214444444444, lng: 121.27888888889},
+						{lat: 23.214722222222, lng: 121.27916666667},
+						{lat: 23.215, lng: 121.27916666667},
+						{lat: 23.215, lng: 121.27944444444},
+						{lat: 23.215277777778, lng: 121.27972222222},
+						{lat: 23.215555555556, lng: 121.27972222222},
+						{lat: 23.215555555556, lng: 121.28},
+						{lat: 23.215833333333, lng: 121.28},
+						{lat: 23.216111111111, lng: 121.28027777778},
+						{lat: 23.216388888889, lng: 121.28055555556},
+						{lat: 23.216666666667, lng: 121.28083333333},
+						{lat: 23.216944444444, lng: 121.28083333333},
+						{lat: 23.216944444444, lng: 121.28111111111},
+						{lat: 23.217222222222, lng: 121.28111111111},
+						{lat: 23.217222222222, lng: 121.28138888889},
+						{lat: 23.2175, lng: 121.28138888889},
+						{lat: 23.217777777778, lng: 121.28166666667},
+						{lat: 23.218055555556, lng: 121.28194444444},
+						{lat: 23.218333333333, lng: 121.28194444444},
+						{lat: 23.218611111111, lng: 121.28222222222},
+						{lat: 23.218888888889, lng: 121.28222222222},
+						{lat: 23.219166666667, lng: 121.28222222222},
+						{lat: 23.219444444444, lng: 121.28222222222},
+						{lat: 23.219722222222, lng: 121.28222222222},
+						{lat: 23.22, lng: 121.28222222222},
+						{lat: 23.220277777778, lng: 121.28194444444},
+						{lat: 23.220555555556, lng: 121.28194444444},
+						{lat: 23.220833333333, lng: 121.28194444444},
+						{lat: 23.221111111111, lng: 121.28194444444},
+						{lat: 23.221388888889, lng: 121.28194444444},
+						{lat: 23.221666666667, lng: 121.28194444444},
+						{lat: 23.221944444444, lng: 121.28194444444},
+						{lat: 23.222222222222, lng: 121.28194444444},
+						{lat: 23.2225, lng: 121.28194444444},
+						{lat: 23.222777777778, lng: 121.28194444444},
+						{lat: 23.222777777778, lng: 121.28222222222},
+						{lat: 23.223055555556, lng: 121.28222222222},
+						{lat: 23.223055555556, lng: 121.2825},
+						{lat: 23.223333333333, lng: 121.2825},
+						{lat: 23.223611111111, lng: 121.28277777778},
+						{lat: 23.223888888889, lng: 121.28277777778},
+						{lat: 23.224166666667, lng: 121.28305555556},
+						{lat: 23.224444444444, lng: 121.28305555556},
+						{lat: 23.224722222222, lng: 121.28333333333},
+						{lat: 23.225, lng: 121.28361111111},
+						{lat: 23.225277777778, lng: 121.28388888889},
+						{lat: 23.225555555556, lng: 121.28416666667},
+						{lat: 23.226111111111, lng: 121.28444444444},
+						{lat: 23.226388888889, lng: 121.28444444444},
+						{lat: 23.226666666667, lng: 121.28472222222},
+						{lat: 23.226944444444, lng: 121.285},
+						{lat: 23.227222222222, lng: 121.285},
+						{lat: 23.2275, lng: 121.28527777778},
+						{lat: 23.227777777778, lng: 121.28527777778},
+						{lat: 23.228055555556, lng: 121.28555555556},
+						{lat: 23.228333333333, lng: 121.28583333333},
+						{lat: 23.228611111111, lng: 121.28611111111},
+						{lat: 23.228888888889, lng: 121.28611111111},
+						{lat: 23.229166666667, lng: 121.28638888889},
+						{lat: 23.229444444444, lng: 121.28638888889},
+						{lat: 23.229722222222, lng: 121.28666666667},
+						{lat: 23.23, lng: 121.28694444444},
+						{lat: 23.230277777778, lng: 121.28694444444},
+						{lat: 23.230555555556, lng: 121.28722222222},
+						{lat: 23.230833333333, lng: 121.2875},
+						{lat: 23.231111111111, lng: 121.2875},
+						{lat: 23.231388888889, lng: 121.28777777778},
+						{lat: 23.231666666667, lng: 121.28805555556},
+						{lat: 23.231944444444, lng: 121.28805555556},
+						{lat: 23.232222222222, lng: 121.28833333333},
+						{lat: 23.2325, lng: 121.28833333333},
+						{lat: 23.232777777778, lng: 121.28861111111},
+						{lat: 23.233055555556, lng: 121.28861111111},
+						{lat: 23.233333333333, lng: 121.28888888889},
+						{lat: 23.233611111111, lng: 121.28916666667},
+						{lat: 23.233888888889, lng: 121.28916666667},
+						{lat: 23.233888888889, lng: 121.28944444444},
+						{lat: 23.234166666667, lng: 121.28944444444},
+						{lat: 23.234444444444, lng: 121.28944444444},
+						{lat: 23.234722222222, lng: 121.28972222222},
+						{lat: 23.235, lng: 121.29},
+						{lat: 23.235555555556, lng: 121.29},
+						{lat: 23.235833333333, lng: 121.29027777778},
+						{lat: 23.236111111111, lng: 121.29027777778},
+						{lat: 23.236388888889, lng: 121.29055555556},
+						{lat: 23.236666666667, lng: 121.29055555556},
+						{lat: 23.236944444444, lng: 121.29083333333},
+						{lat: 23.237222222222, lng: 121.29083333333},
+						{lat: 23.2375, lng: 121.29111111111},
+						{lat: 23.237777777778, lng: 121.29138888889},
+						{lat: 23.238055555556, lng: 121.29166666667},
+						{lat: 23.238333333333, lng: 121.29166666667},
+						{lat: 23.238333333333, lng: 121.29194444444},
+						{lat: 23.238611111111, lng: 121.29194444444},
+						{lat: 23.238888888889, lng: 121.2925},
+						{lat: 23.239166666667, lng: 121.29277777778},
+						{lat: 23.239444444444, lng: 121.29277777778},
+						{lat: 23.239722222222, lng: 121.29333333333},
+						{lat: 23.24, lng: 121.29361111111},
+						{lat: 23.240277777778, lng: 121.29361111111},
+						{lat: 23.240555555556, lng: 121.29388888889},
+						{lat: 23.240833333333, lng: 121.29388888889},
+						{lat: 23.241111111111, lng: 121.29388888889},
+						{lat: 23.241388888889, lng: 121.29416666667},
+						{lat: 23.241666666667, lng: 121.29416666667},
+						{lat: 23.241944444444, lng: 121.29444444444},
+						{lat: 23.242222222222, lng: 121.29444444444},
+						{lat: 23.2425, lng: 121.29472222222},
+						{lat: 23.242777777778, lng: 121.29527777778},
+						{lat: 23.243055555556, lng: 121.29527777778},
+						{lat: 23.243333333333, lng: 121.29555555556},
+						{lat: 23.243611111111, lng: 121.29583333333},
+						{lat: 23.243888888889, lng: 121.29583333333},
+						{lat: 23.243888888889, lng: 121.29611111111},
+						{lat: 23.244166666667, lng: 121.29611111111},
+						{lat: 23.244444444444, lng: 121.29638888889},
+						{lat: 23.244722222222, lng: 121.29666666667},
+						{lat: 23.245, lng: 121.29694444444},
+						{lat: 23.245277777778, lng: 121.29694444444},
+						{lat: 23.245555555556, lng: 121.29722222222},
+						{lat: 23.245833333333, lng: 121.2975},
+						{lat: 23.246111111111, lng: 121.2975},
+						{lat: 23.246388888889, lng: 121.29777777778},
+						{lat: 23.246666666667, lng: 121.29777777778},
+						{lat: 23.246666666667, lng: 121.29805555556},
+						{lat: 23.246944444444, lng: 121.29805555556},
+						{lat: 23.247222222222, lng: 121.29833333333},
+						{lat: 23.2475, lng: 121.29833333333},
+						{lat: 23.247777777778, lng: 121.29833333333},
+						{lat: 23.248055555556, lng: 121.29833333333},
+						{lat: 23.248333333333, lng: 121.29833333333},
+						{lat: 23.248611111111, lng: 121.29833333333},
+						{lat: 23.248888888889, lng: 121.29805555556},
+						{lat: 23.249166666667, lng: 121.29805555556},
+						{lat: 23.249444444444, lng: 121.29805555556},
+						{lat: 23.249722222222, lng: 121.29805555556},
+						{lat: 23.25, lng: 121.29777777778},
+						{lat: 23.250277777778, lng: 121.29777777778},
+						{lat: 23.250833333333, lng: 121.29777777778},
+						{lat: 23.251111111111, lng: 121.2975},
+						{lat: 23.251388888889, lng: 121.2975},
+						{lat: 23.251666666667, lng: 121.2975},
+						{lat: 23.251944444444, lng: 121.2975},
+						{lat: 23.252222222222, lng: 121.29722222222},
+						{lat: 23.2525, lng: 121.29722222222},
+						{lat: 23.252777777778, lng: 121.29722222222},
+						{lat: 23.253055555556, lng: 121.29694444444},
+						{lat: 23.253333333333, lng: 121.29694444444},
+						{lat: 23.253611111111, lng: 121.29694444444},
+						{lat: 23.253888888889, lng: 121.29694444444},
+						{lat: 23.254166666667, lng: 121.29694444444},
+						{lat: 23.254444444444, lng: 121.29694444444},
+						{lat: 23.254722222222, lng: 121.29694444444},
+						{lat: 23.255, lng: 121.29722222222},
+						{lat: 23.255277777778, lng: 121.29722222222},
+						{lat: 23.255833333333, lng: 121.2975},
+						{lat: 23.256111111111, lng: 121.2975},
+						{lat: 23.256388888889, lng: 121.2975},
+						{lat: 23.256666666667, lng: 121.29777777778},
+						{lat: 23.256944444444, lng: 121.29777777778},
+						{lat: 23.257222222222, lng: 121.29805555556},
+						{lat: 23.2575, lng: 121.29805555556},
+						{lat: 23.257777777778, lng: 121.29805555556}
+				];
+
+	loc_map[0] = [
+	{sec: 1, index: 8},
+{sec: 2, index: 14},
+{sec: 6, index: 18},
+{sec: 7, index: 21},
+{sec: 8, index: 25},
+{sec: 9, index: 30},
+{sec: 10, index: 34},
+{sec: 11, index: 39},
+{sec: 14, index: 41},
+{sec: 15, index: 48},
+{sec: 16, index: 52},
+{sec: 17, index: 58},
+{sec: 18, index: 63},
+{sec: 19, index: 70},
+{sec: 20, index: 76},
+{sec: 21, index: 82},
+{sec: 22, index: 88},
+{sec: 23, index: 95},
+{sec: 24, index: 100},
+{sec: 25, index: 108},
+{sec: 26, index: 116},
+{sec: 27, index: 123},
+{sec: 28, index: 129},
+{sec: 29, index: 135},
+{sec: 30, index: 141},
+{sec: 31, index: 148},
+{sec: 32, index: 155},
+{sec: 33, index: 161},
+{sec: 34, index: 168},
+{sec: 35, index: 175},
+{sec: 36, index: 181},
+{sec: 37, index: 188},
+{sec: 38, index: 194},
+{sec: 39, index: 202},
+{sec: 41, index: 209},
+{sec: 42, index: 213},
+{sec: 43, index: 219},
+{sec: 44, index: 225},
+{sec: 45, index: 233},
+{sec: 46, index: 239},
+{sec: 47, index: 241},
+{sec: 48, index: 243},
+{sec: 49, index: 248},
+{sec: 50, index: 253},
+{sec: 51, index: 256},
+{sec: 52, index: 261},
+{sec: 53, index: 267},
+{sec: 54, index: 275},
+{sec: 55, index: 282},
+{sec: 56, index: 290},
+{sec: 61, index: 292},
+{sec: 62, index: 295},
+{sec: 63, index: 302},
+{sec: 64, index: 309},
+{sec: 65, index: 318},
+{sec: 66, index: 326},
+{sec: 67, index: 333},
+{sec: 68, index: 339},
+{sec: 69, index: 345},
+{sec: 70, index: 352},
+{sec: 71, index: 359},
+{sec: 72, index: 366},
+{sec: 73, index: 374},
+{sec: 74, index: 381},
+{sec: 75, index: 388},
+{sec: 76, index: 394},
+{sec: 77, index: 400},
+{sec: 78, index: 406},
+{sec: 79, index: 410},
+{sec: 80, index: 412},
+{sec: 81, index: 416},
+{sec: 82, index: 422},
+{sec: 83, index: 428},
+{sec: 84, index: 435},
+{sec: 85, index: 438},
+{sec: 86, index: 439},
+{sec: 87, index: 440},
+{sec: 88, index: 446},
+{sec: 89, index: 453},
+{sec: 90, index: 460},
+{sec: 91, index: 467},
+{sec: 92, index: 474},
+{sec: 93, index: 481},
+{sec: 94, index: 488},
+{sec: 95, index: 495},
+{sec: 96, index: 502},
+{sec: 97, index: 507},
+{sec: 98, index: 515},
+{sec: 99, index: 522},
+{sec: 100, index: 529},
+{sec: 101, index: 536},
+{sec: 102, index: 543},
+{sec: 103, index: 549},
+{sec: 104, index: 556},
+{sec: 105, index: 563},
+{sec: 106, index: 569}	];
+
+		loc_arr[1] = [
+						{lat: 23.266666666667, lng: 121.3575},
+						{lat: 23.266666666667, lng: 121.35777777778},
+						{lat: 23.266944444444, lng: 121.35777777778},
+						{lat: 23.266944444444, lng: 121.35833333333},
+						{lat: 23.267222222222, lng: 121.35861111111},
+						{lat: 23.267222222222, lng: 121.35888888889},
+						{lat: 23.2675, lng: 121.35916666667},
+						{lat: 23.267777777778, lng: 121.35944444444},
+						{lat: 23.267777777778, lng: 121.35972222222},
+						{lat: 23.267777777778, lng: 121.36},
+						{lat: 23.268055555556, lng: 121.36027777778},
+						{lat: 23.268333333333, lng: 121.36055555556},
+						{lat: 23.265833333333, lng: 121.36944444444},
+						{lat: 23.256666666667, lng: 121.3925},
+						{lat: 23.263888888889, lng: 121.38611111111},
+						{lat: 23.263888888889, lng: 121.38638888889},
+						{lat: 23.263611111111, lng: 121.38638888889},
+						{lat: 23.263333333333, lng: 121.38666666667},
+						{lat: 23.263333333333, lng: 121.38694444444},
+						{lat: 23.263055555556, lng: 121.38722222222},
+						{lat: 23.262777777778, lng: 121.38722222222},
+						{lat: 23.2625, lng: 121.38722222222},
+						{lat: 23.262222222222, lng: 121.38722222222},
+						{lat: 23.261944444444, lng: 121.38722222222},
+						{lat: 23.261666666667, lng: 121.38694444444},
+						{lat: 23.261666666667, lng: 121.38666666667},
+						{lat: 23.261666666667, lng: 121.38638888889},
+						{lat: 23.261388888889, lng: 121.38611111111},
+						{lat: 23.261388888889, lng: 121.38583333333},
+						{lat: 23.261388888889, lng: 121.38555555556},
+						{lat: 23.261388888889, lng: 121.38527777778},
+						{lat: 23.261111111111, lng: 121.385},
+						{lat: 23.260833333333, lng: 121.385},
+						{lat: 23.260555555556, lng: 121.385},
+						{lat: 23.260277777778, lng: 121.38527777778},
+						{lat: 23.26, lng: 121.38555555556},
+						{lat: 23.259722222222, lng: 121.38555555556},
+						{lat: 23.259444444444, lng: 121.38583333333},
+						{lat: 23.259444444444, lng: 121.38611111111},
+						{lat: 23.259444444444, lng: 121.38638888889},
+						{lat: 23.259444444444, lng: 121.38666666667},
+						{lat: 23.259444444444, lng: 121.38722222222},
+						{lat: 23.259166666667, lng: 121.3875},
+						{lat: 23.259166666667, lng: 121.38777777778},
+						{lat: 23.258888888889, lng: 121.38805555556},
+						{lat: 23.258611111111, lng: 121.38833333333},
+						{lat: 23.258333333333, lng: 121.38833333333},
+						{lat: 23.258055555556, lng: 121.38833333333},
+						{lat: 23.257777777778, lng: 121.38833333333},
+						{lat: 23.2575, lng: 121.38833333333},
+						{lat: 23.256944444444, lng: 121.38861111111},
+						{lat: 23.256666666667, lng: 121.38861111111},
+						{lat: 23.256388888889, lng: 121.38861111111},
+						{lat: 23.256111111111, lng: 121.38861111111},
+						{lat: 23.255833333333, lng: 121.38833333333},
+						{lat: 23.255555555556, lng: 121.38833333333},
+						{lat: 23.255555555556, lng: 121.38805555556},
+						{lat: 23.255555555556, lng: 121.38777777778},
+						{lat: 23.255555555556, lng: 121.3875},
+						{lat: 23.255277777778, lng: 121.38694444444},
+						{lat: 23.255, lng: 121.38694444444},
+						{lat: 23.254722222222, lng: 121.38666666667},
+						{lat: 23.254444444444, lng: 121.38638888889},
+						{lat: 23.254722222222, lng: 121.38611111111},
+						{lat: 23.254722222222, lng: 121.38583333333},
+						{lat: 23.254722222222, lng: 121.38555555556},
+						{lat: 23.254722222222, lng: 121.38527777778},
+						{lat: 23.255, lng: 121.385},
+						{lat: 23.255, lng: 121.38472222222},
+						{lat: 23.255277777778, lng: 121.38444444444},
+						{lat: 23.255277777778, lng: 121.38416666667},
+						{lat: 23.255277777778, lng: 121.38388888889},
+						{lat: 23.255277777778, lng: 121.38361111111},
+						{lat: 23.255, lng: 121.38361111111},
+						{lat: 23.254722222222, lng: 121.38388888889},
+						{lat: 23.254722222222, lng: 121.38416666667},
+						{lat: 23.254722222222, lng: 121.38444444444},
+						{lat: 23.254444444444, lng: 121.38472222222},
+						{lat: 23.254444444444, lng: 121.385},
+						{lat: 23.254444444444, lng: 121.38527777778},
+						{lat: 23.254166666667, lng: 121.38555555556},
+						{lat: 23.254166666667, lng: 121.38583333333},
+						{lat: 23.253888888889, lng: 121.38611111111},
+						{lat: 23.253611111111, lng: 121.38638888889},
+						{lat: 23.253611111111, lng: 121.38666666667},
+						{lat: 23.253611111111, lng: 121.38694444444},
+						{lat: 23.253611111111, lng: 121.38722222222},
+						{lat: 23.253888888889, lng: 121.3875},
+						{lat: 23.253888888889, lng: 121.38777777778},
+						{lat: 23.253888888889, lng: 121.38805555556},
+						{lat: 23.253888888889, lng: 121.38833333333},
+						{lat: 23.253888888889, lng: 121.38861111111},
+						{lat: 23.253888888889, lng: 121.38888888889},
+						{lat: 23.253611111111, lng: 121.38916666667},
+						{lat: 23.253611111111, lng: 121.38944444444},
+						{lat: 23.253611111111, lng: 121.38972222222},
+						{lat: 23.253611111111, lng: 121.39},
+						{lat: 23.253333333333, lng: 121.39027777778},
+						{lat: 23.253333333333, lng: 121.39055555556},
+						{lat: 23.253333333333, lng: 121.39083333333},
+						{lat: 23.253055555556, lng: 121.39083333333},
+						{lat: 23.253055555556, lng: 121.39138888889},
+						{lat: 23.252777777778, lng: 121.39194444444},
+						{lat: 23.252777777778, lng: 121.3925},
+						{lat: 23.252777777778, lng: 121.39277777778},
+						{lat: 23.252777777778, lng: 121.39305555556},
+						{lat: 23.253055555556, lng: 121.39333333333},
+						{lat: 23.253055555556, lng: 121.39361111111},
+						{lat: 23.253055555556, lng: 121.39388888889},
+						{lat: 23.253055555556, lng: 121.39416666667},
+						{lat: 23.252777777778, lng: 121.39444444444},
+						{lat: 23.252777777778, lng: 121.39472222222},
+						{lat: 23.2525, lng: 121.39472222222},
+						{lat: 23.2525, lng: 121.395},
+						{lat: 23.2525, lng: 121.39527777778},
+						{lat: 23.2525, lng: 121.39555555556},
+						{lat: 23.252222222222, lng: 121.39583333333},
+						{lat: 23.252222222222, lng: 121.39611111111},
+						{lat: 23.252222222222, lng: 121.39638888889},
+						{lat: 23.252222222222, lng: 121.39666666667},
+						{lat: 23.252222222222, lng: 121.39722222222},
+						{lat: 23.251944444444, lng: 121.39722222222},
+						{lat: 23.251944444444, lng: 121.3975},
+						{lat: 23.251944444444, lng: 121.39777777778},
+						{lat: 23.251666666667, lng: 121.39805555556},
+						{lat: 23.251666666667, lng: 121.39833333333},
+						{lat: 23.251666666667, lng: 121.39861111111},
+						{lat: 23.251388888889, lng: 121.39888888889},
+						{lat: 23.251388888889, lng: 121.39916666667},
+						{lat: 23.251111111111, lng: 121.39944444444},
+						{lat: 23.251111111111, lng: 121.39972222222},
+						{lat: 23.250833333333, lng: 121.4},
+						{lat: 23.250833333333, lng: 121.40027777778},
+						{lat: 23.250833333333, lng: 121.40055555556},
+						{lat: 23.251111111111, lng: 121.40083333333},
+						{lat: 23.251111111111, lng: 121.40111111111},
+						{lat: 23.251111111111, lng: 121.40138888889},
+						{lat: 23.251111111111, lng: 121.40166666667},
+						{lat: 23.251388888889, lng: 121.40194444444},
+						{lat: 23.251388888889, lng: 121.40222222222},
+						{lat: 23.251388888889, lng: 121.4025},
+						{lat: 23.251666666667, lng: 121.4025},
+						{lat: 23.251666666667, lng: 121.40277777778},
+						{lat: 23.251666666667, lng: 121.40333333333},
+						{lat: 23.251666666667, lng: 121.40361111111},
+						{lat: 23.251666666667, lng: 121.40388888889},
+						{lat: 23.251388888889, lng: 121.40444444444},
+						{lat: 23.251111111111, lng: 121.40472222222},
+						{lat: 23.251111111111, lng: 121.405},
+						{lat: 23.251388888889, lng: 121.40527777778},
+						{lat: 23.251388888889, lng: 121.40555555556},
+						{lat: 23.251666666667, lng: 121.40583333333},
+						{lat: 23.251944444444, lng: 121.40611111111},
+						{lat: 23.252222222222, lng: 121.40638888889},
+						{lat: 23.2525, lng: 121.40666666667},
+						{lat: 23.2525, lng: 121.40694444444},
+						{lat: 23.2525, lng: 121.40722222222},
+						{lat: 23.252222222222, lng: 121.4075},
+						{lat: 23.252222222222, lng: 121.40777777778},
+						{lat: 23.251944444444, lng: 121.40777777778},
+						{lat: 23.251666666667, lng: 121.40805555556},
+						{lat: 23.251666666667, lng: 121.40833333333},
+						{lat: 23.251388888889, lng: 121.40861111111},
+						{lat: 23.251111111111, lng: 121.40861111111},
+						{lat: 23.250833333333, lng: 121.40888888889},
+						{lat: 23.250555555556, lng: 121.40888888889},
+						{lat: 23.250277777778, lng: 121.40861111111},
+						{lat: 23.25, lng: 121.40861111111},
+						{lat: 23.249722222222, lng: 121.40861111111},
+						{lat: 23.249722222222, lng: 121.40888888889},
+						{lat: 23.249444444444, lng: 121.40888888889},
+						{lat: 23.249166666667, lng: 121.40888888889},
+						{lat: 23.248888888889, lng: 121.40888888889},
+						{lat: 23.248611111111, lng: 121.40888888889},
+						{lat: 23.248611111111, lng: 121.40861111111},
+						{lat: 23.248333333333, lng: 121.40861111111},
+						{lat: 23.248055555556, lng: 121.40861111111},
+						{lat: 23.248055555556, lng: 121.40888888889},
+						{lat: 23.248055555556, lng: 121.40916666667},
+						{lat: 23.248055555556, lng: 121.40944444444},
+						{lat: 23.248333333333, lng: 121.40944444444},
+						{lat: 23.248611111111, lng: 121.40944444444},
+						{lat: 23.248888888889, lng: 121.40944444444},
+						{lat: 23.248888888889, lng: 121.40916666667},
+						{lat: 23.249166666667, lng: 121.40916666667},
+						{lat: 23.249444444444, lng: 121.40916666667},
+						{lat: 23.249722222222, lng: 121.40944444444},
+						{lat: 23.25, lng: 121.40944444444},
+						{lat: 23.25, lng: 121.40972222222},
+						{lat: 23.250277777778, lng: 121.41},
+						{lat: 23.250555555556, lng: 121.41},
+						{lat: 23.250833333333, lng: 121.41027777778},
+						{lat: 23.251111111111, lng: 121.41027777778},
+						{lat: 23.251388888889, lng: 121.41055555556},
+						{lat: 23.251666666667, lng: 121.41055555556},
+						{lat: 23.251666666667, lng: 121.41083333333},
+						{lat: 23.251666666667, lng: 121.41111111111},
+						{lat: 23.251388888889, lng: 121.41138888889},
+						{lat: 23.251388888889, lng: 121.41166666667},
+						{lat: 23.251111111111, lng: 121.41194444444},
+						{lat: 23.251111111111, lng: 121.41222222222},
+						{lat: 23.250833333333, lng: 121.4125},
+						{lat: 23.250555555556, lng: 121.41277777778},
+						{lat: 23.250277777778, lng: 121.41277777778},
+						{lat: 23.25, lng: 121.41277777778},
+						{lat: 23.249722222222, lng: 121.41305555556},
+						{lat: 23.249444444444, lng: 121.41333333333},
+						{lat: 23.249444444444, lng: 121.41361111111},
+						{lat: 23.249166666667, lng: 121.41388888889},
+						{lat: 23.249166666667, lng: 121.41416666667},
+						{lat: 23.248888888889, lng: 121.41416666667},
+						{lat: 23.248888888889, lng: 121.41444444444},
+						{lat: 23.248611111111, lng: 121.41444444444},
+						{lat: 23.248611111111, lng: 121.41472222222},
+						{lat: 23.248333333333, lng: 121.41472222222},
+						{lat: 23.248055555556, lng: 121.41472222222},
+						{lat: 23.247777777778, lng: 121.415},
+						{lat: 23.2475, lng: 121.415},
+						{lat: 23.2475, lng: 121.41527777778},
+						{lat: 23.247222222222, lng: 121.41527777778},
+						{lat: 23.247222222222, lng: 121.41555555556},
+						{lat: 23.247222222222, lng: 121.41583333333},
+						{lat: 23.247222222222, lng: 121.41611111111},
+						{lat: 23.246944444444, lng: 121.41611111111},
+						{lat: 23.246944444444, lng: 121.41638888889},
+						{lat: 23.246944444444, lng: 121.41666666667},
+						{lat: 23.246944444444, lng: 121.41694444444},
+						{lat: 23.246944444444, lng: 121.41722222222},
+						{lat: 23.247222222222, lng: 121.41722222222},
+						{lat: 23.2475, lng: 121.41722222222},
+						{lat: 23.247777777778, lng: 121.4175},
+						{lat: 23.248055555556, lng: 121.4175},
+						{lat: 23.248333333333, lng: 121.4175},
+						{lat: 23.248611111111, lng: 121.41777777778},
+						{lat: 23.248888888889, lng: 121.41777777778},
+						{lat: 23.249166666667, lng: 121.41777777778},
+						{lat: 23.249722222222, lng: 121.41805555556},
+						{lat: 23.25, lng: 121.41805555556},
+						{lat: 23.250277777778, lng: 121.41805555556},
+						{lat: 23.250555555556, lng: 121.41805555556},
+						{lat: 23.250833333333, lng: 121.41805555556},
+						{lat: 23.250833333333, lng: 121.41777777778},
+						{lat: 23.251111111111, lng: 121.41777777778},
+						{lat: 23.251388888889, lng: 121.4175},
+						{lat: 23.251666666667, lng: 121.4175},
+						{lat: 23.251944444444, lng: 121.4175},
+						{lat: 23.251944444444, lng: 121.41777777778},
+						{lat: 23.252222222222, lng: 121.41777777778},
+						{lat: 23.2525, lng: 121.41777777778},
+						{lat: 23.252777777778, lng: 121.41777777778},
+						{lat: 23.253055555556, lng: 121.41777777778},
+						{lat: 23.253333333333, lng: 121.41777777778},
+						{lat: 23.253888888889, lng: 121.41777777778},
+						{lat: 23.254166666667, lng: 121.41805555556},
+						{lat: 23.254722222222, lng: 121.41805555556},
+						{lat: 23.255, lng: 121.41805555556},
+						{lat: 23.255277777778, lng: 121.41833333333},
+						{lat: 23.255833333333, lng: 121.41833333333},
+						{lat: 23.256111111111, lng: 121.41861111111},
+						{lat: 23.256388888889, lng: 121.41861111111},
+						{lat: 23.256666666667, lng: 121.41861111111},
+						{lat: 23.256666666667, lng: 121.41888888889},
+						{lat: 23.257222222222, lng: 121.41888888889},
+						{lat: 23.2575, lng: 121.41888888889},
+						{lat: 23.257777777778, lng: 121.41916666667},
+						{lat: 23.258333333333, lng: 121.41916666667},
+						{lat: 23.258611111111, lng: 121.41944444444},
+						{lat: 23.258888888889, lng: 121.41944444444},
+						{lat: 23.259166666667, lng: 121.41944444444},
+						{lat: 23.259444444444, lng: 121.41972222222},
+						{lat: 23.259722222222, lng: 121.41972222222},
+						{lat: 23.26, lng: 121.41972222222},
+						{lat: 23.260277777778, lng: 121.41972222222},
+						{lat: 23.260555555556, lng: 121.42},
+						{lat: 23.260833333333, lng: 121.42},
+						{lat: 23.261111111111, lng: 121.42},
+						{lat: 23.261388888889, lng: 121.42027777778},
+						{lat: 23.261666666667, lng: 121.42027777778},
+						{lat: 23.261944444444, lng: 121.42055555556},
+						{lat: 23.262222222222, lng: 121.42055555556},
+						{lat: 23.262777777778, lng: 121.42083333333},
+						{lat: 23.263055555556, lng: 121.42083333333},
+						{lat: 23.263611111111, lng: 121.42111111111},
+						{lat: 23.263611111111, lng: 121.42138888889},
+						{lat: 23.263888888889, lng: 121.42138888889},
+						{lat: 23.263888888889, lng: 121.42166666667},
+						{lat: 23.264166666667, lng: 121.42166666667},
+						{lat: 23.264166666667, lng: 121.42194444444},
+						{lat: 23.264444444444, lng: 121.42222222222},
+						{lat: 23.264444444444, lng: 121.4225},
+						{lat: 23.264722222222, lng: 121.4225},
+						{lat: 23.265, lng: 121.42277777778},
+						{lat: 23.265, lng: 121.42305555556},
+						{lat: 23.265277777778, lng: 121.42305555556},
+						{lat: 23.265555555556, lng: 121.42333333333},
+						{lat: 23.265833333333, lng: 121.42361111111},
+						{lat: 23.266111111111, lng: 121.42361111111},
+						{lat: 23.266111111111, lng: 121.42388888889},
+						{lat: 23.266388888889, lng: 121.42388888889},
+						{lat: 23.266388888889, lng: 121.42416666667},
+						{lat: 23.266666666667, lng: 121.42416666667},
+						{lat: 23.266944444444, lng: 121.42444444444},
+						{lat: 23.266944444444, lng: 121.42472222222},
+						{lat: 23.267222222222, lng: 121.42472222222},
+						{lat: 23.2675, lng: 121.425},
+						{lat: 23.267777777778, lng: 121.425},
+						{lat: 23.267777777778, lng: 121.42527777778},
+						{lat: 23.268055555556, lng: 121.42527777778},
+						{lat: 23.268333333333, lng: 121.42555555556},
+						{lat: 23.268611111111, lng: 121.42555555556},
+						{lat: 23.268888888889, lng: 121.42555555556},
+						{lat: 23.269166666667, lng: 121.42583333333},
+						{lat: 23.269444444444, lng: 121.42583333333},
+						{lat: 23.27, lng: 121.42583333333},
+						{lat: 23.270277777778, lng: 121.42583333333},
+						{lat: 23.270833333333, lng: 121.42583333333},
+						{lat: 23.271388888889, lng: 121.42555555556},
+						{lat: 23.271666666667, lng: 121.42555555556},
+						{lat: 23.271944444444, lng: 121.42555555556},
+						{lat: 23.272222222222, lng: 121.42555555556},
+						{lat: 23.2725, lng: 121.42583333333},
+						{lat: 23.272777777778, lng: 121.42583333333},
+						{lat: 23.273055555556, lng: 121.42611111111},
+						{lat: 23.273611111111, lng: 121.42611111111},
+						{lat: 23.273888888889, lng: 121.42611111111},
+						{lat: 23.274166666667, lng: 121.42611111111},
+						{lat: 23.274444444444, lng: 121.42611111111},
+						{lat: 23.275, lng: 121.42611111111},
+						{lat: 23.275555555556, lng: 121.42583333333},
+						{lat: 23.276111111111, lng: 121.42583333333},
+						{lat: 23.276388888889, lng: 121.42611111111},
+						{lat: 23.276666666667, lng: 121.42611111111},
+						{lat: 23.276944444444, lng: 121.42611111111},
+						{lat: 23.2775, lng: 121.42611111111},
+						{lat: 23.278055555556, lng: 121.42638888889},
+						{lat: 23.278333333333, lng: 121.42638888889},
+						{lat: 23.278611111111, lng: 121.42638888889},
+						{lat: 23.278888888889, lng: 121.42638888889},
+						{lat: 23.279444444444, lng: 121.42666666667},
+						{lat: 23.279722222222, lng: 121.42666666667},
+						{lat: 23.28, lng: 121.42694444444},
+						{lat: 23.280277777778, lng: 121.42694444444},
+						{lat: 23.280555555556, lng: 121.42694444444},
+						{lat: 23.280833333333, lng: 121.42722222222},
+						{lat: 23.281388888889, lng: 121.42722222222},
+						{lat: 23.281944444444, lng: 121.4275},
+						{lat: 23.282222222222, lng: 121.4275},
+						{lat: 23.2825, lng: 121.42777777778},
+						{lat: 23.283055555556, lng: 121.42777777778},
+						{lat: 23.283333333333, lng: 121.42805555556},
+						{lat: 23.283611111111, lng: 121.42805555556},
+						{lat: 23.283888888889, lng: 121.42833333333},
+						{lat: 23.284166666667, lng: 121.42833333333},
+						{lat: 23.284444444444, lng: 121.42861111111},
+						{lat: 23.284444444444, lng: 121.42888888889},
+						{lat: 23.284722222222, lng: 121.42888888889},
+						{lat: 23.285, lng: 121.42888888889},
+						{lat: 23.285277777778, lng: 121.42916666667},
+						{lat: 23.285555555556, lng: 121.42916666667},
+						{lat: 23.285833333333, lng: 121.42916666667},
+						{lat: 23.286111111111, lng: 121.42944444444},
+						{lat: 23.286388888889, lng: 121.42944444444},
+						{lat: 23.286666666667, lng: 121.42972222222},
+						{lat: 23.286944444444, lng: 121.43},
+						{lat: 23.287222222222, lng: 121.43027777778},
+						{lat: 23.287222222222, lng: 121.43055555556},
+						{lat: 23.2875, lng: 121.43055555556},
+						{lat: 23.287777777778, lng: 121.43111111111},
+						{lat: 23.287777777778, lng: 121.43138888889},
+						{lat: 23.288055555556, lng: 121.43166666667},
+						{lat: 23.288055555556, lng: 121.43194444444},
+						{lat: 23.288333333333, lng: 121.43222222222},
+						{lat: 23.288611111111, lng: 121.4325},
+						{lat: 23.288888888889, lng: 121.4325},
+						{lat: 23.289444444444, lng: 121.4325},
+						{lat: 23.289722222222, lng: 121.43277777778},
+						{lat: 23.29, lng: 121.43277777778},
+						{lat: 23.290277777778, lng: 121.43277777778},
+						{lat: 23.290555555556, lng: 121.43305555556},
+						{lat: 23.290833333333, lng: 121.43305555556},
+						{lat: 23.291111111111, lng: 121.43333333333},
+						{lat: 23.291666666667, lng: 121.43361111111},
+						{lat: 23.291944444444, lng: 121.43361111111},
+						{lat: 23.292222222222, lng: 121.43388888889},
+						{lat: 23.2925, lng: 121.43416666667},
+						{lat: 23.292777777778, lng: 121.43416666667},
+						{lat: 23.292777777778, lng: 121.43444444444},
+						{lat: 23.293055555556, lng: 121.43472222222},
+						{lat: 23.293333333333, lng: 121.43472222222},
+						{lat: 23.293333333333, lng: 121.435},
+						{lat: 23.293611111111, lng: 121.43527777778},
+						{lat: 23.293888888889, lng: 121.43527777778},
+						{lat: 23.294166666667, lng: 121.43555555556},
+						{lat: 23.294722222222, lng: 121.43583333333},
+						{lat: 23.295, lng: 121.43583333333},
+						{lat: 23.295555555556, lng: 121.43611111111},
+						{lat: 23.295833333333, lng: 121.43611111111},
+						{lat: 23.296111111111, lng: 121.43638888889},
+						{lat: 23.296388888889, lng: 121.43638888889},
+						{lat: 23.296666666667, lng: 121.43638888889},
+						{lat: 23.296944444444, lng: 121.43666666667},
+						{lat: 23.297222222222, lng: 121.43694444444},
+						{lat: 23.2975, lng: 121.43694444444},
+						{lat: 23.297777777778, lng: 121.43722222222},
+						{lat: 23.298055555556, lng: 121.43722222222},
+						{lat: 23.298333333333, lng: 121.4375},
+						{lat: 23.298611111111, lng: 121.4375},
+						{lat: 23.298611111111, lng: 121.43777777778},
+						{lat: 23.299166666667, lng: 121.43777777778},
+						{lat: 23.299444444444, lng: 121.43805555556},
+						{lat: 23.299722222222, lng: 121.43833333333},
+						{lat: 23.3, lng: 121.43833333333},
+						{lat: 23.3, lng: 121.43861111111},
+						{lat: 23.300277777778, lng: 121.43888888889},
+						{lat: 23.300555555556, lng: 121.43888888889},
+						{lat: 23.300833333333, lng: 121.43944444444},
+						{lat: 23.301111111111, lng: 121.43944444444},
+						{lat: 23.301388888889, lng: 121.43972222222},
+						{lat: 23.301666666667, lng: 121.43972222222},
+						{lat: 23.301944444444, lng: 121.44},
+						{lat: 23.3025, lng: 121.44027777778},
+						{lat: 23.302777777778, lng: 121.44055555556},
+						{lat: 23.303055555556, lng: 121.44083333333},
+						{lat: 23.303333333333, lng: 121.44111111111},
+						{lat: 23.303611111111, lng: 121.44111111111},
+						{lat: 23.303611111111, lng: 121.44138888889},
+						{lat: 23.303888888889, lng: 121.44138888889},
+						{lat: 23.304444444444, lng: 121.44166666667},
+						{lat: 23.304444444444, lng: 121.44194444444},
+						{lat: 23.304722222222, lng: 121.44194444444},
+						{lat: 23.305, lng: 121.44222222222},
+						{lat: 23.305277777778, lng: 121.4425},
+						{lat: 23.305555555556, lng: 121.4425},
+						{lat: 23.305833333333, lng: 121.44305555556},
+						{lat: 23.306111111111, lng: 121.44333333333},
+						{lat: 23.306111111111, lng: 121.44361111111},
+						{lat: 23.306388888889, lng: 121.44388888889},
+						{lat: 23.306666666667, lng: 121.44388888889},
+						{lat: 23.306944444444, lng: 121.44416666667},
+						{lat: 23.306944444444, lng: 121.44444444444},
+						{lat: 23.307222222222, lng: 121.44444444444},
+						{lat: 23.3075, lng: 121.44472222222},
+						{lat: 23.307777777778, lng: 121.445},
+						{lat: 23.308055555556, lng: 121.445},
+						{lat: 23.308333333333, lng: 121.44527777778},
+						{lat: 23.308611111111, lng: 121.44527777778},
+						{lat: 23.308888888889, lng: 121.44555555556},
+						{lat: 23.309166666667, lng: 121.44583333333},
+						{lat: 23.309722222222, lng: 121.44611111111},
+						{lat: 23.31, lng: 121.44611111111},
+						{lat: 23.310277777778, lng: 121.44611111111},
+						{lat: 23.310555555556, lng: 121.44638888889},
+						{lat: 23.310833333333, lng: 121.44638888889},
+						{lat: 23.311111111111, lng: 121.44638888889},
+						{lat: 23.311388888889, lng: 121.44638888889},
+						{lat: 23.311666666667, lng: 121.44666666667},
+						{lat: 23.311944444444, lng: 121.44666666667},
+						{lat: 23.312222222222, lng: 121.44666666667},
+						{lat: 23.3125, lng: 121.44666666667},
+						{lat: 23.312777777778, lng: 121.44666666667},
+						{lat: 23.313055555556, lng: 121.44666666667},
+						{lat: 23.313333333333, lng: 121.44666666667},
+						{lat: 23.313611111111, lng: 121.44694444444},
+						{lat: 23.313888888889, lng: 121.44722222222},
+						{lat: 23.313888888889, lng: 121.4475},
+						{lat: 23.313888888889, lng: 121.44777777778},
+						{lat: 23.314166666667, lng: 121.44805555556},
+						{lat: 23.314166666667, lng: 121.44833333333},
+						{lat: 23.314166666667, lng: 121.44861111111},
+						{lat: 23.314444444444, lng: 121.44888888889},
+						{lat: 23.314444444444, lng: 121.44916666667},
+						{lat: 23.314444444444, lng: 121.44944444444},
+						{lat: 23.314722222222, lng: 121.44972222222},
+						{lat: 23.314722222222, lng: 121.45},
+						{lat: 23.314444444444, lng: 121.45},
+						{lat: 23.314444444444, lng: 121.45027777778},
+						{lat: 23.314444444444, lng: 121.45055555556},
+						{lat: 23.314444444444, lng: 121.45083333333},
+						{lat: 23.314444444444, lng: 121.45111111111},
+						{lat: 23.314722222222, lng: 121.45138888889},
+						{lat: 23.314722222222, lng: 121.45166666667},
+						{lat: 23.315, lng: 121.45194444444},
+						{lat: 23.315, lng: 121.45222222222},
+						{lat: 23.315277777778, lng: 121.4525},
+						{lat: 23.315555555556, lng: 121.45277777778},
+						{lat: 23.315555555556, lng: 121.45305555556},
+						{lat: 23.315833333333, lng: 121.45305555556},
+						{lat: 23.315833333333, lng: 121.45333333333},
+						{lat: 23.316111111111, lng: 121.45361111111},
+						{lat: 23.316111111111, lng: 121.45388888889},
+						{lat: 23.316388888889, lng: 121.45416666667},
+						{lat: 23.316388888889, lng: 121.45444444444},
+						{lat: 23.316666666667, lng: 121.45444444444},
+						{lat: 23.316666666667, lng: 121.45472222222},
+						{lat: 23.316944444444, lng: 121.455},
+						{lat: 23.316944444444, lng: 121.45527777778}
+				];
+
+	loc_map[1] = [
+	{sec: 1, index: 7},
+{sec: 6, index: 12},
+{sec: 10, index: 13},
+{sec: 12, index: 14},
+{sec: 13, index: 19},
+{sec: 14, index: 26},
+{sec: 15, index: 33},
+{sec: 16, index: 40},
+{sec: 17, index: 46},
+{sec: 18, index: 52},
+{sec: 19, index: 58},
+{sec: 20, index: 64},
+{sec: 21, index: 70},
+{sec: 22, index: 76},
+{sec: 23, index: 82},
+{sec: 24, index: 88},
+{sec: 25, index: 94},
+{sec: 26, index: 101},
+{sec: 27, index: 106},
+{sec: 28, index: 113},
+{sec: 29, index: 121},
+{sec: 30, index: 129},
+{sec: 31, index: 136},
+{sec: 32, index: 143},
+{sec: 33, index: 147},
+{sec: 34, index: 152},
+{sec: 35, index: 156},
+{sec: 36, index: 162},
+{sec: 37, index: 167},
+{sec: 38, index: 172},
+{sec: 39, index: 178},
+{sec: 40, index: 183},
+{sec: 41, index: 189},
+{sec: 42, index: 194},
+{sec: 43, index: 199},
+{sec: 44, index: 204},
+{sec: 45, index: 208},
+{sec: 46, index: 213},
+{sec: 47, index: 219},
+{sec: 48, index: 221},
+{sec: 51, index: 223},
+{sec: 52, index: 224},
+{sec: 53, index: 228},
+{sec: 54, index: 235},
+{sec: 55, index: 242},
+{sec: 56, index: 251},
+{sec: 57, index: 257},
+{sec: 58, index: 263},
+{sec: 59, index: 269},
+{sec: 60, index: 276},
+{sec: 61, index: 282},
+{sec: 62, index: 290},
+{sec: 63, index: 296},
+{sec: 64, index: 305},
+{sec: 65, index: 312},
+{sec: 66, index: 317},
+{sec: 67, index: 324},
+{sec: 68, index: 329},
+{sec: 69, index: 337},
+{sec: 70, index: 345},
+{sec: 71, index: 351},
+{sec: 72, index: 360},
+{sec: 73, index: 367},
+{sec: 74, index: 374},
+{sec: 75, index: 381},
+{sec: 76, index: 390},
+{sec: 77, index: 396},
+{sec: 78, index: 403},
+{sec: 79, index: 411},
+{sec: 80, index: 419},
+{sec: 81, index: 426},
+{sec: 82, index: 433},
+{sec: 83, index: 441},
+{sec: 84, index: 447},
+{sec: 85, index: 454},
+{sec: 86, index: 460},
+{sec: 87, index: 465},
+{sec: 88, index: 473},
+{sec: 89, index: 476},
+{sec: 90, index: 477},
+{sec: 91, index: 480},
+{sec: 92, index: 484},
+{sec: 93, index: 489},
+{sec: 94, index: 493}	];
+
+		loc_arr[2] = [
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892222222222, lng: 120.68194444444},
+						{lat: 23.8925, lng: 120.68194444444},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.893055555556, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.893055555556, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.893055555556, lng: 120.68166666667},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.893055555556, lng: 120.68166666667},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.893055555556, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.8925, lng: 120.68194444444},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.893888888889, lng: 120.68138888889},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825},
+						{lat: 23.891388888889, lng: 120.68111111111},
+						{lat: 23.891666666667, lng: 120.6825}
+				];
+
+	loc_map[2] = [
+	{sec: 1, index: 2},
+{sec: 2, index: 3},
+{sec: 4, index: 4},
+{sec: 10, index: 6},
+{sec: 12, index: 7},
+{sec: 13, index: 8},
+{sec: 14, index: 9},
+{sec: 21, index: 10},
+{sec: 22, index: 11},
+{sec: 32, index: 12},
+{sec: 34, index: 15},
+{sec: 37, index: 16},
+{sec: 41, index: 18},
+{sec: 42, index: 19},
+{sec: 44, index: 20},
+{sec: 47, index: 21},
+{sec: 51, index: 22},
+{sec: 52, index: 23},
+{sec: 54, index: 25},
+{sec: 56, index: 26},
+{sec: 57, index: 28},
+{sec: 58, index: 29},
+{sec: 59, index: 31},
+{sec: 60, index: 32},
+{sec: 61, index: 34},
+{sec: 64, index: 35},
+{sec: 65, index: 37},
+{sec: 66, index: 38},
+{sec: 69, index: 40},
+{sec: 70, index: 42},
+{sec: 71, index: 43},
+{sec: 72, index: 44},
+{sec: 73, index: 47},
+{sec: 74, index: 49},
+{sec: 102, index: 50},
+{sec: 104, index: 52},
+{sec: 105, index: 53},
+{sec: 106, index: 54},
+{sec: 108, index: 56},
+{sec: 110, index: 57},
+{sec: 112, index: 60},
+{sec: 113, index: 61},
+{sec: 118, index: 62},
+{sec: 119, index: 63},
+{sec: 121, index: 64},
+{sec: 122, index: 66},
+{sec: 128, index: 67},
+{sec: 129, index: 68},
+{sec: 130, index: 69},
+{sec: 139, index: 70},
+{sec: 140, index: 72},
+{sec: 141, index: 74},
+{sec: 143, index: 75},
+{sec: 145, index: 76},
+{sec: 146, index: 78},
+{sec: 147, index: 80},
+{sec: 148, index: 81},
+{sec: 150, index: 82},
+{sec: 151, index: 83},
+{sec: 152, index: 85},
+{sec: 153, index: 86},
+{sec: 155, index: 87},
+{sec: 156, index: 90},
+{sec: 157, index: 91},
+{sec: 158, index: 93},
+{sec: 161, index: 96},
+{sec: 162, index: 97},
+{sec: 163, index: 98},
+{sec: 168, index: 99},
+{sec: 170, index: 100},
+{sec: 177, index: 101},
+{sec: 188, index: 103},
+{sec: 191, index: 105},
+{sec: 192, index: 106},
+{sec: 193, index: 107},
+{sec: 194, index: 108},
+{sec: 195, index: 109},
+{sec: 196, index: 112},
+{sec: 197, index: 114},
+{sec: 198, index: 115},
+{sec: 200, index: 116},
+{sec: 209, index: 118},
+{sec: 212, index: 119},
+{sec: 213, index: 121},
+{sec: 214, index: 123},
+{sec: 215, index: 124},
+{sec: 216, index: 127},
+{sec: 217, index: 128},
+{sec: 218, index: 130},
+{sec: 220, index: 131},
+{sec: 228, index: 133},
+{sec: 239, index: 135},
+{sec: 244, index: 137},
+{sec: 245, index: 138},
+{sec: 249, index: 139},
+{sec: 264, index: 141},
+{sec: 265, index: 143},
+{sec: 266, index: 144},
+{sec: 269, index: 145},
+{sec: 271, index: 148},
+{sec: 272, index: 149},
+{sec: 273, index: 151},
+{sec: 274, index: 152},
+{sec: 275, index: 153},
+{sec: 277, index: 155},
+{sec: 534, index: 156},
+{sec: 560, index: 157},
+{sec: 562, index: 158},
+{sec: 563, index: 159},
+{sec: 565, index: 160},
+{sec: 573, index: 161},
+{sec: 575, index: 163},
+{sec: 576, index: 164},
+{sec: 584, index: 165},
+{sec: 585, index: 166},
+{sec: 586, index: 167},
+{sec: 590, index: 168},
+{sec: 591, index: 169},
+{sec: 592, index: 170},
+{sec: 611, index: 172},
+{sec: 613, index: 173},
+{sec: 617, index: 174},
+{sec: 618, index: 175},
+{sec: 620, index: 176},
+{sec: 621, index: 177},
+{sec: 630, index: 178},
+{sec: 631, index: 179},
+{sec: 634, index: 180},
+{sec: 635, index: 181},
+{sec: 636, index: 182},
+{sec: 637, index: 183},
+{sec: 639, index: 184},
+{sec: 641, index: 185},
+{sec: 643, index: 187},
+{sec: 651, index: 188},
+{sec: 653, index: 189},
+{sec: 654, index: 191},
+{sec: 655, index: 193},
+{sec: 659, index: 194},
+{sec: 660, index: 195},
+{sec: 664, index: 196},
+{sec: 665, index: 198},
+{sec: 669, index: 200},
+{sec: 670, index: 201}	];
+
+		loc_arr[3] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[3] = [
+		];
+
+		loc_arr[4] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[5] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+								{lat: 23.116944444444, lng: 121.20972222222},				
+								{lat: 23.117222222222, lng: 121.21},				
+								{lat: 23.117222222222, lng: 121.21027777778},				
+								{lat: 23.1175, lng: 121.21027777778},				
+								{lat: 23.117777777778, lng: 121.21027777778},				
+								{lat: 23.117777777778, lng: 121.21055555556},				
+								{lat: 23.118055555556, lng: 121.21055555556},				
+								{lat: 23.118333333333, lng: 121.21083333333},				
+								{lat: 23.118611111111, lng: 121.21111111111},				
+								{lat: 23.118888888889, lng: 121.21111111111},				
+								{lat: 23.118888888889, lng: 121.21138888889},				
+								{lat: 23.119166666667, lng: 121.21166666667},				
+								{lat: 23.119444444444, lng: 121.21166666667},				
+								{lat: 23.119722222222, lng: 121.21194444444},				
+								{lat: 23.12, lng: 121.21194444444},				
+								{lat: 23.12, lng: 121.21222222222},				
+								{lat: 23.120277777778, lng: 121.21222222222},				
+								{lat: 23.120277777778, lng: 121.2125},				
+								{lat: 23.120277777778, lng: 121.21277777778},				
+								{lat: 23.120555555556, lng: 121.21277777778},				
+								{lat: 23.120555555556, lng: 121.21305555556},				
+								{lat: 23.120833333333, lng: 121.21333333333},				
+								{lat: 23.120833333333, lng: 121.21361111111},				
+								{lat: 23.121111111111, lng: 121.21361111111},				
+								{lat: 23.121111111111, lng: 121.21388888889},				
+								{lat: 23.121388888889, lng: 121.21416666667},				
+								{lat: 23.121388888889, lng: 121.21444444444},				
+								{lat: 23.121666666667, lng: 121.21444444444},				
+								{lat: 23.121666666667, lng: 121.21472222222},				
+								{lat: 23.121944444444, lng: 121.215},				
+								{lat: 23.122222222222, lng: 121.21527777778},				
+								{lat: 23.122222222222, lng: 121.21555555556},				
+								{lat: 23.1225, lng: 121.21555555556},				
+								{lat: 23.1225, lng: 121.21583333333},				
+								{lat: 23.122777777778, lng: 121.21611111111},				
+								{lat: 23.122777777778, lng: 121.21638888889},				
+								{lat: 23.123055555556, lng: 121.21638888889},				
+								{lat: 23.123055555556, lng: 121.21666666667},				
+								{lat: 23.123333333333, lng: 121.21694444444},				
+								{lat: 23.123333333333, lng: 121.21722222222},				
+								{lat: 23.123611111111, lng: 121.21722222222},				
+								{lat: 23.123611111111, lng: 121.2175},				
+								{lat: 23.123888888889, lng: 121.2175},				
+								{lat: 23.123888888889, lng: 121.21777777778},				
+								{lat: 23.123888888889, lng: 121.21805555556},				
+								{lat: 23.124166666667, lng: 121.21805555556},				
+								{lat: 23.124166666667, lng: 121.21833333333},				
+								{lat: 23.124444444444, lng: 121.21833333333},				
+								{lat: 23.124444444444, lng: 121.21861111111},				
+								{lat: 23.124722222222, lng: 121.21888888889},				
+								{lat: 23.124722222222, lng: 121.21916666667},				
+								{lat: 23.125, lng: 121.21944444444},				
+								{lat: 23.125277777778, lng: 121.21972222222},				
+								{lat: 23.125277777778, lng: 121.22},				
+								{lat: 23.125555555556, lng: 121.22},				
+								{lat: 23.125555555556, lng: 121.22027777778},				
+								{lat: 23.125833333333, lng: 121.22055555556},				
+								{lat: 23.125833333333, lng: 121.22083333333},				
+								{lat: 23.125555555556, lng: 121.22111111111},				
+								{lat: 23.125555555556, lng: 121.22138888889},				
+								{lat: 23.125277777778, lng: 121.22166666667},				
+								{lat: 23.125277777778, lng: 121.22194444444},				
+								{lat: 23.125, lng: 121.22222222222},				
+								{lat: 23.125, lng: 121.2225},				
+								{lat: 23.125, lng: 121.22277777778},				
+								{lat: 23.125, lng: 121.22305555556},				
+								{lat: 23.124722222222, lng: 121.22305555556},				
+								{lat: 23.124722222222, lng: 121.22333333333},				
+								{lat: 23.124722222222, lng: 121.22361111111},				
+								{lat: 23.124444444444, lng: 121.22388888889},				
+								{lat: 23.124444444444, lng: 121.22416666667},				
+								{lat: 23.124166666667, lng: 121.22444444444},				
+								{lat: 23.124166666667, lng: 121.22472222222},				
+								{lat: 23.124166666667, lng: 121.225},				
+								{lat: 23.124166666667, lng: 121.22527777778},				
+								{lat: 23.124166666667, lng: 121.22555555556},				
+								{lat: 23.124444444444, lng: 121.22611111111},				
+								{lat: 23.124444444444, lng: 121.22638888889},				
+								{lat: 23.124444444444, lng: 121.22666666667},				
+								{lat: 23.124444444444, lng: 121.22694444444},				
+								{lat: 23.124444444444, lng: 121.22722222222},				
+								{lat: 23.124722222222, lng: 121.2275},				
+								{lat: 23.124722222222, lng: 121.22805555556},				
+								{lat: 23.124722222222, lng: 121.22833333333},				
+								{lat: 23.124722222222, lng: 121.22861111111},				
+								{lat: 23.125, lng: 121.22888888889},				
+								{lat: 23.125277777778, lng: 121.22888888889},				
+								{lat: 23.125555555556, lng: 121.22916666667},				
+								{lat: 23.125555555556, lng: 121.22944444444},				
+								{lat: 23.125833333333, lng: 121.22944444444},				
+								{lat: 23.126111111111, lng: 121.22972222222},				
+								{lat: 23.126388888889, lng: 121.23},				
+								{lat: 23.126666666667, lng: 121.23027777778},				
+								{lat: 23.126944444444, lng: 121.23055555556},				
+								{lat: 23.127222222222, lng: 121.23055555556},				
+								{lat: 23.127222222222, lng: 121.23083333333},				
+								{lat: 23.1275, lng: 121.23083333333},				
+								{lat: 23.127777777778, lng: 121.23083333333},				
+								{lat: 23.128333333333, lng: 121.23083333333},				
+								{lat: 23.128611111111, lng: 121.23083333333},				
+								{lat: 23.128611111111, lng: 121.23111111111},				
+								{lat: 23.128888888889, lng: 121.23111111111},				
+								{lat: 23.129166666667, lng: 121.23111111111},				
+								{lat: 23.129444444444, lng: 121.23111111111},				
+								{lat: 23.129722222222, lng: 121.23111111111},				
+								{lat: 23.13, lng: 121.23138888889},				
+								{lat: 23.130555555556, lng: 121.23166666667},				
+								{lat: 23.130833333333, lng: 121.23166666667},				
+								{lat: 23.131111111111, lng: 121.23166666667},				
+								{lat: 23.131388888889, lng: 121.23194444444},				
+								{lat: 23.131666666667, lng: 121.23222222222},				
+								{lat: 23.131944444444, lng: 121.23222222222},				
+								{lat: 23.132222222222, lng: 121.2325},				
+								{lat: 23.1325, lng: 121.2325},				
+								{lat: 23.132777777778, lng: 121.2325},				
+								{lat: 23.133055555556, lng: 121.23277777778},				
+								{lat: 23.133333333333, lng: 121.23277777778},				
+								{lat: 23.133888888889, lng: 121.23305555556},				
+								{lat: 23.134166666667, lng: 121.23305555556},				
+								{lat: 23.134444444444, lng: 121.23305555556},				
+								{lat: 23.134722222222, lng: 121.23305555556},				
+								{lat: 23.135, lng: 121.23305555556},				
+								{lat: 23.135277777778, lng: 121.23333333333},				
+								{lat: 23.135555555556, lng: 121.23333333333},				
+								{lat: 23.135833333333, lng: 121.23361111111},				
+								{lat: 23.136111111111, lng: 121.23361111111},				
+								{lat: 23.136388888889, lng: 121.23388888889},				
+								{lat: 23.136944444444, lng: 121.23416666667},				
+								{lat: 23.137222222222, lng: 121.23416666667},				
+								{lat: 23.1375, lng: 121.23444444444},				
+								{lat: 23.138055555556, lng: 121.23472222222},				
+								{lat: 23.138333333333, lng: 121.23472222222},				
+								{lat: 23.138611111111, lng: 121.235},				
+								{lat: 23.139166666667, lng: 121.23527777778},				
+								{lat: 23.139444444444, lng: 121.23555555556},				
+								{lat: 23.139722222222, lng: 121.23555555556},				
+								{lat: 23.14, lng: 121.23583333333},				
+								{lat: 23.140277777778, lng: 121.23611111111},				
+								{lat: 23.140833333333, lng: 121.23611111111},				
+								{lat: 23.141388888889, lng: 121.23638888889},				
+								{lat: 23.141666666667, lng: 121.23638888889},				
+								{lat: 23.141944444444, lng: 121.23638888889},				
+								{lat: 23.142222222222, lng: 121.23666666667},				
+								{lat: 23.1425, lng: 121.23666666667},				
+								{lat: 23.142777777778, lng: 121.23666666667},				
+								{lat: 23.143333333333, lng: 121.23666666667},				
+								{lat: 23.143611111111, lng: 121.23694444444},				
+								{lat: 23.143888888889, lng: 121.23694444444},				
+								{lat: 23.144444444444, lng: 121.23694444444},				
+								{lat: 23.144722222222, lng: 121.23722222222},				
+								{lat: 23.145, lng: 121.23722222222},				
+								{lat: 23.145277777778, lng: 121.23722222222},				
+								{lat: 23.145555555556, lng: 121.23722222222},				
+								{lat: 23.146111111111, lng: 121.2375},				
+								{lat: 23.146388888889, lng: 121.2375},				
+								{lat: 23.146666666667, lng: 121.23777777778},				
+								{lat: 23.146944444444, lng: 121.23777777778},				
+								{lat: 23.147222222222, lng: 121.23805555556},				
+								{lat: 23.147777777778, lng: 121.23805555556},				
+								{lat: 23.148333333333, lng: 121.23833333333},				
+								{lat: 23.148611111111, lng: 121.23833333333},				
+								{lat: 23.148888888889, lng: 121.23861111111},				
+								{lat: 23.149166666667, lng: 121.23861111111},				
+								{lat: 23.149444444444, lng: 121.23861111111},				
+								{lat: 23.149722222222, lng: 121.23888888889},				
+								{lat: 23.15, lng: 121.23888888889},				
+								{lat: 23.150555555556, lng: 121.23916666667},				
+								{lat: 23.150833333333, lng: 121.23916666667},				
+								{lat: 23.151111111111, lng: 121.23916666667},				
+								{lat: 23.151666666667, lng: 121.23944444444},				
+								{lat: 23.151944444444, lng: 121.23944444444},				
+								{lat: 23.152222222222, lng: 121.23972222222},				
+								{lat: 23.1525, lng: 121.23972222222},				
+								{lat: 23.152777777778, lng: 121.23972222222},				
+								{lat: 23.153055555556, lng: 121.23972222222},				
+								{lat: 23.153333333333, lng: 121.23972222222},				
+								{lat: 23.153611111111, lng: 121.23972222222},				
+								{lat: 23.153888888889, lng: 121.23972222222},				
+								{lat: 23.154444444444, lng: 121.23972222222},				
+								{lat: 23.154722222222, lng: 121.23972222222},				
+								{lat: 23.155, lng: 121.23972222222},				
+								{lat: 23.155277777778, lng: 121.23972222222},				
+								{lat: 23.155555555556, lng: 121.23972222222},				
+								{lat: 23.155833333333, lng: 121.24},				
+								{lat: 23.156111111111, lng: 121.24},				
+								{lat: 23.156388888889, lng: 121.24},				
+								{lat: 23.156666666667, lng: 121.24},				
+								{lat: 23.156944444444, lng: 121.24027777778},				
+								{lat: 23.1575, lng: 121.24055555556},				
+								{lat: 23.157777777778, lng: 121.24083333333},				
+								{lat: 23.158055555556, lng: 121.24111111111},				
+								{lat: 23.158333333333, lng: 121.24138888889},				
+								{lat: 23.158611111111, lng: 121.24138888889},				
+								{lat: 23.158888888889, lng: 121.24166666667},				
+								{lat: 23.159166666667, lng: 121.24166666667},				
+								{lat: 23.159444444444, lng: 121.24166666667},				
+								{lat: 23.159722222222, lng: 121.24166666667},				
+								{lat: 23.16, lng: 121.24194444444},				
+								{lat: 23.160277777778, lng: 121.24194444444},				
+								{lat: 23.160555555556, lng: 121.24194444444},				
+								{lat: 23.160833333333, lng: 121.24194444444},				
+								{lat: 23.160833333333, lng: 121.24222222222},				
+								{lat: 23.161111111111, lng: 121.24222222222},				
+								{lat: 23.161388888889, lng: 121.24222222222},				
+								{lat: 23.161666666667, lng: 121.24222222222},				
+								{lat: 23.161944444444, lng: 121.24222222222},				
+								{lat: 23.162222222222, lng: 121.24222222222},				
+								{lat: 23.1625, lng: 121.24222222222},				
+								{lat: 23.162777777778, lng: 121.24222222222},				
+								{lat: 23.162777777778, lng: 121.24194444444},				
+								{lat: 23.163055555556, lng: 121.24194444444},				
+								{lat: 23.163333333333, lng: 121.24194444444},				
+								{lat: 23.163611111111, lng: 121.24194444444},				
+								{lat: 23.163888888889, lng: 121.24194444444},				
+								{lat: 23.164444444444, lng: 121.24194444444},				
+								{lat: 23.165, lng: 121.24222222222},				
+								{lat: 23.165277777778, lng: 121.24222222222},				
+								{lat: 23.165555555556, lng: 121.24222222222},				
+								{lat: 23.165833333333, lng: 121.24222222222},				
+								{lat: 23.166111111111, lng: 121.24222222222},				
+								{lat: 23.166388888889, lng: 121.24222222222},				
+								{lat: 23.166666666667, lng: 121.2425},				
+								{lat: 23.166944444444, lng: 121.2425},				
+								{lat: 23.167222222222, lng: 121.24277777778},				
+								{lat: 23.1675, lng: 121.24305555556},				
+								{lat: 23.167777777778, lng: 121.24305555556},				
+								{lat: 23.168333333333, lng: 121.24333333333},				
+								{lat: 23.168611111111, lng: 121.24361111111},				
+								{lat: 23.168888888889, lng: 121.24361111111},				
+								{lat: 23.169166666667, lng: 121.24388888889},				
+								{lat: 23.169444444444, lng: 121.24416666667},				
+								{lat: 23.169444444444, lng: 121.24444444444},				
+								{lat: 23.169722222222, lng: 121.24472222222},				
+								{lat: 23.17, lng: 121.24527777778},				
+								{lat: 23.17, lng: 121.24555555556},				
+								{lat: 23.170277777778, lng: 121.24583333333},				
+								{lat: 23.170277777778, lng: 121.24611111111},				
+								{lat: 23.170555555556, lng: 121.24638888889},				
+								{lat: 23.170833333333, lng: 121.24666666667},				
+								{lat: 23.171111111111, lng: 121.24694444444},				
+								{lat: 23.171388888889, lng: 121.24694444444},				
+								{lat: 23.171388888889, lng: 121.24722222222},				
+								{lat: 23.171666666667, lng: 121.24722222222},				
+								{lat: 23.171944444444, lng: 121.24722222222},				
+								{lat: 23.172222222222, lng: 121.24722222222},				
+								{lat: 23.1725, lng: 121.24722222222},				
+								{lat: 23.172777777778, lng: 121.24722222222},				
+								{lat: 23.173055555556, lng: 121.24722222222},				
+								{lat: 23.173333333333, lng: 121.2475},				
+								{lat: 23.173611111111, lng: 121.2475},				
+								{lat: 23.173888888889, lng: 121.2475},				
+								{lat: 23.174166666667, lng: 121.2475},				
+								{lat: 23.174444444444, lng: 121.2475},				
+								{lat: 23.174722222222, lng: 121.2475},				
+								{lat: 23.175, lng: 121.24777777778},				
+								{lat: 23.175277777778, lng: 121.24777777778},				
+								{lat: 23.175833333333, lng: 121.24805555556},				
+								{lat: 23.176111111111, lng: 121.24833333333},				
+								{lat: 23.176388888889, lng: 121.24833333333},				
+								{lat: 23.176666666667, lng: 121.24833333333},				
+								{lat: 23.176944444444, lng: 121.24861111111},				
+								{lat: 23.1775, lng: 121.24888888889},				
+								{lat: 23.178055555556, lng: 121.24916666667},				
+								{lat: 23.178333333333, lng: 121.24916666667},				
+								{lat: 23.178611111111, lng: 121.24944444444},				
+								{lat: 23.178888888889, lng: 121.24972222222},				
+								{lat: 23.179166666667, lng: 121.24972222222},				
+								{lat: 23.179444444444, lng: 121.25},				
+								{lat: 23.179722222222, lng: 121.25},				
+								{lat: 23.18, lng: 121.25027777778},				
+								{lat: 23.180277777778, lng: 121.25055555556},				
+								{lat: 23.180555555556, lng: 121.25055555556},				
+								{lat: 23.180555555556, lng: 121.25083333333},				
+								{lat: 23.180833333333, lng: 121.25083333333},				
+								{lat: 23.181111111111, lng: 121.25111111111},				
+								{lat: 23.181388888889, lng: 121.25138888889},				
+								{lat: 23.181666666667, lng: 121.25138888889},				
+								{lat: 23.181944444444, lng: 121.25166666667},				
+								{lat: 23.181944444444, lng: 121.25194444444},				
+								{lat: 23.182222222222, lng: 121.25194444444},				
+								{lat: 23.182222222222, lng: 121.25222222222},				
+								{lat: 23.182777777778, lng: 121.2525},				
+								{lat: 23.183055555556, lng: 121.25277777778},				
+								{lat: 23.183333333333, lng: 121.25305555556},				
+								{lat: 23.183611111111, lng: 121.25305555556},				
+								{lat: 23.183611111111, lng: 121.25333333333},				
+								{lat: 23.183888888889, lng: 121.25333333333},				
+								{lat: 23.183888888889, lng: 121.25361111111},				
+								{lat: 23.184166666667, lng: 121.25361111111},				
+								{lat: 23.184166666667, lng: 121.25388888889},				
+								{lat: 23.184444444444, lng: 121.25388888889},				
+								{lat: 23.184722222222, lng: 121.25416666667},				
+								{lat: 23.184722222222, lng: 121.25444444444},				
+								{lat: 23.184722222222, lng: 121.25472222222},				
+								{lat: 23.185, lng: 121.255},				
+								{lat: 23.185, lng: 121.25555555556},				
+								{lat: 23.185, lng: 121.25583333333},				
+								{lat: 23.185, lng: 121.25611111111},				
+								{lat: 23.185277777778, lng: 121.25638888889},				
+								{lat: 23.185277777778, lng: 121.25666666667},				
+								{lat: 23.185277777778, lng: 121.25694444444},				
+								{lat: 23.185555555556, lng: 121.2575},				
+								{lat: 23.185833333333, lng: 121.25777777778},				
+								{lat: 23.186111111111, lng: 121.25805555556},				
+								{lat: 23.186388888889, lng: 121.25833333333},				
+								{lat: 23.186666666667, lng: 121.25861111111},				
+								{lat: 23.186944444444, lng: 121.25888888889},				
+								{lat: 23.186944444444, lng: 121.25916666667},				
+								{lat: 23.1875, lng: 121.25944444444},				
+								{lat: 23.187777777778, lng: 121.25972222222},				
+								{lat: 23.188055555556, lng: 121.26},				
+								{lat: 23.188333333333, lng: 121.26},				
+								{lat: 23.188611111111, lng: 121.26027777778},				
+								{lat: 23.188611111111, lng: 121.26055555556},				
+								{lat: 23.188888888889, lng: 121.26055555556},				
+								{lat: 23.189166666667, lng: 121.26083333333},				
+								{lat: 23.189444444444, lng: 121.26111111111},				
+								{lat: 23.189722222222, lng: 121.26138888889},				
+								{lat: 23.19, lng: 121.26166666667},				
+								{lat: 23.190277777778, lng: 121.26166666667},				
+								{lat: 23.190555555556, lng: 121.26222222222},				
+								{lat: 23.190833333333, lng: 121.2625},				
+								{lat: 23.191111111111, lng: 121.26277777778},				
+								{lat: 23.191111111111, lng: 121.26305555556},				
+								{lat: 23.191666666667, lng: 121.26305555556},				
+								{lat: 23.191666666667, lng: 121.26333333333},				
+								{lat: 23.192222222222, lng: 121.26333333333},				
+								{lat: 23.192222222222, lng: 121.26361111111},				
+								{lat: 23.192777777778, lng: 121.26388888889},				
+								{lat: 23.193055555556, lng: 121.26388888889},				
+								{lat: 23.193333333333, lng: 121.26388888889},				
+								{lat: 23.193333333333, lng: 121.26416666667},				
+								{lat: 23.193888888889, lng: 121.26416666667},				
+								{lat: 23.194166666667, lng: 121.26444444444},				
+								{lat: 23.194444444444, lng: 121.26472222222},				
+								{lat: 23.194444444444, lng: 121.265},				
+								{lat: 23.194722222222, lng: 121.26527777778},				
+								{lat: 23.195, lng: 121.26555555556},				
+								{lat: 23.195277777778, lng: 121.26583333333},				
+								{lat: 23.195555555556, lng: 121.26638888889},				
+								{lat: 23.195555555556, lng: 121.26666666667},				
+								{lat: 23.195833333333, lng: 121.26694444444},				
+								{lat: 23.196111111111, lng: 121.26722222222},				
+								{lat: 23.196388888889, lng: 121.2675},				
+								{lat: 23.196666666667, lng: 121.26777777778},				
+								{lat: 23.196944444444, lng: 121.26805555556},				
+								{lat: 23.1975, lng: 121.26833333333},				
+								{lat: 23.197777777778, lng: 121.26861111111},				
+								{lat: 23.198055555556, lng: 121.26861111111},				
+								{lat: 23.198611111111, lng: 121.26888888889},				
+								{lat: 23.198888888889, lng: 121.26916666667},				
+								{lat: 23.199166666667, lng: 121.26916666667},				
+								{lat: 23.199444444444, lng: 121.26916666667},				
+								{lat: 23.199722222222, lng: 121.26944444444},				
+								{lat: 23.2, lng: 121.26944444444},				
+								{lat: 23.200277777778, lng: 121.26944444444},				
+								{lat: 23.200555555556, lng: 121.26972222222},				
+								{lat: 23.200833333333, lng: 121.26972222222},				
+								{lat: 23.201111111111, lng: 121.27},				
+								{lat: 23.201388888889, lng: 121.27},				
+								{lat: 23.201666666667, lng: 121.27027777778},				
+								{lat: 23.201944444444, lng: 121.27027777778},				
+								{lat: 23.202222222222, lng: 121.27027777778},				
+								{lat: 23.202222222222, lng: 121.27055555556},				
+								{lat: 23.2025, lng: 121.27055555556},				
+								{lat: 23.203055555556, lng: 121.27083333333},				
+								{lat: 23.203333333333, lng: 121.27083333333},				
+								{lat: 23.203611111111, lng: 121.27111111111},				
+								{lat: 23.203888888889, lng: 121.27111111111},				
+								{lat: 23.204166666667, lng: 121.27111111111},				
+								{lat: 23.204444444444, lng: 121.27138888889},				
+								{lat: 23.204722222222, lng: 121.27138888889},				
+								{lat: 23.205, lng: 121.27166666667},				
+								{lat: 23.205555555556, lng: 121.27166666667},				
+								{lat: 23.205555555556, lng: 121.27194444444},				
+								{lat: 23.205833333333, lng: 121.27194444444},				
+								{lat: 23.206111111111, lng: 121.27222222222},				
+								{lat: 23.206388888889, lng: 121.2725},				
+								{lat: 23.206666666667, lng: 121.2725},				
+								{lat: 23.206944444444, lng: 121.27277777778},				
+								{lat: 23.206944444444, lng: 121.27305555556},				
+								{lat: 23.207222222222, lng: 121.27305555556},				
+								{lat: 23.2075, lng: 121.27333333333},				
+								{lat: 23.207777777778, lng: 121.27361111111},				
+								{lat: 23.208055555556, lng: 121.27388888889},				
+								{lat: 23.208333333333, lng: 121.27388888889},				
+								{lat: 23.208611111111, lng: 121.27416666667},				
+								{lat: 23.208888888889, lng: 121.27444444444},				
+								{lat: 23.209166666667, lng: 121.27472222222},				
+								{lat: 23.209722222222, lng: 121.275},				
+								{lat: 23.21, lng: 121.27527777778},				
+								{lat: 23.210277777778, lng: 121.27527777778},				
+								{lat: 23.210555555556, lng: 121.27555555556},				
+								{lat: 23.210555555556, lng: 121.27583333333},				
+								{lat: 23.210833333333, lng: 121.27611111111},				
+								{lat: 23.211111111111, lng: 121.27611111111},				
+								{lat: 23.211388888889, lng: 121.27638888889},				
+								{lat: 23.211666666667, lng: 121.27666666667},				
+								{lat: 23.211944444444, lng: 121.27666666667},				
+								{lat: 23.212222222222, lng: 121.27722222222},				
+								{lat: 23.2125, lng: 121.27722222222},				
+								{lat: 23.212777777778, lng: 121.2775},				
+								{lat: 23.213055555556, lng: 121.27777777778},				
+								{lat: 23.213333333333, lng: 121.27805555556},				
+								{lat: 23.213611111111, lng: 121.27833333333},				
+								{lat: 23.213888888889, lng: 121.27861111111},				
+								{lat: 23.214166666667, lng: 121.27861111111},				
+								{lat: 23.214166666667, lng: 121.27888888889},				
+								{lat: 23.214444444444, lng: 121.27888888889},				
+								{lat: 23.214722222222, lng: 121.27916666667},				
+								{lat: 23.215, lng: 121.27916666667},				
+								{lat: 23.215, lng: 121.27944444444},				
+								{lat: 23.215277777778, lng: 121.27972222222},				
+								{lat: 23.215555555556, lng: 121.27972222222},				
+								{lat: 23.215555555556, lng: 121.28},				
+								{lat: 23.215833333333, lng: 121.28},				
+								{lat: 23.216111111111, lng: 121.28027777778},				
+								{lat: 23.216388888889, lng: 121.28055555556},				
+								{lat: 23.216666666667, lng: 121.28083333333},				
+								{lat: 23.216944444444, lng: 121.28083333333},				
+								{lat: 23.216944444444, lng: 121.28111111111},				
+								{lat: 23.217222222222, lng: 121.28111111111},				
+								{lat: 23.217222222222, lng: 121.28138888889},				
+								{lat: 23.2175, lng: 121.28138888889},				
+								{lat: 23.217777777778, lng: 121.28166666667},				
+								{lat: 23.218055555556, lng: 121.28194444444},				
+								{lat: 23.218333333333, lng: 121.28194444444},				
+								{lat: 23.218611111111, lng: 121.28222222222},				
+								{lat: 23.218888888889, lng: 121.28222222222},				
+								{lat: 23.219166666667, lng: 121.28222222222},				
+								{lat: 23.219444444444, lng: 121.28222222222},				
+								{lat: 23.219722222222, lng: 121.28222222222},				
+								{lat: 23.22, lng: 121.28222222222},				
+								{lat: 23.220277777778, lng: 121.28194444444},				
+								{lat: 23.220555555556, lng: 121.28194444444},				
+								{lat: 23.220833333333, lng: 121.28194444444},				
+								{lat: 23.221111111111, lng: 121.28194444444},				
+								{lat: 23.221388888889, lng: 121.28194444444},				
+								{lat: 23.221666666667, lng: 121.28194444444},				
+								{lat: 23.221944444444, lng: 121.28194444444},				
+								{lat: 23.222222222222, lng: 121.28194444444},				
+								{lat: 23.2225, lng: 121.28194444444},				
+								{lat: 23.222777777778, lng: 121.28194444444},				
+								{lat: 23.222777777778, lng: 121.28222222222},				
+								{lat: 23.223055555556, lng: 121.28222222222},				
+								{lat: 23.223055555556, lng: 121.2825},				
+								{lat: 23.223333333333, lng: 121.2825},				
+								{lat: 23.223611111111, lng: 121.28277777778},				
+								{lat: 23.223888888889, lng: 121.28277777778},				
+								{lat: 23.224166666667, lng: 121.28305555556},				
+								{lat: 23.224444444444, lng: 121.28305555556},				
+								{lat: 23.224722222222, lng: 121.28333333333},				
+								{lat: 23.225, lng: 121.28361111111},				
+								{lat: 23.225277777778, lng: 121.28388888889},				
+								{lat: 23.225555555556, lng: 121.28416666667},				
+								{lat: 23.226111111111, lng: 121.28444444444},				
+								{lat: 23.226388888889, lng: 121.28444444444},				
+								{lat: 23.226666666667, lng: 121.28472222222},				
+								{lat: 23.226944444444, lng: 121.285},				
+								{lat: 23.227222222222, lng: 121.285},				
+								{lat: 23.2275, lng: 121.28527777778},				
+								{lat: 23.227777777778, lng: 121.28527777778},				
+								{lat: 23.228055555556, lng: 121.28555555556},				
+								{lat: 23.228333333333, lng: 121.28583333333},				
+								{lat: 23.228611111111, lng: 121.28611111111},				
+								{lat: 23.228888888889, lng: 121.28611111111},				
+								{lat: 23.229166666667, lng: 121.28638888889},				
+								{lat: 23.229444444444, lng: 121.28638888889},				
+								{lat: 23.229722222222, lng: 121.28666666667},				
+								{lat: 23.23, lng: 121.28694444444},				
+								{lat: 23.230277777778, lng: 121.28694444444},				
+								{lat: 23.230555555556, lng: 121.28722222222},				
+								{lat: 23.230833333333, lng: 121.2875},				
+								{lat: 23.231111111111, lng: 121.2875},				
+								{lat: 23.231388888889, lng: 121.28777777778},				
+								{lat: 23.231666666667, lng: 121.28805555556},				
+								{lat: 23.231944444444, lng: 121.28805555556},				
+								{lat: 23.232222222222, lng: 121.28833333333},				
+								{lat: 23.2325, lng: 121.28833333333},				
+								{lat: 23.232777777778, lng: 121.28861111111},				
+								{lat: 23.233055555556, lng: 121.28861111111},				
+								{lat: 23.233333333333, lng: 121.28888888889},				
+								{lat: 23.233611111111, lng: 121.28916666667},				
+								{lat: 23.233888888889, lng: 121.28916666667},				
+								{lat: 23.233888888889, lng: 121.28944444444},				
+								{lat: 23.234166666667, lng: 121.28944444444},				
+								{lat: 23.234444444444, lng: 121.28944444444},				
+								{lat: 23.234722222222, lng: 121.28972222222},				
+								{lat: 23.235, lng: 121.29},				
+								{lat: 23.235555555556, lng: 121.29},				
+								{lat: 23.235833333333, lng: 121.29027777778},				
+								{lat: 23.236111111111, lng: 121.29027777778},				
+								{lat: 23.236388888889, lng: 121.29055555556},				
+								{lat: 23.236666666667, lng: 121.29055555556},				
+								{lat: 23.236944444444, lng: 121.29083333333},				
+								{lat: 23.237222222222, lng: 121.29083333333},				
+								{lat: 23.2375, lng: 121.29111111111},				
+								{lat: 23.237777777778, lng: 121.29138888889},				
+								{lat: 23.238055555556, lng: 121.29166666667},				
+								{lat: 23.238333333333, lng: 121.29166666667},				
+								{lat: 23.238333333333, lng: 121.29194444444},				
+								{lat: 23.238611111111, lng: 121.29194444444},				
+								{lat: 23.238888888889, lng: 121.2925},				
+								{lat: 23.239166666667, lng: 121.29277777778},				
+								{lat: 23.239444444444, lng: 121.29277777778},				
+								{lat: 23.239722222222, lng: 121.29333333333},				
+								{lat: 23.24, lng: 121.29361111111},				
+								{lat: 23.240277777778, lng: 121.29361111111},				
+								{lat: 23.240555555556, lng: 121.29388888889},				
+								{lat: 23.240833333333, lng: 121.29388888889},				
+								{lat: 23.241111111111, lng: 121.29388888889},				
+								{lat: 23.241388888889, lng: 121.29416666667},				
+								{lat: 23.241666666667, lng: 121.29416666667},				
+								{lat: 23.241944444444, lng: 121.29444444444},				
+								{lat: 23.242222222222, lng: 121.29444444444},				
+								{lat: 23.2425, lng: 121.29472222222},				
+								{lat: 23.242777777778, lng: 121.29527777778},				
+								{lat: 23.243055555556, lng: 121.29527777778},				
+								{lat: 23.243333333333, lng: 121.29555555556},				
+								{lat: 23.243611111111, lng: 121.29583333333},				
+								{lat: 23.243888888889, lng: 121.29583333333},				
+								{lat: 23.243888888889, lng: 121.29611111111},				
+								{lat: 23.244166666667, lng: 121.29611111111},				
+								{lat: 23.244444444444, lng: 121.29638888889},				
+								{lat: 23.244722222222, lng: 121.29666666667},				
+								{lat: 23.245, lng: 121.29694444444},				
+								{lat: 23.245277777778, lng: 121.29694444444},				
+								{lat: 23.245555555556, lng: 121.29722222222},				
+								{lat: 23.245833333333, lng: 121.2975},				
+								{lat: 23.246111111111, lng: 121.2975},				
+								{lat: 23.246388888889, lng: 121.29777777778},				
+								{lat: 23.246666666667, lng: 121.29777777778},				
+								{lat: 23.246666666667, lng: 121.29805555556},				
+								{lat: 23.246944444444, lng: 121.29805555556},				
+								{lat: 23.247222222222, lng: 121.29833333333},				
+								{lat: 23.2475, lng: 121.29833333333},				
+								{lat: 23.247777777778, lng: 121.29833333333},				
+								{lat: 23.248055555556, lng: 121.29833333333},				
+								{lat: 23.248333333333, lng: 121.29833333333},				
+								{lat: 23.248611111111, lng: 121.29833333333},				
+								{lat: 23.248888888889, lng: 121.29805555556},				
+								{lat: 23.249166666667, lng: 121.29805555556},				
+								{lat: 23.249444444444, lng: 121.29805555556},				
+								{lat: 23.249722222222, lng: 121.29805555556},				
+								{lat: 23.25, lng: 121.29777777778},				
+								{lat: 23.250277777778, lng: 121.29777777778},				
+								{lat: 23.250833333333, lng: 121.29777777778},				
+								{lat: 23.251111111111, lng: 121.2975},				
+								{lat: 23.251388888889, lng: 121.2975},				
+								{lat: 23.251666666667, lng: 121.2975},				
+								{lat: 23.251944444444, lng: 121.2975},				
+								{lat: 23.252222222222, lng: 121.29722222222},				
+								{lat: 23.2525, lng: 121.29722222222},				
+								{lat: 23.252777777778, lng: 121.29722222222},				
+								{lat: 23.253055555556, lng: 121.29694444444},				
+								{lat: 23.253333333333, lng: 121.29694444444},				
+								{lat: 23.253611111111, lng: 121.29694444444},				
+								{lat: 23.253888888889, lng: 121.29694444444},				
+								{lat: 23.254166666667, lng: 121.29694444444},				
+								{lat: 23.254444444444, lng: 121.29694444444},				
+								{lat: 23.254722222222, lng: 121.29694444444},				
+								{lat: 23.255, lng: 121.29722222222},				
+								{lat: 23.255277777778, lng: 121.29722222222},				
+								{lat: 23.255833333333, lng: 121.2975},				
+								{lat: 23.256111111111, lng: 121.2975},				
+								{lat: 23.256388888889, lng: 121.2975},				
+								{lat: 23.256666666667, lng: 121.29777777778},				
+								{lat: 23.256944444444, lng: 121.29777777778},				
+								{lat: 23.257222222222, lng: 121.29805555556},				
+								{lat: 23.2575, lng: 121.29805555556},				
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_2941'), {
+			zoom: 17,
+			center: {lat: 23.116944444444, lng: 121.20972222222},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 23.266666666667, lng: 121.3575},				
+								{lat: 23.266666666667, lng: 121.35777777778},				
+								{lat: 23.266944444444, lng: 121.35777777778},				
+								{lat: 23.266944444444, lng: 121.35833333333},				
+								{lat: 23.267222222222, lng: 121.35861111111},				
+								{lat: 23.267222222222, lng: 121.35888888889},				
+								{lat: 23.2675, lng: 121.35916666667},				
+								{lat: 23.267777777778, lng: 121.35944444444},				
+								{lat: 23.267777777778, lng: 121.35972222222},				
+								{lat: 23.267777777778, lng: 121.36},				
+								{lat: 23.268055555556, lng: 121.36027777778},				
+								{lat: 23.268333333333, lng: 121.36055555556},				
+								{lat: 23.265833333333, lng: 121.36944444444},				
+								{lat: 23.256666666667, lng: 121.3925},				
+								{lat: 23.263888888889, lng: 121.38611111111},				
+								{lat: 23.263888888889, lng: 121.38638888889},				
+								{lat: 23.263611111111, lng: 121.38638888889},				
+								{lat: 23.263333333333, lng: 121.38666666667},				
+								{lat: 23.263333333333, lng: 121.38694444444},				
+								{lat: 23.263055555556, lng: 121.38722222222},				
+								{lat: 23.262777777778, lng: 121.38722222222},				
+								{lat: 23.2625, lng: 121.38722222222},				
+								{lat: 23.262222222222, lng: 121.38722222222},				
+								{lat: 23.261944444444, lng: 121.38722222222},				
+								{lat: 23.261666666667, lng: 121.38694444444},				
+								{lat: 23.261666666667, lng: 121.38666666667},				
+								{lat: 23.261666666667, lng: 121.38638888889},				
+								{lat: 23.261388888889, lng: 121.38611111111},				
+								{lat: 23.261388888889, lng: 121.38583333333},				
+								{lat: 23.261388888889, lng: 121.38555555556},				
+								{lat: 23.261388888889, lng: 121.38527777778},				
+								{lat: 23.261111111111, lng: 121.385},				
+								{lat: 23.260833333333, lng: 121.385},				
+								{lat: 23.260555555556, lng: 121.385},				
+								{lat: 23.260277777778, lng: 121.38527777778},				
+								{lat: 23.26, lng: 121.38555555556},				
+								{lat: 23.259722222222, lng: 121.38555555556},				
+								{lat: 23.259444444444, lng: 121.38583333333},				
+								{lat: 23.259444444444, lng: 121.38611111111},				
+								{lat: 23.259444444444, lng: 121.38638888889},				
+								{lat: 23.259444444444, lng: 121.38666666667},				
+								{lat: 23.259444444444, lng: 121.38722222222},				
+								{lat: 23.259166666667, lng: 121.3875},				
+								{lat: 23.259166666667, lng: 121.38777777778},				
+								{lat: 23.258888888889, lng: 121.38805555556},				
+								{lat: 23.258611111111, lng: 121.38833333333},				
+								{lat: 23.258333333333, lng: 121.38833333333},				
+								{lat: 23.258055555556, lng: 121.38833333333},				
+								{lat: 23.257777777778, lng: 121.38833333333},				
+								{lat: 23.2575, lng: 121.38833333333},				
+								{lat: 23.256944444444, lng: 121.38861111111},				
+								{lat: 23.256666666667, lng: 121.38861111111},				
+								{lat: 23.256388888889, lng: 121.38861111111},				
+								{lat: 23.256111111111, lng: 121.38861111111},				
+								{lat: 23.255833333333, lng: 121.38833333333},				
+								{lat: 23.255555555556, lng: 121.38833333333},				
+								{lat: 23.255555555556, lng: 121.38805555556},				
+								{lat: 23.255555555556, lng: 121.38777777778},				
+								{lat: 23.255555555556, lng: 121.3875},				
+								{lat: 23.255277777778, lng: 121.38694444444},				
+								{lat: 23.255, lng: 121.38694444444},				
+								{lat: 23.254722222222, lng: 121.38666666667},				
+								{lat: 23.254444444444, lng: 121.38638888889},				
+								{lat: 23.254722222222, lng: 121.38611111111},				
+								{lat: 23.254722222222, lng: 121.38583333333},				
+								{lat: 23.254722222222, lng: 121.38555555556},				
+								{lat: 23.254722222222, lng: 121.38527777778},				
+								{lat: 23.255, lng: 121.385},				
+								{lat: 23.255, lng: 121.38472222222},				
+								{lat: 23.255277777778, lng: 121.38444444444},				
+								{lat: 23.255277777778, lng: 121.38416666667},				
+								{lat: 23.255277777778, lng: 121.38388888889},				
+								{lat: 23.255277777778, lng: 121.38361111111},				
+								{lat: 23.255, lng: 121.38361111111},				
+								{lat: 23.254722222222, lng: 121.38388888889},				
+								{lat: 23.254722222222, lng: 121.38416666667},				
+								{lat: 23.254722222222, lng: 121.38444444444},				
+								{lat: 23.254444444444, lng: 121.38472222222},				
+								{lat: 23.254444444444, lng: 121.385},				
+								{lat: 23.254444444444, lng: 121.38527777778},				
+								{lat: 23.254166666667, lng: 121.38555555556},				
+								{lat: 23.254166666667, lng: 121.38583333333},				
+								{lat: 23.253888888889, lng: 121.38611111111},				
+								{lat: 23.253611111111, lng: 121.38638888889},				
+								{lat: 23.253611111111, lng: 121.38666666667},				
+								{lat: 23.253611111111, lng: 121.38694444444},				
+								{lat: 23.253611111111, lng: 121.38722222222},				
+								{lat: 23.253888888889, lng: 121.3875},				
+								{lat: 23.253888888889, lng: 121.38777777778},				
+								{lat: 23.253888888889, lng: 121.38805555556},				
+								{lat: 23.253888888889, lng: 121.38833333333},				
+								{lat: 23.253888888889, lng: 121.38861111111},				
+								{lat: 23.253888888889, lng: 121.38888888889},				
+								{lat: 23.253611111111, lng: 121.38916666667},				
+								{lat: 23.253611111111, lng: 121.38944444444},				
+								{lat: 23.253611111111, lng: 121.38972222222},				
+								{lat: 23.253611111111, lng: 121.39},				
+								{lat: 23.253333333333, lng: 121.39027777778},				
+								{lat: 23.253333333333, lng: 121.39055555556},				
+								{lat: 23.253333333333, lng: 121.39083333333},				
+								{lat: 23.253055555556, lng: 121.39083333333},				
+								{lat: 23.253055555556, lng: 121.39138888889},				
+								{lat: 23.252777777778, lng: 121.39194444444},				
+								{lat: 23.252777777778, lng: 121.3925},				
+								{lat: 23.252777777778, lng: 121.39277777778},				
+								{lat: 23.252777777778, lng: 121.39305555556},				
+								{lat: 23.253055555556, lng: 121.39333333333},				
+								{lat: 23.253055555556, lng: 121.39361111111},				
+								{lat: 23.253055555556, lng: 121.39388888889},				
+								{lat: 23.253055555556, lng: 121.39416666667},				
+								{lat: 23.252777777778, lng: 121.39444444444},				
+								{lat: 23.252777777778, lng: 121.39472222222},				
+								{lat: 23.2525, lng: 121.39472222222},				
+								{lat: 23.2525, lng: 121.395},				
+								{lat: 23.2525, lng: 121.39527777778},				
+								{lat: 23.2525, lng: 121.39555555556},				
+								{lat: 23.252222222222, lng: 121.39583333333},				
+								{lat: 23.252222222222, lng: 121.39611111111},				
+								{lat: 23.252222222222, lng: 121.39638888889},				
+								{lat: 23.252222222222, lng: 121.39666666667},				
+								{lat: 23.252222222222, lng: 121.39722222222},				
+								{lat: 23.251944444444, lng: 121.39722222222},				
+								{lat: 23.251944444444, lng: 121.3975},				
+								{lat: 23.251944444444, lng: 121.39777777778},				
+								{lat: 23.251666666667, lng: 121.39805555556},				
+								{lat: 23.251666666667, lng: 121.39833333333},				
+								{lat: 23.251666666667, lng: 121.39861111111},				
+								{lat: 23.251388888889, lng: 121.39888888889},				
+								{lat: 23.251388888889, lng: 121.39916666667},				
+								{lat: 23.251111111111, lng: 121.39944444444},				
+								{lat: 23.251111111111, lng: 121.39972222222},				
+								{lat: 23.250833333333, lng: 121.4},				
+								{lat: 23.250833333333, lng: 121.40027777778},				
+								{lat: 23.250833333333, lng: 121.40055555556},				
+								{lat: 23.251111111111, lng: 121.40083333333},				
+								{lat: 23.251111111111, lng: 121.40111111111},				
+								{lat: 23.251111111111, lng: 121.40138888889},				
+								{lat: 23.251111111111, lng: 121.40166666667},				
+								{lat: 23.251388888889, lng: 121.40194444444},				
+								{lat: 23.251388888889, lng: 121.40222222222},				
+								{lat: 23.251388888889, lng: 121.4025},				
+								{lat: 23.251666666667, lng: 121.4025},				
+								{lat: 23.251666666667, lng: 121.40277777778},				
+								{lat: 23.251666666667, lng: 121.40333333333},				
+								{lat: 23.251666666667, lng: 121.40361111111},				
+								{lat: 23.251666666667, lng: 121.40388888889},				
+								{lat: 23.251388888889, lng: 121.40444444444},				
+								{lat: 23.251111111111, lng: 121.40472222222},				
+								{lat: 23.251111111111, lng: 121.405},				
+								{lat: 23.251388888889, lng: 121.40527777778},				
+								{lat: 23.251388888889, lng: 121.40555555556},				
+								{lat: 23.251666666667, lng: 121.40583333333},				
+								{lat: 23.251944444444, lng: 121.40611111111},				
+								{lat: 23.252222222222, lng: 121.40638888889},				
+								{lat: 23.2525, lng: 121.40666666667},				
+								{lat: 23.2525, lng: 121.40694444444},				
+								{lat: 23.2525, lng: 121.40722222222},				
+								{lat: 23.252222222222, lng: 121.4075},				
+								{lat: 23.252222222222, lng: 121.40777777778},				
+								{lat: 23.251944444444, lng: 121.40777777778},				
+								{lat: 23.251666666667, lng: 121.40805555556},				
+								{lat: 23.251666666667, lng: 121.40833333333},				
+								{lat: 23.251388888889, lng: 121.40861111111},				
+								{lat: 23.251111111111, lng: 121.40861111111},				
+								{lat: 23.250833333333, lng: 121.40888888889},				
+								{lat: 23.250555555556, lng: 121.40888888889},				
+								{lat: 23.250277777778, lng: 121.40861111111},				
+								{lat: 23.25, lng: 121.40861111111},				
+								{lat: 23.249722222222, lng: 121.40861111111},				
+								{lat: 23.249722222222, lng: 121.40888888889},				
+								{lat: 23.249444444444, lng: 121.40888888889},				
+								{lat: 23.249166666667, lng: 121.40888888889},				
+								{lat: 23.248888888889, lng: 121.40888888889},				
+								{lat: 23.248611111111, lng: 121.40888888889},				
+								{lat: 23.248611111111, lng: 121.40861111111},				
+								{lat: 23.248333333333, lng: 121.40861111111},				
+								{lat: 23.248055555556, lng: 121.40861111111},				
+								{lat: 23.248055555556, lng: 121.40888888889},				
+								{lat: 23.248055555556, lng: 121.40916666667},				
+								{lat: 23.248055555556, lng: 121.40944444444},				
+								{lat: 23.248333333333, lng: 121.40944444444},				
+								{lat: 23.248611111111, lng: 121.40944444444},				
+								{lat: 23.248888888889, lng: 121.40944444444},				
+								{lat: 23.248888888889, lng: 121.40916666667},				
+								{lat: 23.249166666667, lng: 121.40916666667},				
+								{lat: 23.249444444444, lng: 121.40916666667},				
+								{lat: 23.249722222222, lng: 121.40944444444},				
+								{lat: 23.25, lng: 121.40944444444},				
+								{lat: 23.25, lng: 121.40972222222},				
+								{lat: 23.250277777778, lng: 121.41},				
+								{lat: 23.250555555556, lng: 121.41},				
+								{lat: 23.250833333333, lng: 121.41027777778},				
+								{lat: 23.251111111111, lng: 121.41027777778},				
+								{lat: 23.251388888889, lng: 121.41055555556},				
+								{lat: 23.251666666667, lng: 121.41055555556},				
+								{lat: 23.251666666667, lng: 121.41083333333},				
+								{lat: 23.251666666667, lng: 121.41111111111},				
+								{lat: 23.251388888889, lng: 121.41138888889},				
+								{lat: 23.251388888889, lng: 121.41166666667},				
+								{lat: 23.251111111111, lng: 121.41194444444},				
+								{lat: 23.251111111111, lng: 121.41222222222},				
+								{lat: 23.250833333333, lng: 121.4125},				
+								{lat: 23.250555555556, lng: 121.41277777778},				
+								{lat: 23.250277777778, lng: 121.41277777778},				
+								{lat: 23.25, lng: 121.41277777778},				
+								{lat: 23.249722222222, lng: 121.41305555556},				
+								{lat: 23.249444444444, lng: 121.41333333333},				
+								{lat: 23.249444444444, lng: 121.41361111111},				
+								{lat: 23.249166666667, lng: 121.41388888889},				
+								{lat: 23.249166666667, lng: 121.41416666667},				
+								{lat: 23.248888888889, lng: 121.41416666667},				
+								{lat: 23.248888888889, lng: 121.41444444444},				
+								{lat: 23.248611111111, lng: 121.41444444444},				
+								{lat: 23.248611111111, lng: 121.41472222222},				
+								{lat: 23.248333333333, lng: 121.41472222222},				
+								{lat: 23.248055555556, lng: 121.41472222222},				
+								{lat: 23.247777777778, lng: 121.415},				
+								{lat: 23.2475, lng: 121.415},				
+								{lat: 23.2475, lng: 121.41527777778},				
+								{lat: 23.247222222222, lng: 121.41527777778},				
+								{lat: 23.247222222222, lng: 121.41555555556},				
+								{lat: 23.247222222222, lng: 121.41583333333},				
+								{lat: 23.247222222222, lng: 121.41611111111},				
+								{lat: 23.246944444444, lng: 121.41611111111},				
+								{lat: 23.246944444444, lng: 121.41638888889},				
+								{lat: 23.246944444444, lng: 121.41666666667},				
+								{lat: 23.246944444444, lng: 121.41694444444},				
+								{lat: 23.246944444444, lng: 121.41722222222},				
+								{lat: 23.247222222222, lng: 121.41722222222},				
+								{lat: 23.2475, lng: 121.41722222222},				
+								{lat: 23.247777777778, lng: 121.4175},				
+								{lat: 23.248055555556, lng: 121.4175},				
+								{lat: 23.248333333333, lng: 121.4175},				
+								{lat: 23.248611111111, lng: 121.41777777778},				
+								{lat: 23.248888888889, lng: 121.41777777778},				
+								{lat: 23.249166666667, lng: 121.41777777778},				
+								{lat: 23.249722222222, lng: 121.41805555556},				
+								{lat: 23.25, lng: 121.41805555556},				
+								{lat: 23.250277777778, lng: 121.41805555556},				
+								{lat: 23.250555555556, lng: 121.41805555556},				
+								{lat: 23.250833333333, lng: 121.41805555556},				
+								{lat: 23.250833333333, lng: 121.41777777778},				
+								{lat: 23.251111111111, lng: 121.41777777778},				
+								{lat: 23.251388888889, lng: 121.4175},				
+								{lat: 23.251666666667, lng: 121.4175},				
+								{lat: 23.251944444444, lng: 121.4175},				
+								{lat: 23.251944444444, lng: 121.41777777778},				
+								{lat: 23.252222222222, lng: 121.41777777778},				
+								{lat: 23.2525, lng: 121.41777777778},				
+								{lat: 23.252777777778, lng: 121.41777777778},				
+								{lat: 23.253055555556, lng: 121.41777777778},				
+								{lat: 23.253333333333, lng: 121.41777777778},				
+								{lat: 23.253888888889, lng: 121.41777777778},				
+								{lat: 23.254166666667, lng: 121.41805555556},				
+								{lat: 23.254722222222, lng: 121.41805555556},				
+								{lat: 23.255, lng: 121.41805555556},				
+								{lat: 23.255277777778, lng: 121.41833333333},				
+								{lat: 23.255833333333, lng: 121.41833333333},				
+								{lat: 23.256111111111, lng: 121.41861111111},				
+								{lat: 23.256388888889, lng: 121.41861111111},				
+								{lat: 23.256666666667, lng: 121.41861111111},				
+								{lat: 23.256666666667, lng: 121.41888888889},				
+								{lat: 23.257222222222, lng: 121.41888888889},				
+								{lat: 23.2575, lng: 121.41888888889},				
+								{lat: 23.257777777778, lng: 121.41916666667},				
+								{lat: 23.258333333333, lng: 121.41916666667},				
+								{lat: 23.258611111111, lng: 121.41944444444},				
+								{lat: 23.258888888889, lng: 121.41944444444},				
+								{lat: 23.259166666667, lng: 121.41944444444},				
+								{lat: 23.259444444444, lng: 121.41972222222},				
+								{lat: 23.259722222222, lng: 121.41972222222},				
+								{lat: 23.26, lng: 121.41972222222},				
+								{lat: 23.260277777778, lng: 121.41972222222},				
+								{lat: 23.260555555556, lng: 121.42},				
+								{lat: 23.260833333333, lng: 121.42},				
+								{lat: 23.261111111111, lng: 121.42},				
+								{lat: 23.261388888889, lng: 121.42027777778},				
+								{lat: 23.261666666667, lng: 121.42027777778},				
+								{lat: 23.261944444444, lng: 121.42055555556},				
+								{lat: 23.262222222222, lng: 121.42055555556},				
+								{lat: 23.262777777778, lng: 121.42083333333},				
+								{lat: 23.263055555556, lng: 121.42083333333},				
+								{lat: 23.263611111111, lng: 121.42111111111},				
+								{lat: 23.263611111111, lng: 121.42138888889},				
+								{lat: 23.263888888889, lng: 121.42138888889},				
+								{lat: 23.263888888889, lng: 121.42166666667},				
+								{lat: 23.264166666667, lng: 121.42166666667},				
+								{lat: 23.264166666667, lng: 121.42194444444},				
+								{lat: 23.264444444444, lng: 121.42222222222},				
+								{lat: 23.264444444444, lng: 121.4225},				
+								{lat: 23.264722222222, lng: 121.4225},				
+								{lat: 23.265, lng: 121.42277777778},				
+								{lat: 23.265, lng: 121.42305555556},				
+								{lat: 23.265277777778, lng: 121.42305555556},				
+								{lat: 23.265555555556, lng: 121.42333333333},				
+								{lat: 23.265833333333, lng: 121.42361111111},				
+								{lat: 23.266111111111, lng: 121.42361111111},				
+								{lat: 23.266111111111, lng: 121.42388888889},				
+								{lat: 23.266388888889, lng: 121.42388888889},				
+								{lat: 23.266388888889, lng: 121.42416666667},				
+								{lat: 23.266666666667, lng: 121.42416666667},				
+								{lat: 23.266944444444, lng: 121.42444444444},				
+								{lat: 23.266944444444, lng: 121.42472222222},				
+								{lat: 23.267222222222, lng: 121.42472222222},				
+								{lat: 23.2675, lng: 121.425},				
+								{lat: 23.267777777778, lng: 121.425},				
+								{lat: 23.267777777778, lng: 121.42527777778},				
+								{lat: 23.268055555556, lng: 121.42527777778},				
+								{lat: 23.268333333333, lng: 121.42555555556},				
+								{lat: 23.268611111111, lng: 121.42555555556},				
+								{lat: 23.268888888889, lng: 121.42555555556},				
+								{lat: 23.269166666667, lng: 121.42583333333},				
+								{lat: 23.269444444444, lng: 121.42583333333},				
+								{lat: 23.27, lng: 121.42583333333},				
+								{lat: 23.270277777778, lng: 121.42583333333},				
+								{lat: 23.270833333333, lng: 121.42583333333},				
+								{lat: 23.271388888889, lng: 121.42555555556},				
+								{lat: 23.271666666667, lng: 121.42555555556},				
+								{lat: 23.271944444444, lng: 121.42555555556},				
+								{lat: 23.272222222222, lng: 121.42555555556},				
+								{lat: 23.2725, lng: 121.42583333333},				
+								{lat: 23.272777777778, lng: 121.42583333333},				
+								{lat: 23.273055555556, lng: 121.42611111111},				
+								{lat: 23.273611111111, lng: 121.42611111111},				
+								{lat: 23.273888888889, lng: 121.42611111111},				
+								{lat: 23.274166666667, lng: 121.42611111111},				
+								{lat: 23.274444444444, lng: 121.42611111111},				
+								{lat: 23.275, lng: 121.42611111111},				
+								{lat: 23.275555555556, lng: 121.42583333333},				
+								{lat: 23.276111111111, lng: 121.42583333333},				
+								{lat: 23.276388888889, lng: 121.42611111111},				
+								{lat: 23.276666666667, lng: 121.42611111111},				
+								{lat: 23.276944444444, lng: 121.42611111111},				
+								{lat: 23.2775, lng: 121.42611111111},				
+								{lat: 23.278055555556, lng: 121.42638888889},				
+								{lat: 23.278333333333, lng: 121.42638888889},				
+								{lat: 23.278611111111, lng: 121.42638888889},				
+								{lat: 23.278888888889, lng: 121.42638888889},				
+								{lat: 23.279444444444, lng: 121.42666666667},				
+								{lat: 23.279722222222, lng: 121.42666666667},				
+								{lat: 23.28, lng: 121.42694444444},				
+								{lat: 23.280277777778, lng: 121.42694444444},				
+								{lat: 23.280555555556, lng: 121.42694444444},				
+								{lat: 23.280833333333, lng: 121.42722222222},				
+								{lat: 23.281388888889, lng: 121.42722222222},				
+								{lat: 23.281944444444, lng: 121.4275},				
+								{lat: 23.282222222222, lng: 121.4275},				
+								{lat: 23.2825, lng: 121.42777777778},				
+								{lat: 23.283055555556, lng: 121.42777777778},				
+								{lat: 23.283333333333, lng: 121.42805555556},				
+								{lat: 23.283611111111, lng: 121.42805555556},				
+								{lat: 23.283888888889, lng: 121.42833333333},				
+								{lat: 23.284166666667, lng: 121.42833333333},				
+								{lat: 23.284444444444, lng: 121.42861111111},				
+								{lat: 23.284444444444, lng: 121.42888888889},				
+								{lat: 23.284722222222, lng: 121.42888888889},				
+								{lat: 23.285, lng: 121.42888888889},				
+								{lat: 23.285277777778, lng: 121.42916666667},				
+								{lat: 23.285555555556, lng: 121.42916666667},				
+								{lat: 23.285833333333, lng: 121.42916666667},				
+								{lat: 23.286111111111, lng: 121.42944444444},				
+								{lat: 23.286388888889, lng: 121.42944444444},				
+								{lat: 23.286666666667, lng: 121.42972222222},				
+								{lat: 23.286944444444, lng: 121.43},				
+								{lat: 23.287222222222, lng: 121.43027777778},				
+								{lat: 23.287222222222, lng: 121.43055555556},				
+								{lat: 23.2875, lng: 121.43055555556},				
+								{lat: 23.287777777778, lng: 121.43111111111},				
+								{lat: 23.287777777778, lng: 121.43138888889},				
+								{lat: 23.288055555556, lng: 121.43166666667},				
+								{lat: 23.288055555556, lng: 121.43194444444},				
+								{lat: 23.288333333333, lng: 121.43222222222},				
+								{lat: 23.288611111111, lng: 121.4325},				
+								{lat: 23.288888888889, lng: 121.4325},				
+								{lat: 23.289444444444, lng: 121.4325},				
+								{lat: 23.289722222222, lng: 121.43277777778},				
+								{lat: 23.29, lng: 121.43277777778},				
+								{lat: 23.290277777778, lng: 121.43277777778},				
+								{lat: 23.290555555556, lng: 121.43305555556},				
+								{lat: 23.290833333333, lng: 121.43305555556},				
+								{lat: 23.291111111111, lng: 121.43333333333},				
+								{lat: 23.291666666667, lng: 121.43361111111},				
+								{lat: 23.291944444444, lng: 121.43361111111},				
+								{lat: 23.292222222222, lng: 121.43388888889},				
+								{lat: 23.2925, lng: 121.43416666667},				
+								{lat: 23.292777777778, lng: 121.43416666667},				
+								{lat: 23.292777777778, lng: 121.43444444444},				
+								{lat: 23.293055555556, lng: 121.43472222222},				
+								{lat: 23.293333333333, lng: 121.43472222222},				
+								{lat: 23.293333333333, lng: 121.435},				
+								{lat: 23.293611111111, lng: 121.43527777778},				
+								{lat: 23.293888888889, lng: 121.43527777778},				
+								{lat: 23.294166666667, lng: 121.43555555556},				
+								{lat: 23.294722222222, lng: 121.43583333333},				
+								{lat: 23.295, lng: 121.43583333333},				
+								{lat: 23.295555555556, lng: 121.43611111111},				
+								{lat: 23.295833333333, lng: 121.43611111111},				
+								{lat: 23.296111111111, lng: 121.43638888889},				
+								{lat: 23.296388888889, lng: 121.43638888889},				
+								{lat: 23.296666666667, lng: 121.43638888889},				
+								{lat: 23.296944444444, lng: 121.43666666667},				
+								{lat: 23.297222222222, lng: 121.43694444444},				
+								{lat: 23.2975, lng: 121.43694444444},				
+								{lat: 23.297777777778, lng: 121.43722222222},				
+								{lat: 23.298055555556, lng: 121.43722222222},				
+								{lat: 23.298333333333, lng: 121.4375},				
+								{lat: 23.298611111111, lng: 121.4375},				
+								{lat: 23.298611111111, lng: 121.43777777778},				
+								{lat: 23.299166666667, lng: 121.43777777778},				
+								{lat: 23.299444444444, lng: 121.43805555556},				
+								{lat: 23.299722222222, lng: 121.43833333333},				
+								{lat: 23.3, lng: 121.43833333333},				
+								{lat: 23.3, lng: 121.43861111111},				
+								{lat: 23.300277777778, lng: 121.43888888889},				
+								{lat: 23.300555555556, lng: 121.43888888889},				
+								{lat: 23.300833333333, lng: 121.43944444444},				
+								{lat: 23.301111111111, lng: 121.43944444444},				
+								{lat: 23.301388888889, lng: 121.43972222222},				
+								{lat: 23.301666666667, lng: 121.43972222222},				
+								{lat: 23.301944444444, lng: 121.44},				
+								{lat: 23.3025, lng: 121.44027777778},				
+								{lat: 23.302777777778, lng: 121.44055555556},				
+								{lat: 23.303055555556, lng: 121.44083333333},				
+								{lat: 23.303333333333, lng: 121.44111111111},				
+								{lat: 23.303611111111, lng: 121.44111111111},				
+								{lat: 23.303611111111, lng: 121.44138888889},				
+								{lat: 23.303888888889, lng: 121.44138888889},				
+								{lat: 23.304444444444, lng: 121.44166666667},				
+								{lat: 23.304444444444, lng: 121.44194444444},				
+								{lat: 23.304722222222, lng: 121.44194444444},				
+								{lat: 23.305, lng: 121.44222222222},				
+								{lat: 23.305277777778, lng: 121.4425},				
+								{lat: 23.305555555556, lng: 121.4425},				
+								{lat: 23.305833333333, lng: 121.44305555556},				
+								{lat: 23.306111111111, lng: 121.44333333333},				
+								{lat: 23.306111111111, lng: 121.44361111111},				
+								{lat: 23.306388888889, lng: 121.44388888889},				
+								{lat: 23.306666666667, lng: 121.44388888889},				
+								{lat: 23.306944444444, lng: 121.44416666667},				
+								{lat: 23.306944444444, lng: 121.44444444444},				
+								{lat: 23.307222222222, lng: 121.44444444444},				
+								{lat: 23.3075, lng: 121.44472222222},				
+								{lat: 23.307777777778, lng: 121.445},				
+								{lat: 23.308055555556, lng: 121.445},				
+								{lat: 23.308333333333, lng: 121.44527777778},				
+								{lat: 23.308611111111, lng: 121.44527777778},				
+								{lat: 23.308888888889, lng: 121.44555555556},				
+								{lat: 23.309166666667, lng: 121.44583333333},				
+								{lat: 23.309722222222, lng: 121.44611111111},				
+								{lat: 23.31, lng: 121.44611111111},				
+								{lat: 23.310277777778, lng: 121.44611111111},				
+								{lat: 23.310555555556, lng: 121.44638888889},				
+								{lat: 23.310833333333, lng: 121.44638888889},				
+								{lat: 23.311111111111, lng: 121.44638888889},				
+								{lat: 23.311388888889, lng: 121.44638888889},				
+								{lat: 23.311666666667, lng: 121.44666666667},				
+								{lat: 23.311944444444, lng: 121.44666666667},				
+								{lat: 23.312222222222, lng: 121.44666666667},				
+								{lat: 23.3125, lng: 121.44666666667},				
+								{lat: 23.312777777778, lng: 121.44666666667},				
+								{lat: 23.313055555556, lng: 121.44666666667},				
+								{lat: 23.313333333333, lng: 121.44666666667},				
+								{lat: 23.313611111111, lng: 121.44694444444},				
+								{lat: 23.313888888889, lng: 121.44722222222},				
+								{lat: 23.313888888889, lng: 121.4475},				
+								{lat: 23.313888888889, lng: 121.44777777778},				
+								{lat: 23.314166666667, lng: 121.44805555556},				
+								{lat: 23.314166666667, lng: 121.44833333333},				
+								{lat: 23.314166666667, lng: 121.44861111111},				
+								{lat: 23.314444444444, lng: 121.44888888889},				
+								{lat: 23.314444444444, lng: 121.44916666667},				
+								{lat: 23.314444444444, lng: 121.44944444444},				
+								{lat: 23.314722222222, lng: 121.44972222222},				
+								{lat: 23.314722222222, lng: 121.45},				
+								{lat: 23.314444444444, lng: 121.45},				
+								{lat: 23.314444444444, lng: 121.45027777778},				
+								{lat: 23.314444444444, lng: 121.45055555556},				
+								{lat: 23.314444444444, lng: 121.45083333333},				
+								{lat: 23.314444444444, lng: 121.45111111111},				
+								{lat: 23.314722222222, lng: 121.45138888889},				
+								{lat: 23.314722222222, lng: 121.45166666667},				
+								{lat: 23.315, lng: 121.45194444444},				
+								{lat: 23.315, lng: 121.45222222222},				
+								{lat: 23.315277777778, lng: 121.4525},				
+								{lat: 23.315555555556, lng: 121.45277777778},				
+								{lat: 23.315555555556, lng: 121.45305555556},				
+								{lat: 23.315833333333, lng: 121.45305555556},				
+								{lat: 23.315833333333, lng: 121.45333333333},				
+								{lat: 23.316111111111, lng: 121.45361111111},				
+								{lat: 23.316111111111, lng: 121.45388888889},				
+								{lat: 23.316388888889, lng: 121.45416666667},				
+								{lat: 23.316388888889, lng: 121.45444444444},				
+								{lat: 23.316666666667, lng: 121.45444444444},				
+								{lat: 23.316666666667, lng: 121.45472222222},				
+								{lat: 23.316944444444, lng: 121.455},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_2951'), {
+			zoom: 17,
+			center: {lat: 23.266666666667, lng: 121.3575},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892222222222, lng: 120.68194444444},				
+								{lat: 23.8925, lng: 120.68194444444},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.893055555556, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.893055555556, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.893055555556, lng: 120.68166666667},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+								{lat: 23.893055555556, lng: 120.68166666667},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.893055555556, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.8925, lng: 120.68194444444},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.893888888889, lng: 120.68138888889},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+								{lat: 23.891666666667, lng: 120.6825},				
+								{lat: 23.891388888889, lng: 120.68111111111},				
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_3019'), {
+			zoom: 17,
+			center: {lat: 23.891666666667, lng: 120.6825},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_2988'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_3025'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_3064'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

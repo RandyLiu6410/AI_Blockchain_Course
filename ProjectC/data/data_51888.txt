@@ -1,0 +1,2104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=51888&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="工作進度" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=51888',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/51888.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																工作進度							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：晨光食品機械								<br>
+								產出日期：2019-08-05 14:58:13																<br>
+								有效日期：2019-08-11																																									<br>
+								產出數量：1人份									 (3人份)																	<br>
+								剩餘數量：1人份									 (3人份)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D51888" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D51888"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/machine/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#51004" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#51021" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[昌德珍工程小卡 7.29]							
+							
+							
+							</a>
+													<a href="#51046" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[昌德珍 工程小卡 7／29]							
+							
+							
+							</a>
+													<a href="#51078" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[昌德珍工程小卡 7.29]							
+							
+							
+							</a>
+													<a href="#51099" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[昌德珍工程小卡 7.30]							
+							
+							
+							</a>
+													<a href="#51100" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[永展]							
+							
+							
+							</a>
+													<a href="#51256" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[昌德珍 小卡 7／30]							
+							
+							
+							</a>
+													<a href="#51356" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[永展]							
+							
+							
+							</a>
+													<a href="#51353" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[驗收資料清單 7.31]							
+							
+							
+							</a>
+													<a href="#51376" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[工作進度 7／31]							
+							
+							
+							</a>
+													<a href="#51375" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[工作進度 7／31]							
+							
+							
+							</a>
+													<a href="#51383" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[驗收資料清單 7.31]							
+							
+							
+							</a>
+													<a href="#51359" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[永展]							
+							
+							
+							</a>
+													<a href="#51446" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[門邊包角L型板 8/1]							
+							
+							
+							</a>
+													<a href="#51501" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[驗收資料 8/1]							
+							
+							
+							</a>
+													<a href="#51502" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[昌德珍庫板數量計算 08.01]							
+							
+							
+							</a>
+													<a href="#51615" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[驗收資料 8/1]							
+							
+							
+							</a>
+													<a href="#51635" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[拍攝 8/2]							
+							
+							
+							</a>
+													<a href="#51638" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[08.02]							
+							
+							
+							</a>
+													<a href="#51832" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[永展]							
+							
+							
+							</a>
+													<a href="#51888" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="51004" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [自拍保證來源]</h2>
+					<div class="history_time">2019-07-29 14:27:47 - 2019-07-29 14:27:47</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/905/2019/51004.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/905/2019/51004.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51004" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#51021" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍工程小卡 7.29]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51021" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [昌德珍工程小卡 7.29]</h2>
+					<div class="history_time">2019-07-29 14:28:25 - 2019-07-29 15:04:24</div>
+					<br>
+
+										<video id="player_51021" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190729142825.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51021" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51004" class="btn btn-dark btn-lg">
+							工作進度 <br>[自拍保證來源]						</a>
+						
+												<a href="#51046" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍 工程小卡 7／29]						</a>
+						
+					</div>
+
+										<div id="map_51021" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51021"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51046" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [昌德珍 工程小卡 7／29]</h2>
+					<div class="history_time">2019-07-29 15:28:14 - 2019-07-29 17:02:28</div>
+					<br>
+
+										<video id="player_51046" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190729152814.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51046" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51021" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍工程小卡 7.29]						</a>
+						
+												<a href="#51078" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍工程小卡 7.29]						</a>
+						
+					</div>
+
+										<div id="map_51046" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51046"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51078" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [昌德珍工程小卡 7.29]</h2>
+					<div class="history_time">2019-07-29 15:54:01 - 2019-07-29 18:16:09</div>
+					<br>
+
+										<video id="player_51078" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190729155401.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51078" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51046" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍 工程小卡 7／29]						</a>
+						
+												<a href="#51099" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍工程小卡 7.30]						</a>
+						
+					</div>
+
+										<div id="map_51078" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51078"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51099" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [昌德珍工程小卡 7.30]</h2>
+					<div class="history_time">2019-07-30 08:53:30 - 2019-07-30 09:15:44</div>
+					<br>
+
+										<video id="player_51099" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190730085330.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51099" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51078" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍工程小卡 7.29]						</a>
+						
+												<a href="#51100" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+					</div>
+
+										<div id="map_51099" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51099"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51100" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [永展]</h2>
+					<div class="history_time">2019-07-30 09:32:13 - 2019-07-30 09:32:56</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_51100" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/3.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/4.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/4.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/5.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1335/2019/20190730093213/5.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_51100" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_51100"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51100" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51099" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍工程小卡 7.30]						</a>
+						
+												<a href="#51256" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍 小卡 7／30]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51256" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [昌德珍 小卡 7／30]</h2>
+					<div class="history_time">2019-07-30 16:26:55 - 2019-07-30 18:00:40</div>
+					<br>
+
+										<video id="player_51256" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190730162655.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51256" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51100" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+												<a href="#51356" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+					</div>
+
+										<div id="map_51256" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51256"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51356" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [永展]</h2>
+					<div class="history_time">2019-07-31 13:06:07 - 2019-07-31 13:54:03</div>
+					<br>
+
+										<video id="player_51356" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1335_20190731130607.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51356" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51256" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍 小卡 7／30]						</a>
+						
+												<a href="#51353" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料清單 7.31]						</a>
+						
+					</div>
+
+										<div id="map_51356" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51356"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51353" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [驗收資料清單 7.31]</h2>
+					<div class="history_time">2019-07-31 13:17:31 - 2019-07-31 13:38:33</div>
+					<br>
+
+										<video id="player_51353" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190731131731.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51353" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51356" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+												<a href="#51376" class="btn btn-dark btn-lg">
+							工作進度 <br>[工作進度 7／31]						</a>
+						
+					</div>
+
+										<div id="map_51353" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51353"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51376" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [工作進度 7／31]</h2>
+					<div class="history_time">2019-07-31 13:28:47 - 2019-07-31 15:12:50</div>
+					<br>
+
+										<video id="player_51376" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190731132847.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51376" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51353" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料清單 7.31]						</a>
+						
+												<a href="#51375" class="btn btn-dark btn-lg">
+							工作進度 <br>[工作進度 7／31]						</a>
+						
+					</div>
+
+										<div id="map_51376" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51376"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51375" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [工作進度 7／31]</h2>
+					<div class="history_time">2019-07-31 13:28:47 - 2019-07-31 15:12:50</div>
+					<br>
+
+										<video id="player_51375" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190731132847.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51375" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51376" class="btn btn-dark btn-lg">
+							工作進度 <br>[工作進度 7／31]						</a>
+						
+												<a href="#51383" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料清單 7.31]						</a>
+						
+					</div>
+
+										<div id="map_51375" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51375"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51383" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [驗收資料清單 7.31]</h2>
+					<div class="history_time">2019-07-31 13:41:23 - 2019-07-31 15:46:49</div>
+					<br>
+
+										<video id="player_51383" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190731134123.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51383" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51375" class="btn btn-dark btn-lg">
+							工作進度 <br>[工作進度 7／31]						</a>
+						
+												<a href="#51359" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+					</div>
+
+										<div id="map_51383" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51383"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51359" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [永展]</h2>
+					<div class="history_time">2019-07-31 14:04:02 - 2019-07-31 14:04:44</div>
+					<br>
+
+										<video id="player_51359" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1335_20190731140402.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51359" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51383" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料清單 7.31]						</a>
+						
+												<a href="#51446" class="btn btn-dark btn-lg">
+							工作進度 <br>[門邊包角L型板 8/1]						</a>
+						
+					</div>
+
+										<div id="map_51359" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51359"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51446" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [門邊包角L型板 8/1]</h2>
+					<div class="history_time">2019-08-01 11:19:50 - 2019-08-01 11:44:35</div>
+					<br>
+
+										<video id="player_51446" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190801111950.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51446" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51359" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+												<a href="#51501" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料 8/1]						</a>
+						
+					</div>
+
+										<div id="map_51446" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51446"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51501" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [驗收資料 8/1]</h2>
+					<div class="history_time">2019-08-01 15:16:02 - 2019-08-01 16:28:18</div>
+					<br>
+
+										<video id="player_51501" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190801151602.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51501" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51446" class="btn btn-dark btn-lg">
+							工作進度 <br>[門邊包角L型板 8/1]						</a>
+						
+												<a href="#51502" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍庫板數量計算 08.01]						</a>
+						
+					</div>
+
+										<div id="map_51501" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51501"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51502" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [昌德珍庫板數量計算 08.01]</h2>
+					<div class="history_time">2019-08-01 15:30:07 - 2019-08-01 16:33:28</div>
+					<br>
+
+										<video id="player_51502" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190801153007.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51502" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51501" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料 8/1]						</a>
+						
+												<a href="#51615" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料 8/1]						</a>
+						
+					</div>
+
+										<div id="map_51502" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51502"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51615" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [驗收資料 8/1]</h2>
+					<div class="history_time">2019-08-02 13:12:54 - 2019-08-02 14:19:35</div>
+					<br>
+
+										<video id="player_51615" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190802131254.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51615" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51502" class="btn btn-dark btn-lg">
+							工作進度 <br>[昌德珍庫板數量計算 08.01]						</a>
+						
+												<a href="#51635" class="btn btn-dark btn-lg">
+							工作進度 <br>[拍攝 8/2]						</a>
+						
+					</div>
+
+										<div id="map_51615" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51615"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51635" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [拍攝 8/2]</h2>
+					<div class="history_time">2019-08-02 15:48:08 - 2019-08-02 16:56:11</div>
+					<br>
+
+										<video id="player_51635" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190802154808.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51635" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51615" class="btn btn-dark btn-lg">
+							工作進度 <br>[驗收資料 8/1]						</a>
+						
+												<a href="#51638" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.02]						</a>
+						
+					</div>
+
+										<div id="map_51635" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51635"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51638" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [08.02]</h2>
+					<div class="history_time">2019-08-02 16:18:00 - 2019-08-02 17:12:04</div>
+					<br>
+
+										<video id="player_51638" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190802161800.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51638" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51635" class="btn btn-dark btn-lg">
+							工作進度 <br>[拍攝 8/2]						</a>
+						
+												<a href="#51832" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+					</div>
+
+										<div id="map_51638" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51638"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51832" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [永展]</h2>
+					<div class="history_time">2019-08-05 10:45:15 - 2019-08-05 11:13:32</div>
+					<br>
+
+										<video id="player_51832" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1335_20190805104515.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51832" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51638" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.02]						</a>
+						
+												<a href="#51888" class="btn btn-dark btn-lg">
+							工作進度 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_51832" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_51832"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="51888" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [自拍保證輸出]</h2>
+					<div class="history_time">2019-08-05 14:58:13 - 2019-08-05 14:58:13</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1335/2019/51888.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1335/2019/51888.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_51888" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#51832" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_51021', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51046', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51078', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51099', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51256', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51356', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51353', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51376', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51375', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51383', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51359', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51446', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51501', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51502', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51615', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51635', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51638', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_51832', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_51100 = jQuery("#gallery_51100").unitegallery();
+		var first_item = api_51100.getItem(0);
+
+		load_gps_data('51100', '1335', first_item.urlImage, true);
+		api_51100.on("item_change", function(num, img_data){
+			load_gps_data('51100', '1335', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [51021,51046,51078,51099,51256,51356,51353,51376,51375,51383,51359,51446,51501,51502,51615,51635,51638,51832];
+	var loc_map = new Array(18);
+	var loc_arr = new Array(18);
+	var map_arr = new Array(18);
+	var marker_arr = new Array(18);
+
+		loc_arr[0] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[1] = [
+		];
+
+		loc_arr[2] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[2] = [
+		];
+
+		loc_arr[3] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[3] = [
+		];
+
+		loc_arr[4] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[5] = [
+		];
+
+		loc_arr[6] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[6] = [
+		];
+
+		loc_arr[7] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[7] = [
+		];
+
+		loc_arr[8] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[8] = [
+		];
+
+		loc_arr[9] = [
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.891666666667, lng: 120.68305555556},
+						{lat: 23.891388888889, lng: 120.68333333333},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[9] = [
+	{sec: 211, index: 1},
+{sec: 212, index: 2},
+{sec: 382, index: 4},
+{sec: 383, index: 5},
+{sec: 384, index: 6}	];
+
+		loc_arr[10] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[10] = [
+		];
+
+		loc_arr[11] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[11] = [
+		];
+
+		loc_arr[12] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[12] = [
+		];
+
+		loc_arr[13] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[13] = [
+		];
+
+		loc_arr[14] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[14] = [
+		];
+
+		loc_arr[15] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[15] = [
+		];
+
+		loc_arr[16] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[16] = [
+		];
+
+		loc_arr[17] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[17] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_51021'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_51046'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_51078'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_51099'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_51256'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_51356'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_51353'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+				var linePlanCoordinates8 = [
+						];
+
+		map_arr[7] = new google.maps.Map(document.getElementById('portal_map_51376'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker8 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[7][0].lat, loc_arr[7][0].lng),
+			map: map_arr[7]
+		});
+		marker_arr[7] = [{"marker": marker8}];
+
+		var linePath8 = new google.maps.Polyline({
+			path: linePlanCoordinates8,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath8.setMap(map_arr[7]);
+
+				var linePlanCoordinates9 = [
+						];
+
+		map_arr[8] = new google.maps.Map(document.getElementById('portal_map_51375'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker9 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[8][0].lat, loc_arr[8][0].lng),
+			map: map_arr[8]
+		});
+		marker_arr[8] = [{"marker": marker9}];
+
+		var linePath9 = new google.maps.Polyline({
+			path: linePlanCoordinates9,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath9.setMap(map_arr[8]);
+
+				var linePlanCoordinates10 = [
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.891666666667, lng: 120.68305555556},				
+								{lat: 23.891388888889, lng: 120.68333333333},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+						];
+
+		map_arr[9] = new google.maps.Map(document.getElementById('portal_map_51383'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker10 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[9][0].lat, loc_arr[9][0].lng),
+			map: map_arr[9]
+		});
+		marker_arr[9] = [{"marker": marker10}];
+
+		var linePath10 = new google.maps.Polyline({
+			path: linePlanCoordinates10,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath10.setMap(map_arr[9]);
+
+				var linePlanCoordinates11 = [
+						];
+
+		map_arr[10] = new google.maps.Map(document.getElementById('portal_map_51359'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker11 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[10][0].lat, loc_arr[10][0].lng),
+			map: map_arr[10]
+		});
+		marker_arr[10] = [{"marker": marker11}];
+
+		var linePath11 = new google.maps.Polyline({
+			path: linePlanCoordinates11,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath11.setMap(map_arr[10]);
+
+				var linePlanCoordinates12 = [
+						];
+
+		map_arr[11] = new google.maps.Map(document.getElementById('portal_map_51446'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker12 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[11][0].lat, loc_arr[11][0].lng),
+			map: map_arr[11]
+		});
+		marker_arr[11] = [{"marker": marker12}];
+
+		var linePath12 = new google.maps.Polyline({
+			path: linePlanCoordinates12,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath12.setMap(map_arr[11]);
+
+				var linePlanCoordinates13 = [
+						];
+
+		map_arr[12] = new google.maps.Map(document.getElementById('portal_map_51501'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker13 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[12][0].lat, loc_arr[12][0].lng),
+			map: map_arr[12]
+		});
+		marker_arr[12] = [{"marker": marker13}];
+
+		var linePath13 = new google.maps.Polyline({
+			path: linePlanCoordinates13,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath13.setMap(map_arr[12]);
+
+				var linePlanCoordinates14 = [
+						];
+
+		map_arr[13] = new google.maps.Map(document.getElementById('portal_map_51502'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker14 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[13][0].lat, loc_arr[13][0].lng),
+			map: map_arr[13]
+		});
+		marker_arr[13] = [{"marker": marker14}];
+
+		var linePath14 = new google.maps.Polyline({
+			path: linePlanCoordinates14,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath14.setMap(map_arr[13]);
+
+				var linePlanCoordinates15 = [
+						];
+
+		map_arr[14] = new google.maps.Map(document.getElementById('portal_map_51615'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker15 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[14][0].lat, loc_arr[14][0].lng),
+			map: map_arr[14]
+		});
+		marker_arr[14] = [{"marker": marker15}];
+
+		var linePath15 = new google.maps.Polyline({
+			path: linePlanCoordinates15,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath15.setMap(map_arr[14]);
+
+				var linePlanCoordinates16 = [
+						];
+
+		map_arr[15] = new google.maps.Map(document.getElementById('portal_map_51635'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker16 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[15][0].lat, loc_arr[15][0].lng),
+			map: map_arr[15]
+		});
+		marker_arr[15] = [{"marker": marker16}];
+
+		var linePath16 = new google.maps.Polyline({
+			path: linePlanCoordinates16,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath16.setMap(map_arr[15]);
+
+				var linePlanCoordinates17 = [
+						];
+
+		map_arr[16] = new google.maps.Map(document.getElementById('portal_map_51638'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker17 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[16][0].lat, loc_arr[16][0].lng),
+			map: map_arr[16]
+		});
+		marker_arr[16] = [{"marker": marker17}];
+
+		var linePath17 = new google.maps.Polyline({
+			path: linePlanCoordinates17,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath17.setMap(map_arr[16]);
+
+				var linePlanCoordinates18 = [
+						];
+
+		map_arr[17] = new google.maps.Map(document.getElementById('portal_map_51832'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker18 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[17][0].lat, loc_arr[17][0].lng),
+			map: map_arr[17]
+		});
+		marker_arr[17] = [{"marker": marker18}];
+
+		var linePath18 = new google.maps.Polyline({
+			path: linePlanCoordinates18,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath18.setMap(map_arr[17]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

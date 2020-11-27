@@ -1,0 +1,1962 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=54094&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="工作進度" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=54094',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/54094.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																工作進度							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：晨光食品機械								<br>
+								產出日期：2019-08-23 18:09:32																<br>
+								有效日期：2019-08-30																																									<br>
+								產出數量：3人份									 (3人份)																	<br>
+								剩餘數量：3人份									 (3人份)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D54094" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D54094"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/machine/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#53642" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#53649" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[08.19鄧師傅污水管路]							
+							
+							
+							</a>
+													<a href="#53666" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[永展]							
+							
+							
+							</a>
+													<a href="#53648" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[8/19]							
+							
+							
+							</a>
+													<a href="#53671" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[8/19]							
+							
+							
+							</a>
+													<a href="#53705" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[08.20]							
+							
+							
+							</a>
+													<a href="#53720" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[8/20]							
+							
+							
+							</a>
+													<a href="#53768" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[永展]							
+							
+							
+							</a>
+													<a href="#53767" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[編輯資料]							
+							
+							
+							</a>
+													<a href="#53772" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[8/20]							
+							
+							
+							</a>
+													<a href="#53981" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[8/22]							
+							
+							
+							</a>
+													<a href="#54071" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[08.23 鄧師傅圖面]							
+							
+							
+							</a>
+													<a href="#54090" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[8/23]							
+							
+							
+							</a>
+													<a href="#54091" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[08.23 鄧師傅圖面]							
+							
+							
+							</a>
+													<a href="#54094" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														工作進度<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="53642" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [自拍保證來源]</h2>
+					<div class="history_time">2019-08-19 14:12:14 - 2019-08-19 14:12:14</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/905/2019/53642.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/905/2019/53642.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53642" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#53649" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.19鄧師傅污水管路]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53649" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [08.19鄧師傅污水管路]</h2>
+					<div class="history_time">2019-08-19 14:13:53 - 2019-08-19 14:46:58</div>
+					<br>
+
+										<video id="player_53649" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190819141353.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53649" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53642" class="btn btn-dark btn-lg">
+							工作進度 <br>[自拍保證來源]						</a>
+						
+												<a href="#53666" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+					</div>
+
+										<div id="map_53649" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53649"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53666" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [永展]</h2>
+					<div class="history_time">2019-08-19 14:25:20 - 2019-08-19 17:14:45</div>
+					<br>
+
+										<video id="player_53666" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1335_20190819142520.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53666" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53649" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.19鄧師傅污水管路]						</a>
+						
+												<a href="#53648" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/19]						</a>
+						
+					</div>
+
+										<div id="map_53666" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53666"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53648" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [8/19]</h2>
+					<div class="history_time">2019-08-19 14:34:36 - 2019-08-19 14:35:24</div>
+					<br>
+
+										<video id="player_53648" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190819143436.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53648" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53666" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+												<a href="#53671" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/19]						</a>
+						
+					</div>
+
+										<div id="map_53648" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53648"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53671" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [8/19]</h2>
+					<div class="history_time">2019-08-19 14:35:39 - 2019-08-19 17:12:42</div>
+					<br>
+
+										<video id="player_53671" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190819143539.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53671" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53648" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/19]						</a>
+						
+												<a href="#53705" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.20]						</a>
+						
+					</div>
+
+										<div id="map_53671" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53671"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53705" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [08.20]</h2>
+					<div class="history_time">2019-08-20 09:14:59 - 2019-08-20 10:33:06</div>
+					<br>
+
+										<video id="player_53705" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190820091459.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53705" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53671" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/19]						</a>
+						
+												<a href="#53720" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/20]						</a>
+						
+					</div>
+
+										<div id="map_53705" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53705"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53720" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [8/20]</h2>
+					<div class="history_time">2019-08-20 10:31:06 - 2019-08-20 11:23:24</div>
+					<br>
+
+										<video id="player_53720" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190820103106.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53720" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53705" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.20]						</a>
+						
+												<a href="#53768" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+					</div>
+
+										<div id="map_53720" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53720"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53768" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [永展]</h2>
+					<div class="history_time">2019-08-20 13:10:40 - 2019-08-20 14:06:30</div>
+					<br>
+
+										<video id="player_53768" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1335_20190820131040.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53768" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53720" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/20]						</a>
+						
+												<a href="#53767" class="btn btn-dark btn-lg">
+							工作進度 <br>[編輯資料]						</a>
+						
+					</div>
+
+										<div id="map_53768" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53768"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53767" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [編輯資料]</h2>
+					<div class="history_time">2019-08-20 14:07:34 - 2019-08-20 14:08:35</div>
+					<br>
+
+										<video id="player_53767" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1335_20190820140734.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53767" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53768" class="btn btn-dark btn-lg">
+							工作進度 <br>[永展]						</a>
+						
+												<a href="#53772" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/20]						</a>
+						
+					</div>
+
+										<div id="map_53767" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53767"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53772" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [8/20]</h2>
+					<div class="history_time">2019-08-20 14:12:30 - 2019-08-20 16:01:57</div>
+					<br>
+
+										<video id="player_53772" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190820141230.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53772" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53767" class="btn btn-dark btn-lg">
+							工作進度 <br>[編輯資料]						</a>
+						
+												<a href="#53981" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/22]						</a>
+						
+					</div>
+
+										<div id="map_53772" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53772"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="53981" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [8/22]</h2>
+					<div class="history_time">2019-08-22 16:22:50 - 2019-08-22 17:42:27</div>
+					<br>
+
+										<video id="player_53981" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190822162250.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_53981" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53772" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/20]						</a>
+						
+												<a href="#54071" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.23 鄧師傅圖面]						</a>
+						
+					</div>
+
+										<div id="map_53981" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_53981"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="54071" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [08.23 鄧師傅圖面]</h2>
+					<div class="history_time">2019-08-23 14:37:11 - 2019-08-23 15:05:31</div>
+					<br>
+
+										<video id="player_54071" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190823143711.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_54071" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#53981" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/22]						</a>
+						
+												<a href="#54090" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/23]						</a>
+						
+					</div>
+
+										<div id="map_54071" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_54071"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="54090" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [8/23]</h2>
+					<div class="history_time">2019-08-23 15:15:54 - 2019-08-23 17:43:45</div>
+					<br>
+
+										<video id="player_54090" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/537_20190823151554.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_54090" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#54071" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.23 鄧師傅圖面]						</a>
+						
+												<a href="#54091" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.23 鄧師傅圖面]						</a>
+						
+					</div>
+
+										<div id="map_54090" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_54090"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="54091" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [08.23 鄧師傅圖面]</h2>
+					<div class="history_time">2019-08-23 15:32:20 - 2019-08-23 17:52:43</div>
+					<br>
+
+										<video id="player_54091" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/905_20190823153220.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_54091" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#54090" class="btn btn-dark btn-lg">
+							工作進度 <br>[8/23]						</a>
+						
+												<a href="#54094" class="btn btn-dark btn-lg">
+							工作進度 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_54091" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_54091"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="54094" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>工作進度 [自拍保證輸出]</h2>
+					<div class="history_time">2019-08-23 18:09:32 - 2019-08-23 18:09:32</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/905/2019/54094.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/905/2019/54094.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_54094" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#54091" class="btn btn-dark btn-lg">
+							工作進度 <br>[08.23 鄧師傅圖面]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_53649', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53666', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53648', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53671', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53705', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53720', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53768', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53767', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53772', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_53981', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_54071', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_54090', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_54091', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [53649,53666,53648,53671,53705,53720,53768,53767,53772,53981,54071,54090,54091];
+	var loc_map = new Array(13);
+	var loc_arr = new Array(13);
+	var map_arr = new Array(13);
+	var marker_arr = new Array(13);
+
+		loc_arr[0] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[1] = [
+		];
+
+		loc_arr[2] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[2] = [
+		];
+
+		loc_arr[3] = [
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.67888888889},
+						{lat: 23.892777777778, lng: 120.67777777778},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68611111111},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.6925},
+						{lat: 23.892777777778, lng: 120.69583333333},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.72},
+						{lat: 23.892777777778, lng: 120.75361111111},
+						{lat: 23.892777777778, lng: 120.78},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.29305555556},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 121.99277777778},
+						{lat: 23.892777777778, lng: 122.49888888889},
+						{lat: 23.892777777778, lng: 124.69638888889},
+						{lat: 23.892777777778, lng: 120.66027777778},
+						{lat: 23.892777777778, lng: 103.83722222222},
+						{lat: 23.892777777778, lng: 106.00361111111},
+						{lat: 23.892777777778, lng: 120.74361111111},
+						{lat: 23.892777777778, lng: 120.67861111111},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 147.99472222222},
+						{lat: 23.892777777778, lng: 120.57388888889},
+						{lat: 23.892777777778, lng: 133.34861111111},
+						{lat: 23.892777777778, lng: -12.120555555556},
+						{lat: 23.892777777778, lng: 44.034444444444},
+						{lat: 23.892777777778, lng: 119.21805555556},
+						{lat: 23.892777777778, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -30.932777777778},
+						{lat: 23.892777777778, lng: -37.601944444444},
+						{lat: 23.892777777778, lng: 118.92888888889},
+						{lat: 23.892777777778, lng: -6.8075},
+						{lat: 23.892777777778, lng: 119.16277777778},
+						{lat: 23.892777777778, lng: 120.55305555556},
+						{lat: 23.892777777778, lng: 99.300833333333},
+						{lat: 23.892777777778, lng: 26.188888888889},
+						{lat: 23.892777777778, lng: -160.58972222222},
+						{lat: 23.892777777778, lng: 120.13277777778},
+						{lat: 23.892777777778, lng: 121.60138888889},
+						{lat: 23.892777777778, lng: -162.69888888889},
+						{lat: 23.892777777778, lng: -116.67916666667},
+						{lat: 23.892777777778, lng: -160.46277777778},
+						{lat: 23.892777777778, lng: 179.89527777778},
+						{lat: 23.892777777778, lng: 102.01416666667},
+						{lat: 23.892777777778, lng: 120.67555555556},
+						{lat: 23.892777777778, lng: 51.888055555556},
+						{lat: 23.892777777778, lng: -78.359166666667},
+						{lat: 23.892777777778, lng: -169.27277777778},
+						{lat: 23.892777777778, lng: 29.2925},
+						{lat: 23.892777777778, lng: 119.89555555556},
+						{lat: 23.892777777778, lng: 82.335555555556},
+						{lat: 23.892777777778, lng: 95.986944444444},
+						{lat: 23.892777777778, lng: 174.69222222222},
+						{lat: 23.892777777778, lng: -108.65194444444},
+						{lat: 23.892777777778, lng: 163.55583333333},
+						{lat: 23.892777777778, lng: 121.85472222222},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -13.240833333333},
+						{lat: 23.892777777778, lng: 22.566944444444},
+						{lat: 23.892777777778, lng: 120.66833333333},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -92.918333333333},
+						{lat: 23.892777777778, lng: -46.9},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 138.30861111111},
+						{lat: 23.892777777778, lng: 68.87},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -41.538611111111},
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[3] = [
+	{sec: 68, index: 1},
+{sec: 70, index: 3},
+{sec: 71, index: 5},
+{sec: 72, index: 8},
+{sec: 73, index: 9},
+{sec: 74, index: 12},
+{sec: 75, index: 14},
+{sec: 76, index: 15},
+{sec: 77, index: 17},
+{sec: 78, index: 19},
+{sec: 79, index: 21},
+{sec: 80, index: 23},
+{sec: 81, index: 26},
+{sec: 84, index: 27},
+{sec: 85, index: 28},
+{sec: 86, index: 29},
+{sec: 87, index: 30},
+{sec: 88, index: 32},
+{sec: 89, index: 34},
+{sec: 91, index: 35},
+{sec: 92, index: 38},
+{sec: 93, index: 40},
+{sec: 94, index: 42},
+{sec: 96, index: 44},
+{sec: 97, index: 46},
+{sec: 98, index: 47},
+{sec: 99, index: 48},
+{sec: 100, index: 49},
+{sec: 101, index: 52},
+{sec: 102, index: 53},
+{sec: 103, index: 54},
+{sec: 104, index: 56},
+{sec: 105, index: 59},
+{sec: 106, index: 61},
+{sec: 107, index: 62},
+{sec: 108, index: 64},
+{sec: 109, index: 65},
+{sec: 110, index: 66},
+{sec: 111, index: 67},
+{sec: 112, index: 69},
+{sec: 113, index: 71},
+{sec: 116, index: 72},
+{sec: 117, index: 73},
+{sec: 120, index: 75},
+{sec: 121, index: 76}	];
+
+		loc_arr[4] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[5] = [
+		];
+
+		loc_arr[6] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[6] = [
+		];
+
+		loc_arr[7] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[7] = [
+		];
+
+		loc_arr[8] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[8] = [
+		];
+
+		loc_arr[9] = [
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68138888889},
+						{lat: 23.892777777778, lng: 120.68083333333},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68333333333},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.67555555556},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.70416666667},
+						{lat: 23.892777777778, lng: 120.63833333333},
+						{lat: 23.892777777778, lng: 120.76305555556},
+						{lat: 23.892777777778, lng: 120.68111111111},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 119.66444444444},
+						{lat: 23.892777777778, lng: 120.68833333333},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 113.4875},
+						{lat: 23.892777777778, lng: 120.72638888889},
+						{lat: 23.892777777778, lng: 120.67972222222},
+						{lat: 23.892777777778, lng: 83.750833333333},
+						{lat: 23.892777777778, lng: 120.2475},
+						{lat: 23.892777777778, lng: 120.67694444444},
+						{lat: 23.892777777778, lng: 121.115},
+						{lat: 23.892777777778, lng: 120.66111111111},
+						{lat: 23.892777777778, lng: -127.65833333333},
+						{lat: 23.892777777778, lng: 120.62916666667},
+						{lat: 23.892777777778, lng: 120.68222222222},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -27.8325},
+						{lat: 23.892777777778, lng: -104.56972222222},
+						{lat: 23.892777777778, lng: -110.07944444444},
+						{lat: 23.892777777778, lng: 46.534166666667},
+						{lat: 23.892777777778, lng: -162.955},
+						{lat: 23.892777777778, lng: 110.6575},
+						{lat: 23.892777777778, lng: 26.975833333333},
+						{lat: 23.892777777778, lng: 144.94416666667},
+						{lat: 23.892777777778, lng: 120.48055555556},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 122.00333333333},
+						{lat: 23.892777777778, lng: 120.69666666667},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 26.525555555556},
+						{lat: 23.892777777778, lng: 142.76861111111},
+						{lat: 23.892777777778, lng: -25.888055555556},
+						{lat: 23.892777777778, lng: 122.75861111111},
+						{lat: 23.892777777778, lng: 169.02333333333},
+						{lat: 23.892777777778, lng: -103.44527777778},
+						{lat: 23.892777777778, lng: 120.71},
+						{lat: 23.892777777778, lng: 120.68194444444},
+						{lat: 23.892777777778, lng: 128.27416666667},
+						{lat: 23.892777777778, lng: 120.6825},
+						{lat: 23.892777777778, lng: 58.754166666667},
+						{lat: 23.892777777778, lng: 5.9816666666667},
+						{lat: 23.892777777778, lng: 101.68333333333},
+						{lat: 23.892777777778, lng: -70.410833333333},
+						{lat: 23.892777777778, lng: 117.88083333333},
+						{lat: 23.892777777778, lng: 120.68055555556},
+						{lat: 23.892777777778, lng: 128.45694444444},
+						{lat: 23.892777777778, lng: 173.62527777778},
+						{lat: 23.892777777778, lng: 173.72555555556},
+						{lat: 23.892777777778, lng: 169.2675},
+						{lat: 23.892777777778, lng: 73.938611111111},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -107.54555555556},
+						{lat: 23.892777777778, lng: -130.37555555556},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 29.537777777778},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -109.87583333333},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: -146.32027777778},
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[9] = [
+	{sec: 276, index: 1},
+{sec: 277, index: 2},
+{sec: 278, index: 4},
+{sec: 279, index: 7},
+{sec: 280, index: 9},
+{sec: 281, index: 10},
+{sec: 282, index: 11},
+{sec: 283, index: 13},
+{sec: 286, index: 15},
+{sec: 287, index: 17},
+{sec: 288, index: 18},
+{sec: 289, index: 20},
+{sec: 290, index: 22},
+{sec: 291, index: 24},
+{sec: 292, index: 26},
+{sec: 293, index: 28},
+{sec: 295, index: 30},
+{sec: 296, index: 32},
+{sec: 297, index: 34},
+{sec: 298, index: 35},
+{sec: 299, index: 36},
+{sec: 300, index: 38},
+{sec: 302, index: 40},
+{sec: 303, index: 41},
+{sec: 304, index: 43},
+{sec: 305, index: 45},
+{sec: 306, index: 46},
+{sec: 307, index: 48},
+{sec: 308, index: 49},
+{sec: 309, index: 51},
+{sec: 310, index: 53},
+{sec: 311, index: 55},
+{sec: 312, index: 57},
+{sec: 313, index: 59},
+{sec: 314, index: 60},
+{sec: 315, index: 61},
+{sec: 316, index: 63},
+{sec: 317, index: 64},
+{sec: 318, index: 65},
+{sec: 319, index: 66},
+{sec: 320, index: 68},
+{sec: 321, index: 69},
+{sec: 331, index: 70},
+{sec: 333, index: 72}	];
+
+		loc_arr[10] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[10] = [
+		];
+
+		loc_arr[11] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[11] = [
+		];
+
+		loc_arr[12] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[12] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_53649'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_53666'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_53648'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.67888888889},				
+								{lat: 23.892777777778, lng: 120.67777777778},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68611111111},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.6925},				
+								{lat: 23.892777777778, lng: 120.69583333333},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.72},				
+								{lat: 23.892777777778, lng: 120.75361111111},				
+								{lat: 23.892777777778, lng: 120.78},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.29305555556},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 121.99277777778},				
+								{lat: 23.892777777778, lng: 122.49888888889},				
+								{lat: 23.892777777778, lng: 124.69638888889},				
+								{lat: 23.892777777778, lng: 120.66027777778},				
+								{lat: 23.892777777778, lng: 103.83722222222},				
+								{lat: 23.892777777778, lng: 106.00361111111},				
+								{lat: 23.892777777778, lng: 120.74361111111},				
+								{lat: 23.892777777778, lng: 120.67861111111},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 147.99472222222},				
+								{lat: 23.892777777778, lng: 120.57388888889},				
+								{lat: 23.892777777778, lng: 133.34861111111},				
+								{lat: 23.892777777778, lng: -12.120555555556},				
+								{lat: 23.892777777778, lng: 44.034444444444},				
+								{lat: 23.892777777778, lng: 119.21805555556},				
+								{lat: 23.892777777778, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -30.932777777778},				
+								{lat: 23.892777777778, lng: -37.601944444444},				
+								{lat: 23.892777777778, lng: 118.92888888889},				
+								{lat: 23.892777777778, lng: -6.8075},				
+								{lat: 23.892777777778, lng: 119.16277777778},				
+								{lat: 23.892777777778, lng: 120.55305555556},				
+								{lat: 23.892777777778, lng: 99.300833333333},				
+								{lat: 23.892777777778, lng: 26.188888888889},				
+								{lat: 23.892777777778, lng: -160.58972222222},				
+								{lat: 23.892777777778, lng: 120.13277777778},				
+								{lat: 23.892777777778, lng: 121.60138888889},				
+								{lat: 23.892777777778, lng: -162.69888888889},				
+								{lat: 23.892777777778, lng: -116.67916666667},				
+								{lat: 23.892777777778, lng: -160.46277777778},				
+								{lat: 23.892777777778, lng: 179.89527777778},				
+								{lat: 23.892777777778, lng: 102.01416666667},				
+								{lat: 23.892777777778, lng: 120.67555555556},				
+								{lat: 23.892777777778, lng: 51.888055555556},				
+								{lat: 23.892777777778, lng: -78.359166666667},				
+								{lat: 23.892777777778, lng: -169.27277777778},				
+								{lat: 23.892777777778, lng: 29.2925},				
+								{lat: 23.892777777778, lng: 119.89555555556},				
+								{lat: 23.892777777778, lng: 82.335555555556},				
+								{lat: 23.892777777778, lng: 95.986944444444},				
+								{lat: 23.892777777778, lng: 174.69222222222},				
+								{lat: 23.892777777778, lng: -108.65194444444},				
+								{lat: 23.892777777778, lng: 163.55583333333},				
+								{lat: 23.892777777778, lng: 121.85472222222},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -13.240833333333},				
+								{lat: 23.892777777778, lng: 22.566944444444},				
+								{lat: 23.892777777778, lng: 120.66833333333},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -92.918333333333},				
+								{lat: 23.892777777778, lng: -46.9},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 138.30861111111},				
+								{lat: 23.892777777778, lng: 68.87},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -41.538611111111},				
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_53671'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_53705'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_53720'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_53768'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+				var linePlanCoordinates8 = [
+						];
+
+		map_arr[7] = new google.maps.Map(document.getElementById('portal_map_53767'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker8 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[7][0].lat, loc_arr[7][0].lng),
+			map: map_arr[7]
+		});
+		marker_arr[7] = [{"marker": marker8}];
+
+		var linePath8 = new google.maps.Polyline({
+			path: linePlanCoordinates8,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath8.setMap(map_arr[7]);
+
+				var linePlanCoordinates9 = [
+						];
+
+		map_arr[8] = new google.maps.Map(document.getElementById('portal_map_53772'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker9 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[8][0].lat, loc_arr[8][0].lng),
+			map: map_arr[8]
+		});
+		marker_arr[8] = [{"marker": marker9}];
+
+		var linePath9 = new google.maps.Polyline({
+			path: linePlanCoordinates9,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath9.setMap(map_arr[8]);
+
+				var linePlanCoordinates10 = [
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68138888889},				
+								{lat: 23.892777777778, lng: 120.68083333333},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68333333333},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.67555555556},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.70416666667},				
+								{lat: 23.892777777778, lng: 120.63833333333},				
+								{lat: 23.892777777778, lng: 120.76305555556},				
+								{lat: 23.892777777778, lng: 120.68111111111},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 119.66444444444},				
+								{lat: 23.892777777778, lng: 120.68833333333},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 113.4875},				
+								{lat: 23.892777777778, lng: 120.72638888889},				
+								{lat: 23.892777777778, lng: 120.67972222222},				
+								{lat: 23.892777777778, lng: 83.750833333333},				
+								{lat: 23.892777777778, lng: 120.2475},				
+								{lat: 23.892777777778, lng: 120.67694444444},				
+								{lat: 23.892777777778, lng: 121.115},				
+								{lat: 23.892777777778, lng: 120.66111111111},				
+								{lat: 23.892777777778, lng: -127.65833333333},				
+								{lat: 23.892777777778, lng: 120.62916666667},				
+								{lat: 23.892777777778, lng: 120.68222222222},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -27.8325},				
+								{lat: 23.892777777778, lng: -104.56972222222},				
+								{lat: 23.892777777778, lng: -110.07944444444},				
+								{lat: 23.892777777778, lng: 46.534166666667},				
+								{lat: 23.892777777778, lng: -162.955},				
+								{lat: 23.892777777778, lng: 110.6575},				
+								{lat: 23.892777777778, lng: 26.975833333333},				
+								{lat: 23.892777777778, lng: 144.94416666667},				
+								{lat: 23.892777777778, lng: 120.48055555556},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 122.00333333333},				
+								{lat: 23.892777777778, lng: 120.69666666667},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 26.525555555556},				
+								{lat: 23.892777777778, lng: 142.76861111111},				
+								{lat: 23.892777777778, lng: -25.888055555556},				
+								{lat: 23.892777777778, lng: 122.75861111111},				
+								{lat: 23.892777777778, lng: 169.02333333333},				
+								{lat: 23.892777777778, lng: -103.44527777778},				
+								{lat: 23.892777777778, lng: 120.71},				
+								{lat: 23.892777777778, lng: 120.68194444444},				
+								{lat: 23.892777777778, lng: 128.27416666667},				
+								{lat: 23.892777777778, lng: 120.6825},				
+								{lat: 23.892777777778, lng: 58.754166666667},				
+								{lat: 23.892777777778, lng: 5.9816666666667},				
+								{lat: 23.892777777778, lng: 101.68333333333},				
+								{lat: 23.892777777778, lng: -70.410833333333},				
+								{lat: 23.892777777778, lng: 117.88083333333},				
+								{lat: 23.892777777778, lng: 120.68055555556},				
+								{lat: 23.892777777778, lng: 128.45694444444},				
+								{lat: 23.892777777778, lng: 173.62527777778},				
+								{lat: 23.892777777778, lng: 173.72555555556},				
+								{lat: 23.892777777778, lng: 169.2675},				
+								{lat: 23.892777777778, lng: 73.938611111111},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -107.54555555556},				
+								{lat: 23.892777777778, lng: -130.37555555556},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 29.537777777778},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -109.87583333333},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: -146.32027777778},				
+						];
+
+		map_arr[9] = new google.maps.Map(document.getElementById('portal_map_53981'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker10 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[9][0].lat, loc_arr[9][0].lng),
+			map: map_arr[9]
+		});
+		marker_arr[9] = [{"marker": marker10}];
+
+		var linePath10 = new google.maps.Polyline({
+			path: linePlanCoordinates10,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath10.setMap(map_arr[9]);
+
+				var linePlanCoordinates11 = [
+						];
+
+		map_arr[10] = new google.maps.Map(document.getElementById('portal_map_54071'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker11 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[10][0].lat, loc_arr[10][0].lng),
+			map: map_arr[10]
+		});
+		marker_arr[10] = [{"marker": marker11}];
+
+		var linePath11 = new google.maps.Polyline({
+			path: linePlanCoordinates11,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath11.setMap(map_arr[10]);
+
+				var linePlanCoordinates12 = [
+						];
+
+		map_arr[11] = new google.maps.Map(document.getElementById('portal_map_54090'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker12 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[11][0].lat, loc_arr[11][0].lng),
+			map: map_arr[11]
+		});
+		marker_arr[11] = [{"marker": marker12}];
+
+		var linePath12 = new google.maps.Polyline({
+			path: linePlanCoordinates12,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath12.setMap(map_arr[11]);
+
+				var linePlanCoordinates13 = [
+						];
+
+		map_arr[12] = new google.maps.Map(document.getElementById('portal_map_54091'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker13 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[12][0].lat, loc_arr[12][0].lng),
+			map: map_arr[12]
+		});
+		marker_arr[12] = [{"marker": marker13}];
+
+		var linePath13 = new google.maps.Polyline({
+			path: linePlanCoordinates13,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath13.setMap(map_arr[12]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

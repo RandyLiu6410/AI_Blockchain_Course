@@ -1,0 +1,1409 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=130860&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="A北蕉" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=130860',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																							</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																A北蕉							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：蕉您來好康								<br>
+								產出日期：2020-10-29 11:33:38																<br>
+								有效日期：2020-11-12																																									<br>
+								產出數量：10.77公斤																										<br>
+								剩餘數量：10.77公斤																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D130860" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D130860"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/omjomjomj/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#111640" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#111644" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#113560" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#116511" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[出貨]							
+							
+							
+							</a>
+													<a href="#117512" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[出貨]							
+							
+							
+							</a>
+													<a href="#118827" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[疏花]							
+							
+							
+							</a>
+													<a href="#118933" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[出貨]							
+							
+							
+							</a>
+													<a href="#119635" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#120287" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#121448" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#121806" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[疏花]							
+							
+							
+							</a>
+													<a href="#123046" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#123539" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#123626" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[採收]							
+							
+							
+							</a>
+													<a href="#130860" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														A北蕉<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="111640" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [自拍保證來源]</h2>
+					<div class="history_time">2020-08-07 08:04:25 - 2020-08-07 08:04:25</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1532/2020/111640.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1532/2020/111640.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_111640" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#111644" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="111644" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-08-07 08:04:39 - 2020-08-07 08:11:48</div>
+					<br>
+
+										<video id="player_111644" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1532_20200807080439.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_111644" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111640" class="btn btn-dark btn-lg">
+							A北蕉 <br>[自拍保證來源]						</a>
+						
+												<a href="#113560" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+										<div id="map_111644" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_111644"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="113560" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-08-14 11:17:12 - 2020-08-14 11:22:12</div>
+					<br>
+
+										
+										<video id="player_113560" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1446/1532/1532_20200814111512156.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_113560" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#111644" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+												<a href="#116511" class="btn btn-dark btn-lg">
+							A北蕉 <br>[出貨]						</a>
+						
+					</div>
+
+										<div id="map_113560" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_113560"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="116511" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [出貨]</h2>
+					<div class="history_time">2020-08-25 15:52:22 - 2020-08-25 15:52:34</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_116511" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200825155222/IMG_1598341951353.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200825155222/IMG_1598341951353.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_116511" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_116511"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_116511" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#113560" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+												<a href="#117512" class="btn btn-dark btn-lg">
+							A北蕉 <br>[出貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="117512" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [出貨]</h2>
+					<div class="history_time">2020-08-28 09:53:01 - 2020-08-28 09:53:29</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_117512" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200828095301/IMG_1598579588123.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200828095301/IMG_1598579588123.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200828095301/IMG_1598579597781.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200828095301/IMG_1598579597781.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200828095301/IMG_1598579601370.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200828095301/IMG_1598579601370.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_117512" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_117512"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_117512" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#116511" class="btn btn-dark btn-lg">
+							A北蕉 <br>[出貨]						</a>
+						
+												<a href="#118827" class="btn btn-dark btn-lg">
+							A北蕉 <br>[疏花]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="118827" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [疏花]</h2>
+					<div class="history_time">2020-09-02 16:02:03 - 2020-09-02 16:06:11</div>
+					<br>
+
+										
+										<video id="player_118827" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1446/1532/1532_20200902160024485.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_118827" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#117512" class="btn btn-dark btn-lg">
+							A北蕉 <br>[出貨]						</a>
+						
+												<a href="#118933" class="btn btn-dark btn-lg">
+							A北蕉 <br>[出貨]						</a>
+						
+					</div>
+
+										<div id="map_118827" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_118827"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="118933" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [出貨]</h2>
+					<div class="history_time">2020-09-03 08:19:25 - 2020-09-03 08:19:51</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_118933" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200903081925/IMG_1599092385495.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200903081925/IMG_1599092385495.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200903081925/IMG_1599092389278.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200903081925/IMG_1599092389278.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_118933" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_118933"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_118933" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#118827" class="btn btn-dark btn-lg">
+							A北蕉 <br>[疏花]						</a>
+						
+												<a href="#119635" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="119635" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-09-06 14:23:09 - 2020-09-06 14:26:49</div>
+					<br>
+
+										
+										<video id="player_119635" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1446/1532/1532_20200906142153691.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_119635" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#118933" class="btn btn-dark btn-lg">
+							A北蕉 <br>[出貨]						</a>
+						
+												<a href="#120287" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+										<div id="map_119635" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_119635"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="120287" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-09-09 17:05:17 - 2020-09-09 17:05:32</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_120287" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200909170517/IMG_1599642326924.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200909170517/IMG_1599642326924.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_120287" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_120287"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_120287" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#119635" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+												<a href="#121448" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="121448" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-09-15 10:15:53 - 2020-09-15 10:25:03</div>
+					<br>
+
+										<video id="player_121448" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1532_20200915101553.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_121448" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#120287" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+												<a href="#121806" class="btn btn-dark btn-lg">
+							A北蕉 <br>[疏花]						</a>
+						
+					</div>
+
+										<div id="map_121448" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_121448"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="121806" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [疏花]</h2>
+					<div class="history_time">2020-09-16 16:33:53 - 2020-09-16 16:38:22</div>
+					<br>
+
+										
+										<video id="player_121806" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1446/1532/1532_20200916163338978.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_121806" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#121448" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+												<a href="#123046" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+										<div id="map_121806" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_121806"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="123046" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-09-22 18:01:19 - 2020-09-22 18:01:28</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_123046" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200922180119/IMG_1600768885420.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200922180119/IMG_1600768885420.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_123046" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_123046"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_123046" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#121806" class="btn btn-dark btn-lg">
+							A北蕉 <br>[疏花]						</a>
+						
+												<a href="#123539" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="123539" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-09-24 15:45:41 - 2020-09-24 15:48:37</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_123539" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933549576.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933549576.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933597549.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933597549.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933598397.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933598397.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933714563.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1532/2020/20200924154541/IMG_1600933714563.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_123539" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_123539"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_123539" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#123046" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+												<a href="#123626" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="123626" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [採收]</h2>
+					<div class="history_time">2020-09-25 10:49:12 - 2020-09-25 10:55:49</div>
+					<br>
+
+										<video id="player_123626" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1532_20200925104912.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_123626" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#123539" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+												<a href="#130860" class="btn btn-dark btn-lg">
+							A北蕉 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_123626" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_123626"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="130860" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>A北蕉 [自拍保證輸出]</h2>
+					<div class="history_time">2020-10-29 11:33:38 - 2020-10-29 11:33:38</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1532/2020/130860.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1532/2020/130860.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_130860" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#123626" class="btn btn-dark btn-lg">
+							A北蕉 <br>[採收]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_111644', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_113560', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_118827', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_119635', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_121448', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_121806', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_123626', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_116511 = jQuery("#gallery_116511").unitegallery();
+		var first_item = api_116511.getItem(0);
+
+		load_gps_data('116511', '1532', first_item.urlImage, true);
+		api_116511.on("item_change", function(num, img_data){
+			load_gps_data('116511', '1532', img_data.urlImage, false);
+		});
+				var api_117512 = jQuery("#gallery_117512").unitegallery();
+		var first_item = api_117512.getItem(0);
+
+		load_gps_data('117512', '1532', first_item.urlImage, true);
+		api_117512.on("item_change", function(num, img_data){
+			load_gps_data('117512', '1532', img_data.urlImage, false);
+		});
+				var api_118933 = jQuery("#gallery_118933").unitegallery();
+		var first_item = api_118933.getItem(0);
+
+		load_gps_data('118933', '1532', first_item.urlImage, true);
+		api_118933.on("item_change", function(num, img_data){
+			load_gps_data('118933', '1532', img_data.urlImage, false);
+		});
+				var api_120287 = jQuery("#gallery_120287").unitegallery();
+		var first_item = api_120287.getItem(0);
+
+		load_gps_data('120287', '1532', first_item.urlImage, true);
+		api_120287.on("item_change", function(num, img_data){
+			load_gps_data('120287', '1532', img_data.urlImage, false);
+		});
+				var api_123046 = jQuery("#gallery_123046").unitegallery();
+		var first_item = api_123046.getItem(0);
+
+		load_gps_data('123046', '1532', first_item.urlImage, true);
+		api_123046.on("item_change", function(num, img_data){
+			load_gps_data('123046', '1532', img_data.urlImage, false);
+		});
+				var api_123539 = jQuery("#gallery_123539").unitegallery();
+		var first_item = api_123539.getItem(0);
+
+		load_gps_data('123539', '1532', first_item.urlImage, true);
+		api_123539.on("item_change", function(num, img_data){
+			load_gps_data('123539', '1532', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [111644,113560,118827,119635,121448,121806,123626];
+	var loc_map = new Array(7);
+	var loc_arr = new Array(7);
+	var map_arr = new Array(7);
+	var marker_arr = new Array(7);
+
+		loc_arr[0] = [
+						{lat: 23.646944444444, lng: 120.53333333333}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.647974014282, lng: 120.53350830078}
+				];
+
+	loc_map[1] = [
+		];
+
+		loc_arr[2] = [
+						{lat: 23.647413253784, lng: 120.53345489502}
+				];
+
+	loc_map[2] = [
+		];
+
+		loc_arr[3] = [
+						{lat: 23.647127151489, lng: 120.53340911865}
+				];
+
+	loc_map[3] = [
+		];
+
+		loc_arr[4] = [
+						{lat: 23.646944444444, lng: 120.53305555556}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 23.647031784058, lng: 120.53336334229}
+				];
+
+	loc_map[5] = [
+		];
+
+		loc_arr[6] = [
+						{lat: 23.647222222222, lng: 120.53333333333}
+				];
+
+	loc_map[6] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_111644'), {
+			zoom: 17,
+			center: {lat: 23.646944444444, lng: 120.53333333333},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_113560'), {
+			zoom: 17,
+			center: {lat: 23.647974014282, lng: 120.53350830078},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_118827'), {
+			zoom: 17,
+			center: {lat: 23.647413253784, lng: 120.53345489502},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_119635'), {
+			zoom: 17,
+			center: {lat: 23.647127151489, lng: 120.53340911865},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_121448'), {
+			zoom: 17,
+			center: {lat: 23.646944444444, lng: 120.53305555556},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_121806'), {
+			zoom: 17,
+			center: {lat: 23.647031784058, lng: 120.53336334229},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_123626'), {
+			zoom: 17,
+			center: {lat: 23.647222222222, lng: 120.53333333333},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

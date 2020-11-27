@@ -1,0 +1,1412 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=31753&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="白糯玉米" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=31753',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/31753.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																白糯玉米							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：友展農產								<br>
+								產出日期：2019-01-02 10:41:30																<br>
+								有效日期：2019-01-11																																									<br>
+								產出數量：1000公斤									 (1車)																	<br>
+								剩餘數量：900公斤									 (0.9車)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D31753" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D31753"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#31750" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#31752" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[覆土]							
+							
+							
+							</a>
+													<a href="#31753" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#43676" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#44279" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#44283" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#44289" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#84934" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白糯玉米<BR>[整地]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="31750" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [自拍保證來源]</h2>
+					<div class="history_time">2019-01-02 10:36:35 - 2019-01-02 10:36:35</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/514/2019/31750.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/514/2019/31750.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_31750" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#31752" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[覆土]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="31752" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [覆土]</h2>
+					<div class="history_time">2019-01-02 10:37:24 - 2019-01-02 10:38:18</div>
+					<br>
+
+										<video id="player_31752" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/514_20190102103724.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_31752" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#31750" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[自拍保證來源]						</a>
+						
+												<a href="#31753" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_31752" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_31752"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="31753" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [自拍保證輸出]</h2>
+					<div class="history_time">2019-01-02 10:41:30 - 2019-01-02 10:41:30</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/514/2019/31753.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/514/2019/31753.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_31753" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#31752" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[覆土]						</a>
+						
+												<a href="#43676" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="43676" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [大自然環境]</h2>
+					<div class="history_time">2019-05-20 11:17:00 - 2019-05-20 11:17:28</div>
+					<br>
+
+										
+										<video id="player_43676" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/957/514/514_20190520111649235.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_43676" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#31753" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[自拍保證輸出]						</a>
+						
+												<a href="#44279" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+					</div>
+
+										<div id="map_43676" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_43676"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="44279" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [大自然環境]</h2>
+					<div class="history_time">2019-05-26 06:19:24 - 2019-05-26 06:29:50</div>
+					<br>
+
+										<video id="player_44279" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/514_20190526061924.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_44279" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#43676" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+												<a href="#44283" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+					</div>
+
+										<div id="map_44279" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_44279"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="44283" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [大自然環境]</h2>
+					<div class="history_time">2019-05-26 06:39:52 - 2019-05-26 06:44:58</div>
+					<br>
+
+										
+										<video id="player_44283" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/957/514/514_20190526063946533.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_44283" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#44279" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+												<a href="#44289" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+					</div>
+
+										<div id="map_44283" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_44283"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="44289" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [大自然環境]</h2>
+					<div class="history_time">2019-05-26 06:49:34 - 2019-05-26 07:00:06</div>
+					<br>
+
+										
+										<video id="player_44289" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/957/514/514_20190526064927125.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_44289" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#44283" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+												<a href="#84934" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[整地]						</a>
+						
+					</div>
+
+										<div id="map_44289" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_44289"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="84934" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白糯玉米 [整地]</h2>
+					<div class="history_time">2020-05-15 09:36:47 - 2020-05-15 09:37:16</div>
+					<br>
+
+										<video id="player_84934" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/514_20200515093647.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_84934" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#44289" class="btn btn-dark btn-lg">
+							白糯玉米 <br>[大自然環境]						</a>
+						
+						
+					</div>
+
+										<div id="map_84934" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_84934"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_31752', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_43676', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_44279', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_44283', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_44289', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_84934', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [31752,44279,44283,44289,84934];
+	var loc_map = new Array(5);
+	var loc_arr = new Array(5);
+	var map_arr = new Array(5);
+	var marker_arr = new Array(5);
+
+		loc_arr[0] = [
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.8925, lng: 120.68111111111},
+						{lat: 23.8925, lng: 120.68083333333},
+						{lat: 23.8925, lng: 120.68055555556},
+						{lat: 23.8925, lng: 120.68027777778},
+						{lat: 23.892777777778, lng: 120.68027777778},
+						{lat: 23.892777777778, lng: 120.68},
+						{lat: 23.892777777778, lng: 120.67972222222},
+						{lat: 23.892777777778, lng: 120.67944444444},
+						{lat: 23.892777777778, lng: 120.67916666667},
+						{lat: 23.892777777778, lng: 120.67888888889},
+						{lat: 23.893055555556, lng: 120.67888888889},
+						{lat: 23.893055555556, lng: 120.67861111111},
+						{lat: 23.893055555556, lng: 120.67833333333},
+						{lat: 23.893055555556, lng: 120.67805555556},
+						{lat: 23.893055555556, lng: 120.67777777778},
+						{lat: 23.893055555556, lng: 120.6775},
+						{lat: 23.893333333333, lng: 120.6775},
+						{lat: 23.893333333333, lng: 120.67722222222},
+						{lat: 23.893333333333, lng: 120.6775},
+						{lat: 23.893611111111, lng: 120.6775},
+						{lat: 23.893611111111, lng: 120.67777777778},
+						{lat: 23.893888888889, lng: 120.67777777778},
+						{lat: 23.893888888889, lng: 120.67805555556},
+						{lat: 23.894166666667, lng: 120.67805555556},
+						{lat: 23.894166666667, lng: 120.67833333333},
+						{lat: 23.894444444444, lng: 120.67833333333},
+						{lat: 23.894444444444, lng: 120.67861111111},
+						{lat: 23.894722222222, lng: 120.67861111111},
+						{lat: 23.894722222222, lng: 120.67888888889},
+						{lat: 23.895, lng: 120.67888888889},
+						{lat: 23.895277777778, lng: 120.67888888889}
+				];
+
+	loc_map[1] = [
+	{sec: 2, index: 2},
+{sec: 3, index: 3},
+{sec: 4, index: 4},
+{sec: 5, index: 6},
+{sec: 6, index: 7},
+{sec: 7, index: 8},
+{sec: 8, index: 9},
+{sec: 9, index: 10},
+{sec: 10, index: 12},
+{sec: 11, index: 13},
+{sec: 12, index: 14},
+{sec: 13, index: 15},
+{sec: 14, index: 16},
+{sec: 15, index: 17},
+{sec: 16, index: 20},
+{sec: 17, index: 22},
+{sec: 18, index: 24},
+{sec: 19, index: 27},
+{sec: 20, index: 28},
+{sec: 21, index: 30}	];
+
+		loc_arr[2] = [
+						{lat: 23.895036697388, lng: 120.67630004883},
+						{lat: 23.895015716553, lng: 120.67624664307},
+						{lat: 23.894998550415, lng: 120.6761932373},
+						{lat: 23.894983291626, lng: 120.67613983154},
+						{lat: 23.894969940186, lng: 120.67607879639},
+						{lat: 23.894956588745, lng: 120.67602539062},
+						{lat: 23.894931793213, lng: 120.67597198486},
+						{lat: 23.894914627075, lng: 120.67591094971},
+						{lat: 23.894903182983, lng: 120.67585754395},
+						{lat: 23.894903182983, lng: 120.67579650879},
+						{lat: 23.894908905029, lng: 120.67574310303},
+						{lat: 23.894912719727, lng: 120.67568969727},
+						{lat: 23.894920349121, lng: 120.67562103271},
+						{lat: 23.894958496094, lng: 120.67556762695},
+						{lat: 23.89496421814, lng: 120.67551422119},
+						{lat: 23.894947052002, lng: 120.67545318604},
+						{lat: 23.894945144653, lng: 120.67539978027},
+						{lat: 23.894933700562, lng: 120.67534637451},
+						{lat: 23.894918441772, lng: 120.67528533936},
+						{lat: 23.894903182983, lng: 120.6752243042},
+						{lat: 23.894878387451, lng: 120.67517089844},
+						{lat: 23.894876480103, lng: 120.67511749268},
+						{lat: 23.894863128662, lng: 120.67506408691},
+						{lat: 23.894849777222, lng: 120.67500305176},
+						{lat: 23.894832611084, lng: 120.674949646},
+						{lat: 23.894828796387, lng: 120.67489624023},
+						{lat: 23.894817352295, lng: 120.67483520508},
+						{lat: 23.894804000854, lng: 120.67478179932},
+						{lat: 23.894790649414, lng: 120.67472839355},
+						{lat: 23.894784927368, lng: 120.6746673584},
+						{lat: 23.894737243652, lng: 120.67462158203},
+						{lat: 23.894708633423, lng: 120.67457580566},
+						{lat: 23.894664764404, lng: 120.67454528809},
+						{lat: 23.894626617432, lng: 120.67450714111},
+						{lat: 23.894567489624, lng: 120.67447662354},
+						{lat: 23.894512176514, lng: 120.67444610596},
+						{lat: 23.894468307495, lng: 120.67442321777},
+						{lat: 23.894422531128, lng: 120.67441558838},
+						{lat: 23.894414901733, lng: 120.67447662354},
+						{lat: 23.894426345825, lng: 120.6745300293},
+						{lat: 23.89443397522, lng: 120.67459869385},
+						{lat: 23.894437789917, lng: 120.674659729},
+						{lat: 23.89444732666, lng: 120.67471313477},
+						{lat: 23.894462585449, lng: 120.67476654053},
+						{lat: 23.894462585449, lng: 120.67481994629},
+						{lat: 23.894468307495, lng: 120.67488861084},
+						{lat: 23.894464492798, lng: 120.6749420166},
+						{lat: 23.894464492798, lng: 120.67499542236},
+						{lat: 23.894460678101, lng: 120.67507171631},
+						{lat: 23.894479751587, lng: 120.67514038086},
+						{lat: 23.894477844238, lng: 120.67520141602},
+						{lat: 23.894481658936, lng: 120.67525482178},
+						{lat: 23.894483566284, lng: 120.67531585693},
+						{lat: 23.894485473633, lng: 120.67537689209}
+				];
+
+	loc_map[2] = [
+	{sec: 1, index: 1},
+{sec: 2, index: 4},
+{sec: 3, index: 5},
+{sec: 4, index: 7},
+{sec: 5, index: 9},
+{sec: 6, index: 11},
+{sec: 7, index: 13},
+{sec: 8, index: 15},
+{sec: 9, index: 17},
+{sec: 10, index: 18},
+{sec: 11, index: 20},
+{sec: 12, index: 22},
+{sec: 13, index: 25},
+{sec: 14, index: 26},
+{sec: 15, index: 28},
+{sec: 16, index: 29},
+{sec: 17, index: 31},
+{sec: 18, index: 33},
+{sec: 19, index: 35},
+{sec: 20, index: 37},
+{sec: 21, index: 38},
+{sec: 22, index: 40},
+{sec: 23, index: 41},
+{sec: 24, index: 43},
+{sec: 25, index: 45},
+{sec: 26, index: 46},
+{sec: 27, index: 48},
+{sec: 28, index: 49},
+{sec: 29, index: 51},
+{sec: 30, index: 53}	];
+
+		loc_arr[3] = [
+						{lat: 23.89416885376, lng: 120.67632293701},
+						{lat: 23.894128799438, lng: 120.6763458252},
+						{lat: 23.894081115723, lng: 120.67636871338},
+						{lat: 23.894033432007, lng: 120.67637634277},
+						{lat: 23.893983840942, lng: 120.67638397217},
+						{lat: 23.893926620483, lng: 120.67638397217},
+						{lat: 23.893873214722, lng: 120.67637634277},
+						{lat: 23.893817901611, lng: 120.67637634277},
+						{lat: 23.893772125244, lng: 120.67636871338},
+						{lat: 23.893732070923, lng: 120.6763458252},
+						{lat: 23.893690109253, lng: 120.67632293701},
+						{lat: 23.89365196228, lng: 120.67629241943},
+						{lat: 23.893615722656, lng: 120.67626190186},
+						{lat: 23.893577575684, lng: 120.67623138428},
+						{lat: 23.893547058105, lng: 120.6761932373},
+						{lat: 23.893518447876, lng: 120.67614746094},
+						{lat: 23.893487930298, lng: 120.67608642578},
+						{lat: 23.89345741272, lng: 120.67604827881},
+						{lat: 23.893423080444, lng: 120.67599487305},
+						{lat: 23.893390655518, lng: 120.67594909668},
+						{lat: 23.893360137939, lng: 120.67590332031},
+						{lat: 23.89333152771, lng: 120.67585754395},
+						{lat: 23.893306732178, lng: 120.67581176758},
+						{lat: 23.893278121948, lng: 120.67577362061},
+						{lat: 23.893249511719, lng: 120.67573547363},
+						{lat: 23.893218994141, lng: 120.67568969727},
+						{lat: 23.893184661865, lng: 120.6756362915},
+						{lat: 23.893146514893, lng: 120.67557525635},
+						{lat: 23.893117904663, lng: 120.67552185059},
+						{lat: 23.893098831177, lng: 120.67547607422},
+						{lat: 23.893058776855, lng: 120.67543029785},
+						{lat: 23.893030166626, lng: 120.67538452148},
+						{lat: 23.892993927002, lng: 120.67534637451},
+						{lat: 23.892957687378, lng: 120.67529296875},
+						{lat: 23.892921447754, lng: 120.67526245117},
+						{lat: 23.89289855957, lng: 120.6752166748},
+						{lat: 23.892868041992, lng: 120.67517089844},
+						{lat: 23.892837524414, lng: 120.67512512207},
+						{lat: 23.892807006836, lng: 120.6750793457},
+						{lat: 23.892782211304, lng: 120.67503356934},
+						{lat: 23.892761230469, lng: 120.67498779297},
+						{lat: 23.892726898193, lng: 120.67493438721},
+						{lat: 23.892688751221, lng: 120.67488861084},
+						{lat: 23.892635345459, lng: 120.67485809326},
+						{lat: 23.892581939697, lng: 120.67483520508},
+						{lat: 23.892532348633, lng: 120.67482757568},
+						{lat: 23.892486572266, lng: 120.67483520508},
+						{lat: 23.892427444458, lng: 120.67486572266},
+						{lat: 23.892391204834, lng: 120.67490386963},
+						{lat: 23.892351150513, lng: 120.67497253418},
+						{lat: 23.892328262329, lng: 120.67502593994},
+						{lat: 23.892333984375, lng: 120.6750793457},
+						{lat: 23.89235496521, lng: 120.67514801025},
+						{lat: 23.892374038696, lng: 120.67520141602},
+						{lat: 23.892398834229, lng: 120.67526245117},
+						{lat: 23.892425537109, lng: 120.67530822754},
+						{lat: 23.892442703247, lng: 120.67535400391},
+						{lat: 23.892467498779, lng: 120.67539978027},
+						{lat: 23.892486572266, lng: 120.67545318604},
+						{lat: 23.892505645752, lng: 120.6754989624},
+						{lat: 23.892526626587, lng: 120.67555999756},
+						{lat: 23.892547607422, lng: 120.67561340332},
+						{lat: 23.892576217651, lng: 120.67567443848},
+						{lat: 23.892602920532, lng: 120.67573547363},
+						{lat: 23.892616271973, lng: 120.67579650879},
+						{lat: 23.892652511597, lng: 120.67585754395},
+						{lat: 23.892684936523, lng: 120.67591094971},
+						{lat: 23.892705917358, lng: 120.67596435547},
+						{lat: 23.892723083496, lng: 120.67601013184},
+						{lat: 23.892755508423, lng: 120.6760635376},
+						{lat: 23.892772674561, lng: 120.67610931396},
+						{lat: 23.892795562744, lng: 120.67615509033},
+						{lat: 23.892818450928, lng: 120.67620849609},
+						{lat: 23.89284324646, lng: 120.67625427246},
+						{lat: 23.892866134644, lng: 120.67630004883},
+						{lat: 23.89288520813, lng: 120.67635345459},
+						{lat: 23.892910003662, lng: 120.67639923096},
+						{lat: 23.892942428589, lng: 120.67644500732},
+						{lat: 23.89296913147, lng: 120.67649078369},
+						{lat: 23.89296913147, lng: 120.67655181885},
+						{lat: 23.893005371094, lng: 120.676612854},
+						{lat: 23.893022537231, lng: 120.67665863037},
+						{lat: 23.893032073975, lng: 120.67671203613},
+						{lat: 23.893051147461, lng: 120.6767578125},
+						{lat: 23.893081665039, lng: 120.67680358887},
+						{lat: 23.893114089966, lng: 120.67687225342},
+						{lat: 23.893133163452, lng: 120.67691802979},
+						{lat: 23.89315032959, lng: 120.67696380615},
+						{lat: 23.893184661865, lng: 120.6770324707},
+						{lat: 23.893203735352, lng: 120.67709350586},
+						{lat: 23.893222808838, lng: 120.67713928223},
+						{lat: 23.893236160278, lng: 120.67719268799},
+						{lat: 23.89324760437, lng: 120.67724609375},
+						{lat: 23.893251419067, lng: 120.6773223877},
+						{lat: 23.893274307251, lng: 120.67736816406},
+						{lat: 23.893274307251, lng: 120.67743682861},
+						{lat: 23.893281936646, lng: 120.67749786377},
+						{lat: 23.893283843994, lng: 120.67755126953},
+						{lat: 23.893278121948, lng: 120.67760467529},
+						{lat: 23.893272399902, lng: 120.67766571045},
+						{lat: 23.893251419067, lng: 120.677734375},
+						{lat: 23.893238067627, lng: 120.67781066895},
+						{lat: 23.893224716187, lng: 120.6778793335},
+						{lat: 23.893215179443, lng: 120.67794036865},
+						{lat: 23.893213272095, lng: 120.67799377441},
+						{lat: 23.893198013306, lng: 120.67805480957},
+						{lat: 23.89319229126, lng: 120.67810821533},
+						{lat: 23.893175125122, lng: 120.67818450928},
+						{lat: 23.893173217773, lng: 120.67825317383},
+						{lat: 23.893159866333, lng: 120.67831420898},
+						{lat: 23.893148422241, lng: 120.67837524414},
+						{lat: 23.893144607544, lng: 120.6784286499}
+				];
+
+	loc_map[3] = [
+	{sec: 1, index: 1},
+{sec: 2, index: 2},
+{sec: 3, index: 3},
+{sec: 4, index: 5},
+{sec: 5, index: 7},
+{sec: 6, index: 9},
+{sec: 7, index: 11},
+{sec: 8, index: 13},
+{sec: 9, index: 15},
+{sec: 10, index: 17},
+{sec: 11, index: 19},
+{sec: 12, index: 20},
+{sec: 13, index: 22},
+{sec: 14, index: 24},
+{sec: 15, index: 26},
+{sec: 16, index: 28},
+{sec: 17, index: 29},
+{sec: 18, index: 31},
+{sec: 19, index: 33},
+{sec: 21, index: 35},
+{sec: 22, index: 36},
+{sec: 23, index: 38},
+{sec: 24, index: 40},
+{sec: 25, index: 42},
+{sec: 26, index: 44},
+{sec: 27, index: 46},
+{sec: 28, index: 48},
+{sec: 29, index: 50},
+{sec: 30, index: 52},
+{sec: 31, index: 54},
+{sec: 32, index: 55},
+{sec: 33, index: 57},
+{sec: 34, index: 59},
+{sec: 35, index: 61},
+{sec: 36, index: 62},
+{sec: 37, index: 64},
+{sec: 38, index: 66},
+{sec: 39, index: 68},
+{sec: 40, index: 70},
+{sec: 41, index: 72},
+{sec: 42, index: 74},
+{sec: 43, index: 76},
+{sec: 44, index: 78},
+{sec: 45, index: 80},
+{sec: 46, index: 81},
+{sec: 47, index: 83},
+{sec: 48, index: 85},
+{sec: 49, index: 87},
+{sec: 50, index: 89},
+{sec: 51, index: 91},
+{sec: 52, index: 93},
+{sec: 53, index: 95},
+{sec: 54, index: 96},
+{sec: 55, index: 98},
+{sec: 56, index: 100},
+{sec: 57, index: 101},
+{sec: 58, index: 103},
+{sec: 59, index: 104},
+{sec: 60, index: 106},
+{sec: 61, index: 108},
+{sec: 62, index: 109},
+{sec: 63, index: 111}	];
+
+		loc_arr[4] = [
+						{lat: 23.973888888889, lng: 120.97277777778}
+				];
+
+	loc_map[4] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+								{lat: 23.904444444444, lng: 120.68416666667},				
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_31752'), {
+			zoom: 17,
+			center: {lat: 23.904444444444, lng: 120.68416666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 23.8925, lng: 120.68111111111},				
+								{lat: 23.8925, lng: 120.68083333333},				
+								{lat: 23.8925, lng: 120.68055555556},				
+								{lat: 23.8925, lng: 120.68027777778},				
+								{lat: 23.892777777778, lng: 120.68027777778},				
+								{lat: 23.892777777778, lng: 120.68},				
+								{lat: 23.892777777778, lng: 120.67972222222},				
+								{lat: 23.892777777778, lng: 120.67944444444},				
+								{lat: 23.892777777778, lng: 120.67916666667},				
+								{lat: 23.892777777778, lng: 120.67888888889},				
+								{lat: 23.893055555556, lng: 120.67888888889},				
+								{lat: 23.893055555556, lng: 120.67861111111},				
+								{lat: 23.893055555556, lng: 120.67833333333},				
+								{lat: 23.893055555556, lng: 120.67805555556},				
+								{lat: 23.893055555556, lng: 120.67777777778},				
+								{lat: 23.893055555556, lng: 120.6775},				
+								{lat: 23.893333333333, lng: 120.6775},				
+								{lat: 23.893333333333, lng: 120.67722222222},				
+								{lat: 23.893333333333, lng: 120.6775},				
+								{lat: 23.893611111111, lng: 120.6775},				
+								{lat: 23.893611111111, lng: 120.67777777778},				
+								{lat: 23.893888888889, lng: 120.67777777778},				
+								{lat: 23.893888888889, lng: 120.67805555556},				
+								{lat: 23.894166666667, lng: 120.67805555556},				
+								{lat: 23.894166666667, lng: 120.67833333333},				
+								{lat: 23.894444444444, lng: 120.67833333333},				
+								{lat: 23.894444444444, lng: 120.67861111111},				
+								{lat: 23.894722222222, lng: 120.67861111111},				
+								{lat: 23.894722222222, lng: 120.67888888889},				
+								{lat: 23.895, lng: 120.67888888889},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_44279'), {
+			zoom: 17,
+			center: {lat: 23.8925, lng: 120.68111111111},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+								{lat: 23.895036697388, lng: 120.67630004883},				
+								{lat: 23.895015716553, lng: 120.67624664307},				
+								{lat: 23.894998550415, lng: 120.6761932373},				
+								{lat: 23.894983291626, lng: 120.67613983154},				
+								{lat: 23.894969940186, lng: 120.67607879639},				
+								{lat: 23.894956588745, lng: 120.67602539062},				
+								{lat: 23.894931793213, lng: 120.67597198486},				
+								{lat: 23.894914627075, lng: 120.67591094971},				
+								{lat: 23.894903182983, lng: 120.67585754395},				
+								{lat: 23.894903182983, lng: 120.67579650879},				
+								{lat: 23.894908905029, lng: 120.67574310303},				
+								{lat: 23.894912719727, lng: 120.67568969727},				
+								{lat: 23.894920349121, lng: 120.67562103271},				
+								{lat: 23.894958496094, lng: 120.67556762695},				
+								{lat: 23.89496421814, lng: 120.67551422119},				
+								{lat: 23.894947052002, lng: 120.67545318604},				
+								{lat: 23.894945144653, lng: 120.67539978027},				
+								{lat: 23.894933700562, lng: 120.67534637451},				
+								{lat: 23.894918441772, lng: 120.67528533936},				
+								{lat: 23.894903182983, lng: 120.6752243042},				
+								{lat: 23.894878387451, lng: 120.67517089844},				
+								{lat: 23.894876480103, lng: 120.67511749268},				
+								{lat: 23.894863128662, lng: 120.67506408691},				
+								{lat: 23.894849777222, lng: 120.67500305176},				
+								{lat: 23.894832611084, lng: 120.674949646},				
+								{lat: 23.894828796387, lng: 120.67489624023},				
+								{lat: 23.894817352295, lng: 120.67483520508},				
+								{lat: 23.894804000854, lng: 120.67478179932},				
+								{lat: 23.894790649414, lng: 120.67472839355},				
+								{lat: 23.894784927368, lng: 120.6746673584},				
+								{lat: 23.894737243652, lng: 120.67462158203},				
+								{lat: 23.894708633423, lng: 120.67457580566},				
+								{lat: 23.894664764404, lng: 120.67454528809},				
+								{lat: 23.894626617432, lng: 120.67450714111},				
+								{lat: 23.894567489624, lng: 120.67447662354},				
+								{lat: 23.894512176514, lng: 120.67444610596},				
+								{lat: 23.894468307495, lng: 120.67442321777},				
+								{lat: 23.894422531128, lng: 120.67441558838},				
+								{lat: 23.894414901733, lng: 120.67447662354},				
+								{lat: 23.894426345825, lng: 120.6745300293},				
+								{lat: 23.89443397522, lng: 120.67459869385},				
+								{lat: 23.894437789917, lng: 120.674659729},				
+								{lat: 23.89444732666, lng: 120.67471313477},				
+								{lat: 23.894462585449, lng: 120.67476654053},				
+								{lat: 23.894462585449, lng: 120.67481994629},				
+								{lat: 23.894468307495, lng: 120.67488861084},				
+								{lat: 23.894464492798, lng: 120.6749420166},				
+								{lat: 23.894464492798, lng: 120.67499542236},				
+								{lat: 23.894460678101, lng: 120.67507171631},				
+								{lat: 23.894479751587, lng: 120.67514038086},				
+								{lat: 23.894477844238, lng: 120.67520141602},				
+								{lat: 23.894481658936, lng: 120.67525482178},				
+								{lat: 23.894483566284, lng: 120.67531585693},				
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_44283'), {
+			zoom: 17,
+			center: {lat: 23.895036697388, lng: 120.67630004883},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+								{lat: 23.89416885376, lng: 120.67632293701},				
+								{lat: 23.894128799438, lng: 120.6763458252},				
+								{lat: 23.894081115723, lng: 120.67636871338},				
+								{lat: 23.894033432007, lng: 120.67637634277},				
+								{lat: 23.893983840942, lng: 120.67638397217},				
+								{lat: 23.893926620483, lng: 120.67638397217},				
+								{lat: 23.893873214722, lng: 120.67637634277},				
+								{lat: 23.893817901611, lng: 120.67637634277},				
+								{lat: 23.893772125244, lng: 120.67636871338},				
+								{lat: 23.893732070923, lng: 120.6763458252},				
+								{lat: 23.893690109253, lng: 120.67632293701},				
+								{lat: 23.89365196228, lng: 120.67629241943},				
+								{lat: 23.893615722656, lng: 120.67626190186},				
+								{lat: 23.893577575684, lng: 120.67623138428},				
+								{lat: 23.893547058105, lng: 120.6761932373},				
+								{lat: 23.893518447876, lng: 120.67614746094},				
+								{lat: 23.893487930298, lng: 120.67608642578},				
+								{lat: 23.89345741272, lng: 120.67604827881},				
+								{lat: 23.893423080444, lng: 120.67599487305},				
+								{lat: 23.893390655518, lng: 120.67594909668},				
+								{lat: 23.893360137939, lng: 120.67590332031},				
+								{lat: 23.89333152771, lng: 120.67585754395},				
+								{lat: 23.893306732178, lng: 120.67581176758},				
+								{lat: 23.893278121948, lng: 120.67577362061},				
+								{lat: 23.893249511719, lng: 120.67573547363},				
+								{lat: 23.893218994141, lng: 120.67568969727},				
+								{lat: 23.893184661865, lng: 120.6756362915},				
+								{lat: 23.893146514893, lng: 120.67557525635},				
+								{lat: 23.893117904663, lng: 120.67552185059},				
+								{lat: 23.893098831177, lng: 120.67547607422},				
+								{lat: 23.893058776855, lng: 120.67543029785},				
+								{lat: 23.893030166626, lng: 120.67538452148},				
+								{lat: 23.892993927002, lng: 120.67534637451},				
+								{lat: 23.892957687378, lng: 120.67529296875},				
+								{lat: 23.892921447754, lng: 120.67526245117},				
+								{lat: 23.89289855957, lng: 120.6752166748},				
+								{lat: 23.892868041992, lng: 120.67517089844},				
+								{lat: 23.892837524414, lng: 120.67512512207},				
+								{lat: 23.892807006836, lng: 120.6750793457},				
+								{lat: 23.892782211304, lng: 120.67503356934},				
+								{lat: 23.892761230469, lng: 120.67498779297},				
+								{lat: 23.892726898193, lng: 120.67493438721},				
+								{lat: 23.892688751221, lng: 120.67488861084},				
+								{lat: 23.892635345459, lng: 120.67485809326},				
+								{lat: 23.892581939697, lng: 120.67483520508},				
+								{lat: 23.892532348633, lng: 120.67482757568},				
+								{lat: 23.892486572266, lng: 120.67483520508},				
+								{lat: 23.892427444458, lng: 120.67486572266},				
+								{lat: 23.892391204834, lng: 120.67490386963},				
+								{lat: 23.892351150513, lng: 120.67497253418},				
+								{lat: 23.892328262329, lng: 120.67502593994},				
+								{lat: 23.892333984375, lng: 120.6750793457},				
+								{lat: 23.89235496521, lng: 120.67514801025},				
+								{lat: 23.892374038696, lng: 120.67520141602},				
+								{lat: 23.892398834229, lng: 120.67526245117},				
+								{lat: 23.892425537109, lng: 120.67530822754},				
+								{lat: 23.892442703247, lng: 120.67535400391},				
+								{lat: 23.892467498779, lng: 120.67539978027},				
+								{lat: 23.892486572266, lng: 120.67545318604},				
+								{lat: 23.892505645752, lng: 120.6754989624},				
+								{lat: 23.892526626587, lng: 120.67555999756},				
+								{lat: 23.892547607422, lng: 120.67561340332},				
+								{lat: 23.892576217651, lng: 120.67567443848},				
+								{lat: 23.892602920532, lng: 120.67573547363},				
+								{lat: 23.892616271973, lng: 120.67579650879},				
+								{lat: 23.892652511597, lng: 120.67585754395},				
+								{lat: 23.892684936523, lng: 120.67591094971},				
+								{lat: 23.892705917358, lng: 120.67596435547},				
+								{lat: 23.892723083496, lng: 120.67601013184},				
+								{lat: 23.892755508423, lng: 120.6760635376},				
+								{lat: 23.892772674561, lng: 120.67610931396},				
+								{lat: 23.892795562744, lng: 120.67615509033},				
+								{lat: 23.892818450928, lng: 120.67620849609},				
+								{lat: 23.89284324646, lng: 120.67625427246},				
+								{lat: 23.892866134644, lng: 120.67630004883},				
+								{lat: 23.89288520813, lng: 120.67635345459},				
+								{lat: 23.892910003662, lng: 120.67639923096},				
+								{lat: 23.892942428589, lng: 120.67644500732},				
+								{lat: 23.89296913147, lng: 120.67649078369},				
+								{lat: 23.89296913147, lng: 120.67655181885},				
+								{lat: 23.893005371094, lng: 120.676612854},				
+								{lat: 23.893022537231, lng: 120.67665863037},				
+								{lat: 23.893032073975, lng: 120.67671203613},				
+								{lat: 23.893051147461, lng: 120.6767578125},				
+								{lat: 23.893081665039, lng: 120.67680358887},				
+								{lat: 23.893114089966, lng: 120.67687225342},				
+								{lat: 23.893133163452, lng: 120.67691802979},				
+								{lat: 23.89315032959, lng: 120.67696380615},				
+								{lat: 23.893184661865, lng: 120.6770324707},				
+								{lat: 23.893203735352, lng: 120.67709350586},				
+								{lat: 23.893222808838, lng: 120.67713928223},				
+								{lat: 23.893236160278, lng: 120.67719268799},				
+								{lat: 23.89324760437, lng: 120.67724609375},				
+								{lat: 23.893251419067, lng: 120.6773223877},				
+								{lat: 23.893274307251, lng: 120.67736816406},				
+								{lat: 23.893274307251, lng: 120.67743682861},				
+								{lat: 23.893281936646, lng: 120.67749786377},				
+								{lat: 23.893283843994, lng: 120.67755126953},				
+								{lat: 23.893278121948, lng: 120.67760467529},				
+								{lat: 23.893272399902, lng: 120.67766571045},				
+								{lat: 23.893251419067, lng: 120.677734375},				
+								{lat: 23.893238067627, lng: 120.67781066895},				
+								{lat: 23.893224716187, lng: 120.6778793335},				
+								{lat: 23.893215179443, lng: 120.67794036865},				
+								{lat: 23.893213272095, lng: 120.67799377441},				
+								{lat: 23.893198013306, lng: 120.67805480957},				
+								{lat: 23.89319229126, lng: 120.67810821533},				
+								{lat: 23.893175125122, lng: 120.67818450928},				
+								{lat: 23.893173217773, lng: 120.67825317383},				
+								{lat: 23.893159866333, lng: 120.67831420898},				
+								{lat: 23.893148422241, lng: 120.67837524414},				
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_44289'), {
+			zoom: 17,
+			center: {lat: 23.89416885376, lng: 120.67632293701},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_84934'), {
+			zoom: 17,
+			center: {lat: 23.973888888889, lng: 120.97277777778},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

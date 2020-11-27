@@ -1,0 +1,1829 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=4048&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="東北酸菜湯" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=4048',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/4048.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																東北酸菜湯							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：臺北展覽館								<br>
+								產出日期：2017-11-15 16:15:31																<br>
+								有效日期：2017-11-16																																									<br>
+								產出數量：1000																										<br>
+								剩餘數量：1000																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D4048" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D4048"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#4002" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#4003" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[採購]							
+							
+							
+							</a>
+													<a href="#4009" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[採購]							
+							
+							
+							</a>
+													<a href="#4016" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[素顏登場]							
+							
+							
+							</a>
+													<a href="#4017" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[素顏登場]							
+							
+							
+							</a>
+													<a href="#4018" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[素顏呈現]							
+							
+							
+							</a>
+													<a href="#4023" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[檢驗區管理]							
+							
+							
+							</a>
+													<a href="#4034" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[素顏呈現]							
+							
+							
+							</a>
+													<a href="#4036" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[素顏登場]							
+							
+							
+							</a>
+													<a href="#4039" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[登場]							
+							
+							
+							</a>
+													<a href="#4041" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[呈現]							
+							
+							
+							</a>
+													<a href="#4044" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[呈現]							
+							
+							
+							</a>
+													<a href="#4045" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[呈現]							
+							
+							
+							</a>
+													<a href="#4046" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[呈現]							
+							
+							
+							</a>
+													<a href="#4047" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[呈現]							
+							
+							
+							</a>
+													<a href="#4035" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[素顏登場]							
+							
+							
+							</a>
+													<a href="#4037" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[素顏呈現]							
+							
+							
+							</a>
+													<a href="#4038" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[呈現]							
+							
+							
+							</a>
+													<a href="#4040" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[登場]							
+							
+							
+							</a>
+													<a href="#4042" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[呈現]							
+							
+							
+							</a>
+													<a href="#4043" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[登場]							
+							
+							
+							</a>
+													<a href="#4048" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														東北酸菜湯<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="4002" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [自拍保證來源]</h2>
+					<div class="history_time">2017-11-14 06:41:34 - 2017-11-14 06:41:34</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1036/2017/4002.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1036/2017/4002.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4002" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#4003" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[採購]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4003" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [採購]</h2>
+					<div class="history_time">2017-11-14 06:43:05 - 2017-11-14 06:44:03</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_4003" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/10.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/10.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/11.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/11.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/12.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/12.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/13.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/13.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/14.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/14.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/15.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/15.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/16.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/16.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/17.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/17.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/18.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/18.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/19.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/19.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/20.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/20.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/21.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/21.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/22.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/22.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/23.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/23.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/24.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/24.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/25.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/25.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/26.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/26.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/27.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/27.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/28.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/28.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/29.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/29.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/3.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/30.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/30.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/31.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/31.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/32.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/32.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/33.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/33.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/34.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/34.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/35.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/35.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/36.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/36.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/37.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/37.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/38.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/38.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/39.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/39.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/4.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/4.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/40.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/40.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/41.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/41.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/42.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/42.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/43.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/43.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/5.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/5.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/6.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/6.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/7.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/7.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/8.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/8.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/9.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1036/2017/20171114144305/9.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_4003" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_4003"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4003" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4002" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[自拍保證來源]						</a>
+						
+												<a href="#4009" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[採購]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4009" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [採購]</h2>
+					<div class="history_time">2017-11-14 06:44:10 - 2017-11-14 07:53:53</div>
+					<br>
+
+										<video id="player_4009" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1036_20171114144410.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4009" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4003" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[採購]						</a>
+						
+												<a href="#4016" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+					</div>
+
+										<div id="map_4009" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_4009"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4016" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [素顏登場]</h2>
+					<div class="history_time">2017-11-14 09:34:57 - 2017-11-14 09:35:30</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4016" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f823fa73/vod.m3u8?b=1510623297&e=1510623330" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4016" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4009" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[採購]						</a>
+						
+												<a href="#4017" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4017" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [素顏登場]</h2>
+					<div class="history_time">2017-11-14 09:42:05 - 2017-11-14 09:42:27</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4017" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f823fa73/vod.m3u8?b=1510623725&e=1510623747" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4017" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4016" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+												<a href="#4018" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4018" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [素顏呈現]</h2>
+					<div class="history_time">2017-11-14 09:42:31 - 2017-11-14 09:42:53</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4018" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510623751&e=1510623773" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4018" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4017" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+												<a href="#4023" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[檢驗區管理]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4023" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [檢驗區管理]</h2>
+					<div class="history_time">2017-11-14 09:46:16 - 2017-11-14 10:23:26</div>
+					<br>
+
+										<video id="player_4023" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1036_20171114174616.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4023" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4018" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏呈現]						</a>
+						
+												<a href="#4034" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏呈現]						</a>
+						
+					</div>
+
+										<div id="map_4023" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_4023"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4034" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [素顏呈現]</h2>
+					<div class="history_time">2017-11-15 07:38:03 - 2017-11-15 07:39:36</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4034" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510702683&e=1510702776" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4034" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4023" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[檢驗區管理]						</a>
+						
+												<a href="#4036" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4036" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [素顏登場]</h2>
+					<div class="history_time">2017-11-15 07:43:44 - 2017-11-15 07:45:24</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4036" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f823fa73/vod.m3u8?b=1510703024&e=1510703124" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4036" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4034" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏呈現]						</a>
+						
+												<a href="#4039" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[登場]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4039" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [登場]</h2>
+					<div class="history_time">2017-11-15 07:58:03 - 2017-11-15 07:59:34</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4039" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f823fa73/vod.m3u8?b=1510703883&e=1510703974" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4039" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4036" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+												<a href="#4041" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4041" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [呈現]</h2>
+					<div class="history_time">2017-11-15 08:03:48 - 2017-11-15 08:05:21</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4041" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510704228&e=1510704321" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4041" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4039" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[登場]						</a>
+						
+												<a href="#4044" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4044" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [呈現]</h2>
+					<div class="history_time">2017-11-15 08:10:33 - 2017-11-15 08:11:05</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4044" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510704633&e=1510704665" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4044" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4041" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+												<a href="#4045" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4045" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [呈現]</h2>
+					<div class="history_time">2017-11-15 08:11:31 - 2017-11-15 08:11:36</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4045" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510704691&e=1510704696" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4045" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4044" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+												<a href="#4046" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4046" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [呈現]</h2>
+					<div class="history_time">2017-11-15 08:12:27 - 2017-11-15 08:12:30</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4046" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510704747&e=1510704750" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4046" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4045" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+												<a href="#4047" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4047" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [呈現]</h2>
+					<div class="history_time">2017-11-15 08:13:06 - 2017-11-15 08:13:16</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4047" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510704786&e=1510704796" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4047" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4046" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+												<a href="#4035" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4035" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [素顏登場]</h2>
+					<div class="history_time">2017-11-15 15:38:52 - 2017-11-15 15:39:39</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4035" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f823fa73/vod.m3u8?b=1510731532&e=1510731579" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4035" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4047" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+												<a href="#4037" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4037" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [素顏呈現]</h2>
+					<div class="history_time">2017-11-15 15:43:48 - 2017-11-15 15:45:26</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4037" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510731828&e=1510731926" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4037" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4035" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏登場]						</a>
+						
+												<a href="#4038" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4038" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [呈現]</h2>
+					<div class="history_time">2017-11-15 15:57:55 - 2017-11-15 15:59:29</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4038" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510732675&e=1510732769" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4038" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4037" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[素顏呈現]						</a>
+						
+												<a href="#4040" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[登場]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4040" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [登場]</h2>
+					<div class="history_time">2017-11-15 16:03:45 - 2017-11-15 16:05:13</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4040" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f823fa73/vod.m3u8?b=1510733025&e=1510733113" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4040" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4038" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+												<a href="#4042" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4042" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [呈現]</h2>
+					<div class="history_time">2017-11-15 16:08:39 - 2017-11-15 16:09:10</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4042" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f824075c/vod.m3u8?b=1510733319&e=1510733350" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4042" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4040" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[登場]						</a>
+						
+												<a href="#4043" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[登場]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4043" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [登場]</h2>
+					<div class="history_time">2017-11-15 16:10:33 - 2017-11-15 16:11:04</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_4043" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr5.8dfoods.com/cam00e0f823fa73/vod.m3u8?b=1510733433&e=1510733464" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4043" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4042" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[呈現]						</a>
+						
+												<a href="#4048" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="4048" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>東北酸菜湯 [自拍保證輸出]</h2>
+					<div class="history_time">2017-11-15 16:15:31 - 2017-11-15 16:15:31</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1036/2017/4048.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1036/2017/4048.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_4048" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#4043" class="btn btn-dark btn-lg">
+							東北酸菜湯 <br>[登場]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_4009', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4016').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4017').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4018').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			videojs('#player_4023', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4034').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4036').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4039').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4041').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4044').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4045').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4046').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4047').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4035').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4037').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4038').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4040').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4042').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_4043').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+	
+		jQuery(document).ready(function(){
+				var api_4003 = jQuery("#gallery_4003").unitegallery();
+		var first_item = api_4003.getItem(0);
+
+		load_gps_data('4003', '1036', first_item.urlImage, true);
+		api_4003.on("item_change", function(num, img_data){
+			load_gps_data('4003', '1036', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [4009,4023];
+	var loc_map = new Array(2);
+	var loc_arr = new Array(2);
+	var map_arr = new Array(2);
+	var marker_arr = new Array(2);
+
+		loc_arr[0] = [
+						{lat: 23.892777777778, lng: 120.68166666667}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.893055555556, lng: 120.68166666667},
+						{lat: 23.892777777778, lng: 120.68166666667},
+						{lat: 23.893055555556, lng: 120.68166666667},
+						{lat: 23.893055555556, lng: 120.68194444444},
+						{lat: 23.893333333333, lng: 120.68194444444},
+						{lat: 23.893611111111, lng: 120.68194444444},
+						{lat: 23.894166666667, lng: 120.68222222222},
+						{lat: 23.895, lng: 120.6825},
+						{lat: 23.895555555556, lng: 120.6825},
+						{lat: 23.896111111111, lng: 120.68277777778},
+						{lat: 23.896666666667, lng: 120.68305555556},
+						{lat: 23.8975, lng: 120.68333333333},
+						{lat: 23.898055555556, lng: 120.68333333333},
+						{lat: 23.898055555556, lng: 120.68361111111},
+						{lat: 23.898333333333, lng: 120.68361111111},
+						{lat: 23.898611111111, lng: 120.68388888889},
+						{lat: 23.898888888889, lng: 120.68444444444},
+						{lat: 23.899444444444, lng: 120.685},
+						{lat: 23.899722222222, lng: 120.68555555556},
+						{lat: 23.9, lng: 120.68611111111},
+						{lat: 23.900277777778, lng: 120.68666666667},
+						{lat: 23.900555555556, lng: 120.68722222222},
+						{lat: 23.900555555556, lng: 120.68777777778},
+						{lat: 23.900833333333, lng: 120.68833333333},
+						{lat: 23.901111111111, lng: 120.68888888889},
+						{lat: 23.901388888889, lng: 120.68944444444},
+						{lat: 23.901666666667, lng: 120.69},
+						{lat: 23.901944444444, lng: 120.69055555556},
+						{lat: 23.901944444444, lng: 120.69083333333},
+						{lat: 23.901944444444, lng: 120.69111111111},
+						{lat: 23.902222222222, lng: 120.69111111111},
+						{lat: 23.901944444444, lng: 120.69111111111},
+						{lat: 23.902222222222, lng: 120.69111111111},
+						{lat: 23.901944444444, lng: 120.69111111111},
+						{lat: 23.902222222222, lng: 120.69138888889},
+						{lat: 23.902777777778, lng: 120.69166666667},
+						{lat: 23.903333333333, lng: 120.69194444444},
+						{lat: 23.903611111111, lng: 120.69194444444},
+						{lat: 23.903611111111, lng: 120.69166666667},
+						{lat: 23.903333333333, lng: 120.69194444444},
+						{lat: 23.903611111111, lng: 120.69194444444},
+						{lat: 23.903611111111, lng: 120.69222222222},
+						{lat: 23.903333333333, lng: 120.69194444444},
+						{lat: 23.902777777778, lng: 120.69166666667},
+						{lat: 23.9025, lng: 120.69111111111},
+						{lat: 23.902222222222, lng: 120.69083333333},
+						{lat: 23.901944444444, lng: 120.69055555556},
+						{lat: 23.901666666667, lng: 120.69},
+						{lat: 23.901388888889, lng: 120.68944444444},
+						{lat: 23.901388888889, lng: 120.68888888889},
+						{lat: 23.901111111111, lng: 120.68861111111},
+						{lat: 23.900833333333, lng: 120.68805555556},
+						{lat: 23.900555555556, lng: 120.6875},
+						{lat: 23.900555555556, lng: 120.68694444444},
+						{lat: 23.900277777778, lng: 120.68638888889},
+						{lat: 23.9, lng: 120.68611111111},
+						{lat: 23.9, lng: 120.68583333333},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.901388888889, lng: 120.685},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.901388888889, lng: 120.685},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.9, lng: 120.68583333333},
+						{lat: 23.9, lng: 120.68611111111},
+						{lat: 23.9, lng: 120.68583333333},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.901388888889, lng: 120.685},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.901388888889, lng: 120.685},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.899444444444, lng: 120.68583333333},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.899444444444, lng: 120.68583333333},
+						{lat: 23.899722222222, lng: 120.68583333333},
+						{lat: 23.899722222222, lng: 120.68555555556},
+						{lat: 23.900277777778, lng: 120.68555555556},
+						{lat: 23.900833333333, lng: 120.68555555556},
+						{lat: 23.901388888889, lng: 120.68583333333},
+						{lat: 23.901944444444, lng: 120.68583333333},
+						{lat: 23.902222222222, lng: 120.68583333333},
+						{lat: 23.9025, lng: 120.68583333333},
+						{lat: 23.902777777778, lng: 120.68583333333},
+						{lat: 23.903333333333, lng: 120.68583333333},
+						{lat: 23.903611111111, lng: 120.68583333333},
+						{lat: 23.903888888889, lng: 120.68555555556},
+						{lat: 23.904166666667, lng: 120.68555555556},
+						{lat: 23.904444444444, lng: 120.68555555556},
+						{lat: 23.904722222222, lng: 120.68527777778},
+						{lat: 23.904722222222, lng: 120.685},
+						{lat: 23.904722222222, lng: 120.68444444444},
+						{lat: 23.904722222222, lng: 120.68416666667}
+				];
+
+	loc_map[1] = [
+	{sec: 8, index: 1},
+{sec: 10, index: 4},
+{sec: 11, index: 6},
+{sec: 12, index: 7},
+{sec: 13, index: 8},
+{sec: 14, index: 11},
+{sec: 16, index: 15},
+{sec: 17, index: 16},
+{sec: 18, index: 19},
+{sec: 19, index: 23},
+{sec: 20, index: 27},
+{sec: 21, index: 30},
+{sec: 22, index: 33},
+{sec: 23, index: 34},
+{sec: 24, index: 35},
+{sec: 25, index: 37},
+{sec: 27, index: 39},
+{sec: 28, index: 41},
+{sec: 37, index: 42},
+{sec: 38, index: 43},
+{sec: 39, index: 47},
+{sec: 40, index: 50},
+{sec: 41, index: 53},
+{sec: 42, index: 57},
+{sec: 63, index: 59},
+{sec: 64, index: 60},
+{sec: 68, index: 61},
+{sec: 74, index: 63},
+{sec: 75, index: 64},
+{sec: 82, index: 66},
+{sec: 111, index: 67},
+{sec: 118, index: 69},
+{sec: 128, index: 71},
+{sec: 131, index: 73},
+{sec: 136, index: 75},
+{sec: 137, index: 77},
+{sec: 138, index: 80},
+{sec: 141, index: 81},
+{sec: 142, index: 83},
+{sec: 143, index: 86},
+{sec: 144, index: 89}	];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_4009'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.893055555556, lng: 120.68166666667},				
+								{lat: 23.892777777778, lng: 120.68166666667},				
+								{lat: 23.893055555556, lng: 120.68166666667},				
+								{lat: 23.893055555556, lng: 120.68194444444},				
+								{lat: 23.893333333333, lng: 120.68194444444},				
+								{lat: 23.893611111111, lng: 120.68194444444},				
+								{lat: 23.894166666667, lng: 120.68222222222},				
+								{lat: 23.895, lng: 120.6825},				
+								{lat: 23.895555555556, lng: 120.6825},				
+								{lat: 23.896111111111, lng: 120.68277777778},				
+								{lat: 23.896666666667, lng: 120.68305555556},				
+								{lat: 23.8975, lng: 120.68333333333},				
+								{lat: 23.898055555556, lng: 120.68333333333},				
+								{lat: 23.898055555556, lng: 120.68361111111},				
+								{lat: 23.898333333333, lng: 120.68361111111},				
+								{lat: 23.898611111111, lng: 120.68388888889},				
+								{lat: 23.898888888889, lng: 120.68444444444},				
+								{lat: 23.899444444444, lng: 120.685},				
+								{lat: 23.899722222222, lng: 120.68555555556},				
+								{lat: 23.9, lng: 120.68611111111},				
+								{lat: 23.900277777778, lng: 120.68666666667},				
+								{lat: 23.900555555556, lng: 120.68722222222},				
+								{lat: 23.900555555556, lng: 120.68777777778},				
+								{lat: 23.900833333333, lng: 120.68833333333},				
+								{lat: 23.901111111111, lng: 120.68888888889},				
+								{lat: 23.901388888889, lng: 120.68944444444},				
+								{lat: 23.901666666667, lng: 120.69},				
+								{lat: 23.901944444444, lng: 120.69055555556},				
+								{lat: 23.901944444444, lng: 120.69083333333},				
+								{lat: 23.901944444444, lng: 120.69111111111},				
+								{lat: 23.902222222222, lng: 120.69111111111},				
+								{lat: 23.901944444444, lng: 120.69111111111},				
+								{lat: 23.902222222222, lng: 120.69111111111},				
+								{lat: 23.901944444444, lng: 120.69111111111},				
+								{lat: 23.902222222222, lng: 120.69138888889},				
+								{lat: 23.902777777778, lng: 120.69166666667},				
+								{lat: 23.903333333333, lng: 120.69194444444},				
+								{lat: 23.903611111111, lng: 120.69194444444},				
+								{lat: 23.903611111111, lng: 120.69166666667},				
+								{lat: 23.903333333333, lng: 120.69194444444},				
+								{lat: 23.903611111111, lng: 120.69194444444},				
+								{lat: 23.903611111111, lng: 120.69222222222},				
+								{lat: 23.903333333333, lng: 120.69194444444},				
+								{lat: 23.902777777778, lng: 120.69166666667},				
+								{lat: 23.9025, lng: 120.69111111111},				
+								{lat: 23.902222222222, lng: 120.69083333333},				
+								{lat: 23.901944444444, lng: 120.69055555556},				
+								{lat: 23.901666666667, lng: 120.69},				
+								{lat: 23.901388888889, lng: 120.68944444444},				
+								{lat: 23.901388888889, lng: 120.68888888889},				
+								{lat: 23.901111111111, lng: 120.68861111111},				
+								{lat: 23.900833333333, lng: 120.68805555556},				
+								{lat: 23.900555555556, lng: 120.6875},				
+								{lat: 23.900555555556, lng: 120.68694444444},				
+								{lat: 23.900277777778, lng: 120.68638888889},				
+								{lat: 23.9, lng: 120.68611111111},				
+								{lat: 23.9, lng: 120.68583333333},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.901388888889, lng: 120.685},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.901388888889, lng: 120.685},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.9, lng: 120.68583333333},				
+								{lat: 23.9, lng: 120.68611111111},				
+								{lat: 23.9, lng: 120.68583333333},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.901388888889, lng: 120.685},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.901388888889, lng: 120.685},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.899444444444, lng: 120.68583333333},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.899444444444, lng: 120.68583333333},				
+								{lat: 23.899722222222, lng: 120.68583333333},				
+								{lat: 23.899722222222, lng: 120.68555555556},				
+								{lat: 23.900277777778, lng: 120.68555555556},				
+								{lat: 23.900833333333, lng: 120.68555555556},				
+								{lat: 23.901388888889, lng: 120.68583333333},				
+								{lat: 23.901944444444, lng: 120.68583333333},				
+								{lat: 23.902222222222, lng: 120.68583333333},				
+								{lat: 23.9025, lng: 120.68583333333},				
+								{lat: 23.902777777778, lng: 120.68583333333},				
+								{lat: 23.903333333333, lng: 120.68583333333},				
+								{lat: 23.903611111111, lng: 120.68583333333},				
+								{lat: 23.903888888889, lng: 120.68555555556},				
+								{lat: 23.904166666667, lng: 120.68555555556},				
+								{lat: 23.904444444444, lng: 120.68555555556},				
+								{lat: 23.904722222222, lng: 120.68527777778},				
+								{lat: 23.904722222222, lng: 120.685},				
+								{lat: 23.904722222222, lng: 120.68444444444},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_4023'), {
+			zoom: 17,
+			center: {lat: 23.892777777778, lng: 120.68166666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

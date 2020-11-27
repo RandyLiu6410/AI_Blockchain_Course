@@ -1,0 +1,2930 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=102900&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="土雞高湯_董" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=102900',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																土雞高湯_董							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：左岸 test								<br>
+								產出日期：2020-07-14 11:28:57																<br>
+								有效日期：2020-07-14																																									<br>
+								產出數量：120人份									 (1鍋)																	<br>
+								剩餘數量：120人份									 (1鍋)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D102900" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D102900"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#102900" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														土雞高湯_董<BR>[冷卻包裝_預_董]							
+							
+							
+							</a>
+													<a href="#102767" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														水_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102801" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														水_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102815" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														水_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102845" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														水_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102868" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														水_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102768" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														雞骨_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102797" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														雞骨_董<BR>[出庫_進_董]							
+							
+							
+							</a>
+													<a href="#102802" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														雞骨_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102816" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														雞骨_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102847" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														雞骨_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102870" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														雞骨_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102769" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白甘蔗_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102792" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白甘蔗_董<BR>[冷凍_進_董]							
+							
+							
+							</a>
+													<a href="#102809" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白甘蔗_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102817" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白甘蔗_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102853" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白甘蔗_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102871" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														白甘蔗_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102770" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102789" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔_董<BR>[冷凍_進_董]							
+							
+							
+							</a>
+													<a href="#102811" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102818" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102854" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102880" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102785" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102808" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102828" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102857" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102876" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102786" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														西洋芹_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102793" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														西洋芹_董<BR>[冷凍_進_董]							
+							
+							
+							</a>
+													<a href="#102807" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														西洋芹_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102825" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														西洋芹_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102860" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														西洋芹_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102875" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														西洋芹_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102780" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														黑胡椒_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102798" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														黑胡椒_董<BR>[出庫_進_董]							
+							
+							
+							</a>
+													<a href="#102805" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														黑胡椒_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102823" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														黑胡椒_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102858" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														黑胡椒_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102874" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														黑胡椒_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102781" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														天然香料_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102799" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														天然香料_董<BR>[出庫_進_董]							
+							
+							
+							</a>
+													<a href="#102804" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														天然香料_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102821" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														天然香料_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102844" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														天然香料_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102873" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														天然香料_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102779" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蒜苗_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102794" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蒜苗_董<BR>[冷凍_進_董]							
+							
+							
+							</a>
+													<a href="#102806" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蒜苗_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102824" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蒜苗_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102859" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蒜苗_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102877" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														蒜苗_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+													<a href="#102778" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														玉米_董<BR>[進貨_預_董]							
+							
+							
+							</a>
+													<a href="#102795" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														玉米_董<BR>[冷凍_進_董]							
+							
+							
+							</a>
+													<a href="#102803" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														玉米_董<BR>[秤重_進_董]							
+							
+							
+							</a>
+													<a href="#102822" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														玉米_董<BR>[清洗_進_董]							
+							
+							
+							</a>
+													<a href="#102843" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														玉米_董<BR>[清蒸_進_董]							
+							
+							
+							</a>
+													<a href="#102872" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														玉米_董<BR>[濃縮_進_董]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="102900" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>土雞高湯_董 [冷卻包裝_預_董]</h2>
+					<div class="history_time">2020-07-14 11:28:33 - 2020-07-14 11:28:57</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:28:33					<br><br>
+					結束作業時間：2020-07-14 11:28:57					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=102767&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								水_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102768&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								雞骨_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102769&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								白甘蔗_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102770&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅蘿蔔_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102785&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								洋蔥_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102786&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								西洋芹_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102780&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								黑胡椒_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102781&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								天然香料_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102779&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								蒜苗_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+													<a href="portal.php?oid=102778&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								玉米_董								
+																(100公克)
+															<br>
+								[左岸 test]
+						</a>
+												</div>
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102900" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#102767" class="btn btn-dark btn-lg">
+							水_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102767" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>水_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:26 - 2020-07-14 10:57:55</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:26					<br><br>
+					結束作業時間：2020-07-14 10:57:55					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102767" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102900" class="btn btn-dark btn-lg">
+							土雞高湯_董 <br>[冷卻包裝_預_董]						</a>
+						
+												<a href="#102801" class="btn btn-dark btn-lg">
+							水_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102801" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>水_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:18 - 2020-07-14 11:09:14</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:18					<br><br>
+					結束作業時間：2020-07-14 11:09:14					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102801" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102767" class="btn btn-dark btn-lg">
+							水_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102815" class="btn btn-dark btn-lg">
+							水_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102815" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>水_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:12:55 - 2020-07-14 11:13:49</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:12:55					<br><br>
+					結束作業時間：2020-07-14 11:13:49					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102815" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102801" class="btn btn-dark btn-lg">
+							水_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102845" class="btn btn-dark btn-lg">
+							水_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102845" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>水_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:19:27 - 2020-07-14 11:20:32</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:19:27					<br><br>
+					結束作業時間：2020-07-14 11:20:32					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102845" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102815" class="btn btn-dark btn-lg">
+							水_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102868" class="btn btn-dark btn-lg">
+							水_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102868" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>水_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:17 - 2020-07-14 11:23:12</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:17					<br><br>
+					結束作業時間：2020-07-14 11:23:12					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102868" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102845" class="btn btn-dark btn-lg">
+							水_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102768" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102768" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>雞骨_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:28 - 2020-07-14 10:58:03</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:28					<br><br>
+					結束作業時間：2020-07-14 10:58:03					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102768" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102868" class="btn btn-dark btn-lg">
+							水_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102797" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[出庫_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102797" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>雞骨_董 [出庫_進_董]</h2>
+					<div class="history_time">2020-07-14 11:05:49 - 2020-07-14 11:05:58</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:05:49					<br><br>
+					結束作業時間：2020-07-14 11:05:58					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102797" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102768" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102802" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102802" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>雞骨_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:20 - 2020-07-14 11:09:52</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:20					<br><br>
+					結束作業時間：2020-07-14 11:09:52					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102802" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102797" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[出庫_進_董]						</a>
+						
+												<a href="#102816" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102816" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>雞骨_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:12:57 - 2020-07-14 11:13:56</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:12:57					<br><br>
+					結束作業時間：2020-07-14 11:13:56					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102816" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102802" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102847" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102847" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>雞骨_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:19:30 - 2020-07-14 11:19:35</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:19:30					<br><br>
+					結束作業時間：2020-07-14 11:19:35					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102847" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102816" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102870" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102870" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>雞骨_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:27 - 2020-07-14 11:23:24</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:27					<br><br>
+					結束作業時間：2020-07-14 11:23:24					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102870" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102847" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102769" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102769" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白甘蔗_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:30 - 2020-07-14 10:58:14</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:30					<br><br>
+					結束作業時間：2020-07-14 10:58:14					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102769" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102870" class="btn btn-dark btn-lg">
+							雞骨_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102792" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[冷凍_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102792" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白甘蔗_董 [冷凍_進_董]</h2>
+					<div class="history_time">2020-07-14 11:04:29 - 2020-07-14 11:05:01</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:04:29					<br><br>
+					結束作業時間：2020-07-14 11:05:01					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102792" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102769" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102809" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102809" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白甘蔗_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:45 - 2020-07-14 11:10:03</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:45					<br><br>
+					結束作業時間：2020-07-14 11:10:03					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102809" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102792" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[冷凍_進_董]						</a>
+						
+												<a href="#102817" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102817" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白甘蔗_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:12:59 - 2020-07-14 11:14:27</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:12:59					<br><br>
+					結束作業時間：2020-07-14 11:14:27					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102817" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102809" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102853" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102853" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白甘蔗_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:19:47 - 2020-07-14 11:20:56</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:19:47					<br><br>
+					結束作業時間：2020-07-14 11:20:56					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102853" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102817" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102871" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102871" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>白甘蔗_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:30 - 2020-07-14 11:24:19</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:30					<br><br>
+					結束作業時間：2020-07-14 11:24:19					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102871" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102853" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102770" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102770" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:29 - 2020-07-14 10:58:21</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:29					<br><br>
+					結束作業時間：2020-07-14 10:58:21					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102770" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102871" class="btn btn-dark btn-lg">
+							白甘蔗_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102789" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[冷凍_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102789" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔_董 [冷凍_進_董]</h2>
+					<div class="history_time">2020-07-14 11:04:13 - 2020-07-14 11:05:05</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:04:13					<br><br>
+					結束作業時間：2020-07-14 11:05:05					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102789" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102770" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102811" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102811" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:52 - 2020-07-14 11:10:37</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:52					<br><br>
+					結束作業時間：2020-07-14 11:10:37					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102811" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102789" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[冷凍_進_董]						</a>
+						
+												<a href="#102818" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102818" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:13:08 - 2020-07-14 11:15:14</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:13:08					<br><br>
+					結束作業時間：2020-07-14 11:15:14					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102818" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102811" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102854" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102854" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:19:51 - 2020-07-14 11:21:03</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:19:51					<br><br>
+					結束作業時間：2020-07-14 11:21:03					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102854" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102818" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102880" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102880" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:23:02 - 2020-07-14 11:23:28</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:23:02					<br><br>
+					結束作業時間：2020-07-14 11:23:28					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102880" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102854" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102785" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102785" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:31 - 2020-07-14 11:01:24</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:31					<br><br>
+					結束作業時間：2020-07-14 11:01:24					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102785" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102880" class="btn btn-dark btn-lg">
+							紅蘿蔔_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102808" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102808" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:41 - 2020-07-14 11:10:22</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:41					<br><br>
+					結束作業時間：2020-07-14 11:10:22					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102808" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102785" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102828" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102828" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:14:31 - 2020-07-14 11:15:05</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:14:31					<br><br>
+					結束作業時間：2020-07-14 11:15:05					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102828" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102808" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102857" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102857" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:20:03 - 2020-07-14 11:21:42</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:20:03					<br><br>
+					結束作業時間：2020-07-14 11:21:42					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102857" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102828" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102876" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102876" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:47 - 2020-07-14 11:23:56</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:47					<br><br>
+					結束作業時間：2020-07-14 11:23:56					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102876" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102857" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102786" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102786" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>西洋芹_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:32 - 2020-07-14 11:01:32</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:32					<br><br>
+					結束作業時間：2020-07-14 11:01:32					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102786" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102876" class="btn btn-dark btn-lg">
+							洋蔥_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102793" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[冷凍_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102793" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>西洋芹_董 [冷凍_進_董]</h2>
+					<div class="history_time">2020-07-14 11:04:33 - 2020-07-14 11:05:19</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:04:33					<br><br>
+					結束作業時間：2020-07-14 11:05:19					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102793" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102786" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102807" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102807" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>西洋芹_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:39 - 2020-07-14 11:11:19</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:39					<br><br>
+					結束作業時間：2020-07-14 11:11:19					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102807" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102793" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[冷凍_進_董]						</a>
+						
+												<a href="#102825" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102825" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>西洋芹_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:13:24 - 2020-07-14 11:14:03</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:13:24					<br><br>
+					結束作業時間：2020-07-14 11:14:03					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102825" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102807" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102860" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102860" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>西洋芹_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:20:11 - 2020-07-14 11:20:13</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:20:11					<br><br>
+					結束作業時間：2020-07-14 11:20:13					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102860" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102825" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102875" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102875" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>西洋芹_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:43 - 2020-07-14 11:24:01</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:43					<br><br>
+					結束作業時間：2020-07-14 11:24:01					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102875" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102860" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102780" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102780" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>黑胡椒_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:35 - 2020-07-14 11:01:10</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:35					<br><br>
+					結束作業時間：2020-07-14 11:01:10					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102780" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102875" class="btn btn-dark btn-lg">
+							西洋芹_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102798" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[出庫_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102798" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>黑胡椒_董 [出庫_進_董]</h2>
+					<div class="history_time">2020-07-14 11:06:10 - 2020-07-14 11:06:17</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:06:10					<br><br>
+					結束作業時間：2020-07-14 11:06:17					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102798" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102780" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102805" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102805" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>黑胡椒_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:35 - 2020-07-14 11:10:11</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:35					<br><br>
+					結束作業時間：2020-07-14 11:10:11					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102805" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102798" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[出庫_進_董]						</a>
+						
+												<a href="#102823" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102823" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>黑胡椒_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:13:20 - 2020-07-14 11:14:41</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:13:20					<br><br>
+					結束作業時間：2020-07-14 11:14:41					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102823" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102805" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102858" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102858" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>黑胡椒_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:20:06 - 2020-07-14 11:20:47</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:20:06					<br><br>
+					結束作業時間：2020-07-14 11:20:47					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102858" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102823" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102874" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102874" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>黑胡椒_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:40 - 2020-07-14 11:24:07</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:40					<br><br>
+					結束作業時間：2020-07-14 11:24:07					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102874" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102858" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102781" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102781" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>天然香料_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:36 - 2020-07-14 11:01:16</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:36					<br><br>
+					結束作業時間：2020-07-14 11:01:16					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102781" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102874" class="btn btn-dark btn-lg">
+							黑胡椒_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102799" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[出庫_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102799" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>天然香料_董 [出庫_進_董]</h2>
+					<div class="history_time">2020-07-14 11:06:11 - 2020-07-14 11:06:54</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:06:11					<br><br>
+					結束作業時間：2020-07-14 11:06:54					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102799" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102781" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102804" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102804" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>天然香料_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:34 - 2020-07-14 11:10:31</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:34					<br><br>
+					結束作業時間：2020-07-14 11:10:31					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102804" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102799" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[出庫_進_董]						</a>
+						
+												<a href="#102821" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102821" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>天然香料_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:13:16 - 2020-07-14 11:14:47</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:13:16					<br><br>
+					結束作業時間：2020-07-14 11:14:47					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102821" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102804" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102844" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102844" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>天然香料_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:19:24 - 2020-07-14 11:21:55</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:19:24					<br><br>
+					結束作業時間：2020-07-14 11:21:55					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102844" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102821" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102873" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102873" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>天然香料_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:37 - 2020-07-14 11:23:46</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:37					<br><br>
+					結束作業時間：2020-07-14 11:23:46					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102873" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102844" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102779" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102779" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蒜苗_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:37 - 2020-07-14 11:01:01</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:37					<br><br>
+					結束作業時間：2020-07-14 11:01:01					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102779" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102873" class="btn btn-dark btn-lg">
+							天然香料_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102794" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[冷凍_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102794" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蒜苗_董 [冷凍_進_董]</h2>
+					<div class="history_time">2020-07-14 11:04:36 - 2020-07-14 11:05:28</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:04:36					<br><br>
+					結束作業時間：2020-07-14 11:05:28					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102794" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102779" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102806" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102806" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蒜苗_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:36 - 2020-07-14 11:11:01</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:36					<br><br>
+					結束作業時間：2020-07-14 11:11:01					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102806" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102794" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[冷凍_進_董]						</a>
+						
+												<a href="#102824" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102824" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蒜苗_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:13:22 - 2020-07-14 11:13:29</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:13:22					<br><br>
+					結束作業時間：2020-07-14 11:13:29					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102824" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102806" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102859" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102859" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蒜苗_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:20:08 - 2020-07-14 11:21:36</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:20:08					<br><br>
+					結束作業時間：2020-07-14 11:21:36					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102859" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102824" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102877" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102877" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>蒜苗_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:50 - 2020-07-14 11:24:27</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:50					<br><br>
+					結束作業時間：2020-07-14 11:24:27					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102877" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102859" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[清蒸_進_董]						</a>
+						
+												<a href="#102778" class="btn btn-dark btn-lg">
+							玉米_董 <br>[進貨_預_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102778" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>玉米_董 [進貨_預_董]</h2>
+					<div class="history_time">2020-07-14 10:57:39 - 2020-07-14 11:00:55</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 10:57:39					<br><br>
+					結束作業時間：2020-07-14 11:00:55					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102778" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102877" class="btn btn-dark btn-lg">
+							蒜苗_董 <br>[濃縮_進_董]						</a>
+						
+												<a href="#102795" class="btn btn-dark btn-lg">
+							玉米_董 <br>[冷凍_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102795" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>玉米_董 [冷凍_進_董]</h2>
+					<div class="history_time">2020-07-14 11:04:39 - 2020-07-14 11:05:34</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:04:39					<br><br>
+					結束作業時間：2020-07-14 11:05:34					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102795" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102778" class="btn btn-dark btn-lg">
+							玉米_董 <br>[進貨_預_董]						</a>
+						
+												<a href="#102803" class="btn btn-dark btn-lg">
+							玉米_董 <br>[秤重_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102803" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>玉米_董 [秤重_進_董]</h2>
+					<div class="history_time">2020-07-14 11:08:31 - 2020-07-14 11:09:33</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:08:31					<br><br>
+					結束作業時間：2020-07-14 11:09:33					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102803" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102795" class="btn btn-dark btn-lg">
+							玉米_董 <br>[冷凍_進_董]						</a>
+						
+												<a href="#102822" class="btn btn-dark btn-lg">
+							玉米_董 <br>[清洗_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102822" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>玉米_董 [清洗_進_董]</h2>
+					<div class="history_time">2020-07-14 11:13:19 - 2020-07-14 11:14:35</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:13:19					<br><br>
+					結束作業時間：2020-07-14 11:14:35					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102822" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102803" class="btn btn-dark btn-lg">
+							玉米_董 <br>[秤重_進_董]						</a>
+						
+												<a href="#102843" class="btn btn-dark btn-lg">
+							玉米_董 <br>[清蒸_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102843" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>玉米_董 [清蒸_進_董]</h2>
+					<div class="history_time">2020-07-14 11:19:23 - 2020-07-14 11:21:31</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:19:23					<br><br>
+					結束作業時間：2020-07-14 11:21:31					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102843" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102822" class="btn btn-dark btn-lg">
+							玉米_董 <br>[清洗_進_董]						</a>
+						
+												<a href="#102872" class="btn btn-dark btn-lg">
+							玉米_董 <br>[濃縮_進_董]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="102872" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>玉米_董 [濃縮_進_董]</h2>
+					<div class="history_time">2020-07-14 11:22:34 - 2020-07-14 11:23:50</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2020-07-14 11:22:34					<br><br>
+					結束作業時間：2020-07-14 11:23:50					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_102872" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#102843" class="btn btn-dark btn-lg">
+							玉米_董 <br>[清蒸_進_董]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+</script>

@@ -1,0 +1,1072 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=109707&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="羊肉羹" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=109707',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																羊肉羹							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：昌德珍Demo								<br>
+								產出日期：2020-07-30 17:14:01																<br>
+								有效日期：2020-07-30																																									<br>
+								產出數量：300公斤									 (100包)																	<br>
+								剩餘數量：300公斤									 (100包)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D109707" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D109707"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#90289" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#90290" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[1香菇頭領料]							
+							
+							
+							</a>
+													<a href="#90291" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[8油炸]							
+							
+							
+							</a>
+													<a href="#90292" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[8油炸]							
+							
+							
+							</a>
+													<a href="#90315" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[9大豆蛋白+調味料領料]							
+							
+							
+							</a>
+													<a href="#90333" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[10混合9+6項]							
+							
+							
+							</a>
+													<a href="#90334" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[11成型油炸]							
+							
+							
+							</a>
+													<a href="#90353" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[12冷卻]							
+							
+							
+							</a>
+													<a href="#90356" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[12冷卻]							
+							
+							
+							</a>
+													<a href="#90393" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[12冷卻]							
+							
+							
+							</a>
+													<a href="#90495" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														素羊肉羹<BR>[12冷卻]							
+							
+							
+							</a>
+													<a href="#109707" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														羊肉羹<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="90289" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [自拍保證來源]</h2>
+					<div class="history_time">2020-06-10 22:54:46 - 2020-06-10 22:54:46</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1316/2020/90289.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1316/2020/90289.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90289" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#90290" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[1香菇頭領料]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90290" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [1香菇頭領料]</h2>
+					<div class="history_time">2020-06-10 22:54:59 - 2020-06-10 22:55:10</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90290" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200610225459/IMG_1591800905393.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200610225459/IMG_1591800905393.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90290" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90290"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90290" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90289" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[自拍保證來源]						</a>
+						
+												<a href="#90291" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[8油炸]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90291" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [8油炸]</h2>
+					<div class="history_time">2020-06-11 08:50:16 - 2020-06-11 08:53:08</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90291" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836639905.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836639905.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836667986.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836667986.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836694453.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836694453.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836696901.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836696901.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836785085.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611085016/IMG_1591836785085.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90291" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90291"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90291" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90290" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[1香菇頭領料]						</a>
+						
+												<a href="#90292" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[8油炸]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90292" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [8油炸]</h2>
+					<div class="history_time">2020-06-11 08:53:51 - 2020-06-11 08:54:10</div>
+					<br>
+
+										<video id="player_90292" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1316_20200611085351.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90292" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90291" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[8油炸]						</a>
+						
+												<a href="#90315" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[9大豆蛋白+調味料領料]						</a>
+						
+					</div>
+
+										<div id="map_90292" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_90292"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90315" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [9大豆蛋白+調味料領料]</h2>
+					<div class="history_time">2020-06-11 10:12:27 - 2020-06-11 10:13:20</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90315" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841556470.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841556470.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841563279.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841563279.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841570676.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841570676.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841583756.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841583756.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841587467.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101227/IMG_1591841587467.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90315" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90315"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90315" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90292" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[8油炸]						</a>
+						
+												<a href="#90333" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[10混合9+6項]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90333" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [10混合9+6項]</h2>
+					<div class="history_time">2020-06-11 10:13:50 - 2020-06-11 10:55:28</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90333" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591841643128.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591841643128.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591842841115.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591842841115.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591842931535.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591842931535.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591844121455.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611101350/IMG_1591844121455.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90333" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90333"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90333" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90315" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[9大豆蛋白+調味料領料]						</a>
+						
+												<a href="#90334" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[11成型油炸]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90334" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [11成型油炸]</h2>
+					<div class="history_time">2020-06-11 11:12:50 - 2020-06-11 11:14:44</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90334" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845177685.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845177685.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845188601.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845188601.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845191386.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845191386.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845276098.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845276098.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845279843.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611111250/IMG_1591845279843.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90334" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90334"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90334" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90333" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[10混合9+6項]						</a>
+						
+												<a href="#90353" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90353" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [12冷卻]</h2>
+					<div class="history_time">2020-06-11 12:00:38 - 2020-06-11 12:00:53</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90353" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611120038/IMG_1591848046175.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611120038/IMG_1591848046175.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90353" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90353"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90353" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90334" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[11成型油炸]						</a>
+						
+												<a href="#90356" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90356" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [12冷卻]</h2>
+					<div class="history_time">2020-06-11 12:01:18 - 2020-06-11 12:01:34</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90356" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611120118/IMG_1591848086459.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611120118/IMG_1591848086459.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611120118/IMG_1591848091495.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611120118/IMG_1591848091495.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90356" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90356"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90356" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90353" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+												<a href="#90393" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90393" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [12冷卻]</h2>
+					<div class="history_time">2020-06-11 13:23:18 - 2020-06-11 13:24:25</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90393" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611132318/IMG_1591853030916.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611132318/IMG_1591853030916.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611132318/IMG_1591853044602.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611132318/IMG_1591853044602.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611132318/IMG_1591853062351.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200611132318/IMG_1591853062351.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90393" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90393"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_90393" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90356" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+												<a href="#90495" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="90495" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>素羊肉羹 [12冷卻]</h2>
+					<div class="history_time">2020-06-12 09:18:21 - 2020-06-12 09:18:38</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_90495" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200612091821/IMG_1591924713483.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1316/2020/20200612091821/IMG_1591924713483.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_90495" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_90495"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										
+						<label class="btn btn-dark btn-lg" style="background-color:#FFFFFF; color: #000000; opacity: 0.8; text-shadow: 0px 0px #FFFFFF; font-weight: bold;" onClick="showSensorData('00124B000A94DEE9o_o1', 'AUGkW66ob%2BR9f%2FPTf9%2BwrIUgGNEuuXsx2T3wrfK%2F7L22GMwnoHIjclJCuKiIBWEg', '1569254400', '2020%2F06%2F12+09%3A18%3A21', '2020%2F06%2F12+09%3A18%3A38')">
+							T (溫度感測器)<br>
+							2020-06-12 09:18:21						</label>
+					
+										</div>
+										<div id="button_90495" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90393" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+												<a href="#109707" class="btn btn-dark btn-lg">
+							羊肉羹 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="109707" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>羊肉羹 [自拍保證輸出]</h2>
+					<div class="history_time">2020-07-30 17:14:01 - 2020-07-30 17:14:01</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1316/2020/109707.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1316/2020/109707.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_109707" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#90495" class="btn btn-dark btn-lg">
+							素羊肉羹 <br>[12冷卻]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_90292', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_90290 = jQuery("#gallery_90290").unitegallery();
+		var first_item = api_90290.getItem(0);
+
+		load_gps_data('90290', '1316', first_item.urlImage, true);
+		api_90290.on("item_change", function(num, img_data){
+			load_gps_data('90290', '1316', img_data.urlImage, false);
+		});
+				var api_90291 = jQuery("#gallery_90291").unitegallery();
+		var first_item = api_90291.getItem(0);
+
+		load_gps_data('90291', '1316', first_item.urlImage, true);
+		api_90291.on("item_change", function(num, img_data){
+			load_gps_data('90291', '1316', img_data.urlImage, false);
+		});
+				var api_90315 = jQuery("#gallery_90315").unitegallery();
+		var first_item = api_90315.getItem(0);
+
+		load_gps_data('90315', '1316', first_item.urlImage, true);
+		api_90315.on("item_change", function(num, img_data){
+			load_gps_data('90315', '1316', img_data.urlImage, false);
+		});
+				var api_90333 = jQuery("#gallery_90333").unitegallery();
+		var first_item = api_90333.getItem(0);
+
+		load_gps_data('90333', '1316', first_item.urlImage, true);
+		api_90333.on("item_change", function(num, img_data){
+			load_gps_data('90333', '1316', img_data.urlImage, false);
+		});
+				var api_90334 = jQuery("#gallery_90334").unitegallery();
+		var first_item = api_90334.getItem(0);
+
+		load_gps_data('90334', '1316', first_item.urlImage, true);
+		api_90334.on("item_change", function(num, img_data){
+			load_gps_data('90334', '1316', img_data.urlImage, false);
+		});
+				var api_90353 = jQuery("#gallery_90353").unitegallery();
+		var first_item = api_90353.getItem(0);
+
+		load_gps_data('90353', '1316', first_item.urlImage, true);
+		api_90353.on("item_change", function(num, img_data){
+			load_gps_data('90353', '1316', img_data.urlImage, false);
+		});
+				var api_90356 = jQuery("#gallery_90356").unitegallery();
+		var first_item = api_90356.getItem(0);
+
+		load_gps_data('90356', '1316', first_item.urlImage, true);
+		api_90356.on("item_change", function(num, img_data){
+			load_gps_data('90356', '1316', img_data.urlImage, false);
+		});
+				var api_90393 = jQuery("#gallery_90393").unitegallery();
+		var first_item = api_90393.getItem(0);
+
+		load_gps_data('90393', '1316', first_item.urlImage, true);
+		api_90393.on("item_change", function(num, img_data){
+			load_gps_data('90393', '1316', img_data.urlImage, false);
+		});
+				var api_90495 = jQuery("#gallery_90495").unitegallery();
+		var first_item = api_90495.getItem(0);
+
+		load_gps_data('90495', '1316', first_item.urlImage, true);
+		api_90495.on("item_change", function(num, img_data){
+			load_gps_data('90495', '1316', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [90292];
+	var loc_map = new Array(1);
+	var loc_arr = new Array(1);
+	var map_arr = new Array(1);
+	var marker_arr = new Array(1);
+
+		loc_arr[0] = [
+						{lat: 23.206111111111, lng: 120.32444444444},
+						{lat: 23.206111111111, lng: 120.32416666667}
+				];
+
+	loc_map[0] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+								{lat: 23.206111111111, lng: 120.32444444444},				
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_90292'), {
+			zoom: 17,
+			center: {lat: 23.206111111111, lng: 120.32444444444},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

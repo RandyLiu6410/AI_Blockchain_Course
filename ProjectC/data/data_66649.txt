@@ -1,0 +1,1000 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=66649&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="出差&加班紀錄" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=66649',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																出差&加班紀錄							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：加班&出差&請假								<br>
+								產出日期：2019-12-16 20:03:58																<br>
+								有效日期：2020-06-13																																									<br>
+								產出數量：5人份									 (5人份)																	<br>
+								剩餘數量：5人份									 (5人份)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D66649" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D66649"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#66639" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														出差&加班紀錄<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#66866" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														出差&加班紀錄<BR>[樹合苑 支援]							
+							
+							
+							</a>
+													<a href="#66640" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														出差&加班紀錄<BR>[樹合苑 支援]							
+							
+							
+							</a>
+													<a href="#66648" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														出差&加班紀錄<BR>[樹合苑 支援]							
+							
+							
+							</a>
+													<a href="#66649" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														出差&加班紀錄<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="66639" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>出差&加班紀錄 [自拍保證來源]</h2>
+					<div class="history_time">2019-12-16 19:24:16 - 2019-12-16 19:24:16</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1152/2019/66639.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1152/2019/66639.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_66639" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#66866" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[樹合苑 支援]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="66866" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>出差&加班紀錄 [樹合苑 支援]</h2>
+					<div class="history_time">2019-12-16 19:24:46 - 2019-12-16 19:37:35</div>
+					<br>
+
+										
+										<video id="player_66866" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/1185/1152/1152_20191216192427600.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_66866" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#66639" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[自拍保證來源]						</a>
+						
+												<a href="#66640" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[樹合苑 支援]						</a>
+						
+					</div>
+
+										<div id="map_66866" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_66866"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="66640" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>出差&加班紀錄 [樹合苑 支援]</h2>
+					<div class="history_time">2019-12-16 19:44:53 - 2019-12-16 19:45:50</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_66640" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496702882.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496702882.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496705553.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496705553.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496708816.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496708816.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496710887.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496710887.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496717252.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496717252.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496718918.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496718918.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496720516.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496720516.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496721935.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496721935.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496724449.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496724449.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496725623.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496725623.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496726883.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496726883.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496728686.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496728686.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496732069.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496732069.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496741165.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496741165.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496743885.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496743885.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496747036.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/1152/2019/20191216194453/IMG_1576496747036.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_66640" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_66640"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_66640" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#66866" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[樹合苑 支援]						</a>
+						
+												<a href="#66648" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[樹合苑 支援]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="66648" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>出差&加班紀錄 [樹合苑 支援]</h2>
+					<div class="history_time">2019-12-16 19:46:25 - 2019-12-16 20:00:20</div>
+					<br>
+
+										<video id="player_66648" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/1152_20191216194625.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_66648" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#66640" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[樹合苑 支援]						</a>
+						
+												<a href="#66649" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_66648" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_66648"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="66649" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>出差&加班紀錄 [自拍保證輸出]</h2>
+					<div class="history_time">2019-12-16 20:03:58 - 2019-12-16 20:03:58</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/1152/2019/66649.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/1152/2019/66649.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_66649" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#66648" class="btn btn-dark btn-lg">
+							出差&加班紀錄 <br>[樹合苑 支援]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_66866', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_66648', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_66640 = jQuery("#gallery_66640").unitegallery();
+		var first_item = api_66640.getItem(0);
+
+		load_gps_data('66640', '1152', first_item.urlImage, true);
+		api_66640.on("item_change", function(num, img_data){
+			load_gps_data('66640', '1152', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [66866,66648];
+	var loc_map = new Array(2);
+	var loc_arr = new Array(2);
+	var map_arr = new Array(2);
+	var marker_arr = new Array(2);
+
+		loc_arr[0] = [
+						{lat: 24.155261993408, lng: 120.67663574219},
+						{lat: 24.15532875061, lng: 120.67665100098},
+						{lat: 24.15532875061, lng: 120.67670440674},
+						{lat: 24.15535736084, lng: 120.6767578125},
+						{lat: 24.155389785767, lng: 120.67679595947},
+						{lat: 24.155416488647, lng: 120.67675018311},
+						{lat: 24.155420303345, lng: 120.67668914795},
+						{lat: 24.155433654785, lng: 120.67663574219},
+						{lat: 24.155401229858, lng: 120.67658996582},
+						{lat: 24.155355453491, lng: 120.67655944824},
+						{lat: 24.15541267395, lng: 120.67654418945},
+						{lat: 24.155364990234, lng: 120.67655944824},
+						{lat: 24.155282974243, lng: 120.67654418945},
+						{lat: 24.155221939087, lng: 120.67653656006},
+						{lat: 24.155168533325, lng: 120.67651367188},
+						{lat: 24.155202865601, lng: 120.676612854},
+						{lat: 24.155252456665, lng: 120.67662811279},
+						{lat: 24.155294418335, lng: 120.67665100098},
+						{lat: 24.155330657959, lng: 120.67668151855},
+						{lat: 24.155303955078, lng: 120.67663574219},
+						{lat: 24.155355453491, lng: 120.67660522461},
+						{lat: 24.155300140381, lng: 120.67657470703},
+						{lat: 24.155246734619, lng: 120.67665863037},
+						{lat: 24.155199050903, lng: 120.67666625977},
+						{lat: 24.155172348022, lng: 120.67678833008},
+						{lat: 24.155237197876, lng: 120.67675018311},
+						{lat: 24.155279159546, lng: 120.67671203613},
+						{lat: 24.155269622803, lng: 120.67665863037},
+						{lat: 24.155292510986, lng: 120.67660522461},
+						{lat: 24.155349731445, lng: 120.676612854},
+						{lat: 24.155397415161, lng: 120.6766204834},
+						{lat: 24.155347824097, lng: 120.67665100098},
+						{lat: 24.155317306519, lng: 120.67668914795},
+						{lat: 24.155342102051, lng: 120.67664337158},
+						{lat: 24.155313491821, lng: 120.67660522461},
+						{lat: 24.155288696289, lng: 120.67655944824},
+						{lat: 24.155271530151, lng: 120.676612854},
+						{lat: 24.155263900757, lng: 120.67667388916},
+						{lat: 24.155307769775, lng: 120.67668914795},
+						{lat: 24.155359268188, lng: 120.67666625977},
+						{lat: 24.155382156372, lng: 120.67659759521},
+						{lat: 24.155420303345, lng: 120.67664337158},
+						{lat: 24.155439376831, lng: 120.67670440674},
+						{lat: 24.155458450317, lng: 120.6767578125},
+						{lat: 24.155431747437, lng: 120.67680358887},
+						{lat: 24.155437469482, lng: 120.67691040039},
+						{lat: 24.155420303345, lng: 120.67685699463},
+						{lat: 24.155391693115, lng: 120.67681884766},
+						{lat: 24.155351638794, lng: 120.67678070068},
+						{lat: 24.155336380005, lng: 120.67672729492},
+						{lat: 24.155353546143, lng: 120.67668151855},
+						{lat: 24.155303955078, lng: 120.67665863037},
+						{lat: 24.155254364014, lng: 120.67662811279},
+						{lat: 24.155269622803, lng: 120.67655944824},
+						{lat: 24.155313491821, lng: 120.67658996582},
+						{lat: 24.155332565308, lng: 120.67663574219},
+						{lat: 24.15528678894, lng: 120.67668914795},
+						{lat: 24.155307769775, lng: 120.67664337158},
+						{lat: 24.155326843262, lng: 120.67669677734},
+						{lat: 24.15528678894, lng: 120.67667388916},
+						{lat: 24.155282974243, lng: 120.676612854},
+						{lat: 24.155254364014, lng: 120.67655944824},
+						{lat: 24.155241012573, lng: 120.67649841309},
+						{lat: 24.155263900757, lng: 120.67655181885},
+						{lat: 24.155326843262, lng: 120.67652130127},
+						{lat: 24.155372619629, lng: 120.67654418945},
+						{lat: 24.155433654785, lng: 120.67660522461},
+						{lat: 24.155452728271, lng: 120.67667388916},
+						{lat: 24.155481338501, lng: 120.67674255371},
+						{lat: 24.15550994873, lng: 120.67678070068},
+						{lat: 24.155466079712, lng: 120.67676544189},
+						{lat: 24.155406951904, lng: 120.67678833008},
+						{lat: 24.155359268188, lng: 120.67679595947},
+						{lat: 24.155311584473, lng: 120.67678833008},
+						{lat: 24.155242919922, lng: 120.6767578125},
+						{lat: 24.155193328857, lng: 120.67673492432},
+						{lat: 24.155145645142, lng: 120.67671966553},
+						{lat: 24.155111312866, lng: 120.67666625977},
+						{lat: 24.155164718628, lng: 120.67666625977},
+						{lat: 24.155206680298, lng: 120.67670440674},
+						{lat: 24.155221939087, lng: 120.67664337158},
+						{lat: 24.155170440674, lng: 120.67657470703},
+						{lat: 24.155221939087, lng: 120.67658996582},
+						{lat: 24.155261993408, lng: 120.67656707764},
+						{lat: 24.15531539917, lng: 120.67658233643},
+						{lat: 24.155342102051, lng: 120.67662811279},
+						{lat: 24.155384063721, lng: 120.67668151855},
+						{lat: 24.15541267395, lng: 120.67664337158},
+						{lat: 24.155469894409, lng: 120.67668151855},
+						{lat: 24.155500411987, lng: 120.67674255371},
+						{lat: 24.155467987061, lng: 120.67669677734},
+						{lat: 24.15539932251, lng: 120.67667388916},
+						{lat: 24.155332565308, lng: 120.67668914795},
+						{lat: 24.155378341675, lng: 120.67674255371}
+				];
+
+	loc_map[0] = [
+	{sec: 35, index: 1},
+{sec: 44, index: 2},
+{sec: 50, index: 3},
+{sec: 54, index: 4},
+{sec: 56, index: 5},
+{sec: 61, index: 6},
+{sec: 66, index: 7},
+{sec: 68, index: 8},
+{sec: 71, index: 9},
+{sec: 76, index: 10},
+{sec: 85, index: 11},
+{sec: 87, index: 12},
+{sec: 90, index: 13},
+{sec: 95, index: 14},
+{sec: 103, index: 15},
+{sec: 106, index: 16},
+{sec: 110, index: 17},
+{sec: 119, index: 18},
+{sec: 138, index: 19},
+{sec: 153, index: 20},
+{sec: 161, index: 21},
+{sec: 166, index: 22},
+{sec: 168, index: 23},
+{sec: 171, index: 24},
+{sec: 176, index: 25},
+{sec: 181, index: 26},
+{sec: 190, index: 27},
+{sec: 197, index: 28},
+{sec: 204, index: 29},
+{sec: 214, index: 30},
+{sec: 221, index: 31},
+{sec: 232, index: 32},
+{sec: 237, index: 33},
+{sec: 248, index: 34},
+{sec: 255, index: 35},
+{sec: 267, index: 36},
+{sec: 278, index: 37},
+{sec: 281, index: 38},
+{sec: 304, index: 39},
+{sec: 312, index: 40},
+{sec: 317, index: 41},
+{sec: 320, index: 42},
+{sec: 325, index: 43},
+{sec: 331, index: 44},
+{sec: 336, index: 45},
+{sec: 342, index: 46},
+{sec: 346, index: 47},
+{sec: 350, index: 48},
+{sec: 362, index: 49},
+{sec: 369, index: 50},
+{sec: 388, index: 51},
+{sec: 393, index: 52},
+{sec: 410, index: 53},
+{sec: 421, index: 54},
+{sec: 428, index: 55},
+{sec: 436, index: 56},
+{sec: 449, index: 57},
+{sec: 483, index: 58},
+{sec: 498, index: 59},
+{sec: 516, index: 60},
+{sec: 524, index: 61},
+{sec: 535, index: 62},
+{sec: 544, index: 63},
+{sec: 549, index: 64},
+{sec: 551, index: 65},
+{sec: 554, index: 66},
+{sec: 557, index: 67},
+{sec: 561, index: 68},
+{sec: 571, index: 69},
+{sec: 577, index: 70},
+{sec: 579, index: 71},
+{sec: 581, index: 72},
+{sec: 586, index: 73},
+{sec: 600, index: 74},
+{sec: 617, index: 75},
+{sec: 622, index: 76},
+{sec: 625, index: 77},
+{sec: 635, index: 78},
+{sec: 639, index: 79},
+{sec: 648, index: 80},
+{sec: 650, index: 81},
+{sec: 655, index: 82},
+{sec: 660, index: 83},
+{sec: 667, index: 84},
+{sec: 672, index: 85},
+{sec: 682, index: 86},
+{sec: 700, index: 87},
+{sec: 706, index: 88},
+{sec: 713, index: 89},
+{sec: 736, index: 90},
+{sec: 741, index: 91},
+{sec: 745, index: 92},
+{sec: 762, index: 93}	];
+
+		loc_arr[1] = [
+						{lat: 24.155277777778, lng: 120.67666666667},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67666666667},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67666666667},
+						{lat: 24.155, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67666666667},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155, lng: 120.67638888889},
+						{lat: 24.155277777778, lng: 120.67666666667},
+						{lat: 24.155277777778, lng: 120.67638888889},
+						{lat: 24.155, lng: 120.67638888889}
+				];
+
+	loc_map[1] = [
+	{sec: 2, index: 1},
+{sec: 11, index: 3},
+{sec: 12, index: 5},
+{sec: 17, index: 7},
+{sec: 18, index: 8},
+{sec: 37, index: 9},
+{sec: 38, index: 10},
+{sec: 39, index: 11},
+{sec: 40, index: 12},
+{sec: 43, index: 13},
+{sec: 45, index: 15},
+{sec: 46, index: 16},
+{sec: 47, index: 17},
+{sec: 49, index: 18}	];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+								{lat: 24.155261993408, lng: 120.67663574219},				
+								{lat: 24.15532875061, lng: 120.67665100098},				
+								{lat: 24.15532875061, lng: 120.67670440674},				
+								{lat: 24.15535736084, lng: 120.6767578125},				
+								{lat: 24.155389785767, lng: 120.67679595947},				
+								{lat: 24.155416488647, lng: 120.67675018311},				
+								{lat: 24.155420303345, lng: 120.67668914795},				
+								{lat: 24.155433654785, lng: 120.67663574219},				
+								{lat: 24.155401229858, lng: 120.67658996582},				
+								{lat: 24.155355453491, lng: 120.67655944824},				
+								{lat: 24.15541267395, lng: 120.67654418945},				
+								{lat: 24.155364990234, lng: 120.67655944824},				
+								{lat: 24.155282974243, lng: 120.67654418945},				
+								{lat: 24.155221939087, lng: 120.67653656006},				
+								{lat: 24.155168533325, lng: 120.67651367188},				
+								{lat: 24.155202865601, lng: 120.676612854},				
+								{lat: 24.155252456665, lng: 120.67662811279},				
+								{lat: 24.155294418335, lng: 120.67665100098},				
+								{lat: 24.155330657959, lng: 120.67668151855},				
+								{lat: 24.155303955078, lng: 120.67663574219},				
+								{lat: 24.155355453491, lng: 120.67660522461},				
+								{lat: 24.155300140381, lng: 120.67657470703},				
+								{lat: 24.155246734619, lng: 120.67665863037},				
+								{lat: 24.155199050903, lng: 120.67666625977},				
+								{lat: 24.155172348022, lng: 120.67678833008},				
+								{lat: 24.155237197876, lng: 120.67675018311},				
+								{lat: 24.155279159546, lng: 120.67671203613},				
+								{lat: 24.155269622803, lng: 120.67665863037},				
+								{lat: 24.155292510986, lng: 120.67660522461},				
+								{lat: 24.155349731445, lng: 120.676612854},				
+								{lat: 24.155397415161, lng: 120.6766204834},				
+								{lat: 24.155347824097, lng: 120.67665100098},				
+								{lat: 24.155317306519, lng: 120.67668914795},				
+								{lat: 24.155342102051, lng: 120.67664337158},				
+								{lat: 24.155313491821, lng: 120.67660522461},				
+								{lat: 24.155288696289, lng: 120.67655944824},				
+								{lat: 24.155271530151, lng: 120.676612854},				
+								{lat: 24.155263900757, lng: 120.67667388916},				
+								{lat: 24.155307769775, lng: 120.67668914795},				
+								{lat: 24.155359268188, lng: 120.67666625977},				
+								{lat: 24.155382156372, lng: 120.67659759521},				
+								{lat: 24.155420303345, lng: 120.67664337158},				
+								{lat: 24.155439376831, lng: 120.67670440674},				
+								{lat: 24.155458450317, lng: 120.6767578125},				
+								{lat: 24.155431747437, lng: 120.67680358887},				
+								{lat: 24.155437469482, lng: 120.67691040039},				
+								{lat: 24.155420303345, lng: 120.67685699463},				
+								{lat: 24.155391693115, lng: 120.67681884766},				
+								{lat: 24.155351638794, lng: 120.67678070068},				
+								{lat: 24.155336380005, lng: 120.67672729492},				
+								{lat: 24.155353546143, lng: 120.67668151855},				
+								{lat: 24.155303955078, lng: 120.67665863037},				
+								{lat: 24.155254364014, lng: 120.67662811279},				
+								{lat: 24.155269622803, lng: 120.67655944824},				
+								{lat: 24.155313491821, lng: 120.67658996582},				
+								{lat: 24.155332565308, lng: 120.67663574219},				
+								{lat: 24.15528678894, lng: 120.67668914795},				
+								{lat: 24.155307769775, lng: 120.67664337158},				
+								{lat: 24.155326843262, lng: 120.67669677734},				
+								{lat: 24.15528678894, lng: 120.67667388916},				
+								{lat: 24.155282974243, lng: 120.676612854},				
+								{lat: 24.155254364014, lng: 120.67655944824},				
+								{lat: 24.155241012573, lng: 120.67649841309},				
+								{lat: 24.155263900757, lng: 120.67655181885},				
+								{lat: 24.155326843262, lng: 120.67652130127},				
+								{lat: 24.155372619629, lng: 120.67654418945},				
+								{lat: 24.155433654785, lng: 120.67660522461},				
+								{lat: 24.155452728271, lng: 120.67667388916},				
+								{lat: 24.155481338501, lng: 120.67674255371},				
+								{lat: 24.15550994873, lng: 120.67678070068},				
+								{lat: 24.155466079712, lng: 120.67676544189},				
+								{lat: 24.155406951904, lng: 120.67678833008},				
+								{lat: 24.155359268188, lng: 120.67679595947},				
+								{lat: 24.155311584473, lng: 120.67678833008},				
+								{lat: 24.155242919922, lng: 120.6767578125},				
+								{lat: 24.155193328857, lng: 120.67673492432},				
+								{lat: 24.155145645142, lng: 120.67671966553},				
+								{lat: 24.155111312866, lng: 120.67666625977},				
+								{lat: 24.155164718628, lng: 120.67666625977},				
+								{lat: 24.155206680298, lng: 120.67670440674},				
+								{lat: 24.155221939087, lng: 120.67664337158},				
+								{lat: 24.155170440674, lng: 120.67657470703},				
+								{lat: 24.155221939087, lng: 120.67658996582},				
+								{lat: 24.155261993408, lng: 120.67656707764},				
+								{lat: 24.15531539917, lng: 120.67658233643},				
+								{lat: 24.155342102051, lng: 120.67662811279},				
+								{lat: 24.155384063721, lng: 120.67668151855},				
+								{lat: 24.15541267395, lng: 120.67664337158},				
+								{lat: 24.155469894409, lng: 120.67668151855},				
+								{lat: 24.155500411987, lng: 120.67674255371},				
+								{lat: 24.155467987061, lng: 120.67669677734},				
+								{lat: 24.15539932251, lng: 120.67667388916},				
+								{lat: 24.155332565308, lng: 120.67668914795},				
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_66866'), {
+			zoom: 17,
+			center: {lat: 24.155261993408, lng: 120.67663574219},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 24.155277777778, lng: 120.67666666667},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+								{lat: 24.155, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67666666667},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+								{lat: 24.155, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67666666667},				
+								{lat: 24.155, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+								{lat: 24.155, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67666666667},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+								{lat: 24.155, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+								{lat: 24.155, lng: 120.67638888889},				
+								{lat: 24.155277777778, lng: 120.67666666667},				
+								{lat: 24.155277777778, lng: 120.67638888889},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_66648'), {
+			zoom: 17,
+			center: {lat: 24.155277777778, lng: 120.67666666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

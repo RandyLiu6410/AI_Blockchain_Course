@@ -1,0 +1,2463 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=11820&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="南瓜燉菜調理包" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=11820',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																南瓜燉菜調理包							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：1888產銷班								<br>
+								產出日期：2018-05-30 09:47:52																<br>
+								有效日期：2018-05-30																																									<br>
+								產出數量：10人份									 (1包)																	<br>
+								剩餘數量：10人份									 (1包)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D11820" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D11820"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/wptest/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#11820" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜燉菜調理包<BR>[1888分裝作業]							
+							
+							
+							</a>
+													<a href="#11806" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														南瓜燉菜大鍋<BR>[1888調理作業]							
+							
+							
+							</a>
+													<a href="#11633" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11591" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#11592" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[水源生態]							
+							
+							
+							</a>
+													<a href="#11593" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[生態痕跡]							
+							
+							
+							</a>
+													<a href="#11594" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[灌溉]							
+							
+							
+							</a>
+													<a href="#11595" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11596" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11603" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11631" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11632" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#11638" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11798" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11802" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11803" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11929" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11930" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														一品南瓜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11580" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#11581" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#11582" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[草與土壤]							
+							
+							
+							</a>
+													<a href="#11583" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[灌溉]							
+							
+							
+							</a>
+													<a href="#11584" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11585" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11627" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[自拍保證輸出]							
+							
+							
+							</a>
+													<a href="#11628" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11796" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11832" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11833" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11837" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11838" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11840" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11928" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#11960" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11985" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#11986" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[採收]							
+							
+							
+							</a>
+													<a href="#43058" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#43059" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[1888冷卻作業]							
+							
+							
+							</a>
+													<a href="#48134" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														包心白菜<BR>[大自然環境]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="11820" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜燉菜調理包 [1888分裝作業]</h2>
+					<div class="history_time">2018-05-30 09:47:44 - 2018-05-30 09:47:52</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_11820" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://www.mcvr.edok.tw/cvr_event.php?c=cam00e0f80000001&s=1527644864&e=1527644872&m=2&f=.m3u8" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=11806&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								南瓜燉菜大鍋								
+															<br>
+								[1888產銷班]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_11820" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#11806" class="btn btn-dark btn-lg">
+							南瓜燉菜大鍋 <br>[1888調理作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11806" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>南瓜燉菜大鍋 [1888調理作業]</h2>
+					<div class="history_time">2018-05-30 09:39:30 - 2018-05-30 09:39:34</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_11806" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://www.mcvr.edok.tw/cvr_event.php?c=cam00e0f80000001&s=1527644370&e=1527644374&m=2&f=.m3u8" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=11632&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								一品南瓜								
+															<br>
+								[1888產銷班]
+						</a>
+													<a href="portal.php?oid=11627&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								包心白菜								
+															<br>
+								[1888產銷班]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_11806" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11820" class="btn btn-dark btn-lg">
+							南瓜燉菜調理包 <br>[1888分裝作業]						</a>
+						
+												<a href="#11633" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11633" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2017-12-08 11:28:47 - 2017-12-08 11:28:47</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_11633" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://www.mcvr.edok.tw/cvr_event.php?c=cam00e0f80000001&s=1512703727&e=1512703727&m=2&f=.m3u8" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11633" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11806" class="btn btn-dark btn-lg">
+							南瓜燉菜大鍋 <br>[1888調理作業]						</a>
+						
+												<a href="#11591" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11591" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [自拍保證來源]</h2>
+					<div class="history_time">2018-05-21 22:41:26 - 2018-05-21 22:41:26</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/880/2018/11591.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/880/2018/11591.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?ph=3378&m=4" class="btn btn-can_source btn-lg" target="_blank">
+								臺灣山茶								
+															<br>
+								[g1]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_11591" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11633" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11592" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[水源生態]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11592" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [水源生態]</h2>
+					<div class="history_time">2018-05-21 22:41:40 - 2018-05-21 22:41:51</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_11592" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224140/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224140/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224140/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224140/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224140/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224140/3.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_11592" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_11592"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11592" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11591" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[自拍保證來源]						</a>
+						
+												<a href="#11593" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[生態痕跡]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11593" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [生態痕跡]</h2>
+					<div class="history_time">2018-05-21 22:42:03 - 2018-05-21 22:42:12</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_11593" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224203/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224203/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224203/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224203/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224203/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521224203/3.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_11593" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_11593"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11593" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11592" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[水源生態]						</a>
+						
+												<a href="#11594" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[灌溉]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11594" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [灌溉]</h2>
+					<div class="history_time">2018-05-21 22:42:27 - 2018-05-21 22:42:40</div>
+					<br>
+
+										<video id="player_11594" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/880_20180521224227.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11594" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11593" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[生態痕跡]						</a>
+						
+												<a href="#11595" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[採收]						</a>
+						
+					</div>
+
+										<div id="map_11594" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_11594"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11595" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [採收]</h2>
+					<div class="history_time">2018-05-21 22:42:50 - 2018-05-21 22:43:11</div>
+					<br>
+
+										<video id="player_11595" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/880_20180521224250.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11595" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11594" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[灌溉]						</a>
+						
+												<a href="#11596" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+										<div id="map_11595" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_11595"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11596" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-21 22:43:16 - 2018-05-21 22:43:37</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-21 22:43:16					<br><br>
+					結束作業時間：2018-05-21 22:43:37					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11596" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11595" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[採收]						</a>
+						
+												<a href="#11603" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11603" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-21 22:54:09 - 2018-05-21 22:54:57</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-21 22:54:09					<br><br>
+					結束作業時間：2018-05-21 22:54:57					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11603" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11596" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11631" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11631" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-23 09:33:00 - 2018-05-23 09:33:08</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-23 09:33:00					<br><br>
+					結束作業時間：2018-05-23 09:33:08					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11631" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11603" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11632" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11632" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [自拍保證輸出]</h2>
+					<div class="history_time">2018-05-23 09:58:13 - 2018-05-23 09:58:13</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/880/2018/11632.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/880/2018/11632.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11632" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11631" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11638" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11638" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-23 10:12:46 - 2018-05-23 10:12:50</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-23 10:12:46					<br><br>
+					結束作業時間：2018-05-23 10:12:50					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11638" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11632" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[自拍保證輸出]						</a>
+						
+												<a href="#11798" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11798" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-30 09:33:49 - 2018-05-30 09:34:05</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 09:33:49					<br><br>
+					結束作業時間：2018-05-30 09:34:05					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11798" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11638" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11802" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11802" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-30 09:36:38 - 2018-05-30 09:36:43</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 09:36:38					<br><br>
+					結束作業時間：2018-05-30 09:36:43					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11802" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11798" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11803" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11803" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-30 09:37:11 - 2018-05-30 09:37:14</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 09:37:11					<br><br>
+					結束作業時間：2018-05-30 09:37:14					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11803" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11802" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11929" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11929" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-30 16:47:30 - 2018-05-30 16:47:37</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 16:47:30					<br><br>
+					結束作業時間：2018-05-30 16:47:37					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11929" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11803" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11930" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11930" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>一品南瓜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-30 16:50:11 - 2018-05-30 16:50:14</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 16:50:11					<br><br>
+					結束作業時間：2018-05-30 16:50:14					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11930" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11929" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11580" class="btn btn-dark btn-lg">
+							包心白菜 <br>[自拍保證來源]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11580" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [自拍保證來源]</h2>
+					<div class="history_time">2018-05-21 22:28:00 - 2018-05-21 22:28:00</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/1147/2018/11580.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/1147/2018/11580.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11580" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11930" class="btn btn-dark btn-lg">
+							一品南瓜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11581" class="btn btn-dark btn-lg">
+							包心白菜 <br>[大自然環境]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11581" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [大自然環境]</h2>
+					<div class="history_time">2018-05-21 22:28:50 - 2018-05-21 22:29:12</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_11581" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521222850/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521222850/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521222850/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521222850/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521222850/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521222850/3.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_11581" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_11581"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11581" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11580" class="btn btn-dark btn-lg">
+							包心白菜 <br>[自拍保證來源]						</a>
+						
+												<a href="#11582" class="btn btn-dark btn-lg">
+							包心白菜 <br>[草與土壤]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11582" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [草與土壤]</h2>
+					<div class="history_time">2018-05-21 22:31:02 - 2018-05-21 22:31:12</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_11582" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521223102/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521223102/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521223102/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521223102/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521223102/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180521223102/3.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_11582" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_11582"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11582" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11581" class="btn btn-dark btn-lg">
+							包心白菜 <br>[大自然環境]						</a>
+						
+												<a href="#11583" class="btn btn-dark btn-lg">
+							包心白菜 <br>[灌溉]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11583" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [灌溉]</h2>
+					<div class="history_time">2018-05-21 22:31:22 - 2018-05-21 22:31:37</div>
+					<br>
+
+										<video id="player_11583" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/880_20180521223122.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11583" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11582" class="btn btn-dark btn-lg">
+							包心白菜 <br>[草與土壤]						</a>
+						
+												<a href="#11584" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+										<div id="map_11583" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_11583"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11584" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-21 22:31:48 - 2018-05-21 22:32:03</div>
+					<br>
+
+										<video id="player_11584" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/880_20180521223148.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11584" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11583" class="btn btn-dark btn-lg">
+							包心白菜 <br>[灌溉]						</a>
+						
+												<a href="#11585" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+										<div id="map_11584" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_11584"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11585" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-21 22:32:10 - 2018-05-21 22:32:24</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-21 22:32:10					<br><br>
+					結束作業時間：2018-05-21 22:32:24					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11585" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11584" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#11627" class="btn btn-dark btn-lg">
+							包心白菜 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11627" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [自拍保證輸出]</h2>
+					<div class="history_time">2018-05-23 08:59:46 - 2018-05-23 08:59:46</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/880/2018/11627.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/880/2018/11627.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11627" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11585" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11628" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11628" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-23 09:00:35 - 2018-05-23 09:00:38</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_11628" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://www.mcvr.edok.tw/cvr_event.php?c=cam00e0f80000001&s=1527037235&e=1527037238&m=2&f=.m3u8" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11628" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11627" class="btn btn-dark btn-lg">
+							包心白菜 <br>[自拍保證輸出]						</a>
+						
+												<a href="#11796" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11796" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-30 09:32:18 - 2018-05-30 09:32:23</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 09:32:18					<br><br>
+					結束作業時間：2018-05-30 09:32:23					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11796" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11628" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11832" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11832" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-30 10:40:31 - 2018-05-30 10:40:33</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 10:40:31					<br><br>
+					結束作業時間：2018-05-30 10:40:33					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11832" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11796" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11833" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11833" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-30 10:41:00 - 2018-05-30 10:41:09</div>
+					<br>
+
+										<video id="player_11833" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/880_20180530104100.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11833" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11832" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#11837" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+										<div id="map_11833" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_11833"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11837" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-30 10:44:59 - 2018-05-30 10:45:03</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 10:44:59					<br><br>
+					結束作業時間：2018-05-30 10:45:03					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11837" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11833" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#11838" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11838" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-30 10:45:25 - 2018-05-30 10:45:26</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 10:45:25					<br><br>
+					結束作業時間：2018-05-30 10:45:26					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11838" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11837" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#11840" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11840" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-30 10:46:25 - 2018-05-30 10:46:36</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_11840" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180530104625/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180530104625/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180530104625/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180530104625/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180530104625/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/880/2018/20180530104625/3.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_11840" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_11840"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11840" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11838" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#11928" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11928" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [1888冷卻作業]</h2>
+					<div class="history_time">2018-05-30 16:46:52 - 2018-05-30 16:46:59</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-30 16:46:52					<br><br>
+					結束作業時間：2018-05-30 16:46:59					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11928" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11840" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#11960" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11960" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-31 09:24:06 - 2018-05-31 09:24:10</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-31 09:24:06					<br><br>
+					結束作業時間：2018-05-31 09:24:10					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11960" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11928" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#11985" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11985" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-31 10:36:11 - 2018-05-31 10:36:13</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2018-05-31 10:36:11					<br><br>
+					結束作業時間：2018-05-31 10:36:13					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11985" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11960" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#11986" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="11986" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [採收]</h2>
+					<div class="history_time">2018-05-31 10:36:28 - 2018-05-31 10:36:36</div>
+					<br>
+
+										<video id="player_11986" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/880_20180531103628.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_11986" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11985" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#43058" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+										<div id="map_11986" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_11986"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="43058" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [1888冷卻作業]</h2>
+					<div class="history_time">2019-05-15 10:37:12 - 2019-05-15 10:37:25</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-05-15 10:37:12					<br><br>
+					結束作業時間：2019-05-15 10:37:25					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_43058" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#11986" class="btn btn-dark btn-lg">
+							包心白菜 <br>[採收]						</a>
+						
+												<a href="#43059" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="43059" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [1888冷卻作業]</h2>
+					<div class="history_time">2019-05-15 10:38:33 - 2019-05-15 10:39:09</div>
+					<br>
+
+										
+															<!--img src="/img/video_exipred.png" style="width: 100%; max-width:400px; max-height:350px;"-->
+					<div class="username" style="text-align: center;">
+					影片已過設定保存期限<br><br>
+					開始作業時間：2019-05-15 10:38:33					<br><br>
+					結束作業時間：2019-05-15 10:39:09					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_43059" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#43058" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+												<a href="#48134" class="btn btn-dark btn-lg">
+							包心白菜 <br>[大自然環境]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="48134" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>包心白菜 [大自然環境]</h2>
+					<div class="history_time">2019-06-28 10:52:02 - 2019-06-28 10:52:20</div>
+					<br>
+
+										
+										<video id="player_48134" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/phone/954/880/880_20190628105153540.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+																
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div style="margin-top: 50px; width: 100%">
+										</div>
+										<div id="button_48134" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#43059" class="btn btn-dark btn-lg">
+							包心白菜 <br>[1888冷卻作業]						</a>
+						
+						
+					</div>
+
+										<div id="map_48134" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_48134"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_11820').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_11806').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_11633').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			videojs('#player_11594', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_11595', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_11583', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_11584', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_11628').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			videojs('#player_11833', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_11986', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_48134', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_11592 = jQuery("#gallery_11592").unitegallery();
+		var first_item = api_11592.getItem(0);
+
+		load_gps_data('11592', '880', first_item.urlImage, true);
+		api_11592.on("item_change", function(num, img_data){
+			load_gps_data('11592', '880', img_data.urlImage, false);
+		});
+				var api_11593 = jQuery("#gallery_11593").unitegallery();
+		var first_item = api_11593.getItem(0);
+
+		load_gps_data('11593', '880', first_item.urlImage, true);
+		api_11593.on("item_change", function(num, img_data){
+			load_gps_data('11593', '880', img_data.urlImage, false);
+		});
+				var api_11581 = jQuery("#gallery_11581").unitegallery();
+		var first_item = api_11581.getItem(0);
+
+		load_gps_data('11581', '880', first_item.urlImage, true);
+		api_11581.on("item_change", function(num, img_data){
+			load_gps_data('11581', '880', img_data.urlImage, false);
+		});
+				var api_11582 = jQuery("#gallery_11582").unitegallery();
+		var first_item = api_11582.getItem(0);
+
+		load_gps_data('11582', '880', first_item.urlImage, true);
+		api_11582.on("item_change", function(num, img_data){
+			load_gps_data('11582', '880', img_data.urlImage, false);
+		});
+				var api_11840 = jQuery("#gallery_11840").unitegallery();
+		var first_item = api_11840.getItem(0);
+
+		load_gps_data('11840', '880', first_item.urlImage, true);
+		api_11840.on("item_change", function(num, img_data){
+			load_gps_data('11840', '880', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [11594,11595,11583,11584,11833,11986,48134];
+	var loc_map = new Array(7);
+	var loc_arr = new Array(7);
+	var map_arr = new Array(7);
+	var marker_arr = new Array(7);
+
+		loc_arr[0] = [
+						{lat: 24.967222222222, lng: 121.54388888889}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 24.967222222222, lng: 121.54388888889}
+				];
+
+	loc_map[1] = [
+		];
+
+		loc_arr[2] = [
+						{lat: 24.967222222222, lng: 121.54388888889}
+				];
+
+	loc_map[2] = [
+		];
+
+		loc_arr[3] = [
+						{lat: 24.967222222222, lng: 121.54388888889}
+				];
+
+	loc_map[3] = [
+		];
+
+		loc_arr[4] = [
+						{lat: 24.967222222222, lng: 121.54388888889}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 24.967222222222, lng: 121.54388888889}
+				];
+
+	loc_map[5] = [
+		];
+
+		loc_arr[6] = [
+						{lat: 24.967245101929, lng: 121.54404449463}
+				];
+
+	loc_map[6] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_11594'), {
+			zoom: 17,
+			center: {lat: 24.967222222222, lng: 121.54388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_11595'), {
+			zoom: 17,
+			center: {lat: 24.967222222222, lng: 121.54388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_11583'), {
+			zoom: 17,
+			center: {lat: 24.967222222222, lng: 121.54388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_11584'), {
+			zoom: 17,
+			center: {lat: 24.967222222222, lng: 121.54388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_11833'), {
+			zoom: 17,
+			center: {lat: 24.967222222222, lng: 121.54388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_11986'), {
+			zoom: 17,
+			center: {lat: 24.967222222222, lng: 121.54388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_48134'), {
+			zoom: 17,
+			center: {lat: 24.967245101929, lng: 121.54404449463},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

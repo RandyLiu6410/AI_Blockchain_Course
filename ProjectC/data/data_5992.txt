@@ -1,0 +1,1367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=5992&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="馬鈴薯燉肉大鍋" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=5992',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																馬鈴薯燉肉大鍋							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：1919食物銀行								<br>
+								產出日期：2018-03-16 14:36:37																<br>
+								有效日期：2018-03-16																																									<br>
+								產出數量：100公斤									 (1鍋)																	<br>
+								剩餘數量：85公斤									 (0.85鍋)															</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D5992" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D5992"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/1919foodbank/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#5992" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														馬鈴薯燉肉大鍋<BR>[烹煮]							
+							
+							
+							</a>
+													<a href="#5993" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														馬鈴薯燉肉大鍋<BR>[冷卻]							
+							
+							
+							</a>
+													<a href="#5994" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														馬鈴薯燉肉大鍋<BR>[包裝作業]							
+							
+							
+							</a>
+													<a href="#5976" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥(義/馬)<BR>[多項目進貨]							
+							
+							
+							</a>
+													<a href="#5980" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥(義/馬)<BR>[多項目領料]							
+							
+							
+							</a>
+													<a href="#5986" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥(義/馬)<BR>[央廚進貨]							
+							
+							
+							</a>
+													<a href="#5988" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														洋蔥(義/馬)<BR>[前處理]							
+							
+							
+							</a>
+													<a href="#5977" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔(義/馬/南)<BR>[多項目進貨]							
+							
+							
+							</a>
+													<a href="#5981" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔(義/馬/南)<BR>[多項目領料]							
+							
+							
+							</a>
+													<a href="#5987" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔(義/馬/南)<BR>[央廚進貨]							
+							
+							
+							</a>
+													<a href="#5989" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														紅蘿蔔(義/馬/南)<BR>[前處理]							
+							
+							
+							</a>
+													<a href="#5978" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														馬鈴薯(馬/南)<BR>[多項目進貨]							
+							
+							
+							</a>
+													<a href="#5982" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														馬鈴薯(馬/南)<BR>[多項目領料]							
+							
+							
+							</a>
+													<a href="#5985" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														馬鈴薯(馬/南)<BR>[央廚進貨]							
+							
+							
+							</a>
+													<a href="#5991" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														馬鈴薯(馬/南)<BR>[前處理]							
+							
+							
+							</a>
+													<a href="#5979" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														軟肋排(馬)<BR>[多項目進貨]							
+							
+							
+							</a>
+													<a href="#5983" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														軟肋排(馬)<BR>[多項目領料]							
+							
+							
+							</a>
+													<a href="#5984" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														軟肋排(馬)<BR>[央廚進貨]							
+							
+							
+							</a>
+													<a href="#5990" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														軟肋排(馬)<BR>[前處理]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="5992" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>馬鈴薯燉肉大鍋 [烹煮]</h2>
+					<div class="history_time">2018-03-16 14:35:59 - 2018-03-16 14:36:37</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5992" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8096679/vod.m3u8?b=1521182159&e=1521182197" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=5980&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								洋蔥(義/馬)								
+																(0.435公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+													<a href="portal.php?oid=5981&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅蘿蔔(義/馬/南)								
+																(0.325公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+													<a href="portal.php?oid=5982&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								馬鈴薯(馬/南)								
+																(0.87公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+													<a href="portal.php?oid=5983&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								軟肋排(馬)								
+																(0.435公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_5992" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#5993" class="btn btn-dark btn-lg">
+							馬鈴薯燉肉大鍋 <br>[冷卻]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5993" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>馬鈴薯燉肉大鍋 [冷卻]</h2>
+					<div class="history_time">2018-03-16 14:39:22 - 2018-03-16 14:39:51</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5993" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f80950d2/vod.m3u8?b=1521182362&e=1521182391" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5993" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5992" class="btn btn-dark btn-lg">
+							馬鈴薯燉肉大鍋 <br>[烹煮]						</a>
+						
+												<a href="#5994" class="btn btn-dark btn-lg">
+							馬鈴薯燉肉大鍋 <br>[包裝作業]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5994" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>馬鈴薯燉肉大鍋 [包裝作業]</h2>
+					<div class="history_time">2018-03-16 14:40:29 - 2018-03-16 14:40:53</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5994" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f809507e/vod.m3u8?b=1521182429&e=1521182453" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5994" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5993" class="btn btn-dark btn-lg">
+							馬鈴薯燉肉大鍋 <br>[冷卻]						</a>
+						
+												<a href="#5976" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[多項目進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5976" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥(義/馬) [多項目進貨]</h2>
+					<div class="history_time">2018-03-16 14:21:27 - 2018-03-16 14:22:25</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5976" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f8094624/vod.m3u8?b=1521181287&e=1521181345" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5976" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5994" class="btn btn-dark btn-lg">
+							馬鈴薯燉肉大鍋 <br>[包裝作業]						</a>
+						
+												<a href="#5980" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[多項目領料]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5980" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥(義/馬) [多項目領料]</h2>
+					<div class="history_time">2018-03-16 14:25:26 - 2018-03-16 14:26:17</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5980" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8091672/vod.m3u8?b=1521181526&e=1521181577" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=5976&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								洋蔥(義/馬)								
+																(20公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_5980" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5976" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[多項目進貨]						</a>
+						
+												<a href="#5986" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[央廚進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5986" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥(義/馬) [央廚進貨]</h2>
+					<div class="history_time">2018-03-16 14:30:55 - 2018-03-16 14:31:40</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5986" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr3.8dfoods.com/cam00e0f823bc6a/vod.m3u8?b=1521181855&e=1521181900" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5986" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5980" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[多項目領料]						</a>
+						
+												<a href="#5988" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[前處理]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5988" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>洋蔥(義/馬) [前處理]</h2>
+					<div class="history_time">2018-03-16 14:33:00 - 2018-03-16 14:33:48</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5988" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8097bf4/vod.m3u8?b=1521181980&e=1521182028" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5988" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5986" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[央廚進貨]						</a>
+						
+												<a href="#5977" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[多項目進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5977" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔(義/馬/南) [多項目進貨]</h2>
+					<div class="history_time">2018-03-16 14:21:28 - 2018-03-16 14:22:29</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5977" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f8094624/vod.m3u8?b=1521181288&e=1521181349" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5977" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5988" class="btn btn-dark btn-lg">
+							洋蔥(義/馬) <br>[前處理]						</a>
+						
+												<a href="#5981" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[多項目領料]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5981" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔(義/馬/南) [多項目領料]</h2>
+					<div class="history_time">2018-03-16 14:25:37 - 2018-03-16 14:26:21</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5981" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8091672/vod.m3u8?b=1521181537&e=1521181581" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=5977&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								紅蘿蔔(義/馬/南)								
+																(10公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_5981" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5977" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[多項目進貨]						</a>
+						
+												<a href="#5987" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[央廚進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5987" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔(義/馬/南) [央廚進貨]</h2>
+					<div class="history_time">2018-03-16 14:31:04 - 2018-03-16 14:31:47</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5987" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr3.8dfoods.com/cam00e0f823bc6a/vod.m3u8?b=1521181864&e=1521181907" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5987" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5981" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[多項目領料]						</a>
+						
+												<a href="#5989" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[前處理]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5989" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>紅蘿蔔(義/馬/南) [前處理]</h2>
+					<div class="history_time">2018-03-16 14:33:01 - 2018-03-16 14:33:51</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5989" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8097bf4/vod.m3u8?b=1521181981&e=1521182031" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5989" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5987" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[央廚進貨]						</a>
+						
+												<a href="#5978" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[多項目進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5978" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>馬鈴薯(馬/南) [多項目進貨]</h2>
+					<div class="history_time">2018-03-16 14:21:29 - 2018-03-16 14:22:35</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5978" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f8094624/vod.m3u8?b=1521181289&e=1521181355" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5978" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5989" class="btn btn-dark btn-lg">
+							紅蘿蔔(義/馬/南) <br>[前處理]						</a>
+						
+												<a href="#5982" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[多項目領料]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5982" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>馬鈴薯(馬/南) [多項目領料]</h2>
+					<div class="history_time">2018-03-16 14:25:40 - 2018-03-16 14:26:24</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5982" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8091672/vod.m3u8?b=1521181540&e=1521181584" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=5978&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								馬鈴薯(馬/南)								
+																(20公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_5982" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5978" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[多項目進貨]						</a>
+						
+												<a href="#5985" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[央廚進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5985" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>馬鈴薯(馬/南) [央廚進貨]</h2>
+					<div class="history_time">2018-03-16 14:30:49 - 2018-03-16 14:31:54</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5985" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr3.8dfoods.com/cam00e0f823bc6a/vod.m3u8?b=1521181849&e=1521181914" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5985" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5982" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[多項目領料]						</a>
+						
+												<a href="#5991" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[前處理]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5991" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>馬鈴薯(馬/南) [前處理]</h2>
+					<div class="history_time">2018-03-16 14:33:02 - 2018-03-16 14:33:52</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5991" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8097bf4/vod.m3u8?b=1521181982&e=1521182032" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5991" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5985" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[央廚進貨]						</a>
+						
+												<a href="#5979" class="btn btn-dark btn-lg">
+							軟肋排(馬) <br>[多項目進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5979" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>軟肋排(馬) [多項目進貨]</h2>
+					<div class="history_time">2018-03-16 14:23:32 - 2018-03-16 14:24:16</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5979" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr2.8dfoods.com/cam00e0f8094624/vod.m3u8?b=1521181412&e=1521181456" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5979" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5991" class="btn btn-dark btn-lg">
+							馬鈴薯(馬/南) <br>[前處理]						</a>
+						
+												<a href="#5983" class="btn btn-dark btn-lg">
+							軟肋排(馬) <br>[多項目領料]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5983" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>軟肋排(馬) [多項目領料]</h2>
+					<div class="history_time">2018-03-16 14:26:47 - 2018-03-16 14:27:10</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5983" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8091672/vod.m3u8?b=1521181607&e=1521181630" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+										<br><br>
+					<div style="width: 100%; text_align: center">
+												<font style="font-size: 200%;">可溯源原料: </font>
+																			<a href="portal.php?oid=5979&m=1" class="btn btn-can_source btn-lg" target="_blank">
+								軟肋排(馬)								
+																(8公斤)
+															<br>
+								[1919食物銀行]
+						</a>
+												</div>
+											
+					<br><br>
+										<div id="button_5983" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5979" class="btn btn-dark btn-lg">
+							軟肋排(馬) <br>[多項目進貨]						</a>
+						
+												<a href="#5984" class="btn btn-dark btn-lg">
+							軟肋排(馬) <br>[央廚進貨]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5984" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>軟肋排(馬) [央廚進貨]</h2>
+					<div class="history_time">2018-03-16 14:30:40 - 2018-03-16 14:32:00</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5984" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr3.8dfoods.com/cam00e0f823bc6a/vod.m3u8?b=1521181840&e=1521181920" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5984" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5983" class="btn btn-dark btn-lg">
+							軟肋排(馬) <br>[多項目領料]						</a>
+						
+												<a href="#5990" class="btn btn-dark btn-lg">
+							軟肋排(馬) <br>[前處理]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="5990" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>軟肋排(馬) [前處理]</h2>
+					<div class="history_time">2018-03-16 14:33:02 - 2018-03-16 14:33:54</div>
+					<br>
+
+										
+															<div id="player_div">
+						<video id="player_m3u8_5990" style="max-width:100%;max-height:100%;" controls playsinline>
+							<source type="application/x-mpegURL" src="https://cvr1.8dfoods.com/cam00e0f8097bf4/vod.m3u8?b=1521181982&e=1521182034" />
+						</video>
+					</div>
+										
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_5990" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#5984" class="btn btn-dark btn-lg">
+							軟肋排(馬) <br>[央廚進貨]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5992').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5993').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5994').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5976').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5980').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5986').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5988').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5977').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5981').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5987').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5989').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5978').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5982').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5985').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5991').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5979').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5983').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5984').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+			var width = document.getElementById("player_div").offsetWidth;
+		var height = (width * 0.53);
+
+		$('#player_m3u8_5990').mediaelementplayer({
+			videoWidth: width,
+			videoHeight: height,
+			success: function(media, node, player) {
+				$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
+				media.setMuted(true);
+			}
+		});
+
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+</script>

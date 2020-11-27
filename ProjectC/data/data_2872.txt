@@ -1,0 +1,1420 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=2872&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="8D炒糖" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=2872',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/2872.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																8D炒糖							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：8dtea								<br>
+								產出日期：2017-10-04 18:34:22																<br>
+								有效日期：2017-11-04																																									<br>
+								產出數量：11公克																										<br>
+								剩餘數量：11公克																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D2872" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D2872"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/8dtea/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#2864" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#2865" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[器具消毒]							
+							
+							
+							</a>
+													<a href="#2866" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[烹煮加熱]							
+							
+							
+							</a>
+													<a href="#2867" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[烹煮加熱]							
+							
+							
+							</a>
+													<a href="#2868" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[過濾]							
+							
+							
+							</a>
+													<a href="#2869" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[冷卻]							
+							
+							
+							</a>
+													<a href="#2870" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[分裝]							
+							
+							
+							</a>
+													<a href="#2871" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[入庫保存]							
+							
+							
+							</a>
+													<a href="#2872" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														8D炒糖<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="2864" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [自拍保證來源]</h2>
+					<div class="history_time">2017-10-04 15:24:21 - 2017-10-04 15:24:21</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/563/2017/2864.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/563/2017/2864.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2864" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#2865" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[器具消毒]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2865" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [器具消毒]</h2>
+					<div class="history_time">2017-10-04 15:24:27 - 2017-10-04 15:31:54</div>
+					<br>
+
+										<video id="player_2865" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/563_20171004152427.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2865" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2864" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[自拍保證來源]						</a>
+						
+												<a href="#2866" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[烹煮加熱]						</a>
+						
+					</div>
+
+										<div id="map_2865" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2865"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2866" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [烹煮加熱]</h2>
+					<div class="history_time">2017-10-04 15:35:44 - 2017-10-04 15:51:11</div>
+					<br>
+
+										<video id="player_2866" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/563_20171004153544.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2866" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2865" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[器具消毒]						</a>
+						
+												<a href="#2867" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[烹煮加熱]						</a>
+						
+					</div>
+
+										<div id="map_2866" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2866"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2867" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [烹煮加熱]</h2>
+					<div class="history_time">2017-10-04 16:01:01 - 2017-10-04 16:19:55</div>
+					<br>
+
+										<video id="player_2867" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/563_20171004160101.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2867" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2866" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[烹煮加熱]						</a>
+						
+												<a href="#2868" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[過濾]						</a>
+						
+					</div>
+
+										<div id="map_2867" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2867"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2868" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [過濾]</h2>
+					<div class="history_time">2017-10-04 16:23:13 - 2017-10-04 16:34:54</div>
+					<br>
+
+										<video id="player_2868" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/563_20171004162313.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2868" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2867" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[烹煮加熱]						</a>
+						
+												<a href="#2869" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[冷卻]						</a>
+						
+					</div>
+
+										<div id="map_2868" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2868"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2869" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [冷卻]</h2>
+					<div class="history_time">2017-10-04 16:35:32 - 2017-10-04 17:27:00</div>
+					<br>
+
+										<video id="player_2869" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/563_20171004163532.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2869" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2868" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[過濾]						</a>
+						
+												<a href="#2870" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[分裝]						</a>
+						
+					</div>
+
+										<div id="map_2869" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2869"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2870" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [分裝]</h2>
+					<div class="history_time">2017-10-04 17:28:54 - 2017-10-04 17:54:03</div>
+					<br>
+
+										<video id="player_2870" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/563_20171004172854.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2870" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2869" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[冷卻]						</a>
+						
+												<a href="#2871" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[入庫保存]						</a>
+						
+					</div>
+
+										<div id="map_2870" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2870"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2871" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [入庫保存]</h2>
+					<div class="history_time">2017-10-04 17:59:41 - 2017-10-04 18:09:48</div>
+					<br>
+
+										<video id="player_2871" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/563_20171004175941.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2871" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2870" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[分裝]						</a>
+						
+												<a href="#2872" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+										<div id="map_2871" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2871"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2872" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>8D炒糖 [自拍保證輸出]</h2>
+					<div class="history_time">2017-10-04 18:34:22 - 2017-10-04 18:34:22</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/563/2017/2872.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/563/2017/2872.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2872" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2871" class="btn btn-dark btn-lg">
+							8D炒糖 <br>[入庫保存]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_2865', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2866', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2867', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2868', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2869', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2870', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2871', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [2865,2866,2867,2868,2869,2870,2871];
+	var loc_map = new Array(7);
+	var loc_arr = new Array(7);
+	var map_arr = new Array(7);
+	var marker_arr = new Array(7);
+
+		loc_arr[0] = [
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68444444444},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667}
+				];
+
+	loc_map[0] = [
+	{sec: 1, index: 3},
+{sec: 4, index: 4},
+{sec: 5, index: 6},
+{sec: 6, index: 8},
+{sec: 8, index: 9},
+{sec: 10, index: 10},
+{sec: 12, index: 11},
+{sec: 15, index: 12},
+{sec: 16, index: 13},
+{sec: 17, index: 14},
+{sec: 19, index: 16},
+{sec: 20, index: 17}	];
+
+		loc_arr[1] = [
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68444444444},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68388888889},
+						{lat: 23.904166666667, lng: 120.68388888889},
+						{lat: 23.903888888889, lng: 120.68388888889},
+						{lat: 23.904166666667, lng: 120.68388888889},
+						{lat: 23.903888888889, lng: 120.68388888889},
+						{lat: 23.904166666667, lng: 120.68388888889},
+						{lat: 23.904444444444, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904444444444, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667}
+				];
+
+	loc_map[1] = [
+	{sec: 4, index: 1},
+{sec: 5, index: 2},
+{sec: 6, index: 4},
+{sec: 7, index: 6},
+{sec: 9, index: 7},
+{sec: 11, index: 8},
+{sec: 12, index: 9},
+{sec: 13, index: 10},
+{sec: 15, index: 11},
+{sec: 17, index: 13},
+{sec: 19, index: 14},
+{sec: 20, index: 15},
+{sec: 21, index: 17},
+{sec: 22, index: 19},
+{sec: 23, index: 20},
+{sec: 24, index: 21},
+{sec: 25, index: 22},
+{sec: 28, index: 24},
+{sec: 29, index: 25},
+{sec: 30, index: 26},
+{sec: 31, index: 27},
+{sec: 32, index: 28},
+{sec: 33, index: 29},
+{sec: 35, index: 31},
+{sec: 36, index: 32},
+{sec: 38, index: 33},
+{sec: 39, index: 34},
+{sec: 40, index: 35},
+{sec: 41, index: 36},
+{sec: 42, index: 37},
+{sec: 44, index: 38},
+{sec: 49, index: 39},
+{sec: 50, index: 41}	];
+
+		loc_arr[2] = [
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68388888889},
+						{lat: 23.904166666667, lng: 120.68388888889},
+						{lat: 23.904444444444, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905277777778, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905277777778, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889}
+				];
+
+	loc_map[2] = [
+	{sec: 4, index: 2},
+{sec: 9, index: 4},
+{sec: 10, index: 7},
+{sec: 12, index: 8},
+{sec: 14, index: 10},
+{sec: 16, index: 12},
+{sec: 17, index: 13},
+{sec: 19, index: 14},
+{sec: 23, index: 15},
+{sec: 24, index: 16},
+{sec: 25, index: 17},
+{sec: 26, index: 19},
+{sec: 27, index: 21},
+{sec: 29, index: 23},
+{sec: 30, index: 24},
+{sec: 31, index: 26},
+{sec: 33, index: 27},
+{sec: 35, index: 28},
+{sec: 37, index: 29},
+{sec: 38, index: 30},
+{sec: 39, index: 32},
+{sec: 40, index: 34},
+{sec: 41, index: 35},
+{sec: 48, index: 36},
+{sec: 50, index: 37},
+{sec: 52, index: 38},
+{sec: 53, index: 40},
+{sec: 58, index: 42},
+{sec: 60, index: 44},
+{sec: 62, index: 46}	];
+
+		loc_arr[3] = [
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.904444444444, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905277777778, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68444444444},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68444444444},
+						{lat: 23.904722222222, lng: 120.68472222222},
+						{lat: 23.905, lng: 120.68444444444},
+						{lat: 23.904722222222, lng: 120.68444444444},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904444444444, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905277777778, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68388888889},
+						{lat: 23.905555555556, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68444444444},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68388888889},
+						{lat: 23.905, lng: 120.68388888889},
+						{lat: 23.905277777778, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68416666667},
+						{lat: 23.905, lng: 120.68416666667},
+						{lat: 23.904722222222, lng: 120.68416666667},
+						{lat: 23.905277777778, lng: 120.68416666667}
+				];
+
+	loc_map[3] = [
+	{sec: 2, index: 2},
+{sec: 3, index: 3},
+{sec: 4, index: 4},
+{sec: 5, index: 5},
+{sec: 6, index: 6},
+{sec: 7, index: 7},
+{sec: 8, index: 9},
+{sec: 10, index: 12},
+{sec: 11, index: 14},
+{sec: 12, index: 15},
+{sec: 13, index: 16},
+{sec: 14, index: 17},
+{sec: 16, index: 18},
+{sec: 19, index: 19},
+{sec: 20, index: 20},
+{sec: 21, index: 21},
+{sec: 22, index: 22},
+{sec: 25, index: 23},
+{sec: 27, index: 24},
+{sec: 29, index: 25},
+{sec: 30, index: 26},
+{sec: 31, index: 27},
+{sec: 32, index: 29},
+{sec: 33, index: 31},
+{sec: 34, index: 32},
+{sec: 35, index: 34},
+{sec: 36, index: 37},
+{sec: 37, index: 39},
+{sec: 38, index: 40},
+{sec: 40, index: 41}	];
+
+		loc_arr[4] = [
+						{lat: 23.904722222222, lng: 120.68416666667}
+				];
+
+	loc_map[4] = [
+		];
+
+		loc_arr[5] = [
+						{lat: 23.904722222222, lng: 120.68416666667}
+				];
+
+	loc_map[5] = [
+		];
+
+		loc_arr[6] = [
+						{lat: 23.904722222222, lng: 120.68416666667}
+				];
+
+	loc_map[6] = [
+		];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68444444444},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_2865'), {
+			zoom: 17,
+			center: {lat: 23.905, lng: 120.68416666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68444444444},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68388888889},				
+								{lat: 23.904166666667, lng: 120.68388888889},				
+								{lat: 23.903888888889, lng: 120.68388888889},				
+								{lat: 23.904166666667, lng: 120.68388888889},				
+								{lat: 23.903888888889, lng: 120.68388888889},				
+								{lat: 23.904166666667, lng: 120.68388888889},				
+								{lat: 23.904444444444, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904444444444, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_2866'), {
+			zoom: 17,
+			center: {lat: 23.904722222222, lng: 120.68416666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68388888889},				
+								{lat: 23.904166666667, lng: 120.68388888889},				
+								{lat: 23.904444444444, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905277777778, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905277777778, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_2867'), {
+			zoom: 17,
+			center: {lat: 23.904722222222, lng: 120.68388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+				var linePlanCoordinates4 = [
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.904444444444, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905277777778, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68444444444},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68444444444},				
+								{lat: 23.904722222222, lng: 120.68472222222},				
+								{lat: 23.905, lng: 120.68444444444},				
+								{lat: 23.904722222222, lng: 120.68444444444},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904444444444, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905277777778, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68388888889},				
+								{lat: 23.905555555556, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68444444444},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68388888889},				
+								{lat: 23.905, lng: 120.68388888889},				
+								{lat: 23.905277777778, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.905277777778, lng: 120.68416666667},				
+								{lat: 23.905, lng: 120.68416666667},				
+								{lat: 23.904722222222, lng: 120.68416666667},				
+						];
+
+		map_arr[3] = new google.maps.Map(document.getElementById('portal_map_2868'), {
+			zoom: 17,
+			center: {lat: 23.905, lng: 120.68388888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker4 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[3][0].lat, loc_arr[3][0].lng),
+			map: map_arr[3]
+		});
+		marker_arr[3] = [{"marker": marker4}];
+
+		var linePath4 = new google.maps.Polyline({
+			path: linePlanCoordinates4,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath4.setMap(map_arr[3]);
+
+				var linePlanCoordinates5 = [
+						];
+
+		map_arr[4] = new google.maps.Map(document.getElementById('portal_map_2869'), {
+			zoom: 17,
+			center: {lat: 23.904722222222, lng: 120.68416666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker5 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[4][0].lat, loc_arr[4][0].lng),
+			map: map_arr[4]
+		});
+		marker_arr[4] = [{"marker": marker5}];
+
+		var linePath5 = new google.maps.Polyline({
+			path: linePlanCoordinates5,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath5.setMap(map_arr[4]);
+
+				var linePlanCoordinates6 = [
+						];
+
+		map_arr[5] = new google.maps.Map(document.getElementById('portal_map_2870'), {
+			zoom: 17,
+			center: {lat: 23.904722222222, lng: 120.68416666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker6 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[5][0].lat, loc_arr[5][0].lng),
+			map: map_arr[5]
+		});
+		marker_arr[5] = [{"marker": marker6}];
+
+		var linePath6 = new google.maps.Polyline({
+			path: linePlanCoordinates6,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath6.setMap(map_arr[5]);
+
+				var linePlanCoordinates7 = [
+						];
+
+		map_arr[6] = new google.maps.Map(document.getElementById('portal_map_2871'), {
+			zoom: 17,
+			center: {lat: 23.904722222222, lng: 120.68416666667},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker7 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[6][0].lat, loc_arr[6][0].lng),
+			map: map_arr[6]
+		});
+		marker_arr[6] = [{"marker": marker7}];
+
+		var linePath7 = new google.maps.Polyline({
+			path: linePlanCoordinates7,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath7.setMap(map_arr[6]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>

@@ -1,0 +1,1376 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:url"           content="https://fc.efoodex.net/portal.php?oid=2955&m=1" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="真食呈現" />
+	<meta property="og:description"   content="秋木耳" />
+
+    <title>真食呈現</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link href="/css/stylish-portfolio.css" rel="stylesheet">
+   <!-- Custom Fonts -->
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/js/mediaelementplayer.min.css" />
+
+	<!--script src="/js/jquery.js"></script-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/js/func.js"></script>
+
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='/unitegallery/themes/default/ug-theme-default.js'></script>
+	<link rel='stylesheet' href='/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<script src='https://vjs.zencdn.net/7.5.4/video.js'></script>	
+	
+	<style type="text/css">
+      .map {
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+
+		.modal {
+			display: none; /* Hidden by default */
+			position: absolute; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			overflow: hidden;
+		}
+
+		.modal-content {
+			margin: 50px auto;
+			width: 800px;
+			height: 600px;
+		}
+
+		.img_output{
+			position:relative;
+			left: 0px;
+			top: 0px;
+			z-index:10;
+		}
+
+		.img_expire{
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			z-index:30;
+		}
+   </style>
+
+	<!--link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet"-->
+	<link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '478700112799633',
+      		cookie     : true,
+      		xfbml      : true,
+      		version    : 'v6.0'
+    		});
+
+			FB.AppEvents.logPageView();
+  		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		function fb_share(){
+			FB.ui({
+				display: 'popup',
+				method: 'share',
+				href: 'https://fc.efoodex.net/portal.php?oid=2955',
+			}, function(response){});
+		};
+
+		if(top != this){
+			if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+				document.body.style.height = window.screen.availHeight + "px";
+			}
+		}
+	</script>
+	<!--div id="map_navi" class="modal">
+		<div class="modal-content">
+			<iframe id="navi_map_element" width="800" height="600" frameborder="0" style="border:0"
+			src="https://www.google.com/maps/embed/v1/directions?origin=25.119675,121.5001716&destination=,&key=AIzaSyBEi75Zvj1Ak8mO4xnCGRsj_SWxlcxnP8U" allowfullscreen></iframe>
+		</div>
+	</div-->
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+				<table border="0" align="center">
+					<tr>
+												<td>
+							<div style="width: 100px; position: relative;">
+																<img src="/photo/output/2955.jpg" width="100" class="img_output">
+																								<img src="/img/expire.png" width="100" class="img_expire">
+															</div>
+						</td>
+						<td align="left" valign="middle">
+							<h1>
+																秋木耳							</h1>
+						</td>
+											</tr>
+				</table>
+            <br>
+								<table border="0" align="center">
+					<tr>
+						<td style="padding: 10px;"></td>
+						<td valign="middle" style="padding: 10px;">
+							<div class="username" style="text-align: left;">
+								產出組織：辰光能源科技有限公司								<br>
+								產出日期：2017-10-09 08:24:44																<br>
+								有效日期：2017-10-31																																									<br>
+								產出數量：1200公斤																										<br>
+								剩餘數量：1200公斤																								</div>
+						</td>
+					</tr>
+				</table>
+							<br>
+			<a href="https://play.google.com/store/apps/details?id=com.worldlinker.efoodex&hl=zh_TW" target="_blank"><img src="img/Google_Play.png" style="width:168px ; height: 50px"></a>
+			<a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D2955" target="_blank">
+				<img src="/img/line.png" width="50" height="50" alt="用LINE傳送" />
+			</a>
+			<a href="javascript:fb_share();">
+			<!--a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffc.efoodex.net%2Fportal.php%3Foid%3D2955"-->
+				<img border="0" alt="Facebook" src="/img/facebook.png" width="50" height="50" title="分享到Facebook"/>
+			</a>
+						<a href="https://efoodex.net/wpmu/msch6688/" target="_blank">
+				<img src="/img/wordpress.png" width="50" height="50" />
+			</a>
+						<table border="0" align="center">
+				<tr>
+					<td align="center">
+						<div style="max-width: 500px; text-align: left; word-break: break-all;">
+													<a href="#2846" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														秋木耳<BR>[自拍保證來源]							
+							
+							
+							</a>
+													<a href="#2847" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														秋木耳<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#2848" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														秋木耳<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#2851" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														秋木耳<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#2894" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														秋木耳<BR>[昆蟲生態動物]							
+							
+							
+							</a>
+													<a href="#2895" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														秋木耳<BR>[大自然環境]							
+							
+							
+							</a>
+													<a href="#2955" class="btn btn-dark btn-lg btn-width" style="margin-top: 5px; word-wrap: break-word;">
+														秋木耳<BR>[自拍保證輸出]							
+							
+							
+							</a>
+												</div>
+					</td>
+				</tr>
+			</table>
+
+
+        </div>
+	</header>
+
+		<section id="2846" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>秋木耳 [自拍保證來源]</h2>
+					<div class="history_time">2017-10-04 08:29:54 - 2017-10-04 08:29:54</div>
+					<br>
+
+										
+																				<div style="width: 100%; text_align: center">
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/selfie/514/2017/2846.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/source/photo/514/2017/2846.jpg" style="max-width: 45%" />
+					</div>
+					
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2846" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+						
+												<a href="#2847" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2847" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>秋木耳 [大自然環境]</h2>
+					<div class="history_time">2017-10-04 08:30:11 - 2017-10-04 08:31:23</div>
+					<br>
+
+										<video id="player_2847" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/514_20171004083011.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2847" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2846" class="btn btn-dark btn-lg">
+							秋木耳 <br>[自拍保證來源]						</a>
+						
+												<a href="#2848" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+					</div>
+
+										<div id="map_2847" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2847"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2848" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>秋木耳 [大自然環境]</h2>
+					<div class="history_time">2017-10-04 08:31:30 - 2017-10-04 08:31:40</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_2848" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/3.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/4.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/4.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/5.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/5.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/6.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/6.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/7.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171004083130/7.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_2848" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_2848"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2848" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2847" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+												<a href="#2851" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2851" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>秋木耳 [大自然環境]</h2>
+					<div class="history_time">2017-10-04 09:33:56 - 2017-10-04 09:34:43</div>
+					<br>
+
+										<video id="player_2851" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/514_20171004093356.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2851" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2848" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+												<a href="#2894" class="btn btn-dark btn-lg">
+							秋木耳 <br>[昆蟲生態動物]						</a>
+						
+					</div>
+
+										<div id="map_2851" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2851"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2894" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>秋木耳 [昆蟲生態動物]</h2>
+					<div class="history_time">2017-10-06 06:18:04 - 2017-10-06 06:52:53</div>
+					<br>
+
+										<video id="player_2894" class="video-js"
+						width="100%" height="53%"
+						controls preload="none" playsinline
+					>
+						<source type="video/mp4" src="https://s3.hicloud.net.tw/foodcloud/video/514_20171006061804.mp4" />
+						<p class="vjs-no-js">
+							To view this video please enable JavaScript, and consider upgrading to a web browser that
+							<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+						</p>
+					</video>
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2894" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2851" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+												<a href="#2895" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+					</div>
+
+										<div id="map_2894" style="width: 100%; z-index: 30; position: relative; display:none;">
+						<div class="map" id="portal_map_2894"></div>
+					</div>
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2895" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>秋木耳 [大自然環境]</h2>
+					<div class="history_time">2017-10-06 06:53:01 - 2017-10-06 07:00:41</div>
+					<br>
+
+										
+															
+										
+										<!-- 驕傲事蹟 Start -->
+										<table border="0" align="center" width="100%">
+						<tr>
+							<td>
+								<div id="gallery_2895" style="display:none;">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/1.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/1.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/10.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/10.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/100.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/100.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/101.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/101.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/102.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/102.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/103.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/103.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/104.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/104.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/105.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/105.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/106.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/106.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/107.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/107.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/108.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/108.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/109.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/109.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/11.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/11.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/110.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/110.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/111.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/111.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/112.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/112.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/113.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/113.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/114.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/114.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/115.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/115.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/116.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/116.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/117.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/117.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/118.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/118.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/119.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/119.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/12.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/12.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/120.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/120.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/121.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/121.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/122.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/122.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/123.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/123.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/124.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/124.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/125.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/125.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/126.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/126.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/127.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/127.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/128.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/128.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/129.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/129.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/13.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/13.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/130.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/130.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/131.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/131.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/132.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/132.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/133.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/133.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/134.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/134.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/135.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/135.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/136.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/136.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/137.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/137.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/138.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/138.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/139.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/139.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/14.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/14.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/140.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/140.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/141.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/141.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/142.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/142.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/143.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/143.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/144.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/144.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/145.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/145.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/146.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/146.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/147.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/147.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/148.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/148.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/149.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/149.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/15.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/15.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/150.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/150.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/151.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/151.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/152.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/152.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/153.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/153.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/154.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/154.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/155.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/155.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/156.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/156.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/157.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/157.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/158.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/158.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/159.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/159.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/16.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/16.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/160.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/160.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/161.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/161.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/162.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/162.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/163.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/163.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/164.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/164.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/165.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/165.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/166.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/166.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/167.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/167.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/168.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/168.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/169.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/169.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/17.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/17.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/170.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/170.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/171.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/171.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/172.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/172.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/173.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/173.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/174.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/174.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/175.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/175.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/176.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/176.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/177.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/177.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/178.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/178.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/179.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/179.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/18.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/18.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/180.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/180.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/181.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/181.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/182.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/182.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/183.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/183.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/184.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/184.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/185.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/185.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/186.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/186.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/187.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/187.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/188.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/188.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/189.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/189.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/19.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/19.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/190.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/190.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/191.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/191.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/192.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/192.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/193.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/193.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/194.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/194.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/195.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/195.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/196.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/196.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/197.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/197.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/198.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/198.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/199.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/199.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/2.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/2.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/20.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/20.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/200.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/200.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/201.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/201.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/202.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/202.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/203.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/203.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/204.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/204.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/205.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/205.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/206.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/206.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/207.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/207.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/208.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/208.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/209.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/209.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/21.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/21.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/210.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/210.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/211.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/211.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/212.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/212.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/213.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/213.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/214.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/214.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/215.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/215.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/216.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/216.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/217.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/217.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/218.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/218.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/219.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/219.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/22.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/22.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/220.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/220.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/221.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/221.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/222.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/222.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/223.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/223.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/224.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/224.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/225.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/225.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/226.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/226.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/227.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/227.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/228.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/228.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/229.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/229.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/23.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/23.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/230.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/230.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/231.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/231.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/232.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/232.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/233.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/233.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/234.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/234.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/235.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/235.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/236.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/236.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/237.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/237.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/238.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/238.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/239.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/239.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/24.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/24.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/240.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/240.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/241.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/241.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/242.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/242.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/243.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/243.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/244.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/244.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/245.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/245.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/246.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/246.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/247.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/247.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/248.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/248.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/249.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/249.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/25.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/25.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/250.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/250.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/251.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/251.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/252.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/252.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/253.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/253.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/254.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/254.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/255.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/255.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/256.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/256.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/257.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/257.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/258.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/258.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/259.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/259.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/26.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/26.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/260.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/260.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/261.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/261.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/262.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/262.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/263.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/263.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/264.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/264.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/265.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/265.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/266.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/266.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/267.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/267.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/268.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/268.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/269.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/269.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/27.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/27.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/270.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/270.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/271.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/271.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/272.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/272.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/273.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/273.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/274.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/274.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/275.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/275.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/276.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/276.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/277.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/277.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/278.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/278.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/279.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/279.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/28.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/28.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/280.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/280.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/281.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/281.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/282.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/282.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/283.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/283.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/284.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/284.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/285.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/285.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/286.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/286.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/287.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/287.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/288.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/288.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/289.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/289.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/29.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/29.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/290.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/290.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/291.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/291.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/292.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/292.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/293.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/293.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/294.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/294.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/295.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/295.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/296.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/296.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/297.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/297.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/298.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/298.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/299.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/299.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/3.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/3.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/30.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/30.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/300.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/300.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/301.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/301.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/302.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/302.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/303.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/303.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/304.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/304.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/305.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/305.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/306.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/306.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/307.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/307.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/308.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/308.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/309.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/309.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/31.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/31.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/310.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/310.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/311.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/311.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/312.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/312.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/313.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/313.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/314.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/314.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/315.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/315.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/316.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/316.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/317.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/317.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/318.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/318.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/319.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/319.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/32.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/32.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/320.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/320.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/321.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/321.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/322.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/322.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/323.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/323.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/324.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/324.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/325.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/325.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/326.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/326.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/33.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/33.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/34.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/34.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/35.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/35.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/36.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/36.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/37.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/37.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/38.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/38.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/39.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/39.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/4.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/4.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/40.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/40.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/41.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/41.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/42.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/42.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/43.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/43.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/44.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/44.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/45.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/45.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/46.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/46.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/47.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/47.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/48.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/48.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/49.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/49.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/5.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/5.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/50.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/50.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/51.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/51.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/52.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/52.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/53.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/53.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/54.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/54.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/55.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/55.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/56.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/56.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/57.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/57.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/58.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/58.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/59.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/59.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/6.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/6.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/60.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/60.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/61.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/61.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/62.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/62.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/63.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/63.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/64.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/64.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/65.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/65.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/66.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/66.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/67.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/67.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/68.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/68.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/69.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/69.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/7.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/7.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/70.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/70.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/71.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/71.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/72.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/72.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/73.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/73.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/74.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/74.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/75.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/75.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/76.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/76.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/77.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/77.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/78.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/78.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/79.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/79.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/8.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/8.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/80.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/80.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/81.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/81.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/82.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/82.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/83.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/83.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/84.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/84.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/85.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/85.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/86.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/86.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/87.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/87.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/88.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/88.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/89.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/89.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/9.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/9.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/90.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/90.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/91.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/91.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/92.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/92.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/93.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/93.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/94.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/94.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/95.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/95.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/96.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/96.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/97.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/97.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/98.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/98.jpg">
+																		<img src="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/99.jpg" data-image="https://foodcloud.s3.hicloud.net.tw/photo/honor/514/2017/20171006065301/99.jpg">
+																	</div>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<div id="map_2895" style="width: 100%; z-index: 30; position: relative;">
+						<div class="map" id="honor_map_2895"></div>
+					</div>
+											<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2895" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2894" class="btn btn-dark btn-lg">
+							秋木耳 <br>[昆蟲生態動物]						</a>
+						
+												<a href="#2955" class="btn btn-dark btn-lg">
+							秋木耳 <br>[自拍保證輸出]						</a>
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+		<section id="2955" class="station bg_s1">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-10 col-lg-offset-1">
+					<h2>秋木耳 [自拍保證輸出]</h2>
+					<div class="history_time">2017-10-09 08:24:44 - 2017-10-09 08:24:44</div>
+					<br>
+
+										
+															
+										<div style="width: 100%; text_align: center">
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/selfie/514/2017/2955.jpg" style="max-width: 45%" />
+
+												<img src="https://s3.hicloud.net.tw/foodcloud/photo/output/photo/514/2017/2955.jpg" style="max-width: 45%" />
+					</div>
+										
+										<!-- 驕傲事蹟 Start -->
+										<!-- 驕傲事蹟 End -->
+											
+					<br><br>
+										<div id="button_2955" style="margin-top: 10px; width: 100%; z-index: 10; position: relative;">
+
+						<a href="#top" class="btn btn-dark btn-lg">Home</a>
+
+												<a href="#2895" class="btn btn-dark btn-lg">
+							秋木耳 <br>[大自然環境]						</a>
+						
+						
+					</div>
+
+					
+				</div>
+         </div>
+		</div>
+	</section>
+	
+   <!-- Bootstrap Core JavaScript -->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mediaelement-and-player.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?language=zh-TW&key=AIzaSyBbGTWx8F2Z40HwekG2uX8B0gFSTD8NZaE"></script>
+	<script src='/js/honor_map.js'></script>	
+
+	<!-- Custom Theme JavaScript -->
+	<script>
+	// Closes the sidebar menu
+	$("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Opens the sidebar menu
+	$("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		$("#sidebar-wrapper").toggleClass("active");
+	});
+
+	// Scrolls to the selected menu item on the page
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+	});
+	
+	
+	
+	function showSensorData(mac, key, ts, start_date, end_date){
+		var geturl = "https://www.aptbee.com/c?PRO=auto.ShowHChart_T&i="+ mac +"&key="+ key +"&tkey=" + ts + "&startDate=" + start_date + "&endDate=" + end_date;
+		window.open(geturl, '_blank');
+	}
+
+			videojs('#player_2847', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2851', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+			videojs('#player_2894', {
+		  "aspectRatio": "16:9",
+		  "playbackRates": [0.5, 1, 1.5, 2],
+		  "nativeControlsForTouch": false
+		});
+	
+		jQuery(document).ready(function(){
+				var api_2848 = jQuery("#gallery_2848").unitegallery();
+		var first_item = api_2848.getItem(0);
+
+		load_gps_data('2848', '514', first_item.urlImage, true);
+		api_2848.on("item_change", function(num, img_data){
+			load_gps_data('2848', '514', img_data.urlImage, false);
+		});
+				var api_2895 = jQuery("#gallery_2895").unitegallery();
+		var first_item = api_2895.getItem(0);
+
+		load_gps_data('2895', '514', first_item.urlImage, true);
+		api_2895.on("item_change", function(num, img_data){
+			load_gps_data('2895', '514', img_data.urlImage, false);
+		});
+			});
+	
+	$(document).ready(function(){
+
+		var prev_sec = 0;
+
+		$("[id^=player]").on(
+			"timeupdate",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).show();
+				$("#button_" + player_id[1]).hide();
+
+				var sec = parseInt(this.currentTime);
+				if (prev_sec != sec){
+					prev_sec = sec;
+										movePoint(player_id[1], sec);
+									}
+			}
+		);
+
+		$("[id^=player]").on(
+			"ended",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+				clearMarker(player_id[1]);
+			}
+		);
+
+		$("[id^=player]").on(
+			"pause",
+			function(event){
+				var player_id = this.id.split("_");
+				$("#map_" + player_id[1]).hide();
+				$("#button_" + player_id[1]).show();
+			}
+		);
+	});
+	</script>
+	<!--script src="https://vjs.zencdn.net/6.2.4/video.js"></script-->
+	<!--script src='https://vjs.zencdn.net/7.5.4/video.js'></script-->
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+	var map_idx = [2847,2851,2894];
+	var loc_map = new Array(3);
+	var loc_arr = new Array(3);
+	var map_arr = new Array(3);
+	var marker_arr = new Array(3);
+
+		loc_arr[0] = [
+						{lat: 23.891388888889, lng: 120.68111111111}
+				];
+
+	loc_map[0] = [
+		];
+
+		loc_arr[1] = [
+						{lat: 23.898055555556, lng: 120.68361111111}
+				];
+
+	loc_map[1] = [
+		];
+
+		loc_arr[2] = [
+						{lat: 23.8925, lng: 120.68138888889},
+						{lat: 23.8925, lng: 120.68111111111},
+						{lat: 23.8925, lng: 120.68083333333},
+						{lat: 23.8925, lng: 120.68055555556},
+						{lat: 23.8925, lng: 120.68027777778},
+						{lat: 23.892777777778, lng: 120.68027777778},
+						{lat: 23.892777777778, lng: 120.68},
+						{lat: 23.892777777778, lng: 120.67972222222},
+						{lat: 23.892777777778, lng: 120.67944444444},
+						{lat: 23.892777777778, lng: 120.67916666667},
+						{lat: 23.893055555556, lng: 120.67916666667},
+						{lat: 23.893055555556, lng: 120.67888888889},
+						{lat: 23.893055555556, lng: 120.67861111111},
+						{lat: 23.893055555556, lng: 120.67833333333},
+						{lat: 23.893055555556, lng: 120.67805555556},
+						{lat: 23.893055555556, lng: 120.67777777778},
+						{lat: 23.893333333333, lng: 120.67777777778},
+						{lat: 23.893333333333, lng: 120.6775},
+						{lat: 23.893055555556, lng: 120.6775},
+						{lat: 23.893333333333, lng: 120.6775},
+						{lat: 23.893611111111, lng: 120.6775},
+						{lat: 23.893611111111, lng: 120.67777777778},
+						{lat: 23.893888888889, lng: 120.67777777778},
+						{lat: 23.893888888889, lng: 120.67805555556},
+						{lat: 23.894166666667, lng: 120.67805555556},
+						{lat: 23.894166666667, lng: 120.67833333333},
+						{lat: 23.894444444444, lng: 120.67833333333},
+						{lat: 23.894444444444, lng: 120.67861111111},
+						{lat: 23.894722222222, lng: 120.67861111111},
+						{lat: 23.894722222222, lng: 120.67888888889},
+						{lat: 23.895, lng: 120.67888888889},
+						{lat: 23.895277777778, lng: 120.67888888889},
+						{lat: 23.895277777778, lng: 120.67861111111},
+						{lat: 23.895277777778, lng: 120.67833333333},
+						{lat: 23.895277777778, lng: 120.67805555556},
+						{lat: 23.895555555556, lng: 120.67777777778},
+						{lat: 23.895277777778, lng: 120.67777777778},
+						{lat: 23.895277777778, lng: 120.6775},
+						{lat: 23.895277777778, lng: 120.67722222222},
+						{lat: 23.895, lng: 120.67694444444},
+						{lat: 23.895, lng: 120.67666666667},
+						{lat: 23.895, lng: 120.67638888889},
+						{lat: 23.894722222222, lng: 120.67611111111},
+						{lat: 23.894722222222, lng: 120.67583333333},
+						{lat: 23.894722222222, lng: 120.67555555556},
+						{lat: 23.894722222222, lng: 120.67527777778},
+						{lat: 23.894722222222, lng: 120.675},
+						{lat: 23.894722222222, lng: 120.67472222222},
+						{lat: 23.894722222222, lng: 120.67444444444},
+						{lat: 23.894444444444, lng: 120.67444444444},
+						{lat: 23.894444444444, lng: 120.67416666667},
+						{lat: 23.894166666667, lng: 120.67416666667},
+						{lat: 23.894444444444, lng: 120.67416666667},
+						{lat: 23.894166666667, lng: 120.67416666667},
+						{lat: 23.894166666667, lng: 120.67444444444},
+						{lat: 23.894166666667, lng: 120.67472222222},
+						{lat: 23.894444444444, lng: 120.675},
+						{lat: 23.894444444444, lng: 120.67527777778},
+						{lat: 23.894444444444, lng: 120.67555555556},
+						{lat: 23.894444444444, lng: 120.67583333333},
+						{lat: 23.894166666667, lng: 120.67583333333},
+						{lat: 23.894166666667, lng: 120.67611111111},
+						{lat: 23.893888888889, lng: 120.67611111111},
+						{lat: 23.893611111111, lng: 120.67611111111},
+						{lat: 23.893333333333, lng: 120.67583333333},
+						{lat: 23.893333333333, lng: 120.67555555556},
+						{lat: 23.893055555556, lng: 120.67555555556},
+						{lat: 23.893055555556, lng: 120.67527777778},
+						{lat: 23.893055555556, lng: 120.675},
+						{lat: 23.892777777778, lng: 120.675},
+						{lat: 23.892777777778, lng: 120.67472222222},
+						{lat: 23.8925, lng: 120.67444444444},
+						{lat: 23.892222222222, lng: 120.67444444444},
+						{lat: 23.892222222222, lng: 120.67472222222},
+						{lat: 23.892222222222, lng: 120.675},
+						{lat: 23.892222222222, lng: 120.67527777778},
+						{lat: 23.8925, lng: 120.67527777778},
+						{lat: 23.8925, lng: 120.67555555556},
+						{lat: 23.8925, lng: 120.67583333333},
+						{lat: 23.892777777778, lng: 120.67583333333},
+						{lat: 23.892777777778, lng: 120.67611111111},
+						{lat: 23.892777777778, lng: 120.67638888889},
+						{lat: 23.892777777778, lng: 120.67666666667},
+						{lat: 23.893055555556, lng: 120.67666666667},
+						{lat: 23.893055555556, lng: 120.67694444444},
+						{lat: 23.893055555556, lng: 120.67722222222},
+						{lat: 23.893055555556, lng: 120.6775},
+						{lat: 23.893055555556, lng: 120.67777777778},
+						{lat: 23.893055555556, lng: 120.67805555556}
+				];
+
+	loc_map[2] = [
+	{sec: 1, index: 1},
+{sec: 5, index: 2},
+{sec: 7, index: 3},
+{sec: 9, index: 4},
+{sec: 11, index: 6},
+{sec: 14, index: 7},
+{sec: 16, index: 8},
+{sec: 18, index: 9},
+{sec: 20, index: 10},
+{sec: 21, index: 11},
+{sec: 23, index: 12},
+{sec: 25, index: 13},
+{sec: 27, index: 14},
+{sec: 29, index: 15},
+{sec: 31, index: 16},
+{sec: 32, index: 18},
+{sec: 35, index: 20},
+{sec: 36, index: 21},
+{sec: 37, index: 22},
+{sec: 38, index: 23},
+{sec: 40, index: 24},
+{sec: 41, index: 25},
+{sec: 43, index: 26},
+{sec: 44, index: 28},
+{sec: 45, index: 30},
+{sec: 47, index: 31},
+{sec: 49, index: 32},
+{sec: 50, index: 33},
+{sec: 52, index: 34},
+{sec: 53, index: 36},
+{sec: 54, index: 37},
+{sec: 55, index: 38},
+{sec: 56, index: 39},
+{sec: 57, index: 40},
+{sec: 58, index: 41},
+{sec: 59, index: 42},
+{sec: 61, index: 43},
+{sec: 62, index: 44},
+{sec: 63, index: 45},
+{sec: 65, index: 46},
+{sec: 66, index: 47},
+{sec: 67, index: 48},
+{sec: 68, index: 49},
+{sec: 69, index: 50},
+{sec: 70, index: 53},
+{sec: 71, index: 55},
+{sec: 72, index: 56},
+{sec: 74, index: 57},
+{sec: 76, index: 58},
+{sec: 78, index: 59},
+{sec: 79, index: 61},
+{sec: 81, index: 62},
+{sec: 82, index: 63},
+{sec: 84, index: 64},
+{sec: 87, index: 65},
+{sec: 88, index: 66},
+{sec: 89, index: 67},
+{sec: 91, index: 68},
+{sec: 93, index: 69},
+{sec: 94, index: 70},
+{sec: 95, index: 71},
+{sec: 96, index: 72},
+{sec: 97, index: 73},
+{sec: 98, index: 74},
+{sec: 99, index: 75},
+{sec: 100, index: 76},
+{sec: 102, index: 78},
+{sec: 104, index: 79},
+{sec: 106, index: 81},
+{sec: 108, index: 82},
+{sec: 109, index: 83},
+{sec: 112, index: 85},
+{sec: 114, index: 86},
+{sec: 116, index: 87},
+{sec: 118, index: 88}	];
+
+	
+	function initMap() {
+				var linePlanCoordinates1 = [
+						];
+
+		map_arr[0] = new google.maps.Map(document.getElementById('portal_map_2847'), {
+			zoom: 17,
+			center: {lat: 23.891388888889, lng: 120.68111111111},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker1 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[0][0].lat, loc_arr[0][0].lng),
+			map: map_arr[0]
+		});
+		marker_arr[0] = [{"marker": marker1}];
+
+		var linePath1 = new google.maps.Polyline({
+			path: linePlanCoordinates1,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath1.setMap(map_arr[0]);
+
+				var linePlanCoordinates2 = [
+						];
+
+		map_arr[1] = new google.maps.Map(document.getElementById('portal_map_2851'), {
+			zoom: 17,
+			center: {lat: 23.898055555556, lng: 120.68361111111},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[1][0].lat, loc_arr[1][0].lng),
+			map: map_arr[1]
+		});
+		marker_arr[1] = [{"marker": marker2}];
+
+		var linePath2 = new google.maps.Polyline({
+			path: linePlanCoordinates2,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath2.setMap(map_arr[1]);
+
+				var linePlanCoordinates3 = [
+								{lat: 23.8925, lng: 120.68138888889},				
+								{lat: 23.8925, lng: 120.68111111111},				
+								{lat: 23.8925, lng: 120.68083333333},				
+								{lat: 23.8925, lng: 120.68055555556},				
+								{lat: 23.8925, lng: 120.68027777778},				
+								{lat: 23.892777777778, lng: 120.68027777778},				
+								{lat: 23.892777777778, lng: 120.68},				
+								{lat: 23.892777777778, lng: 120.67972222222},				
+								{lat: 23.892777777778, lng: 120.67944444444},				
+								{lat: 23.892777777778, lng: 120.67916666667},				
+								{lat: 23.893055555556, lng: 120.67916666667},				
+								{lat: 23.893055555556, lng: 120.67888888889},				
+								{lat: 23.893055555556, lng: 120.67861111111},				
+								{lat: 23.893055555556, lng: 120.67833333333},				
+								{lat: 23.893055555556, lng: 120.67805555556},				
+								{lat: 23.893055555556, lng: 120.67777777778},				
+								{lat: 23.893333333333, lng: 120.67777777778},				
+								{lat: 23.893333333333, lng: 120.6775},				
+								{lat: 23.893055555556, lng: 120.6775},				
+								{lat: 23.893333333333, lng: 120.6775},				
+								{lat: 23.893611111111, lng: 120.6775},				
+								{lat: 23.893611111111, lng: 120.67777777778},				
+								{lat: 23.893888888889, lng: 120.67777777778},				
+								{lat: 23.893888888889, lng: 120.67805555556},				
+								{lat: 23.894166666667, lng: 120.67805555556},				
+								{lat: 23.894166666667, lng: 120.67833333333},				
+								{lat: 23.894444444444, lng: 120.67833333333},				
+								{lat: 23.894444444444, lng: 120.67861111111},				
+								{lat: 23.894722222222, lng: 120.67861111111},				
+								{lat: 23.894722222222, lng: 120.67888888889},				
+								{lat: 23.895, lng: 120.67888888889},				
+								{lat: 23.895277777778, lng: 120.67888888889},				
+								{lat: 23.895277777778, lng: 120.67861111111},				
+								{lat: 23.895277777778, lng: 120.67833333333},				
+								{lat: 23.895277777778, lng: 120.67805555556},				
+								{lat: 23.895555555556, lng: 120.67777777778},				
+								{lat: 23.895277777778, lng: 120.67777777778},				
+								{lat: 23.895277777778, lng: 120.6775},				
+								{lat: 23.895277777778, lng: 120.67722222222},				
+								{lat: 23.895, lng: 120.67694444444},				
+								{lat: 23.895, lng: 120.67666666667},				
+								{lat: 23.895, lng: 120.67638888889},				
+								{lat: 23.894722222222, lng: 120.67611111111},				
+								{lat: 23.894722222222, lng: 120.67583333333},				
+								{lat: 23.894722222222, lng: 120.67555555556},				
+								{lat: 23.894722222222, lng: 120.67527777778},				
+								{lat: 23.894722222222, lng: 120.675},				
+								{lat: 23.894722222222, lng: 120.67472222222},				
+								{lat: 23.894722222222, lng: 120.67444444444},				
+								{lat: 23.894444444444, lng: 120.67444444444},				
+								{lat: 23.894444444444, lng: 120.67416666667},				
+								{lat: 23.894166666667, lng: 120.67416666667},				
+								{lat: 23.894444444444, lng: 120.67416666667},				
+								{lat: 23.894166666667, lng: 120.67416666667},				
+								{lat: 23.894166666667, lng: 120.67444444444},				
+								{lat: 23.894166666667, lng: 120.67472222222},				
+								{lat: 23.894444444444, lng: 120.675},				
+								{lat: 23.894444444444, lng: 120.67527777778},				
+								{lat: 23.894444444444, lng: 120.67555555556},				
+								{lat: 23.894444444444, lng: 120.67583333333},				
+								{lat: 23.894166666667, lng: 120.67583333333},				
+								{lat: 23.894166666667, lng: 120.67611111111},				
+								{lat: 23.893888888889, lng: 120.67611111111},				
+								{lat: 23.893611111111, lng: 120.67611111111},				
+								{lat: 23.893333333333, lng: 120.67583333333},				
+								{lat: 23.893333333333, lng: 120.67555555556},				
+								{lat: 23.893055555556, lng: 120.67555555556},				
+								{lat: 23.893055555556, lng: 120.67527777778},				
+								{lat: 23.893055555556, lng: 120.675},				
+								{lat: 23.892777777778, lng: 120.675},				
+								{lat: 23.892777777778, lng: 120.67472222222},				
+								{lat: 23.8925, lng: 120.67444444444},				
+								{lat: 23.892222222222, lng: 120.67444444444},				
+								{lat: 23.892222222222, lng: 120.67472222222},				
+								{lat: 23.892222222222, lng: 120.675},				
+								{lat: 23.892222222222, lng: 120.67527777778},				
+								{lat: 23.8925, lng: 120.67527777778},				
+								{lat: 23.8925, lng: 120.67555555556},				
+								{lat: 23.8925, lng: 120.67583333333},				
+								{lat: 23.892777777778, lng: 120.67583333333},				
+								{lat: 23.892777777778, lng: 120.67611111111},				
+								{lat: 23.892777777778, lng: 120.67638888889},				
+								{lat: 23.892777777778, lng: 120.67666666667},				
+								{lat: 23.893055555556, lng: 120.67666666667},				
+								{lat: 23.893055555556, lng: 120.67694444444},				
+								{lat: 23.893055555556, lng: 120.67722222222},				
+								{lat: 23.893055555556, lng: 120.6775},				
+								{lat: 23.893055555556, lng: 120.67777777778},				
+						];
+
+		map_arr[2] = new google.maps.Map(document.getElementById('portal_map_2894'), {
+			zoom: 17,
+			center: {lat: 23.8925, lng: 120.68138888889},
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		});
+
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(loc_arr[2][0].lat, loc_arr[2][0].lng),
+			map: map_arr[2]
+		});
+		marker_arr[2] = [{"marker": marker3}];
+
+		var linePath3 = new google.maps.Polyline({
+			path: linePlanCoordinates3,
+			geodesic: true,
+			strokeColor: '#3b5998',
+			strokeOpacity: 1.0,
+			strokeWeight: 4
+		});
+
+		linePath3.setMap(map_arr[2]);
+
+			}
+
+	function get_play_index(idx, sec_id){
+		var loc = loc_map[idx];
+		for (var i=0;i<loc.length;i++){
+			if (loc[i].sec == sec_id){
+				return loc[i].index;
+			}
+		}
+		return -1;
+	}
+
+	function movePoint(action_id, second) {
+		var idx = getMapIndex(action_id);
+		var play_index = get_play_index(idx, second);
+		if (play_index != -1){
+			if (map_arr[idx] != null){
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng),
+					map: map_arr[idx]
+				});
+				map_arr[idx].panTo(new google.maps.LatLng(loc_arr[idx][play_index].lat, loc_arr[idx][play_index].lng));
+				marker_arr[idx].push({"marker": marker, "index": play_index});
+			}
+		}
+	};
+
+	function getMapIndex(aciont_id){
+		for (var i=0;i<map_idx.length;i++){
+			if (map_idx[i] == aciont_id) return i;
+		}
+	}
+
+	function clearMarker(action_id, second){
+		var idx = getMapIndex(action_id);
+		var clear_from = 1;
+		if (second > 0){
+
+		}
+		for (var i=clear_from;i<marker_arr[idx].length;i++){
+			console.log(marker_arr[idx][i].marker);
+			marker_arr[idx][i].marker.setMap(null);
+		}
+	}
+
+	function get_from_index(idx, play_index){}
+
+	google.maps.event.addDomListener(window, "load", initMap);
+</script>
