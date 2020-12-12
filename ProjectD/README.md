@@ -1,4 +1,5 @@
 # Project D
+git repo: https://github.com/RandyLiu6410/AI_Blockchain_Course/tree/main/ProjectD
 
 ## Installation
 ```npm install```
